@@ -2,7 +2,7 @@ NETL TRIGA documentation
 ====================================
 
 TRIGA manual available here!
-
+Hi!
 
 .. toctree::
    :maxdepth: 3
