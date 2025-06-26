@@ -100,3 +100,101 @@ The initial startup requires an excess Reactivity Configuration at 50 watts.
       ii.  From TR rod worth data determine the rod position associated with the desired reactivity addition.  
       iii. Compare estimated values with previous results if possible.
 
+   b) Obtain steady state (SS) power on REG, shim 1 and shim 2, 800 watts is typical (<1kW):
+      
+      i.   Withdraw REG rod to approximately 50% withdrawn position.
+      ii.  Withdraw each shim rod in steps of 50 units or less.
+      iii. Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
+      iv.  Do not exceed 10-second period.
+      v.   Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position.
+           (This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)
+
+   c) Initiate Square Wave:
+
+      i.   Verify transient rod is at 0% position.
+      ii.  Check rod at low limit, turn air pressure off.
+      iii. Withdraw drive cylinder to position determined in 3.a.ii above.
+      iv.  Check power <1kW. Place in manual mode.
+      v.   Set Demand Power thumbwheels to desired SS power.
+      vi.  Press Square Wave Switch. Verify SQUARE WAVE light illuminates and console system mode is SQUARE WAVE READY.
+      vii. Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds. 
+           System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)
+      viii. Adjust transient rod height as necessary to limit REG rod withdraw due to temperature coefficient effects.
+      ix.  When power has stabilized, bank rods for BEST performance.
+      x.   Take log (F2).
+
+4. Pulse Mode: (Refer to Chapter 6 of Control Console Operator's Manual)
+
+   a) Sequences for the pulse mode operation use TR positions that create a positive reactivity insertion as the rod moves from a set position X to 100% WITHDRAWN.
+      The motion of the control rod will thus cover the full range from 0% to 100%. At the time of actuation of the fire button, the core will be sub-critical by at least one dollar.
+      Performance following this insertion will be expected to produce a 100% output within 10 milliseconds.
+      iv.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
+      v.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
+      vi.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
+      vii. Verify SURV 7 annual comparison pulse is current.
+
+      .. note::
+
+         Example: You want to perform a $2.00 pulse. Total rod worth for the TR is 358.077,  
+         358.077 (Trw) - 2.00 (Prw) = 158.077 (Initial rw TR).  
+         Using the rod worth curve this value is equal to a TR height of 410 units.  
+         For the 50W power level, we would then place TR at 410 and bring the remaining rods to the bank height required to obtain 50W.
+
+   b) Obtain steady state power, 50W is typical. (< 1kW):
+
+      i.   Withdraw Transient rod to the position calculated in step 4.a.iii above.
+      ii.  Withdraw REG rod to approximately 50% withdrawn position.
+      iii. Withdraw shim 1 and shim 2 in alternating 50 units or less increments.
+      iv.  Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
+      v.   Adjust REG, shim 1 and shim 2 rods alternately to maintain period.
+      vi.  Stabilize power and bank REG, shim 1 and shim 2 rods.
+
+   c) Initiate Pulse Mode:
+
+      i.   Insert TR to 0% position.
+      ii.  Check TR at low limit, turn air pressure off by pressing yellow air light.
+      iii. Withdraw TR drive cylinder to 100% position (960).
+      iv.  Check power < 1 kW, dpm < +1.
+      v.   Press Pulse Mode switch. Verify pulse light illuminates.
+      vi.  Enter record information for pulse data.
+      vii. Verify mode is pulse ready.
+      viii. Press Fire switch.
+      ix.  System will switch to SCRAM mode at conclusion of pulse to display the pulse data.
+      x.   Refer to B.1 to return to manual operation. Verify pulse bypass functions are reset to non-pulse conditions:
+
+           a. Perform SCRAM test on console for Percent 1 and Percent 2 to test reset of bypass relay and reset of gain relay.  
+              Observe decay of pulse power to ensure NM1000 power signal output is functioning.
+
+C. Reactor Shutdown
+-------------------
+
+1. Normal shutdown:
+
+   a) There are three options:
+
+      1. Switch to Manual Mode and insert each rod individually.  
+      2. Switch to Manual Mode and insert all rods simultaneously.  
+      3. Manual SCRAM reactor.
+
+   b) Ensure all rod drives and control rods are in the down position.
+   c) Turn MAGNETIC POWER key switch from ON to OFF.
+   d) Perform operator log off function to set mode from steady state to scram.
+   e) Remove key from console.
+
+2. Abnormal shutdown:
+
+   a) Press SCRAM button for exit from any mode. It is an immediate shutdown for a response to an abnormal condition or a severe emergency.
+   b) Record all abnormal conditions in the log and all automatic SCRAMs in the SCRAM log.
+   c) Types of automatic SCRAMs:
+
+      1. Limiting Safety System Settings (LSSS):  
+         - Fuel temperature (#1, #2)  
+         - Percent power (#1, #2)  
+         - Linear power (NM1000)
+
+      2. JCS Operable (ICSO):  
+         - HV (#1, #2, NM1000)  
+         - Pool level (1 of 2)  
+         - External (1 of 2 if in use)  
+         - WD (CSC, DAC)  
+         - Other (program conditions)
