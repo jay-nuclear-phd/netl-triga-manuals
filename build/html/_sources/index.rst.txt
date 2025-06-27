@@ -1,15 +1,22 @@
+========================
 NETL TRIGA documentation
-====================================
+========================
 
-TRIGA manual available here!
-Hi!
+TRIGA procedural manuals available here!
+
+Contents
+--------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
 
-   OPER-1
-   OPER-2
-   OPER-4
-   OPER-5
-   OPER-6
-   
+   ADMIN
+   EXP
+   FUEL
+   HP
+   MAIN
+   NETL-X
+   PLAN-E
+   PLAN-O
+   OPER
+   SURV

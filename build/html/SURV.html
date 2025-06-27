@@ -1,0 +1,1064 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SURV &mdash; NETL TRIGA Manuals  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="OPER" href="OPER.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #D95204" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            NETL TRIGA Manuals
+              <img src="_static/University-of-Texas-at-Austin-Emblem.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ADMIN.html">ADMIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EXP.html">EXP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FUEL.html">FUEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HP.html">HP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MAIN.html">MAIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="NETL-X.html">NETL-X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PLAN-E.html">PLAN-E</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PLAN-O.html">PLAN-O</a></li>
+<li class="toctree-l1"><a class="reference internal" href="OPER.html">OPER</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">SURV</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#surv-1-fuel-temperature-calibration">SURV-1 Fuel temperature Calibration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#i-purpose">I. PURPOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ii-discussion">II. DISCUSSION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iii-reference">III. REFERENCE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iv-equipment">IV. EQUIPMENT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#v-instructions">V. Instructions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-2-reactor-power-calibration">SURV-2 Reactor Power Calibration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#i-introduction">I. INTRODUCTION</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-purpose">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-description">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-schedule">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-contents">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#e-attachments">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#f-equipment-materials">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#g-references-other-procedures">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#a-thermal-power-calibration-experiment">A. Thermal Power Calibration Experiment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-thermal-power-evaluation">B. Thermal Power Evaluation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-power-instrumentation-adjustments">C. Power Instrumentation Adjustments</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-3-excess-reactivitiy-and-shutdown-margin">SURV-3 Excess Reactivitiy and Shutdown Margin</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">I. INTRODUCTION</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#a-requirements">A. Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#b-calculate-shutdown-margin-and-excess-reactivity-for-normal-operations">B. Calculate Shutdown Margin and Excess Reactivity for Normal Operations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#c-calculate-shutdown-margin-for-rod-maintenance">C. Calculate Shutdown Margin for Rod Maintenance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-4-reactor-water-systems-surveillance">SURV-4 Reactor Water Systems Surveillance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">I. PURPOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">II. DISCUSSION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">III. REFERENCE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iv-contents">IV. CONTENTS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#v-procedure">V. PROCEDURE</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-weekly-checklist-instructions">A. Weekly Checklist Instructions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-monthly-checklist-instructions">B. Monthly Checklist Instructions</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-annual-checklist-instructions">C. Annual Checklist Instructions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-5-air-confinement-system-surveillance">SURV-5 Air Confinement System Surveillance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id12">I. INTRODUCTION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ii-procedure">II. PROCEDURE</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-6-control-rod-calibration">SURV-6 Control Rod Calibration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id13">I. INTRODUCTION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">II. PROCEDURE</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#surv-7-pulse-characteristic-comparison">SURV-7 Pulse Characteristic Comparison</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id15">I. PURPOSE</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ii-description">II. DESCRIPTION</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iii-references">III. REFERENCES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#iv-equipment-and-materials">IV. EQUIPMENT AND MATERIALS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">V. Instructions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #D95204" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NETL TRIGA Manuals</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">SURV</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/SURV.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="surv">
+<h1>SURV<a class="headerlink" href="#surv" title="Link to this heading"></a></h1>
+<section id="surv-1-fuel-temperature-calibration">
+<h2>SURV-1 Fuel temperature Calibration<a class="headerlink" href="#surv-1-fuel-temperature-calibration" title="Link to this heading"></a></h2>
+<section id="i-purpose">
+<h3>I. PURPOSE<a class="headerlink" href="#i-purpose" title="Link to this heading"></a></h3>
+<p>The purpose of this procedure is to verify that each thermocouple within an instrument fuel element is operable.</p>
+</section>
+<section id="ii-discussion">
+<h3>II. DISCUSSION<a class="headerlink" href="#ii-discussion" title="Link to this heading"></a></h3>
+<p>Calibration of the fuel temperature monitoring system consists of two separate procedures.
+This procedure demonstrates the function of the thermocouple sensors.
+Procedures in MAIN-2 calibrate the electronic circuit with a DC voltage source equivalent to the thermocouple temperature response.
+Standard reference tables document the temperature versus voltage response of the chromel-alumel type K thermocouple junctions.</p>
+<p>A temperature calibration must be done once each year.</p>
+</section>
+<section id="iii-reference">
+<h3>III. REFERENCE<a class="headerlink" href="#iii-reference" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>MAIN-2</p></li>
+<li><p>Type K reference data</p></li>
+</ul>
+</section>
+<section id="iv-equipment">
+<h3>IV. EQUIPMENT<a class="headerlink" href="#iv-equipment" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Galvanometer or microvolt meter</p></li>
+</ul>
+</section>
+<section id="v-instructions">
+<h3>V. Instructions<a class="headerlink" href="#v-instructions" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Verify one instrument fuel element is in the B or C ring.</p></li>
+<li><p>Disconnect thermocouple lead junctions at reactor bridge.
+Measure and record resistance between leads and between each lead and ground.</p></li>
+<li><p>Attach a millivolt measurement device and measure the junction voltage of each thermocouple.
+Use a reference junction in an ice bath.</p></li>
+<li><p>Convert thermocouple voltage to temperature and compare with bulk pool ambient temperature.</p></li>
+<li><p>Reconnect thermocouple leads. Confirm correct lead connections.</p></li>
+<li><p>Verify completion of ICS calibration for calibration, measurement and test of both fuel temperature channels.</p></li>
+</ol>
+<p><em>Type K reference junction</em>
+<em>NIST - monograph #125</em></p>
+</section>
+</section>
+<section id="surv-2-reactor-power-calibration">
+<h2>SURV-2 Reactor Power Calibration<a class="headerlink" href="#surv-2-reactor-power-calibration" title="Link to this heading"></a></h2>
+<section id="i-introduction">
+<h3>I. INTRODUCTION<a class="headerlink" href="#i-introduction" title="Link to this heading"></a></h3>
+<section id="a-purpose">
+<h4>A. Purpose<a class="headerlink" href="#a-purpose" title="Link to this heading"></a></h4>
+<p>The Reactor Thermal Power Calibration procedure determines the heat output of the TRIGA reactor by measurement of the change in the bulk pool water temperature.</p>
+</section>
+<section id="b-description">
+<h4>B. Description<a class="headerlink" href="#b-description" title="Link to this heading"></a></h4>
+<p>Accurate knowledge of the reactor power level depends on the total amount of water in the pool and several corrections.
+The corrections adjust for conditions that cause the pool-reactor system to deviate from an adiabatic condition.
+Power calibration depends on the pool constant that is a function of the pool water volume.
+A change in volume equivalent to a 10-centimeter water depth will cause a 1.2% change in the pool constant.</p>
+</section>
+<section id="c-schedule">
+<h4>C. Schedule<a class="headerlink" href="#c-schedule" title="Link to this heading"></a></h4>
+<p>A reactor thermal power calibration must be completed once each year.
+Measurements should be done in July but shall not exceed longer than 15 months from preceding measurement.</p>
+</section>
+<section id="d-contents">
+<h4>D. Contents<a class="headerlink" href="#d-contents" title="Link to this heading"></a></h4>
+<ol class="upperalpha simple">
+<li><p>Thermal Power Calibration Experiment ………….. Page 3</p></li>
+<li><p>Thermal Power Evaluation ……………………… Page 4</p></li>
+<li><p>Power Instrumentation Adjustments ……………… Page 5</p></li>
+</ol>
+</section>
+<section id="e-attachments">
+<h4>E. Attachments<a class="headerlink" href="#e-attachments" title="Link to this heading"></a></h4>
+<p><em>Note: Attachments are not part of this procedure but may be useful when performing this procedure.</em></p>
+<ol class="arabic simple">
+<li><p>Power Calibration Data ………………… Page 1</p></li>
+<li><p>Thermal Power Calibration check sheet …… Page 4</p></li>
+</ol>
+</section>
+<section id="f-equipment-materials">
+<h4>F. Equipment, Materials<a class="headerlink" href="#f-equipment-materials" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Temperature measuring system Example – RTD array</p></li>
+<li><p>(Optional) Data acquisition Software</p></li>
+<li><p>(Optional) Math software such as Mathcad</p></li>
+</ul>
+</section>
+<section id="g-references-other-procedures">
+<h4>G. References, Other Procedures<a class="headerlink" href="#g-references-other-procedures" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>GA Publication: “Power Calibration for TRIGA Reactors” by W.L. Whittemore, J. Razvi and J.R. Shoptaugh Jr. February 1988.</p></li>
+</ul>
+</section>
+</section>
+<section id="a-thermal-power-calibration-experiment">
+<h3>A. Thermal Power Calibration Experiment<a class="headerlink" href="#a-thermal-power-calibration-experiment" title="Link to this heading"></a></h3>
+<p>Routine thermal power calibrations should be done at or near full power.
+Typically performing the calibration at 900 kW indicated is preferred so as to maintain some margin below the scram set points.
+If a major core reconfiguration was made, several calibrations at stepwise increasing powers of about 300 kW, 600 kW, and then 900 kW should be performed.</p>
+<ol class="arabic simple">
+<li><p>Install or verify installed pool water temperature measurement system near center of pool.
+<em>NOTE:</em> Example of measurement system – RTD array points are at depths of 1.2 and 3 meters. Use average of readings.</p></li>
+<li><p>Ensure temperature measurement systems are working properly.</p></li>
+<li><p>Record air and shield temperatures:
+a. Room air temperature at pool railing 1 m above pool deck (south rail)
+b. Shield concrete temperature in conduit near shield surface at level 2 under NM</p></li>
+<li><p>Adjust pool depth to 8.10 meters with bulk pool temperature ~20°C.</p></li>
+<li><p>Install pool stirrer into reactor pool and secure with safety line. Start stirrer.</p></li>
+<li><p>Sub-cool pool using coolant system to target based on desired reactor power.
+Target temperature = average of pool temperature before and after calibration.
+Example: T(pool ambient) – T(target Δ/2) = T(sub cool)</p></li>
+<li><p>Secure operation of purification and coolant pumps. Close isolation valves.</p></li>
+<li><p>Close pool surface argon purge valve.</p></li>
+<li><p>Turn off pool lights.</p></li>
+<li><p>Wait 1 hour after securing systems and sub-cooling pool water.
+Take 3 pool water temperatures 5 minutes apart after stabilization.
+Record these on Power calibration data sheet.</p></li>
+<li><p>Complete reactor startup checks (incl. electronic pre-start checks).</p></li>
+<li><p>Begin logging reactor power (all 3 channels) every 2 minutes.</p></li>
+<li><p>Operate at 900 kW or target power for 30 minutes (power by NPP channel):</p></li>
+</ol>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>Startup mode = manual</p></li>
+<li><p>Startup rate ≈ 20 sec</p></li>
+<li><p>Record power time (nearest 0.1 min)</p></li>
+<li><p>Observe NPP channel</p></li>
+<li><p>Shift to auto when at target power</p></li>
+</ol>
+</div></blockquote>
+<ol class="arabic simple" start="14">
+<li><p>Record pool temperature every minute during 30-minute power operation.</p></li>
+<li><p>Scram reactor manually at 30 minutes and record scram time.</p></li>
+<li><p>Continue recording pool temperatures for 60 minutes after scram (1 min intervals).</p></li>
+<li><p>Return pool conditions to normal.</p></li>
+<li><p>Complete shutdown checklist.</p></li>
+</ol>
+</section>
+<section id="b-thermal-power-evaluation">
+<h3>B. Thermal Power Evaluation<a class="headerlink" href="#b-thermal-power-evaluation" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Calculate power using slope method from time-rate of temperature change.
+Use least squares fit of data to determine slope.
+<em>NETL TRIGA II constant:</em>
+20.74°C/MW·hr → For 30 min: divide by 2, multiply by %MW
+Example: (20.74 × 0.9) ÷ 2 = <strong>9.33°C change expected</strong> at 900 kW</p></li>
+<li><p>Verify pool calibration by temp. change from start to 30 minutes.
+a. Calculate temp. at power start
+b. Temp. after 30 min
+c. Total temp. change</p></li>
+<li><p>Compare slope vs temp methods.
+Difference should be within 2%.</p></li>
+<li><p>Compare with previous calibration:
+a. Water, air, concrete temps before run
+b. Pool temp at startup
+c. Pool temp at shutdown
+d. Reactor op. time and power indication</p></li>
+<li><p>Accuracy of thermal power measurement should be ≤ 5%.
+Measurement errors ≤ 5% standard deviation.</p></li>
+</ol>
+</section>
+<section id="c-power-instrumentation-adjustments">
+<h3>C. Power Instrumentation Adjustments<a class="headerlink" href="#c-power-instrumentation-adjustments" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>SRO shall approve any power channel adjustment.
+All channels should read within 2% of thermal power.</p></li>
+<li><p>Adjust chamber indication to match thermal power:
+a. Instrumentation channels within 2%
+b. Adjust chamber only in manual mode</p></li>
+<li><p>NP and NPP adjusted by moving detector position.</p></li>
+<li><p>NM adjusted via digital calibration constants.
+If major change needed, re-position detector as per setup procedure.</p></li>
+<li><p>If digital constants adjusted, Campbell amplifier pots may need tuning.
+Observe mode 4, 5 checks and shutdown crossover for smooth transitions.</p></li>
+<li><p>If &gt;10% correction needed between thermal power and any channel, repeat calibration.</p></li>
+<li><p>Reevaluate pool constant if pool water volume significantly changes.</p></li>
+</ol>
+</section>
+</section>
+<section id="surv-3-excess-reactivitiy-and-shutdown-margin">
+<h2>SURV-3 Excess Reactivitiy and Shutdown Margin<a class="headerlink" href="#surv-3-excess-reactivitiy-and-shutdown-margin" title="Link to this heading"></a></h2>
+<section id="id1">
+<h3>I. INTRODUCTION<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<section id="id2">
+<h4>A. Purpose<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<p>The purpose of this procedure is to ensure the excess reactivity and shutdown margin meet the requirements for normal and maintenance operations.</p>
+</section>
+<section id="id3">
+<h4>B. Description<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>This procedure ensures that the reactor operates in a safe condition in respect to the Technical Specifications requirements.
+Excess reactivity and Shutdown Margin directly relate to reactor safety by defining the available control capability of the reactor.</p>
+</section>
+<section id="id4">
+<h4>C. Schedule<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>This procedure MUST be conducted once a year, not to exceed 15 months.
+Measurements SHOULD be conducted after major core changes or excessive burnup.</p>
+</section>
+<section id="id5">
+<h4>D. Contents<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<ol class="upperalpha simple">
+<li><p>Requirements</p></li>
+<li><p>Calculate Shutdown Margin and Excess Reactivity for Normal Operations</p></li>
+<li><p>Calculate Shutdown Margin for Rod Maintenance</p></li>
+</ol>
+</section>
+<section id="id6">
+<h4>E. Attachments<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p><em>Note: Attachments are not part of this procedure but may be useful when performing this procedure.</em></p>
+<ol class="arabic simple">
+<li><p>Shutdown Margin and Excess Reactivity Calculation Sheet</p></li>
+</ol>
+</section>
+<section id="id7">
+<h4>F. Equipment, Materials<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Reactor Core system</p></li>
+<li><p>Reactor Pool system</p></li>
+<li><p>Instrument Control and Safety System</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>G. References, Other Procedures<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Docket 50-602 Technical Specifications</p></li>
+<li><p>TRIGA Control Rod Calibration</p></li>
+<li><p>Reactor Core Load Configuration</p></li>
+</ul>
+</section>
+</section>
+<section id="a-requirements">
+<h3>A. Requirements<a class="headerlink" href="#a-requirements" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Verify the reactor core is in a cold clean critical condition.
+a. Check logbook for previous operation history.
+b. No power operations above 10 kW in past 3 days.
+c. Remove all experiment facilities. If removal is not possible, compensate in calculations.</p></li>
+<li><p>Perform a routine pre-start check.</p></li>
+</ol>
+</section>
+<section id="b-calculate-shutdown-margin-and-excess-reactivity-for-normal-operations">
+<h3>B. Calculate Shutdown Margin and Excess Reactivity for Normal Operations<a class="headerlink" href="#b-calculate-shutdown-margin-and-excess-reactivity-for-normal-operations" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Conduct a routine Startup to 50 watts. Bank all rods.</p></li>
+<li><p>Calculate reactivity for each rod position using the most current Rodworth curves.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rod</p></th>
+<th class="head"><p>Position</p></th>
+<th class="head"><p>Reactivity (S)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Transient</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Shim 1</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Shim 2</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Reg</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Total</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Determine if Shutdown Margin meets technical specification
+(Minimum &gt; 0.2% Δk/k = $0.29).
+→ Value from Step 2 - Most reactive rod &gt; 0.2% Δk/k ($0.29)</p>
+<p><em>Note: Ensure you compensate for any experiments remaining in core.</em></p>
+</li>
+<li><p>Determine if excess reactivity meets Technical Specification
+(Max &lt; 4.9% Δk/k = $7.00).
+→ Total Rodworth - Value from Step 2 &lt; 4.9% Δk/k ($7.00)</p></li>
+</ol>
+</section>
+<section id="c-calculate-shutdown-margin-for-rod-maintenance">
+<h3>C. Calculate Shutdown Margin for Rod Maintenance<a class="headerlink" href="#c-calculate-shutdown-margin-for-rod-maintenance" title="Link to this heading"></a></h3>
+<ol class="arabic">
+<li><p>Remove fuel estimated to decrease reactivity enough to meet the reactivity of the second most reactive rod.</p></li>
+<li><p>Conduct a routine Startup to 50 watts. Bank all rods.</p></li>
+<li><p>Calculate reactivity for each rod position using the most current Rodworth curves.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Rod</p></th>
+<th class="head"><p>Position</p></th>
+<th class="head"><p>Reactivity (S)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Transient</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Shim 1</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Shim 2</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Reg</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>Total</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Determine if Shutdown Margin meets specification:
+Value from Step 2 - (Most reactive + 2nd most reactive rod) &gt; 0.2% Δk/k ($0.29)</p>
+<p><em>Note: Ensure you compensate for any experiments remaining in core.</em></p>
+</li>
+<li><p>If value does not meet specification, remove more fuel to compensate for remaining reactivity and repeat Steps 2-5 as necessary.</p></li>
+</ol>
+</section>
+</section>
+<section id="surv-4-reactor-water-systems-surveillance">
+<h2>SURV-4 Reactor Water Systems Surveillance<a class="headerlink" href="#surv-4-reactor-water-systems-surveillance" title="Link to this heading"></a></h2>
+<section id="id9">
+<h3>I. PURPOSE<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<p>This procedure details weekly, monthly, and annual surveillances of reactor water system parameters.
+Periodic reviews of system operation are intended to identify abnormal parameters or deteriorating characteristics so that corrective or repair actions can be taken.</p>
+</section>
+<section id="id10">
+<h3>II. DISCUSSION<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<p>The reactor water system consists of three subsystems which must function properly for reactor operation. The three systems are the the purification loop, the coolant loop, and the reactor pool.
+Periodic checks of the pool system verify that pool water level is acceptable, no water leakage is evident, no foreign materials are introduced, all instrumentation is working properly, and no system hardware has failed or been damaged.
+Purification system periodic checks verify acceptable water purity (conductivity and pH), water flow rate, and performance of filter and ion exchange bed.
+Coolant system periodic checks verify proper operation of pumps, heat exchanger, controls, and pressure/flow monitoring instrumentation.</p>
+</section>
+<section id="id11">
+<h3>III. REFERENCE<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Docket 50-602 SAR</p></li>
+<li><p>NETL Operations Manual Part 1, Section 9</p></li>
+<li><p>GA UT TRIGA Mechanical Operation and Maintenance Manual Part 7</p></li>
+<li><p>MAIN-3 Calibration and Function Checks of the ICS System Support Features</p></li>
+<li><p>Reactor Water Systems, Operation Procedure, OPER-4</p></li>
+</ol>
+</section>
+<section id="iv-contents">
+<h3>IV. CONTENTS<a class="headerlink" href="#iv-contents" title="Link to this heading"></a></h3>
+<p>Section</p>
+<blockquote>
+<div><p>Surveillance Procedure
+Weekly Checklist Instructions
+Monthly Checklist Instructions
+Annual Checklist Instructions</p>
+</div></blockquote>
+</section>
+<section id="v-procedure">
+<h3>V. PROCEDURE<a class="headerlink" href="#v-procedure" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Perform <strong>weekly checks</strong> (Section A) within 10 days of the previous check.</p></li>
+<li><p>Perform <strong>monthly checks</strong> (Section B) within 6 weeks of the previous check.</p></li>
+<li><p>Perform <strong>annual checks</strong> (Section C) within 15 months of the previous check.</p></li>
+</ul>
+<p><em>Annual checklist must include completion of the procedure in Reference (4).</em></p>
+<p>If a water system is inoperable at the schedule time, the appropriate checks are to be done when the system status changes to operable.</p>
+<section id="a-weekly-checklist-instructions">
+<h4>A. Weekly Checklist Instructions<a class="headerlink" href="#a-weekly-checklist-instructions" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Pool System</p>
+<ol class="loweralpha simple">
+<li><p>Inspect pool surface for abnormal deposits. Clean appearance of entire pool surface for deposits or accumulation of material. If surface is not clean check water skimmer, adjust and clean water skimmer to control surface deposits.</p></li>
+<li><p>Record bulk pool temperature, fuel temperature, and level. Verify fuel temperature is similar to past temperature.</p></li>
+<li><p>Replace pool water evaporation losses with makeup supply of deionized water. Record start level, stop level, and fill volume for reactor pool. Normal pool level is 8.10 ± 0.05 m.
+i.  Connect makeup supply line and open makeup water supply valves when the pool level is near or below the 8.05 meter level.
+ii. Verify makeup water system conductivity lamps illuminate during fill.
+iii. Close makeup water supply valves when the pool level reaches the 8.15 meter level, disconnect and cap makeup supply line.
+iv. Multiply pool level change by 49.4 l/cm to obtain volume change in liters.</p></li>
+</ol>
+</li>
+<li><p>Purification System</p>
+<ol class="loweralpha simple">
+<li><p>Check inlet/outlet conductivity at demineralizer.</p></li>
+<li><p>Check system flowrate 22-38 lpm (6-10 gpm) and pressure drop across filter 84-168 kPa (12-24 psi). Adjust flow control valve to compensate for increase in filter pressure drop.</p></li>
+<li><p>Check operation of skimmer. Remove debris accumulations.</p></li>
+</ol>
+</li>
+<li><p>Coolant System</p>
+<ul class="simple">
+<li><p>No routine weekely surveillance is necessary for coolant water system operation.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="b-monthly-checklist-instructions">
+<h4>B. Monthly Checklist Instructions<a class="headerlink" href="#b-monthly-checklist-instructions" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Reactor Pool System</p>
+<ol class="loweralpha simple">
+<li><p>Check position of purification and coolant system suction and discharge lines. Siphon break holes in suction and discharge lines above the 7.60 meter level protect against accidental pool water loss. Suction lines should not extend below the 6.30 meter level.</p></li>
+<li><p>Inspect pool by visual observation. Check for presence of improper materials and evidence of deterioration or damage to pool liner including beam penetrations.</p></li>
+<li><p>Measure pool pH using low ion pH paper or equivalent.</p></li>
+<li><p>Inspect overflow drains for blockage and acceptable discharge area. Inspect the seal between the pool liner and concrete shield for damage. Repair any damage with acceptable material.</p></li>
+<li><p>Inspect pool covers and acrylic liners for evidence of damage; repair or replace acrylic if necessary.</p></li>
+<li><p>Test Pool Level Sensor. Mechanically displace level floats and check for appropriate abnormal level indications, and scram indications.</p></li>
+<li><p>Inspect accessible beam ports (do not remove covers or experiments) for evidence of moisture and pool leakage.</p></li>
+<li><p>Review pool water makeup volumes.</p></li>
+<li><p>Take 20 ml pool water sample at two month intervals (odd months) perform gross alpha/beta count, record results on checklist.</p></li>
+<li><p>Take 20 mL fuel storage well sample from wells containing fuel at the month intervals (even months)</p></li>
+</ol>
+</li>
+<li><p>Pool Purification System</p>
+<ol class="loweralpha simple">
+<li><p>Review conductivity; change resin &gt; 2 μmho/cm (RWP required)</p></li>
+<li><p>Check flowmeter/differential pressure; replace filter &lt; 22 lpm</p></li>
+<li><p>Check pump seals and piping for leaks</p></li>
+</ol>
+</li>
+<li><p>Pool Coolant System</p>
+<ol class="loweralpha simple">
+<li><p>Startup coolant system. Adjust temperature controller setpoint 5.5°C (10°F) below pool temperature. Allow readings to stabilize and record local readings. Review current readings with respect to previous data for trends of system deterioration.</p></li>
+<li><p>Check primary and secondary pump seals for evidence of leakage.</p></li>
+<li><p>Shutdown system and return temperature setpoint to initial setting, <strong>18.3°C (65°F)</strong>.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="c-annual-checklist-instructions">
+<h4>C. Annual Checklist Instructions<a class="headerlink" href="#c-annual-checklist-instructions" title="Link to this heading"></a></h4>
+<ol class="arabic">
+<li><p>Reactor Pool System</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>Verify pool level and pool temperature checks are complete (per procedure in Reference 4).</p></li>
+<li><p>Test Bulk Pool Temperature Sensor. Place temperature probe in hot water bath and verify alarm at ≤48°C (118°F).</p></li>
+<li><p>Test low pool level alarm signal circuit to security. Notify security of intended test, mechanically displace float, verify security alarm indication.</p></li>
+<li><p>Test pool radiation alarm signal circuit to security. Notify security of intended test, alarm pool radiation monitor using source, verify security alarm indication.</p></li>
+<li><p>Remove covers from beam tubes without experiments and check for evidence of water or moisture. Inspect beam tubes with experiments for indications of water leakage or corrosion. A review of each experiment installation should be made each 2 years to determine whether to inspect the beam tube.</p></li>
+<li><p>Check operation of beam tube shutter control rod isolation valves and beam tube purge isolation valves. Operation should require minimal effort.</p></li>
+<li><p>Take 500 ml pool water sample: Prepare sample for gamma spectroscopy analysis by evaporation or use a standard geometry configuration. Perform gamma spectroscopy analysis. Attach results to checklist.</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Pool Purification System</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>Verify conductivity cell calibration are complete (per procedure in Reference 4).</p></li>
+<li><p>Inspect piping from purification skid to pool suction and discharge for damage. Check pipe supports.</p></li>
+<li><p>Inspect makeup water system piping for leakage or damage.</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Pool Coolant System</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p>Verify flow, differential pressure and temperature instrumentation calibration (per procedure in Reference 4). Check local pool water and chilled water instrumentation readings with system shutdown (not operated in past 48 hours). Check pressures for values typical of hydrostatic head in the pool water piping and typical of blending station pressures on the chilled water system. Temperatures in both systems should be approximately in equilibrium with ambient room temperature.</p></li>
+<li><p>Start coolant system and check whether local values agree with remote readings.</p></li>
+<li><p>Inspect piping from coolant transfer room to pool for damage. Check pipe supports.</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="surv-5-air-confinement-system-surveillance">
+<h2>SURV-5 Air Confinement System Surveillance<a class="headerlink" href="#surv-5-air-confinement-system-surveillance" title="Link to this heading"></a></h2>
+<section id="id12">
+<h3>I. INTRODUCTION<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<ol class="upperalpha">
+<li><p>Purpose</p>
+<p>This procedure details monthly and annual surveillance of the air confinement system parameters. Periodic reviews of system operation are intended to identify abnormal parameters or deteriorating characteristics so that corrective or repair actions can be taken.</p>
+</li>
+<li><p>Description</p>
+<p>The air confinement system encloses the reactor bay. An HVAC system, argon purge system, fume/sort hood, access doors and construction joints provide the pathways for air flow into and out of the reactor bay. Periodic checks of the reactor room boundary and door weather-strip determine the condition of the most significant leakage paths. Less significant leakage paths, such as construction joints, should be examined at the time of maintenance or repair to any joint. HVAC system periodic checks verify that the system components necessary for control of reactor bay negative pressure, isolation damper closure, fan shutdown, and acceptable exhaust stack velocity are functioning properly.</p>
+<p>Argon purge system periodic checks verify that the fan, pre-filters, HEPA filters, valves, and associated control system components are functioning properly. Fume/sort hood checks verify exhaust duct isolation dampers are functioning properly.</p>
+</li>
+<li><p>Schedule</p>
+<p>Measurements of the reactor room air confinement system must be done monthly and annual intervals. Functional checks are done monthly intervals. Annual calibration measurements should be done in October but shall not exceed longer than 15 months from preceding measurement.</p>
+</li>
+<li><p>Contents</p>
+<ul class="simple">
+<li><p>Confinement System Inspection</p></li>
+<li><p>Monthly Check Instructions</p></li>
+<li><p>Annual Check Instructions</p></li>
+</ul>
+</li>
+<li><p>Attachments</p>
+<ul class="simple">
+<li><p>Monthly Checklist</p></li>
+<li><p>Annual Checklist</p></li>
+</ul>
+</li>
+<li><p>Equipment, Materials</p>
+<p>Check Source
+UT TRIGA Facilities</p>
+</li>
+<li><p>References, Other Procedures</p>
+<ol class="arabic simple">
+<li><p>Docket 50-602 SAR</p></li>
+<li><p>OPER-5, Air Confinement System, Operation Procedure</p></li>
+<li><p>Fume/Sort Hood Operating Procedure</p></li>
+<li><p>NETL Operations Manual Part 1, Section 9</p></li>
+<li><p>GA UT TRIGA Mechanical Operation and Maintenance Manual Part 7</p></li>
+<li><p>MAIN-3, ICS System Support Features</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="ii-procedure">
+<h3>II. PROCEDURE<a class="headerlink" href="#ii-procedure" title="Link to this heading"></a></h3>
+<ol class="upperalpha">
+<li><p>Confinement System Inspection</p>
+<ol class="arabic simple">
+<li><p>Perform monthly checks (Section B) of operable systems within 6 weeks of previously scheduled check.</p></li>
+<li><p>Perform annual checks (Section C) of operable systems within 15 months of previously scheduled check.</p></li>
+</ol>
+<p>If confinement system is inoperable at the schedule time, the appropriate checks are to be done when the system status changes to operable.</p>
+</li>
+<li><p>Monthly Check Instructions</p>
+<p>The monthly isolation test of the HVAC, Argon Purge, and Fume/Sort hood in this section should be done concurrently.</p>
+<ol class="arabic">
+<li><p>Confinement Boundary</p>
+<ol class="loweralpha simple">
+<li><p>Check confinement boundary integrity. Observe the function of reactor bay access doors, the condition of observation area windows, and the condition of seals at other room penetrations.</p></li>
+<li><p>Check operation of the CSC annunciator indicating an opened or closed status for the doors to the reactor bay.</p></li>
+</ol>
+</li>
+<li><p>HVAC System</p>
+<ol class="loweralpha">
+<li><p>Change HVAC system mode to REACTOR ON per OPER-5</p></li>
+<li><p>Verify normal indications on Control Room Panel (CRP). Open panel to document manometer readings. Compare with previous data for trends indicating system performance. See Reference 2 Attachment for normal readings.</p></li>
+<li><p>Test operation of isolation dampers:</p>
+<p>Notify PRC Physical Plant Chilling Station (471-3770) of the test.</p>
+<ol class="lowerroman simple">
+<li><p>Using radioactive check source, initiate alarm (trip point is at 10,000 cpm which is ≤ 2x10⁻⁹ µCi/cc) on air particulate monitor.</p></li>
+<li><p>Verify SUPPLY DAMPER and RETURN DAMPER status lights on Control Room Panel indicate CLOSED position within 30 seconds of alarm initiation. The lamps for the HVAC SUPPLY FAN ON and RETURN FAN ON should also extinguish.</p></li>
+<li><p>Remove check source at monitor, place CRP HVAC isolation switch to ISOLATE. Depress HVAC RESET button on CRP.</p></li>
+<li><p>Verify system will not restart and remains in isolation mode.</p></li>
+</ol>
+</li>
+<li><p>Restart system in REACTOR OFF mode.</p>
+<p>Contact BRC Physical Plant Personnel if HVAC recovery is unsuccessful.</p>
+<ol class="lowerroman simple">
+<li><p>Place HVAC ISOLATION switch in OPERATE. Set mode switch to REACTOR OFF. Depress HVAC RESET button on CRP.</p></li>
+<li><p>Verify SUPPLY DAMPERS and RETURN DAMPERS are OPEN.</p></li>
+<li><p>Verify REACTOR MODE OFF, SUPPLY FAN ON, and RETURN FAN ON lamps illuminate.</p></li>
+</ol>
+<p>If either fan (AHU-3 or RF-2) is not on, check for the source of the trip in the penthouse and reset.</p>
+</li>
+</ol>
+</li>
+<li><p>Argon Purge System</p>
+<ol class="loweralpha">
+<li><p>Startup argon purge system with the pool surface and beam port purge valves open.</p></li>
+<li><p>Check purge exhaust velocity on manometer in Control Room Panel and check filter pressure drop on magnehelic gauges in 4.1M4.</p>
+<p>Compare to normal values in Reference 2 Attachment.</p>
+</li>
+<li><p>Test operation of Argon Isolation. Notify PRC Physical Plant (471-3770) of the test.
+i. Using radioactive check source, initiate alarm (trip point is at 10,000 cpm) on the air particulate monitor.
+ii. Verify Argon Purge Fan On status lamp indicates off within 30 seconds of alarm initiation.
+iii. Remove check source at monitor and depress HVAC reset button inside CRP. Argon Purge fan should resume normal operation.</p></li>
+<li><p>Shutdown argon purge system.</p></li>
+<li><p>Schedule replacement of the filters based on pressure drop indications. A Radiation Work Permit is required for opening the filter caisson.
+i. Initiate plans to change the filters when the pressure drops reach near fully loaded values:</p>
+<blockquote>
+<div><p>1.0” H₂O - 95% filter, 2.25” H₂O HEPA filter.</p>
+</div></blockquote>
+<ol class="lowerroman simple" start="2">
+<li><p>Do not change the final HEPA filter without recertification of filter system efficiency.</p></li>
+</ol>
+<p>The maximum acceptable leakage is 0.05% for 0.3 micron particles.</p>
+</li>
+<li><p>Check alignment of each valve at the argon beam port purge collection manifold.</p></li>
+</ol>
+</li>
+<li><p>Fume/Sort Hood</p>
+<ol class="loweralpha simple">
+<li><p>Start Fume/Sort Hood per procedure.</p></li>
+<li><p>Verify normal operating conditions.</p></li>
+<li><p>Test operation of isolation dampers. Notify PRC Physical Plant (471-3770) of the test.
+i. Using radioactive check source, initiate alarm (trip point is at 10,000 cpm) on air particulate CAM.
+ii. Verify lamps on the CRP and the fume/sorting hood control panel indicate fan motor off and smoke damper closed within 30 seconds of alarm indication.
+iii. Remove check source at monitor and depress HVAC reset button inside CRP. Fume/Sorting hood should resume normal operation.</p></li>
+<li><p>Shut down Fume/Sorting hood per procedure.</p></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Annual Check Instructions</p>
+<ol class="arabic simple">
+<li><p>Confinement Boundary</p>
+<ol class="loweralpha simple">
+<li><p>Inspect and repair any significant damage to weather-strip seals on the five doors to the reactor bay or other penetration seals.</p></li>
+<li><p>Check the condition of air movement control barriers at the five pipe penetration ports through the platform at the pool surface.</p></li>
+</ol>
+</li>
+<li><p>HVAC System</p>
+<ol class="loweralpha simple">
+<li><p>Inspect reactor bay isolation dampers.
+During the corresponding monthly inspection (HVAC system shutdown and isolation dampers closed), remove the inspection panels and inspect each of the six isolation dampers.
+Verify dampers appear to be in the shut position and do not show evidence of damage or deterioration.</p></li>
+<li><p>Repeat step 2c of monthly HVAC system checks except test function of both manual isolation button on first level of reactor bay and HVAC ISOLATE switch on the Control Room Panel instead of CAM alarm.</p></li>
+<li><p>Inspect HVAC System ducts for evidence of damage.</p></li>
+</ol>
+</li>
+<li><p>Argon Purge System</p>
+<ol class="loweralpha simple">
+<li><p>Check operation of pool, beam port, dilution and isolation valve for evidence of malfunction.</p></li>
+<li><p>During corresponding monthly inspection, (Argon purge system off and isolation damper closed) check position of valve shaft at filter bank inlet and verify damper closed.</p></li>
+<li><p>Schedule inspection of the filter system every two years. A Radiation Work Permit is required for opening the filter caisson.
+i. Replace the pre-filter during each biennial inspection.
+ii. Perform a visual inspection of the 95% filter. Replace filter if physical deterioration is apparent.</p></li>
+</ol>
+</li>
+<li><p>Fume/sorting hood</p>
+<ol class="loweralpha simple">
+<li><p>During corresponding monthly inspection of fume/sorting hood system (hood fan shutdown and dampers closed) remove access panel at smoke damper and inspect damper condition. Also check valve shaft at hood filter outlet for closed alignment position.</p></li>
+<li><p>Initiate plans to change the filters when the pressure drops reach near fully loaded values.</p></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section id="surv-6-control-rod-calibration">
+<h2>SURV-6 Control Rod Calibration<a class="headerlink" href="#surv-6-control-rod-calibration" title="Link to this heading"></a></h2>
+<section id="id13">
+<h3>I. INTRODUCTION<a class="headerlink" href="#id13" title="Link to this heading"></a></h3>
+<ol class="upperalpha">
+<li><p>Purpose</p>
+<p>The Control Rod Calibration Procedure benchmarks the primary system for reactor control and safety.</p>
+</li>
+<li><p>Description</p>
+<p>Knowledge of control rod worth is necessary to assure the appropriate performance of the reactor control system and demonstrate compliance with Technical Specification limits. Both routine operating conditions and the safety functions of the control rods depend on accurate calibration data. Two separate methods of measurement are available to provide calibration data.</p>
+<p>The Rod Drop Experiment determines the approximate integral control rod worth by observation of the change in reactor power level as a function of time after the rod drop. This experiment provides the initial estimate of a rod’s worth and may be used after major core rearrangements to predict approximate rod worth. The experiment may also verify the total rod worth after minor core changes.</p>
+<p>The second method of rod calibration is the Positive Period Experiment. This method provides the most accurate measurement of the differential rod worth. This experiment determines both the total control rod worth and the shape of the control rod position versus control rod worth curve. The Positive Period method should be used for normal control rod calibration.</p>
+<p>Measurement of the rod drop times verify the performance of the system safety function per Technical Specification requirement. The SCRAM switch or relay in the safety circuit initiates the safety circuit action dropping all control rods. Individual rod switches initiate the drop of each individual rod. Rod position switches sense when the rods reach the full down position. Proper performance of the safety system is indicated if all rods reach the full down position in the specified time limit.</p>
+<p>Measurement of the control system rod removal rate coupled with the control rod peak differential worth establishes the maximum reactivity insertion rate of each control rod. This rate is limited as specified in the Technical Specifications to allow the safe control of the reactor in manual or auto mode.</p>
+</li>
+<li><p>Schedule</p>
+<p>Control rod calibrations are to be done at least once each year and after any significant change to the reactor core configuration. Annual calibration measurements should be done in January or July but shall not exceed longer than 15 months from preceding measurement.</p>
+<p>Measurement of control rod drop time and reactivity insertion rate should be done annually, not to exceed 15 months from preceding measurement, and/or after control rod or drive maintenance, reactor core reconfiguration, or movement of fuel adjacent to the standard rod drives.</p>
+</li>
+<li><p>Contents</p>
+<ol class="upperalpha simple">
+<li><p>Rod Drop Procedure</p></li>
+<li><p>Positive Period Procedure</p></li>
+<li><p>Control Rod Drop Time and Removal Rate Measurement</p></li>
+</ol>
+</li>
+<li><p>Attachments</p>
+<ol class="arabic simple">
+<li><p>Reactivity vs. Power Ratio Plot</p></li>
+<li><p>Positive Period Data Sheet</p></li>
+<li><p>Stable Period Wait Time</p></li>
+<li><p>Inhour curve - Reactivity vs. Period Plot</p></li>
+<li><p>Rod Drop Time / Withdrawal Rate Data Sheet</p></li>
+</ol>
+</li>
+<li><p>Equipment, Materials</p>
+<ul class="simple">
+<li><p>TRIGA ICS System with control rod drives</p></li>
+<li><p>Data Analysis Software such as “MathCAD”</p></li>
+<li><p>Digital Stopwatch</p></li>
+<li><p>Digital Storage Oscilloscope</p></li>
+</ul>
+</li>
+<li><p>References, Other Procedures</p>
+<ul class="simple">
+<li><p>MAIN-6, Rod &amp; Drive Maintenance, Inspection</p></li>
+<li><p>Attachments 1 &amp; 3:
+A. Edward Profio, “Experimental Reactor Physics”,
+John Wiley and Sons Inc., 1976, pp 712, 716</p></li>
+<li><p>Attachment 4:
+General Atomics Data Sheet</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id14">
+<h3>II. PROCEDURE<a class="headerlink" href="#id14" title="Link to this heading"></a></h3>
+<ol class="upperalpha simple">
+<li><p>Control Rod Worth Estimate by Rod Drop Method</p></li>
+</ol>
+<p>Use to estimate initial control rod worth following new core start-up.
+May be useful following substantial core reconfigurations.</p>
+<ol class="arabic simple">
+<li><p>The reactor core condition should be cold and clean prior to measurement of rod worth.
+Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.</p></li>
+<li><p>Commence Startup of the reactor:</p>
+<ol class="loweralpha simple">
+<li><p>Position the control rod being evaluated at the desired position – full up if the entire rod worth is desired to be estimated in one step, or partially withdrawn at selected increasing withdrawn locations if several drops are to be made.</p></li>
+<li><p>Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.</p></li>
+<li><p>Adjust control rods for criticality at a low power level such as 50 to 500 watts.
+The power should not be so high as to see a fuel temperature increase above ambient (i.e., less than 1 Kilowatt).</p></li>
+<li><p>Remove the neutron source and readjust for criticality. The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±2% for a minimum of 3 to 5 minutes without further rod movement.</p></li>
+</ol>
+</li>
+<li><p>Setup data recording system to record reactor linear power as a function of time or use stopwatch and indication on linear power display to tabulate initial power and the indicated power after the control rod is dropped.</p></li>
+<li><p>Drop control rod being evaluated by actuation of magnet button (standard rod drives) or air button (transient rod drive) and document the power vs. time data. Select times to record data based on time data plotted on the graph in Attachment 1 - Ratio of neutron density after a rod drop to the initial density (at critical), as a function of subcritical reactivity.</p></li>
+<li><p>Using the data in Attachment 1, determine the reactivity associated with the rod drop based on the measured neutron density ratio (power ratio) at the specified time after the rod drop.</p></li>
+</ol>
+<ol class="upperalpha simple" start="2">
+<li><p>Control Rod Worth Measurement by Positive Period Method</p></li>
+</ol>
+<p>Use for the annual rod worth calibration.
+Use as the primary rod calibration method.</p>
+<ol class="arabic simple">
+<li><p>The reactor core condition should be cold and clean prior to measurement of rod worth.
+Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.</p></li>
+<li><p>Commence Startup of the reactor:</p>
+<ol class="loweralpha simple">
+<li><p>Position the control rod being evaluated at the desired position – full down if the entire rod worth is to be evaluated, or at predetermined locations if the shape of the differential rod worth curve has already been established.</p>
+<ol class="lowerroman simple">
+<li><p>Initial control rod calibrations or calibrations after major core reconfigurations should evaluate the entire rod worth by stepwise pulling the rod in increments correlating to reactivity steps of 15 to 20 cents over its entire travel.
+This will require taking 10 to 20 measurements per control rod depending on its total worth.</p></li>
+<li><p>Once the initial control rod calibration curve shape has been established, subsequent routine control rod calibrations may be made by using only 5 or 6 appropriately selected insertions of the same reactivity magnitude as above.
+One or two points should be selected near the rod height correlating to the peak differential rod worth.
+Four additional points should be selected, two in the lower and two in the upper parts of the rod travel correlating to areas spaced roughly equally on the slope portions of the differential worth curve.
+The data from these measurements can then be curve fit to the shape of the differential control rod worth curve to determine the actual rod worth.</p></li>
+</ol>
+</li>
+<li><p>Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.</p></li>
+<li><p>Adjust control rods for criticality at a low power level of 1 to 3 Watts.</p></li>
+<li><p>Remove the neutron source and readjust for criticality.
+The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±4% for a minimum of 3.5 to 5 minutes without further rod movement.
+This constraint will limit measurement errors of criticality to ± ~0.25¢ per measurement.</p></li>
+</ol>
+</li>
+<li><p>Record the Control rod positions on the Control Rod Calibration Data Sheet in Attachment 2.</p></li>
+<li><p>Pull the control rod being calibrated in one smooth movement a distance correlating to an estimated reactivity worth of 15 to 20 cents which correlates to a stable period between 58 and 37 seconds.
+Record the rod position stop point on data sheet.
+(To minimize rod position hysteresis, if you inadvertently pull the rod too far, quickly move the rod back down slightly below the target point, then raise the rod to the target point.)
+Refer to previous calibration data to estimate the number of units to move the rod.
+Typical movements are 90 to 100 units for the initial and final pull at the full down or full up endpoints, decreasing rapidly to 20 to 40 units per pull in the mid range of rod travel.
+The reactivity per pull is limited to allow the reactor to attain a stable period prior to taking the power vs. time data thus reducing measurement errors.
+The time to reach a stable period is called the wait time.
+The wait times for 5% error are 20 to 35 seconds, for a 1% error they increase to 50 to 65 seconds respectively for 37 to 58 second stable periods.
+A table showing measurement errors as a function of the wait time required to attain a stable period is shown in Attachment 3.</p></li>
+<li><p>Observe the power increase as indicated on the digital readout of the auto ranging linear power channel on the Animation Window.
+Use a stopwatch set to measure time intervals with respect to the start time.
+Start the primary stopwatch when the power passes the 60 watt point.
+Record the time when the power passes the 90 watt level, the 600 watt level, and the 900 watt level (time points should be marked at the first instant the power reaches the target value on the digital display).
+Time data at powers above the 1 Kilowatt level shall not be used as temperature feedback will create errors above this level.</p></li>
+<li><p>Drive control rods other than the rod being calibrated down to decrease the reactor power.
+Leave the control rod being calibrated at the point to which it was withdrawn in step 5 if the entire rod is being stepwise calibrated.
+If the curve fit method is being used, reposition the rod being calibrated to its next starting point.</p></li>
+<li><p>Repeat steps 2 through 7 until the remainder of the rod is completed or sufficient data points for curve fitting are obtained.</p></li>
+<li><p>Notes:
+As long as the power level is not allowed to fall below the source interlock the source may be continuously left out of the core until all the data points desired are obtained.</p></li>
+<li><p>Analyze data either manually or via software program.
+Using the time data recorded, calculate the stable period resulting from each rod pull.
+Then use the reactivity equation or inhour curve in Attachment 4 to determine the reactivity associated with each rod pull.</p></li>
+<li><p>A senior operator should review and approve the rod calibration data.
+If significant changes in rod worth are indicated, a review of the implications on excess reactivity and shutdown margins should also be initiated.</p></li>
+</ol>
+<ol class="upperalpha simple" start="3">
+<li><p>Control Rod Withdrawal, insertion, and drop time measurements</p></li>
+</ol>
+<ol class="arabic">
+<li><p>Perform ICS system pre-start checks if not already completed.</p></li>
+<li><p>Setup drop time measurement system. The magnet power supply voltage level controlled by the console scram switch should be used to start the timing.
+A signal from the control rod down limit switch should be monitored to indicate when the rod has reached the full down position.</p>
+<ol class="loweralpha simple">
+<li><p>Measurement equipment should be a storage oscilloscope or an electronic timer with signal start-stop features.
+Use of a stopwatch to measure rod drop time, manually started at the time the scram button is depressed and stopped at the time the rod visually hits bottom is also acceptable but not the preferred method of measurement.</p></li>
+<li><p>Measurement resolution for oscilloscope sweep should be set to 100 ms/div, vertical gain should be set to 5 V/div.
+Vertical signal probe should be set to X 10 for the transient rod, and X 1 for all other rods.
+Scope should be set to Auto trigger mode while setting up, and changed to single trigger or normal mode when taking the data.</p></li>
+<li><p>Connect start signal (scope trigger) to the Regulating rod positive magnet power (see table below for connection location).
+Set the scope trigger to DC coupling on a negative slope at a level of about 10 volts.
+The nominal magnet power high side is +13 volts and the low side is –6 volts.</p></li>
+<li><p>Connect the signal (Channel 1) to the rod drive down limit switch (see table below for connection location) of the drive being evaluated.</p></li>
+</ol>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Scope Input
+Channel</p></th>
+<th class="head"><p>DAC Tie
+Bar</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Trigger
+CH 1
+CH 1
+CH 1
+CH 1</p></td>
+<td><p>TB 5-3
+TB 8-8
+TB 8-16
+TB 8-24
+TB 9-32</p></td>
+<td><p>Reg Magnet Pwr (+13V)
+TR rod down limit
+Shim 1 rod down limit
+Shim 2 rod down limit
+Reg rod down limit</p></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Withdraw control rod being measured about 60 units and test drop the rod to verify the scope setup.</p></li>
+<li><p>Fully withdraw the rod being evaluated, measuring the time it takes to move from full down to full up using a stopwatch.
+Record data on Attachment 5.</p></li>
+<li><p>Drop the control rod to trigger and record a trace by initiation of the scram button.
+Drop time is measured from the time the scope triggered until the rod reaches full down, as evidenced by the transition of the signal on the rod down switch.
+Some rods may show a bounce after the initial bottom transition, typical drop time recorded is the time measured to when the rod remains full down as indicated on the trace.
+Record data on Attachment 5.</p></li>
+<li><p>Repeat steps 2d through 5 for each remaining rod.</p></li>
+<li><p>Calculate measured reactivity insertion rate and record data on Attachment 5:</p>
+<ol class="loweralpha">
+<li><p>Obtain peak differential rod worth near rod midpoint for each rod from the control rod calibration data.</p></li>
+<li><p>Calculate insertion rate (&lt; 0.2 % Δk/k/sec) as follows:</p>
+<p><code class="docutils literal notranslate"><span class="pre">`</span>
+<span class="pre">rate</span> <span class="pre">(%</span> <span class="pre">Δk/k/sec)</span> <span class="pre">=</span> <span class="pre">rate</span> <span class="pre">(units/sec)</span> <span class="pre">*</span> <span class="pre">worth</span> <span class="pre">(¢/unit)</span> <span class="pre">*</span> <span class="pre">(0.7%</span> <span class="pre">Δk/k</span> <span class="pre">/</span> <span class="pre">100¢)</span>
+<span class="pre">`</span></code></p>
+</li>
+</ol>
+</li>
+<li><p>Document any relevant notes, comments, or observations on Attachment 5 data sheet.</p></li>
+</ol>
+</section>
+</section>
+<section id="surv-7-pulse-characteristic-comparison">
+<h2>SURV-7 Pulse Characteristic Comparison<a class="headerlink" href="#surv-7-pulse-characteristic-comparison" title="Link to this heading"></a></h2>
+<section id="id15">
+<h3>I. PURPOSE<a class="headerlink" href="#id15" title="Link to this heading"></a></h3>
+<p>The purpose of this procedure is to monitor the core performance for a reference pulse reactivity insertion.</p>
+</section>
+<section id="ii-description">
+<h3>II. DESCRIPTION<a class="headerlink" href="#ii-description" title="Link to this heading"></a></h3>
+<p>The pulsing characteristics of the TRIGA reactor release large amounts of energy, 20M Joules, in a very short time period &lt;0.5 seconds. Some variation of the peak power, energy release and fuel temperatures will occur as a function of fuel history. In fact long term full power runs with few pulses may differ from many pulses with no long term full power runs.</p>
+<p>No pulse program should proceed without a comparison of reference pulse characteristics. A $3 reference pulse at least once each year or prior to resumption of pulsing if no annual pulse has been made will provide pertinent data to verify that the peak power, energy release, and fuel temperatures are within acceptable limits.</p>
+<p>The pulse characteristics are to be done annually or prior to the resumption of any pulsing program if the time interval to the previous pulse exceeds one year.</p>
+</section>
+<section id="iii-references">
+<h3>III. REFERENCES<a class="headerlink" href="#iii-references" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Pulse records</p></li>
+</ul>
+</section>
+<section id="iv-equipment-and-materials">
+<h3>IV. EQUIPMENT AND MATERIALS<a class="headerlink" href="#iv-equipment-and-materials" title="Link to this heading"></a></h3>
+</section>
+<section id="id16">
+<h3>V. Instructions<a class="headerlink" href="#id16" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Review present reactor system conditions with respect to previous reactor configuration. Several conditions may cause different pulse characteristics such as number of elements, history and burnup.</p></li>
+<li><p>Review previous comparative pulse data. Set rod drive air pressure at 65 psi.</p></li>
+<li><p>Specify pulse ID as “COMPARE - Month/Year.”</p></li>
+<li><p>Perform reactor pulse ($2.00). Reactivity insertion should be equivalent to that of previous comparative pulse based on current rod worth measurements.</p></li>
+<li><p>Print the pulse data screen. Print the graphic pulse data. Use the same scales as used on previous comparative pulse.</p></li>
+<li><p>Document the following additional data on the printed pulse data:</p>
+<ol class="loweralpha simple">
+<li><p>Core configuration; # control, # elements, # graphite, # exp.</p></li>
+<li><p>Initial steady-state power and excess reactivity.</p></li>
+<li><p>Worth of transient rod insertion</p></li>
+</ol>
+</li>
+<li><p>Review current pulse data and record core conditions. Compare with previous data for indication of a significant change in reactor core transient characteristics.</p></li>
+<li><p>Place data in Pulse Data Sheet Log.</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="OPER.html" class="btn btn-neutral float-left" title="OPER" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Jeongwon Seo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

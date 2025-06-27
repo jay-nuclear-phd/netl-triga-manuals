@@ -1,0 +1,1611 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OPER &mdash; NETL TRIGA Manuals  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SURV" href="SURV.html" />
+    <link rel="prev" title="PLAN-O" href="PLAN-O.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #D95204" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            NETL TRIGA Manuals
+              <img src="_static/University-of-Texas-at-Austin-Emblem.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="ADMIN.html">ADMIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="EXP.html">EXP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FUEL.html">FUEL</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HP.html">HP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="MAIN.html">MAIN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="NETL-X.html">NETL-X</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PLAN-E.html">PLAN-E</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PLAN-O.html">PLAN-O</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">OPER</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#oper-1-startup-shutdown-checks">OPER-1 Startup-Shutdown Checks</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#i-introduction">I. Introduction</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-purpose">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-description">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-schedule">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-contents">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#e-attachments">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#f-equipment-materials">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#g-references-other-procedures">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ii-procedure">II. Procedure</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-operation-request">A. Operation Request</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-startup-checks">B. Startup Checks</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-shutdown-checks">C. Shutdown Checks</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oper-2-reactor-startup-operating-and-shutdown">OPER-2 Reactor Startup, Operating and Shutdown</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">I. Introduction</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id3">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id5">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">II. Procedure</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-reactor-startup">A. Reactor Startup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-typical-startup-and-operating-sequences">B. Typical Startup and Operating Sequences</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#c-reactor-shutdown">C. Reactor Shutdown</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oper-4-operation-of-reactor-water-systems">OPER-4 Operation of Reactor Water Systems</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">I. Introduction</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id11">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id16">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">II. PROCEDURE</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-general-requirements">A. General Requirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-pool-purification-system">B. Pool Purification System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-pool-coolant-system">C. Pool Coolant System</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#abnormal-conditions">ABNORMAL CONDITIONS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-general-system">A. General System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-purification-system">B. Purification System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-coolant-system">C. Coolant System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-radioactivity-release-to-water">D. Radioactivity Release to Water</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oper-5-air-confinement-system-operation">OPER-5 Air Confinement System Operation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">I. INTRODUCTION</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id20">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id22">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id23">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id24">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id25">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id26">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id27">II. PROCEDURE</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id28">A. General Requirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-reactor-room-hvac-system">B. Reactor Room HVAC System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-argon-purge-system">C. Argon Purge System</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id29">ABNORMAL CONDITIONS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-airborne-radioactivity">A. Airborne radioactivity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-hvac-system">B. HVAC System</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id30">C. Argon Purge System</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oper-6-reactor-bay-systems">OPER-6 Reactor Bay Systems</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id31">I. INTRODUCTION</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id32">A. Purpose</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id33">B. Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id34">C. Schedule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id35">D. Contents</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id36">E. Attachments</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id37">F. Equipment, Materials</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id38">G. References, Other Procedures</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id39">II. PROCEDURE</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#a-building-utilities-and-safety-systems">A. Building Utilities and Safety Systems</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#b-status-checks-of-systems">B. Status Checks of Systems</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#c-maintenance-log">C. Maintenance Log</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#d-reactor-operation-requirements">D. Reactor Operation Requirements</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#e-reactor-bay-bridge-crane-operation">E. Reactor Bay Bridge Crane Operation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="SURV.html">SURV</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #D95204" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NETL TRIGA Manuals</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">OPER</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/OPER.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="oper">
+<h1>OPER<a class="headerlink" href="#oper" title="Link to this heading"></a></h1>
+<section id="oper-1-startup-shutdown-checks">
+<h2>OPER-1 Startup-Shutdown Checks<a class="headerlink" href="#oper-1-startup-shutdown-checks" title="Link to this heading"></a></h2>
+<section id="i-introduction">
+<h3>I. Introduction<a class="headerlink" href="#i-introduction" title="Link to this heading"></a></h3>
+<section id="a-purpose">
+<h4>A. Purpose<a class="headerlink" href="#a-purpose" title="Link to this heading"></a></h4>
+<p>This procedure describe the facility and reactor system checks to be done prior to startup of the reactor and subsequent to shutdown of the reactor including a check of operation requests for valid experiments.</p>
+</section>
+<section id="b-description">
+<h4>B. Description<a class="headerlink" href="#b-description" title="Link to this heading"></a></h4>
+<p>Opeation of the reactor requires test and verification of Instrumentation Control and Safety (ICS) System functions and other facility systems.
+Checklists for the test and verification of ICS System and checks of support systems assure that systems are operable prior to or during operation of the reactor.</p>
+<p>Several facility systems must function properly for the reactor systems to operate safely. The two most important are the pool water system and air confinement system. Other equipment such as communication equipment and radiation monitoring equipment are also necessary for operation. A checklist documents the status of various systems. Both pre-start checks and post shutdown checks are for the purpose of verifying the operability or condition of important systems.</p>
+<p>Prior to actual operation, a review of the operation requirements and check of valid experiment requests and approvals must be made. An operation request form documents the request and the valid experiment approval. All actions of this procedure require the direct supervision of a reactor operator with a valid license.</p>
+</section>
+<section id="c-schedule">
+<h4>C. Schedule<a class="headerlink" href="#c-schedule" title="Link to this heading"></a></h4>
+<p>Apply this procedure each day the reactor is taken through an operation cycle of startup and shutdown.</p>
+</section>
+<section id="d-contents">
+<h4>D. Contents<a class="headerlink" href="#d-contents" title="Link to this heading"></a></h4>
+<blockquote>
+<div><ol class="upperalpha simple">
+<li><p>Operation Request</p></li>
+<li><p>Startup Checks</p></li>
+<li><p>Shutdown Checks</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="e-attachments">
+<h4>E. Attachments<a class="headerlink" href="#e-attachments" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Operational Request Instructions</p></li>
+<li><p>Operation Request</p></li>
+<li><p>Operation Request Instructions</p></li>
+<li><p>Operation Request</p></li>
+<li><p>Startup Shutdown Checklist</p></li>
+<li><p>Supplemental Heat Exchanger Startup/Shutdown Checklist</p></li>
+<li><p>Experiment System Checklist</p></li>
+<li><p>CTR Load</p></li>
+<li><p>RSR Load</p></li>
+<li><p>PNT Load</p></li>
+<li><p>3L Load</p></li>
+<li><p>BP Load</p></li>
+</ul>
+</section>
+<section id="f-equipment-materials">
+<h4>F. Equipment, Materials<a class="headerlink" href="#f-equipment-materials" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>TRIGA research reactor</p></li>
+<li><p>Operation Support Systems</p></li>
+<li><p>Instrument Control and Safety System</p></li>
+</ul>
+</section>
+<section id="g-references-other-procedures">
+<h4>G. References, Other Procedures<a class="headerlink" href="#g-references-other-procedures" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Docket 50-602 SAR</p></li>
+<li><p>ANS 15-6, Reg. Guide 2.2</p></li>
+<li><p>OPER-2    Reactor Startup and Shutdown</p></li>
+<li><p>OPER-3    Reactor Operation Modes</p></li>
+<li><p>OPER-4    Operation of Reactor Water Systems</p></li>
+<li><p>OPER-5    Operation of Air Confinement System</p></li>
+<li><p>MAIN-4    Area Radiation Monitoring Systems</p></li>
+</ul>
+</section>
+</section>
+<section id="ii-procedure">
+<h3>II. Procedure<a class="headerlink" href="#ii-procedure" title="Link to this heading"></a></h3>
+<p>Review the requirements of operation (see section A). Prior to the day’s operation perform the startup checks (refer to section B). At the conclusion of the day’s operation perform the shutdown checks (refer to section C).</p>
+<section id="a-operation-request">
+<h4>A. Operation Request<a class="headerlink" href="#a-operation-request" title="Link to this heading"></a></h4>
+<p>Review the operation request form for each experiment.</p>
+<ol class="arabic simple">
+<li><p>Review each operation and experiment to document a valid experiment approval authorization has been done. The Reactor Supervisor (SRO in his absence) shall approve the operation request.</p></li>
+<li><p>Active operation request forms should be available at the reactor console during all reactor operations for that request.</p></li>
+<li><p>The operation requests include an evaluation of samples or materials subject to irradiation or exposure and a list of samples on a form such as HP6 Sample Logs. These forms should be kept with the operation request until the irradiation or exposure is complete.</p></li>
+<li><p>Place operation requests that are no longer active in the appropriate permanent files.</p></li>
+</ol>
+</section>
+<section id="b-startup-checks">
+<h4>B. Startup Checks<a class="headerlink" href="#b-startup-checks" title="Link to this heading"></a></h4>
+<p>Perform the following actions and record data on the Startup-Shutdown Checklist.</p>
+<ol class="arabic simple">
+<li><p>Identify experiment classification and personnel requirements:</p>
+<ol class="loweralpha simple">
+<li><p>Perform visual inspection of reactor and experiment areas.</p></li>
+<li><p>Review the operation request (see section A).</p></li>
+<li><p>Designate the SRO, RO and experimenter, if any.</p></li>
+</ol>
+</li>
+<li><p>Check support facility conditions;
+Several systems must be operating or operable.</p>
+<ol class="loweralpha simple">
+<li><p>Room 1.104 Evacuation Alarm</p></li>
+<li><p>Communication - telephone and intercom (1 way)
+Telephone must be operating at the time of startup.</p></li>
+<li><p>Operate the following radiation monitoring systems:
+i. Air particulate activity monitor.
+ii. Argon-41 gas effluent activity monitor.
+iii. Area radiation monitors (at least 3); the pool area monitor and two additional area monitors must be operating.</p></li>
+</ol>
+</li>
+<li><p>Set reactor room ventilation conditions, as follows:</p>
+<ol class="loweralpha simple">
+<li><p>Switch room HVAC fan to “Reactor ON” mode (refer to OPER-5).
+“Reactor ON” mode of the HVAC system should be the normal mode during operation of the reactor.</p></li>
+<li><p>Start argon purge fan and align source valves ON (refer to OPER-5).
+This system must be operating if the “Reactor ON” mode of the HVAC is not available and the reactor is operating.</p></li>
+</ol>
+</li>
+<li><p>Set reactor pool cooling conditions, as required:</p>
+<ol class="loweralpha simple">
+<li><p>Note status of water purification loop. Pool water purification system should be operating (refer to OPER-4).</p></li>
+<li><p>Operate heat exchanger coolant system pool and chilled water loops for requested reactor power levels greater than 100 kilowatts (refer to OPER-4).
+Under normal conditions the cooling system should be operating prior to reactor startup.
+Use primary checklist for first system startup and last shutdown of the day.
+Use supplemental cooling system checklist for intermittent shutdown and restarts.</p></li>
+</ol>
+</li>
+<li><p>Check operability of ICS System (requires SRO approval):</p>
+<ol class="loweralpha simple">
+<li><p>Verify ICS operating or initiate ICS bootstrap sequence.
+Refer to Chapter 1 &amp; 2 of ICS Operation Manual.</p></li>
+<li><p>Verify successful ICS bootstrap sequence.
+Refer to Chapter 2 of ICS Operation Manual.</p></li>
+<li><p>Perform ICS Pre-start checks sequence.
+Refer to Chapter 2 of ICS Operation Manual.</p></li>
+</ol>
+</li>
+<li><p>Check operability of support and experiment systems.
+(Checklists require SRO approval)</p>
+<ol class="loweralpha simple">
+<li><p>Complete Startup Checklist.</p></li>
+<li><p>Complete any (applicable) Experiment Systems Checklist.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="c-shutdown-checks">
+<h4>C. Shutdown Checks<a class="headerlink" href="#c-shutdown-checks" title="Link to this heading"></a></h4>
+<p>Verify the following tasks are complete. Record on the Startup-Shutdown checklist.</p>
+<ol class="arabic simple">
+<li><p>Turn Reactor Control Console (RCC) key switch from ON to OFF.
+Perform operator log OFF.</p></li>
+<li><p>Remove and secure RCC key (give to SRO/place in locked storage).</p></li>
+<li><p>Secure experiment areas, radiation areas, and radioactive materials.</p></li>
+<li><p>Complete shutdown checklist:</p>
+<ol class="loweralpha simple">
+<li><p>Secure operation of heat exchanger system (refer to OPER-4)
+i. Turn OFF power to pool water and chiller water pumps.
+ii. Close chilled water valves to heat exchanger (2) and the pool water isolation valves (3).</p></li>
+<li><p>Secure operation of room ventilation exhaust (refer to OPER-5)
+i. Turn off argon purge fan and close source valves.
+ii. Record integral Argon counts and secure Argon CAM.
+iii. Switch room HVAC fan mode from “Reactor ON” to “Reactor OFF”.</p></li>
+<li><p>Perform inspection of reactor and experiment areas.</p></li>
+</ol>
+</li>
+<li><p>File previous operation records, checklists, and other data-sheets.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="oper-2-reactor-startup-operating-and-shutdown">
+<h2>OPER-2 Reactor Startup, Operating and Shutdown<a class="headerlink" href="#oper-2-reactor-startup-operating-and-shutdown" title="Link to this heading"></a></h2>
+<section id="id1">
+<h3>I. Introduction<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<section id="id2">
+<h4>A. Purpose<a class="headerlink" href="#id2" title="Link to this heading"></a></h4>
+<p>The Reactor Startup, Operating and Shutdown procedure specifies actions to be completed for startup, operating and shutdown of the reactor. This new procedure is a combination of the old OPER 2 (Reactor Startup and Shutdown) and OPER 3 (Reactor Operations Mode).</p>
+</section>
+<section id="id3">
+<h4>B. Description<a class="headerlink" href="#id3" title="Link to this heading"></a></h4>
+<p>Actions for the Reactor Startup, Operating and Shutdown require certain specific conditions. Prior to startup, the correct operating conditions are verified by the performance of a Startup Checklist. Following the final Reactor Shutdown of the day, a Shutdown Checklist is performed to place all secondary and supportive systems in their post operating mode and required data is annotated. Logs will be taken in a hand written or computer form, whichever is determined by the reactor manager.</p>
+<p>Guidance for startup and operation of the reactor is available in the operator’s manual. Features of the procedure provide requirements and guidance.</p>
+<p>All actions of this procedure require the direct supervision of a reactor operator with a valid license. Abnormal shutdown or SCRAMS require a SRO approval prior to restart of the reactor.</p>
+</section>
+<section id="id4">
+<h4>C. Schedule<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>Apply this procedure each day the reactor is taken through an operation cycle of a startup, operating mode and shutdown.</p>
+</section>
+<section id="id5">
+<h4>D. Contents<a class="headerlink" href="#id5" title="Link to this heading"></a></h4>
+<p>II. A.  Reactor Startup
+II. B.  Typical Startup and Operating Sequences
+II. C.  Reactor Shutdown</p>
+</section>
+<section id="id6">
+<h4>E. Attachments<a class="headerlink" href="#id6" title="Link to this heading"></a></h4>
+<p><em>Note: Attachments are not part of this procedure but may be useful when performing this procedure.</em></p>
+<ol class="arabic simple">
+<li><p>Console Operation Log</p></li>
+<li><p>SCRAM Log</p></li>
+<li><p>Reactivity Configurations</p></li>
+</ol>
+</section>
+<section id="id7">
+<h4>F. Equipment, Materials<a class="headerlink" href="#id7" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Instrumentation Control and Safety System (ICS)</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>G. References, Other Procedures<a class="headerlink" href="#id8" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Control Console Operator’s Manual</p></li>
+<li><p>OPER-1 Startup - Shutdown Checks</p></li>
+<li><p>OPER-4 Operation of Reactor Water Systems</p></li>
+<li><p>OPER-5 Operation of Air Confinement System</p></li>
+<li><p>OPER-6 Reactor Bay Systems</p></li>
+<li><p>SURV-7 Pulse Characteristic Comparison</p></li>
+</ul>
+</section>
+</section>
+<section id="id9">
+<h3>II. Procedure<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<section id="a-reactor-startup">
+<h4>A. Reactor Startup<a class="headerlink" href="#a-reactor-startup" title="Link to this heading"></a></h4>
+<p>The Reactor startup can be performed in various modes. Ensure that you review the correct mode for the startup you will be performing. Ensure all corresponding requirements have been completed and that a current Startup Checklist has been performed.</p>
+<ol class="arabic">
+<li><p>Review operation procedure for the mode of operations you will be conducting.
+The Console Log, whether paper or electronic, will record operator comments regarding important system conditions.
+These log sheets will supplement computer printouts from the ICS system.
+Other data sheets such as the Operation Request, Startup-Shutdown Checklist and Reactivity Calculation Sheet complete normal documentation for a typical run.</p></li>
+<li><p>Review completion of the Startup Checklist and note the recorded conditions.
+If this is a startup after the initial startup of the day, verify the startup checklist was completed and monitor system indications to ensure that no lineups have been altered since the reactor was last operating.
+Review any Night Order Log comments that are new since the last time you operated the reactor.
+If a problem occurs at the time of reactor startup or shutdown, place a comment in the Console Log and ensure the Senior Reactor Operator is informed.
+Additionally, record any abnormal indications.
+If questions exist regarding acceptability of operating conditions, consult the Senior Reactor Operator on watch or the Reactor Manager.</p></li>
+<li><p>Verify the control room door is closed and the required licensed operators are signed in to log with line stating the relieved and relieving operators in the comment section.
+If this is not the initial startup, ensure SRO permission to conduct startup of reactor and obtain required power.
+The minimum staffing requirements are:</p>
+<ol class="loweralpha simple">
+<li><p>Normal operations: SRO/RO, with second person in building (SRO must be available).
+Second person signature required in logs after 1730.</p></li>
+<li><p>Initial Startup: Requirements of II.3.a. and SRO present (SRO may be the second person in the building).</p></li>
+</ol>
+<p><em>Note: If startup is following a SCRAM, condition of SCRAM must be identified, and SRO approval to startup obtained.
+SRO must sign and date SCRAM log entry.</em>
+<em>(If verbal approval over phone for startup after SCRAM is given, it must be noted in logs and SCRAM log entry signed as soon as SRO returns to facility).</em></p>
+</li>
+<li><p>Perform operator log on function.</p></li>
+<li><p>Determine desired mode of operation. Review Typical Startup and Operating Sequences (Section II.B.).</p>
+<p><em>Note: A log (capture of Status Window) should be taken by pressing F2 after each power change and approximately every 30 minutes during steady state operation.
+Verification that the reactor area radiation monitoring system is operating correctly should be performed at this time and annotated in the Console Log.</em></p>
+</li>
+<li><p>When operations are complete, perform shutdown procedures. (Refer to Section II.C.)</p></li>
+</ol>
+</section>
+<section id="b-typical-startup-and-operating-sequences">
+<h4>B. Typical Startup and Operating Sequences<a class="headerlink" href="#b-typical-startup-and-operating-sequences" title="Link to this heading"></a></h4>
+<p>The Manual and Auto Modes start with the Manual Mode procedure.
+When the required power is obtained, the Mode is shifted to Auto.
+Rod positions increment from 0 to 960 (equal to a span of 15 inches).
+The initial startup requires an excess Reactivity Configuration at 50 watts.</p>
+<ol class="arabic">
+<li><p>Manual Mode: (Refer to Chapter 4 of Control Console Operator’s Manual)</p>
+<ol class="loweralpha simple">
+<li><p>Withdraw transient rod to approximately 50% withdrawn position or position of previous startup of the day or previous startup of similar experiments and burn up.</p></li>
+<li><p>Withdraw Regulating rod to similar position as transient rod.</p></li>
+<li><p>Withdraw each shim rod in steps of 50 units or less alternating shim rods.</p></li>
+<li><p>Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.</p></li>
+<li><p>Adjust each rod to maintain period as in 1.d., attempt to maintain bank with rods.</p></li>
+<li><p>Take a pause at 50W to verify rod heights are similar to those of latest Reactivity Configuration calculation and days history of operation.</p></li>
+<li><p>Adjust rods to stabilize power level at desired level.</p></li>
+</ol>
+</li>
+<li><p>Auto Mode: (Refer to Chapter 5 of Control Console Operator’s Manual)</p>
+<ol class="loweralpha simple">
+<li><p>Set power demand to desired power.</p></li>
+<li><p>Follow procedure for Manual Mode.</p></li>
+<li><p>Press Auto Mode Switch when desired power is reached.</p></li>
+<li><p>Adjust rod heights to a bank position for best operation.</p></li>
+</ol>
+</li>
+<li><p>Square Wave Mode: (Refer to Chapter 5 of Control Console Operator’s Manual)</p>
+<p><em>Note: Testing has proven that maximum Square wave should be limited to 500kW.</em></p>
+<p>a) Sequences for square wave mode operation use transient rod (TR) positions that create a positive reactivity insertion as the rod moves from 0 to set position associated with the amount of reactivity desired to achieve desired power.
+At the time of actuation of the fire button, the core will be set at a steady state power less than 1 kW (testing has proven the best results occur with initial power set at 800 Watts).</p>
+<blockquote>
+<div><ol class="lowerroman simple">
+<li><p>Choose desired amount of reactivity to add from the movement of TR. (Amount added cannot be greater than 1 dollar (&lt; $1.00). ($0.90 has proven during testing to be the best amount to add for square waves greater than 200kW)</p></li>
+<li><p>From TR rod worth data determine the rod position associated with the desired reactivity addition.</p></li>
+<li><p>Compare estimated values with previous results if possible.</p></li>
+</ol>
+</div></blockquote>
+<ol class="loweralpha simple" start="2">
+<li><p>Obtain steady state (SS) power on REG, shim 1 and shim 2, 800 watts is typical (&lt;1kW):</p>
+<ol class="lowerroman simple">
+<li><p>Withdraw REG rod to approximately 50% withdrawn position.</p></li>
+<li><p>Withdraw each shim rod in steps of 50 units or less.</p></li>
+<li><p>Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.</p></li>
+<li><p>Do not exceed 10-second period.</p></li>
+<li><p>Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position.
+(This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)</p></li>
+</ol>
+</li>
+<li><p>Initiate Square Wave:</p>
+<ol class="lowerroman simple">
+<li><p>Verify transient rod is at 0% position.</p></li>
+<li><p>Check rod at low limit, turn air pressure off.</p></li>
+<li><p>Withdraw drive cylinder to position determined in 3.a.ii above.</p></li>
+<li><p>Check power &lt;1kW. Place in manual mode.</p></li>
+<li><p>Set Demand Power thumbwheels to desired SS power.</p></li>
+<li><p>Press Square Wave Switch. Verify SQUARE WAVE light illuminates and console system mode is SQUARE WAVE READY.</p></li>
+<li><p>Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds.
+System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)</p></li>
+<li><p>Adjust transient rod height as necessary to limit REG rod withdraw due to temperature coefficient effects.</p></li>
+<li><p>When power has stabilized, bank rods for BEST performance.</p></li>
+<li><p>Take log (F2).</p></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>Pulse Mode: (Refer to Chapter 6 of Control Console Operator’s Manual)</p>
+<ol class="loweralpha">
+<li><p>Sequences for the pulse mode operation use TR positions that create a positive reactivity insertion as the rod moves from a set position X to 100% WITHDRAWN.
+The motion of the control rod will thus cover the full range from 0% to 100%. At the time of actuation of the fire button, the core will be sub-critical by at least one dollar.
+Performance following this insertion will be expected to produce a 100% output within 10 milliseconds.
+iv.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
+v.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
+vi.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
+vii. Verify SURV 7 annual comparison pulse is current.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Example: You want to perform a $2.00 pulse. Total rod worth for the TR is 358.077,
+358.077 (Trw) - 2.00 (Prw) = 158.077 (Initial rw TR).
+Using the rod worth curve this value is equal to a TR height of 410 units.
+For the 50W power level, we would then place TR at 410 and bring the remaining rods to the bank height required to obtain 50W.</p>
+</div>
+</li>
+<li><p>Obtain steady state power, 50W is typical. (&lt; 1kW):</p>
+<ol class="lowerroman simple">
+<li><p>Withdraw Transient rod to the position calculated in step 4.a.iii above.</p></li>
+<li><p>Withdraw REG rod to approximately 50% withdrawn position.</p></li>
+<li><p>Withdraw shim 1 and shim 2 in alternating 50 units or less increments.</p></li>
+<li><p>Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.</p></li>
+<li><p>Adjust REG, shim 1 and shim 2 rods alternately to maintain period.</p></li>
+<li><p>Stabilize power and bank REG, shim 1 and shim 2 rods.</p></li>
+</ol>
+</li>
+<li><p>Initiate Pulse Mode:</p>
+<ol class="lowerroman simple">
+<li><p>Insert TR to 0% position.</p></li>
+<li><p>Check TR at low limit, turn air pressure off by pressing yellow air light.</p></li>
+<li><p>Withdraw TR drive cylinder to 100% position (960).</p></li>
+<li><p>Check power &lt; 1 kW, dpm &lt; +1.</p></li>
+<li><p>Press Pulse Mode switch. Verify pulse light illuminates.</p></li>
+<li><p>Enter record information for pulse data.</p></li>
+<li><p>Verify mode is pulse ready.</p></li>
+<li><p>Press Fire switch.</p></li>
+<li><p>System will switch to SCRAM mode at conclusion of pulse to display the pulse data.</p></li>
+<li><p>Refer to B.1 to return to manual operation. Verify pulse bypass functions are reset to non-pulse conditions:</p>
+<ol class="loweralpha simple">
+<li><p>Perform SCRAM test on console for Percent 1 and Percent 2 to test reset of bypass relay and reset of gain relay.
+Observe decay of pulse power to ensure NM1000 power signal output is functioning.</p></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section id="c-reactor-shutdown">
+<h3>C. Reactor Shutdown<a class="headerlink" href="#c-reactor-shutdown" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Normal shutdown:</p>
+<ol class="loweralpha simple">
+<li><p>There are three options:</p>
+<ol class="arabic simple">
+<li><p>Switch to Manual Mode and insert each rod individually.</p></li>
+<li><p>Switch to Manual Mode and insert all rods simultaneously.</p></li>
+<li><p>Manual SCRAM reactor.</p></li>
+</ol>
+</li>
+<li><p>Ensure all rod drives and control rods are in the down position.</p></li>
+<li><p>Turn MAGNETIC POWER key switch from ON to OFF.</p></li>
+<li><p>Perform operator log off function to set mode from steady state to scram.</p></li>
+<li><p>Remove key from console.</p></li>
+</ol>
+</li>
+<li><p>Abnormal shutdown:</p>
+<ol class="loweralpha simple">
+<li><p>Press SCRAM button for exit from any mode. It is an immediate shutdown for a response to an abnormal condition or a severe emergency.</p></li>
+<li><p>Record all abnormal conditions in the log and all automatic SCRAMs in the SCRAM log.</p></li>
+<li><p>Types of automatic SCRAMs:</p>
+<ol class="arabic simple">
+<li><p>Limiting Safety System Settings (LSSS):
+- Fuel temperature (#1, #2)
+- Percent power (#1, #2)
+- Linear power (NM1000)</p></li>
+<li><p>JCS Operable (ICSO):
+- HV (#1, #2, NM1000)
+- Pool level (1 of 2)
+- External (1 of 2 if in use)
+- WD (CSC, DAC)
+- Other (program conditions)</p></li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section id="oper-4-operation-of-reactor-water-systems">
+<h2>OPER-4 Operation of Reactor Water Systems<a class="headerlink" href="#oper-4-operation-of-reactor-water-systems" title="Link to this heading"></a></h2>
+<section id="id10">
+<h3>I. Introduction<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<section id="id11">
+<h4>A. Purpose<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
+<p>This procedure details the steps for operation, startup, and shutdown of the reactor water systems.</p>
+</section>
+<section id="id12">
+<h4>B. Description<a class="headerlink" href="#id12" title="Link to this heading"></a></h4>
+<p>The reactor water system is composed of the reactor pool and two water process systems.
+The pool structure contains water that moderates the neutron energy spectrum, cools the fuel in the reactor core, and provides radiation shielding. Pool water level sensors provide detection of water loss conditions.</p>
+<p>Pool water purity is maintained by operation of the purification system.
+A pump, pool suction, pool skimmer, pool return, piping, valves, filter, resin tank with resin, flow meter, and instrumentation comprise the purification system.
+At a normal flow of 6 to 10 gallons per minute, the approximately 10,500-gallon volume of the pool flows through the system once every 18 to 29 hours.
+Sensors in the purification piping monitor water conductivity.</p>
+<p>Bulk pool water temperature is controlled by operation of the coolant system when the reactor is operated at power levels above 100 Kilowatt and/or for extended periods of time.
+A central chilling station at the university site provides the cooling heat sink.
+Water pressure control prevents water system leakage from the primary pool water to the secondary chilling water.
+An alarm annunciates loss of differential pressure control at the heat exchanger.</p>
+</section>
+<section id="id13">
+<h4>C. Schedule<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<p>Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.</p>
+</section>
+<section id="id14">
+<h4>D. Contents<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>General Requirements</p></li>
+<li><p>Pool Purification System Operation</p></li>
+<li><p>Pool Coolant System Operation</p></li>
+</ul>
+</section>
+<section id="id15">
+<h4>E. Attachments<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+</section>
+<section id="id16">
+<h4>F. Equipment, Materials<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Pool water tank and piping.</p></li>
+<li><p>Pool water purification system.</p></li>
+<li><p>Pool water coolant system.</p></li>
+</ol>
+</section>
+<section id="id17">
+<h4>G. References, Other Procedures<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Startup Checklist</p></li>
+<li><p>Docket 50-602 SAR</p></li>
+<li><p>SURV-4, Reactor Water System</p></li>
+</ol>
+</section>
+</section>
+<section id="id18">
+<h3>II. PROCEDURE<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<section id="a-general-requirements">
+<h4>A. General Requirements<a class="headerlink" href="#a-general-requirements" title="Link to this heading"></a></h4>
+<ol class="arabic">
+<li><p>Check pool water level each time the water system status changes.
+Status changes are startup or shutdown of the purification or coolant system.
+Normal pool water level is 8.10 ± 0.05 meters.
+(Measure pool level relative to the bottom of the reactor tank.)</p></li>
+<li><p>Monitor pool level by continual or intermittent (daily) observation.</p>
+<p>a. A pool level monitor provides monitoring of hi or lo conditions.
+Alarm levels are hi (+5 cm) and lo (-5 cm) relative to the 8.10-meter level.</p>
+<p>b. Siphon breaks are present on the purification and coolant system pipes.
+Siphon break levels are at pool levels of 7.6 meters or above.</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Make visual observations of pool level at least twice each day:</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>If the pool level monitor is not functioning and;</p></li>
+<li><p>A system without siphon breaks can cause a siphon action, or</p></li>
+<li><p>A system without siphon breaks extends below the siphon break level.</p></li>
+</ol>
+</li>
+<li><p>Replace pool water evaporation losses with makeup supply de-ionized water.
+Follow makeup water instructions in surveillance procedures (refer to SURV-4).
+Review makeup water volume each month.
+Abnormal water loss may be an indication of a leak.</p></li>
+<li><p>Operate the pool purification system per instructions in Section B.
+Purification system should maintain pool conductivity less than 2 µmho/cm.
+Pool conductivity limit is 5 µmho/cm (monthly average).</p>
+<ol class="loweralpha simple">
+<li><p>The purification system should be operated continuously but it is not a requirement for reactor operation.</p></li>
+</ol>
+<p>b. If purification system is operating:
+A reactor operator presence in the facility is <em>not</em> a requirement.</p>
+</li>
+<li><p>Operate the pool coolant system per instructions in Section C.
+Coolant system should maintain pool temperature less than 38°C (100°F).
+Pool temperature maximum limit is 48°C (118°F). No minimum limit has been set.</p>
+<p>a. Coolant system operation is not a requirement for reactor operation.
+It should be operated at reactor power levels above 100 kW except for power calibrations.</p>
+<p>b. If the coolant system is operating:
+A reactor operator should be present at the facility.
+A reactor operator should periodically check system conditions.</p>
+</li>
+<li><p>Monitor performance of pool purification and coolant water systems.</p>
+<ol class="loweralpha simple">
+<li><p>Refer to instructions in Attachment for response to abnormal conditions.</p></li>
+</ol>
+<p>b. Determine the cause for abnormal condition.
+Implement corrective actions if conditions affect system performance, or
+Implement maintenance actions if conditions affect system performance.</p>
+<ol class="loweralpha simple" start="3">
+<li><p>Report abnormal conditions to a supervisory reactor operator (SRO).</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="b-pool-purification-system">
+<h4>B. Pool Purification System<a class="headerlink" href="#b-pool-purification-system" title="Link to this heading"></a></h4>
+<ol class="arabic">
+<li><p>Operation:</p>
+<p>a. Operate the purification system to maintain pool water purity.
+Operate system continuously except for maintenance or special conditions.
+Pool water pH should be neutral (5 &lt; pH &lt; 9).
+Conductivity should be &lt; 2 µmho/cm (&gt; 0.5 megohm-cm).
+Conductivity limit for any condition is 5 µmho/cm (0.2 megohm-cm).</p>
+<p>b. Operate pool water surface skimmer to control floating particulate deposits.
+Pool subsurface intake may bypass the skimmer for special applications.
+Operation of the pool skimmer as a normal operating condition is preferable.</p>
+<p>c. Review purification system function each day the reactor operates.
+Observe water flow rate, conductivity, and pressure.</p>
+</li>
+<li><p>Startup:</p>
+<p>a. Verify valve alignment at purification skid:
+Pool supply valve is OPEN,
+Pool return valve is OPEN,
+Both resin sluice valves are CLOSED.</p>
+<p>b. OPEN skimmer suction valve or subsurface suction valve.
+OPEN the discharge isolation valve at pool surface (1 1/2 inch PVC valves).</p>
+<ol class="loweralpha simple" start="3">
+<li><p>STARTUP purification pump and check pump mechanical seal for leakage.</p></li>
+</ol>
+<p>d. Adjust flow control valve at purification skid for water flow-rate.
+Flow rate should be 22-38 lpm (6-10 gpm).</p>
+<p>e. Check flow pressure drop across line filter, for pressure difference.
+Pressure should be 84-168 kpa (12-24 psi).
+Schedule filter replacement if pressure drop &gt; 168 kpa.</p>
+<ol class="loweralpha simple" start="6">
+<li><p>Verify inlet and outlet conductivity is less than 2 µmho/cm.</p></li>
+</ol>
+<p>g. Observe water conductivity difference.
+Measure difference between supply water to resin and return water to pool.</p>
+<ol class="loweralpha simple" start="8">
+<li><p>Check purification system for leaks.</p></li>
+</ol>
+</li>
+<li><p>Shutdown:</p>
+<ol class="loweralpha simple">
+<li><p>SHUTDOWN purification pump and check flow indication goes to zero.</p></li>
+<li><p>CLOSE suction, skimmer and subsurface, isolation valves at pool surface.</p></li>
+<li><p>CLOSE the discharge isolation valve at pool surface.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="c-pool-coolant-system">
+<h4>C. Pool Coolant System<a class="headerlink" href="#c-pool-coolant-system" title="Link to this heading"></a></h4>
+<ol class="arabic">
+<li><p>Operation:</p>
+<p>a. Operate the coolant system to maintain bulk pool temperature.
+Operate system at reactor power levels that exceed 100 kW.
+Pool temperature limit for any condition is 118°F (48°C).</p>
+<p>b. Control reactor core thermal convection with pool discharge diffuser.
+Thermal convection determines Nitrogen-16 activities at pool surface.</p>
+<p>c. Review coolant system function during each operation.
+Observe coolant system flow rates, temperature, and pressure.
+Observe differential pressure between primary (outlet) and secondary (inlet).</p>
+</li>
+<li><p>Startup:</p>
+<p>a. OPEN pool suction and discharge valves (4” SS) at pool surface.
+OPEN the pool diffuser isolation valve (2 1/2” SS) at pool surface.
+Valves alignment should be as follows for proper mixing:</p>
+<ol class="lowerroman simple">
+<li><p>Discharge valve position should be 7/8 open.</p></li>
+<li><p>Diffuser valve position should be full open.</p></li>
+</ol>
+<p>b. OPEN the chill water return isolation valve from heat exchanger.
+OPEN the chill water supply isolation valve to heat exchanger.</p>
+<p>c. Verify differential pressure provides alarm indication at &lt; 1 psi (7 kpa).
+Perform the following steps to verify:</p>
+<ol class="lowerroman simple">
+<li><p>CLOSE ¼-inch valve to high side of DP monitor.</p></li>
+<li><p>OPEN ¼-inch vent valve on high side of DP monitor.</p></li>
+<li><p>Observe pressure decreasing below 1 psi (7 kpa).</p></li>
+</ol>
+<p>Verify pneumatic valve closing operation (audible &amp; visual).
+Verify “HX delta P” alarm on CSC is actuated and clears.
+Return ¼” isolation and vent valve to original positions.</p>
+<p>d. OPEN or check OPEN pool water heat exchanger outlet valve.
+OPEN or check OPEN pool water pump suction and discharge valves.</p>
+<ol class="loweralpha simple" start="5">
+<li><p>STARTUP heat exchanger chill water pump.</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>Check mechanical seal for leakage.</p></li>
+<li><p>Verify normal flow rate of ≈570 gpm (≈1930 lpm).</p></li>
+<li><p>Confirm chill water supply temperature is approximately 45F (7C).</p></li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>If pool temperature is at the control set point temperature,
+chill water circulation may be at or near ambient system temperature.</p>
+</div>
+<ol class="loweralpha simple" start="6">
+<li><p>STARTUP heat exchanger pool water pump.</p></li>
+</ol>
+<ol class="lowerroman simple">
+<li><p>Check mechanical seal for leakage.</p></li>
+<li><p>Verify normal flow rate of 85-95% flow.</p></li>
+</ol>
+<ol class="loweralpha simple" start="7">
+<li><p>Verify differential pressure indicates nominal value of &gt;5 psi (35 kpa).</p></li>
+<li><p>Observe and record other system instrumentation values.</p></li>
+</ol>
+</li>
+<li><p>Shutdown:</p>
+<ol class="loweralpha simple">
+<li><p>SHUTDOWN chill water pump.</p></li>
+<li><p>Wait for pool water inlet and outlet temperatures to approximately equalize if system not yet near control set point.</p></li>
+</ol>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Closing isolation valves creating a cold dead leg can result in a large pressure increase as the system warms to room temperature.</p>
+</div>
+<ol class="loweralpha simple" start="3">
+<li><p>SHUTDOWN pool water pump.</p></li>
+<li><p>CLOSE chill water supply isolation valve at the heat exchanger.</p></li>
+<li><p>CLOSE chill water return isolation valve at the heat exchanger.</p></li>
+<li><p>CLOSE suction valve at pool surface.</p></li>
+<li><p>CLOSE pool discharge and CLOSE pool diffuser valves at pool surface.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section id="abnormal-conditions">
+<h3>ABNORMAL CONDITIONS<a class="headerlink" href="#abnormal-conditions" title="Link to this heading"></a></h3>
+<section id="a-general-system">
+<h4>A. General System<a class="headerlink" href="#a-general-system" title="Link to this heading"></a></h4>
+<p><strong>Abnormal Pool Level</strong></p>
+<ol class="arabic">
+<li><p><em>Low Level</em> – Check the following areas for evidence of leakage (Notify SRO):
+(If an unfound leak is possible, inspect logs and records for trends.)</p>
+<ol class="loweralpha simple">
+<li><p>Pool Liner</p></li>
+</ol>
+<ul class="simple">
+<li><p>Check pool system structure, estimate loss rate.</p></li>
+</ul>
+<ol class="loweralpha simple" start="2">
+<li><p>Beam Ports, if leak observed:</p></li>
+</ol>
+<ul class="simple">
+<li><p>Secure covers with gaskets,
+close shutter control valve,
+close beam port argon purge valve.</p></li>
+</ul>
+<ol class="loweralpha simple" start="3">
+<li><p>Purification Pump, Coolant (Heat Exchanger) Pumps, or Piping</p></li>
+</ol>
+<ul class="simple">
+<li><p>If leak is observed stop system operation,
+close all effected system isolation valves,
+drain pool water from leaking pipes and return to pool.</p></li>
+</ul>
+<ol class="loweralpha simple" start="4">
+<li><p>Experiment Systems</p></li>
+</ol>
+<ul class="simple">
+<li><p>Remove and repair.</p></li>
+</ul>
+</li>
+<li><p><em>High Level</em> – Check for the following causes (Notify SRO):
+(Check pool level equipment for damage.)</p>
+<ol class="loweralpha simple">
+<li><p>Makeup Overfill</p></li>
+</ol>
+<ul class="simple">
+<li><p>Lower water level to normal level.
+Normal level is 8.10 ± 0.05 meters.
+Transfer excess water to suitable temporary storage.</p></li>
+</ul>
+<ol class="loweralpha simple" start="2">
+<li><p>Coolant/Purification System</p></li>
+</ol>
+<ul>
+<li><p>Heat exchanger secondary to primary leak</p></li>
+<li><p>Secure pool coolant system:</p>
+<p>Close pool isolation valves,
+Close heat exchanger isolation valves,
+Check for change of pool water conductivity,
+Check heat exchanger system operation,
+Correct pool level to normal level.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p><strong>Purification, Coolant, or Pool System Leaks</strong></p>
+<ol class="arabic">
+<li><p>Identify whether the leak rate is observable directly or indirectly.
+Directly observable leaks are drip or stream flows, or obvious instrument changes.
+Indirect leaks (very small leaks) are slow drips, wet or damp areas.
+Indirect leaks include losses found by calculation or evaluation of records.
+Notify the SRO.</p></li>
+<li><p>Determine whether the leakage is in the purification or coolant system.
+If not, is the leak a pool structure leak?</p></li>
+<li><p>Identify whether the leakage is pool water or chilled water.</p></li>
+<li><p>Shutdown purification or coolant system operation if substantial leak rate occurs.
+Substantial amount is a rate in excess of a few drips per minute.</p>
+<p>If the leak can’t be isolated, it is continuing, and the outlook for immediate leak containment is not promising,
+then shutdown of the reactor may be required.
+An SRO should evaluate and determine the requirement(s) for reactor shutdown.</p>
+</li>
+<li><p>Close isolation valves at pool surface.</p></li>
+<li><p>Drain piping system into suitable container for storage.
+If possible, store or return piping water to the pool.</p></li>
+<li><p>Repair leak with acceptable materials, sealants or replacement components.</p></li>
+<li><p>Review emergency plan.
+Determine if leak condition is an emergency classification.</p></li>
+</ol>
+</section>
+<section id="b-purification-system">
+<h4>B. Purification System<a class="headerlink" href="#b-purification-system" title="Link to this heading"></a></h4>
+<p>SRO shall evaluate action(s) necessary to maintain water quality.
+Actions must assure a monthly average conductivity less than 5 µmho per cm.
+SRO shall determine the requirement(s) for reactor shutdown.</p>
+<ol class="arabic simple">
+<li><p><em>Low flow-rate</em>
+a. Check pump operation and valve alignments, adjust flow control valve.
+b. Check filter differential pressure,
+if greater than 168 kpa (24 psi) schedule filter replacement.</p></li>
+<li><p><em>High flow-rate</em>
+a. Check pump operation and valve alignment.
+b. Adjust flow control valve for flow of 22–38 lpm (6–10 gpm).</p></li>
+<li><p><em>High conductivity at one or both conductivity cells, or nearly equivalent high conductivity at both cells</em>
+a. Check records for slow conductivity increase indicating depletion of resin.
+b. Check conductivity cell calibration.
+c. Change resin and evaluate new resin performance.</p></li>
+<li><p><em>Sudden conductivity change</em>
+a. Review recent operation and activities in pool.
+b. Check conductivity cell calibration,
+or perform independent conductivity measurement.</p></li>
+</ol>
+</section>
+<section id="c-coolant-system">
+<h4>C. Coolant System<a class="headerlink" href="#c-coolant-system" title="Link to this heading"></a></h4>
+<p>Loss of coolant system at full power may require shutdown within an hour.
+SRO shall determine requirement for reactor shutdown.</p>
+<ol class="arabic simple">
+<li><p><em>Loss of differential pressure control:</em>
+a. Inspect system operation for cause.
+b. Alarm status if: Δp &lt; 7 kpad (Δp &lt; 1 psid)
+Requires shutdown of coolant system or corrective action in progress, unless the event is a single, infrequent transient indication.
+c. Alarm status if: 14 ≤ Δp ≤ 35 kpad (2 ≤ Δp ≤ 5 psid)
+Cooling system may continue operation,
+if fault is the measurement system and periodic checks (4/hr) are made to verify system pressures.
+Initiate check of functional performance,
+Check for faulty equipment prior to next system operation.</p></li>
+<li><p><em>Loss of operation heat sink control</em>
+a. Check blending station alignment,
+Observe nominal operating values,
+Check central chilling station status.
+b. High temperature &gt; 40°C (104°F)
+Monitor pool bulk temperature,
+Determine operation status of reactor.</p></li>
+<li><p><em>Loss of primary flow</em>
+Shutdown coolant system operation until flow rate can be restored.</p></li>
+<li><p><em>Loss of secondary flow</em>
+Shutdown coolant system operation until flow rate can be restored.</p></li>
+</ol>
+</section>
+<section id="d-radioactivity-release-to-water">
+<h4>D. Radioactivity Release to Water<a class="headerlink" href="#d-radioactivity-release-to-water" title="Link to this heading"></a></h4>
+<p>Identify release type according to the following guidelines:
+Notify SRO. Notify HP if abnormal radioactivity level is detectable.</p>
+<ol class="arabic">
+<li><p><em>Immediate – observable event</em>
+⇒ Breakage of a material containment
+⇒ Accidental drop of an object into the pool</p>
+<p>Any material or object that drops into the pool is an uncontrollable event;
+(Requires immediate action) Notify supervisory operator and:</p>
+<p>a. Shutdown reactor operation if
+object rests on the core grid structure,
+or object rests on the control rod devices.
+b. Observe location to allow effective removal,
+and schedule removal of the material as soon as practical.
+c. Identify material as solid or dispersible such as liquid or powder.
+d. Consider possible corrosion impact if material may chemically react with:
+Aluminum, stainless steel or other reactor system materials.</p>
+</li>
+<li><p><em>Unknown – discovery of unusual radiation levels:</em>
+⇒ High radiation level at pool area monitor from unknown cause
+(reactor on, &gt; 20mr/hr, reactor off &gt; 1 mr/hr)
+⇒ High radiation level in water treatment area from unknown cause
+(portable survey &gt; 2mr/hr at door)</p>
+<p>Shutdown reactor operation if there is observation of:</p>
+<ul class="simple">
+<li><p>An unknown radiation level in the immediate area of the pool.</p></li>
+<li><p>An unknown radiation level in the water treatment areas.</p></li>
+</ul>
+<p>a. Shutdown operation of purification and coolant systems.
+Close all pool isolation valves.
+b. Review radiation levels.
+Observe the particulate air monitor and gaseous argon-41 monitor.
+c. Notify supervisory reactor operator (SRO) and health physicist (HP).
+SRO or HP will evaluate radiation source.
+d. Control access to all pool water system areas.
+Maintain control until protective action and/or corrective actions are taken.</p>
+</li>
+<li><p><em>Persistent – indication of radioactivity release:</em>
+⇒ Fuel element failure,
+⇒ Neutron startup source failure,
+⇒ Failure of experiment or experiment facility,
+⇒ Other source failures in the pool, such as the gamma irradiator.
+⇒ Requires shutdown of the reactor if fission products are detectable.
+SRO shall determine the requirement(s) for reactor shutdown.</p>
+<p>Determine the cause of possible persistent radioactive releases.
+Measure sample volume of the pool water for radioactivity.</p>
+<ol class="loweralpha simple">
+<li><p>Take a 500 ml sample, allow for N16 decay then measure contact dose.</p></li>
+<li><p>Shutdown reactor, pool coolant and pool purification system; if the sample contact dose exceeds 0.5 mr/hr or 20,000 dpm.</p></li>
+<li><p>Perform alpha/beta and/or gamma spectroscopy analysis. Identify source element (isotope) of water radioactivity. If fission products identified declare Emergency per PLAN-E.</p></li>
+<li><p>Perform radiation survey. Survey areas include pool access area, water treatment room, and Piping systems adjacent to the pool structure stairway. Dose rates at the resin tank and heat exchanger are of particular concern.</p></li>
+<li><p>Restart of the water systems requires approval by SRO.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="oper-5-air-confinement-system-operation">
+<h2>OPER-5 Air Confinement System Operation<a class="headerlink" href="#oper-5-air-confinement-system-operation" title="Link to this heading"></a></h2>
+<section id="id19">
+<h3>I. INTRODUCTION<a class="headerlink" href="#id19" title="Link to this heading"></a></h3>
+<section id="id20">
+<h4>A. Purpose<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<p>This procedure details the steps for operation, mode change, startup, shutdown, and response to abnormal conditions for the air confinement system.</p>
+</section>
+<section id="id21">
+<h4>B. Description<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<p>The air confinement system is composed of the room enclosing the reactor and two air ventilation systems. The reactor room walls, weather-stripping at doorways and the ventilation ducts confine the airflow pathway through the reactor bay.</p>
+<p>The main HVAC system is composed of fans, ducts, heating-cooling coils, and environmental controls for temperature and humidity of room air. The system also maintains a negative pressure in the reactor bay with respect to adjacent spaces for leakage path control. Isolation dampers are installed in all ducts entering and exiting the reactor bay. Isolation dampers close automatically if the particulate air monitor senses a high airborne radiation level. Operation of the system is in either the re-circulation mode for economy or in the intake-exhaust mode providing at least two fresh air changes per hour for reducing the buildup of radioactive gases during reactor operation.</p>
+<p>The argon purge system is a separate exhaust system that can be operated to reduce the quantity of radioactivity released to the bulk air in the reactor bay. The system draws air directly from the reactor pool surface and from experimental cavities. This air is then exhausted through a high efficiency particulate air (HEPA) filter to the exterior of the building. An Argon-41 monitor samples, displays, and records the radioactivity levels of the argon purge system exhaust.</p>
+<p>Visual, audible and remote alarms indicate abnormal levels of radioactivity in either the particulate air monitor or gaseous argon-41 monitor. The particulate air monitor provides the signal, to stop ventilation fans and close isolation dampers.</p>
+<p>A fume-sort hood for radioactive sample handling with HEPA filter and isolation damper can also exhaust air from the reactor bay. Configuration of the fume-sort hood is not complete for experimental use. The system has been designed and tested to meet the general requirements of the reactor bay ventilation system. Operation procedures of the fume-sort hood in SURV-5 are for test and demonstration only. Detailed operation procedures and an RWP will be developed prior to its use.</p>
+</section>
+<section id="id22">
+<h4>C. Schedule<a class="headerlink" href="#id22" title="Link to this heading"></a></h4>
+<p>Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.</p>
+</section>
+<section id="id23">
+<h4>D. Contents<a class="headerlink" href="#id23" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Air Confinement System Procedure</p></li>
+<li><p>Reactor Room HVAC System</p></li>
+<li><p>Argon Purge System</p></li>
+<li><p>Fume-Sort Hood</p></li>
+</ul>
+</section>
+<section id="id24">
+<h4>E. Attachments<a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Abnormal Conditions (4 Pages)</p></li>
+</ul>
+</section>
+<section id="id25">
+<h4>F. Equipment, Materials<a class="headerlink" href="#id25" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Room 1.104 Air Confinement Area</p></li>
+<li><p>Main airflow HVAC system</p></li>
+<li><p>Purge ventilation system</p></li>
+<li><p>Fume-Sort Hood</p></li>
+</ol>
+</section>
+<section id="id26">
+<h4>G. References, Other Procedures<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Docket 50-602 SAR</p></li>
+<li><p>Startup Checklist</p></li>
+<li><p>SURV-5 Air Confinement System</p></li>
+<li><p>Fume-Sort Hood Procedure (Future Use)</p></li>
+</ol>
+</section>
+</section>
+<section id="id27">
+<h3>II. PROCEDURE<a class="headerlink" href="#id27" title="Link to this heading"></a></h3>
+<section id="id28">
+<h4>A. General Requirements<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Verify reactor room confinement CAMs are operating.
+The CAMs are the particulate monitor and Ar<sup>41</sup> gaseous activity monitor.</p></li>
+<li><p>Verify HVAC automatic isolation feature is functional.
+Use record of most recent function check during the last system surveillance.</p></li>
+<li><p>Operate the HVAC system in the REACTOR ON or OFF mode.
+Refer to Reactor Room HVAC procedures (Section B).
+HVAC operation controls room air dilution rates and effluent radioactivity.
+HVAC system operation in REACTOR OFF mode re-circulates reactor bay air,
+REACTOR ON mode operation exhausts reactor bay air and supplies fresh air.</p></li>
+<li><p>Operate the Argon Purge system.
+Refer to Argon Purge System procedures (Section C).
+Purge system exhausts Ar<sup>41</sup> effluent from reactor areas.
+Ar<sup>41</sup> production occurs in air that is found in the areas of the reactor core.
+Two production sources are air in the reactor water and air in experiment facilities.</p></li>
+<li><p>Monitor operating confinement system’s performance.
+Refer to instructions in Attachment for response to abnormal conditions.
+Determine the cause of each abnormal condition.
+Implement corrective or maintenance actions for conditions.
+Abnormal conditions that substantially affect system performance are of two types:
+a. One type affects the air confinement isolation function of the system.
+b. The other type affects control of room pressure differences (&gt; 0.04 inches). Measure pressure difference between the reactor room and adjacent areas.
+Report abnormal conditions to a supervisory operator.</p></li>
+<li><p>Do NOT operate Fume-Sort Hood system without an experiment approval.
+Operate Fume-sort hood according to experiment requirements and limitations.
+Refer to appropriate Procedures for the experiment. <em>(No Procedures currently exist.)</em></p></li>
+</ol>
+</section>
+<section id="b-reactor-room-hvac-system">
+<h4>B. Reactor Room HVAC System<a class="headerlink" href="#b-reactor-room-hvac-system" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Operation</p>
+<ol class="loweralpha simple">
+<li><p>Verify HVAC system is operable, refer to last monthly surveillance per SURV-5.
+i. Confinement isolation by an automatic trip signal shall be operable or corrective action being taken
+ii. Automatic trip of HVAC duct isolation dampers shall be operable or corrective action being taken
+iii. Automatic trip of HVAC fans shall be operable or corrective action being taken
+Particulate air monitor provides automatic trip signal (set point 10,000 cpm).
+Isolation may also be initiated by manual shutdown.</p></li>
+<li><p>Determine HVAC system mode required:
+Normal HVAC system mode is REACTOR ON if reactor is operating.
+HVAC system shall be in the REACTOR ON mode if the Argon purge system is OFF and the reactor is operating.
+The HVAC system may operate in the REACTOR OFF mode during reactor operation only if the argon purge system is operating, or corrective action is being taken.</p></li>
+<li><p>Operate HVAC system for confinement of room air.
+Control HVAC system operation from the Control Room Panel (CRP).</p></li>
+<li><p>Check readings on air particulate monitor.
+Mark reactor run #, date, startup, and shutdown times on chart record.</p></li>
+<li><p>Monitor system operation and room confinement control.
+Review status lights on the CRP for area differential pressures.
+Review status lights on the CRP for exhaust velocity of exhaust fans.</p></li>
+</ol>
+</li>
+<li><p>Mode Change - REACTOR OFF to ON</p>
+<ol class="loweralpha simple">
+<li><p>Turn REACTOR FAN SYSTEM switch to REACTOR ON</p></li>
+<li><p>Verify REACTOR MODE ON lamp illuminates</p></li>
+<li><p>Verify SUPPLY FAN ON and RETURN FAN ON lamps illuminate</p></li>
+<li><p>Verify ROOM EXHAUST VELOCITY status lamp is green</p></li>
+<li><p>Check NORMAL status on all area pressure monitors</p></li>
+</ol>
+</li>
+<li><p>Mode Change - REACTOR ON to OFF</p>
+<ol class="loweralpha simple">
+<li><p>Turn REACTOR FAN SYSTEM switch to REACTOR OFF</p></li>
+<li><p>Verify REACTOR MODE OFF lamp illuminates</p></li>
+<li><p>Verify SUPPLY FAN ON and RETURN FAN ON lamps extinguish</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="c-argon-purge-system">
+<h4>C. Argon Purge System<a class="headerlink" href="#c-argon-purge-system" title="Link to this heading"></a></h4>
+<ol class="arabic">
+<li><p>Operation</p>
+<ol class="loweralpha simple">
+<li><p>Verify Ar<sup>41</sup> purge system is operable, refer to last monthly surveillance per SURV-5.
+i. HEPA filter must be in place and operable or corrective action being taken
+ii. Automatic trip of Ar<sup>41</sup> purge system isolation dampers shall be operable or corrective action being taken</p></li>
+<li><p>Startup Argon Purge System to control the room Ar<sup>41</sup> activity.
+Normal Argon Purge System mode is ON if reactor is operating.
+Argon Purge System must operate or corrective action in progress if:
+- the reactor is operating and
+- the HVAC system is not in the REACTOR ON mode
+Release of the inert gas occurs by diffusion from the pool water and core cavities.
+Annual continuous Ar<sup>41</sup> average release limit is 2E-6 µCi/cm³
+Equivalent to ≈540 cpm on Ar<sup>41</sup> CAM
+Maintain release records for total periodic release calculation.</p></li>
+<li><p>Check alignment of two pneumatic controlled Ar<sup>41</sup> exhaust valves.
+- Valves control POOL SURFACE PURGE and BEAM PORT PURGE
+- Manual air dilution valve provides dilution of the purge exhaust air. Valve normal position is fully open for 100% dilution of humid pool surface air. This reduces air humidity before HEPA filter.</p></li>
+<li><p>Check readings on Ar<sup>41</sup> monitor at startup and shutdown
+Mark reactor run #, date, startup, and shutdown times on chart record</p></li>
+<li><p>Monitor system operation by reviewing status lights and radioactivity levels</p></li>
+</ol>
+</li>
+<li><p>Startup</p>
+<ol class="loweralpha simple">
+<li><p>Align manual valve on beam port purge manifold as required</p></li>
+<li><p>Turn ARGON PURGE FAN switch to ON position</p></li>
+<li><p>Verify PURGE FAN ON lamp illuminates</p></li>
+<li><p>Turn POOL SURFACE PURGE valve control switch to ON position</p></li>
+<li><p>Turn BEAMPORT PURGE valve control switch to ON position</p></li>
+<li><p>Verify PURGE EXHAUST VELOCITY status lamp is green</p></li>
+<li><p>Verify PURGE PREFILTER and PURGE HEPA NORMAL DP status are green</p></li>
+</ol>
+</li>
+<li><p>Emergency Operation of Argon Purge Only</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>OPERATION IN THIS MODE REQUIRES SRO AND RADIATION SAFETY OFFICER APPROVAL
+IF A FISSION PRODUCT RELEASE HAS OCCURRED</p>
+</div>
+<ol class="loweralpha simple">
+<li><p>Turn HVAC CONTROL switch in CRP from ON to OFF/ISOLATE</p></li>
+<li><p>HVAC DAMPERS AND FANS switch on CRP must be in OPERATE, EMERGENCY ISOLATE not activated</p></li>
+<li><p>Press and momentarily hold ISOLATION RESET button in CRP</p></li>
+<li><p>Verify or set ARGON PURGE FAN switch ON — only the Argon Purge fan will operate</p></li>
+<li><p>Secure Argon Purge by turning ARGON PURGE FAN switch OFF</p></li>
+<li><p>Return HVAC CONTROL switch in CRP to ON</p></li>
+</ol>
+</li>
+<li><p>Shutdown</p>
+<ol class="loweralpha simple">
+<li><p>Turn ARGON PURGE FAN switch to OFF</p></li>
+<li><p>Verify PURGE FAN ON lamp extinguishes</p></li>
+<li><p>Turn POOL SURFACE PURGE valve control switch to OFF position</p></li>
+<li><p>Turn BEAM PORT PURGE valve control switch to OFF position</p></li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+<section id="id29">
+<h3>ABNORMAL CONDITIONS<a class="headerlink" href="#id29" title="Link to this heading"></a></h3>
+<section id="a-airborne-radioactivity">
+<h4>A. Airborne radioactivity<a class="headerlink" href="#a-airborne-radioactivity" title="Link to this heading"></a></h4>
+<p><strong>Alert airborne radioactivity level:</strong></p>
+<p>The alert condition does not require an operator action.
+Actuation of the alert condition may provide an indication of system function.
+Alert levels are a warning of a potential for excessive occupational concentrations.</p>
+<ul class="simple">
+<li><p>≥ 4000 cpm air particulate monitor
+<em>May occur from natural causes</em></p></li>
+<li><p>≥ 2000 cpm argon-41 gaseous monitor
+<em>Normally occurs above 100 kilowatts</em></p></li>
+</ul>
+<p><strong>High airborne radioactivity level</strong></p>
+<p>This condition requires automatic and other operator actions.
+Evaluation of sources and levels are necessary to quantify any effluent releases.</p>
+<ul class="simple">
+<li><p>≥ 10,000 cpm air particulate monitor
+<em>Reactor activation product</em>
+<em>Fission product decay product</em></p></li>
+<li><p>≥ 10,000 cpm argon-41 gaseous monitor
+<em>Excessive argon-41 release</em>
+<em>Fission product gas release</em></p></li>
+</ul>
+<ol class="arabic">
+<li><p>Perform emergency shutdown of HVAC System:</p>
+<ol class="loweralpha simple">
+<li><p>Move the HVAC ISOLATION switch to ISOLATE.</p></li>
+<li><p>Verify SUPPLY DAMPER indicates CLOSED.
+Verify RETURN DAMPER indicates CLOSED.</p></li>
+<li><p>Turn REACTOR FAN SYSTEM switch to REACTOR OFF.</p></li>
+<li><p>Verify SUPPLY FAN ON lamp extinguishes.
+Verify RETURN FAN ON lamp extinguishes.</p></li>
+</ol>
+</li>
+<li><p>Verify Argon Purge System is shutdown.
+Verify PURGE FAN ON lamp extinguished.</p></li>
+<li><p>Push the EMERGENCY ALARM switch on Control Room Panel (CRP).
+Switch initiates audible sound for evacuation of reactor room area.
+Room evacuation is a requirement if an airborne personnel hazard exists.</p></li>
+<li><p>Notify SRO and HP of airborne radioactivity conditions.</p></li>
+<li><p>SRO and/or HP determine whether to:</p>
+<ul class="simple">
+<li><p>Retrieve CAM filter(s) for verification of High Airborne condition, or</p></li>
+<li><p>Align Argon Purge System with portable line to sample room air on Ar⁴¹ CAM filter, and</p></li>
+<li><p>Replace filters on the accessed CAMs with new filters.</p></li>
+</ul>
+</li>
+<li><p>Do not restart HVAC system or Argon purge system.
+Evaluate airborne activity and isotopes by analysis of the CAM’s filter(s).
+Determine whether an airborne radioactivity emergency exists.
+If so, determine operation requirements and procedure requirements.</p></li>
+<li><p>Review emergency response plan.
+Determine if leak condition is an emergency classification in PLAN-E.
+Implement emergency response plan procedures, if applicable.</p>
+<ul class="simple">
+<li><p>In general, isolation of the room will be sufficient.</p></li>
+<li><p>Refer to PLAN-E and PLAN-O notification requirements.</p></li>
+</ul>
+</li>
+<li><p>Recovery from an unanticipated abnormal airborne radioactivity release and/or the controlled release of any abnormal airborne radioactivity requires two approvals:</p>
+<ul class="simple">
+<li><p>Supervisory Reactor Operator approval, and</p></li>
+<li><p>Radiation Safety Officer approval.</p></li>
+</ul>
+<p>Approvals exclude the normal effluent release of argon-41.
+Refer to Emergency operation of Argon Purge only if filtered exhaust is approved.
+Refer to surveillance procedure for HVAC system startup.
+Refer to SURV-5 to startup from ISOLATE condition.</p>
+</li>
+</ol>
+</section>
+<section id="b-hvac-system">
+<h4>B. HVAC System<a class="headerlink" href="#b-hvac-system" title="Link to this heading"></a></h4>
+<p>HVAC system failure does not require immediate reactor shutdown provided the
+Argon Purge System is operating or corrective action in progress.
+Room confinement dampers must be operational or corrective action in progress.
+Airborne particulate radioactivity concentrations must be within limits.
+(Limit is 2E-9 μCi/cm³ (≥10,000 cpm) on air particulate monitor in laboratory).</p>
+<ol class="arabic">
+<li><p>Intermittent abnormal pressure status may cause HVAC system Alarm.
+Press LOCAL ALARM SILENCE pushbutton to silence alarm.</p></li>
+<li><p>ROOM EXHAUST VELOCITY - <em>Yellow Status</em> -
+Open the control panel cover.
+Check HVAC STACK EXHAUST VELOCITY on manometer.</p>
+<p><strong>Normal indication:</strong> 1700 ± 200 fpm at pitot tube probe.
+Check for blockage or damage to pressure sensor lines.</p>
+</li>
+<li><p>Area HI or LO DP - <em>alarm status</em> -
+Check for open room doors.
+Open the control panel cover.
+Check area differential pressures on manometer.</p>
+<p><strong>Normal Pressure Differences:</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Area</p></th>
+<th class="head"><p>w.r.t Area</p></th>
+<th class="head"><p>Pressure (inches water)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Reactor Area</p></td>
+<td><p>Bldg. Exterior
+Bldg. Exterior</p></td>
+<td><p>-0.06 (Rx OFF MODE)
+-0.07 (Rx ON MODE)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Support Areas</p></td>
+<td><p>Reactor Area</p></td>
+<td><p>+0.07</p></td>
+</tr>
+<tr class="row-even"><td><p>Academic Areas</p></td>
+<td><p>Reactor Area</p></td>
+<td><p>+0.125</p></td>
+</tr>
+</tbody>
+</table>
+<p>Check for control system or component failures.</p>
+</li>
+<li><p>Contact University Physical Plant (PP).
+PP maintains and repairs building system fans and control equipment.</p></li>
+</ol>
+</section>
+<section id="id30">
+<h4>C. Argon Purge System<a class="headerlink" href="#id30" title="Link to this heading"></a></h4>
+<p>Argon Purge System failure requires operation of HVAC in reactor ON mode.
+Initiate measures to return Argon Purge System function to normal.</p>
+<ol class="arabic">
+<li><p>Press LOCAL ALARM SILENCE pushbutton to silence alarm.
+Pressure status may cause HVAC system Alarm.</p></li>
+<li><p>PURGE EXHAUST VELOCITY - <em>Yellow Status</em> -
+Open the control panel cover.
+Check ARGON PURGE EXHAUST VELOCITY on manometer.</p>
+<p><strong>Normal indication:</strong> 3800 ± 400 fpm at pitot tube probe.
+Check for blockage or damage to pressure sensor line.</p>
+</li>
+<li><p>PURGE PREFILTER or PURGE HEPA HI DP - <em>Yellow Status</em> -
+Check filter differential pressure manometers.
+Locate manometers at filter housing for filter media particulate clogging.</p>
+<p><strong>Nominal differential pressures (inches Water column):</strong></p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Filter</p></th>
+<th class="head"><p>Start of life</p></th>
+<th class="head"><p>End of life</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ol class="loweralpha simple">
+<li><p>Pre-filter 95%</p></li>
+</ol>
+</td>
+<td><p>clean: 0.45</p></td>
+<td><p>dirty: 1.0</p></td>
+</tr>
+<tr class="row-odd"><td><ol class="loweralpha simple" start="2">
+<li><p>Main HEPA</p></li>
+</ol>
+</td>
+<td><p>clean: 0.50</p></td>
+<td><p>dirty: 2.25</p></td>
+</tr>
+</tbody>
+</table>
+<p>Change filters as per surveillance procedures (refer to SURV-5).</p>
+</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="oper-6-reactor-bay-systems">
+<h2>OPER-6 Reactor Bay Systems<a class="headerlink" href="#oper-6-reactor-bay-systems" title="Link to this heading"></a></h2>
+<section id="id31">
+<h3>I. INTRODUCTION<a class="headerlink" href="#id31" title="Link to this heading"></a></h3>
+<section id="id32">
+<h4>A. Purpose<a class="headerlink" href="#id32" title="Link to this heading"></a></h4>
+<p>Several key building systems are either necessary for reactor operation or represent a potential hazard to safe operation.
+This procedure identifies key systems and operation constraints, but should be operable at all other times.</p>
+</section>
+<section id="id33">
+<h4>B. Description<a class="headerlink" href="#id33" title="Link to this heading"></a></h4>
+<p>Key systems such as the security or access control system must be operable at all times.
+Other systems such as the communication system must be operable for reactor operation,
+but should be operable at all other times.</p>
+<p>Operability checks and Maintenance logs record the condition or modification of Key systems.
+These logs supplement the requirements of Surveillance and Maintenance Procedures.</p>
+<p>The 5-ton lifting capacity of the bridge crane has the potential to seriously injure personnel and damage equipment.
+Proper operation and understanding of the consequences is necessary to assure safe, effective and reliable use of the crane system.</p>
+</section>
+<section id="id34">
+<h4>C. Schedule<a class="headerlink" href="#id34" title="Link to this heading"></a></h4>
+<p>Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.</p>
+</section>
+<section id="id35">
+<h4>D. Contents<a class="headerlink" href="#id35" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Building and Safety Systems</p></li>
+<li><p>System Status Checks</p></li>
+<li><p>Maintenance Log</p></li>
+<li><p>Reactor Operation Requirements</p></li>
+<li><p>Reactor Bridge Crane Operation</p></li>
+</ul>
+</section>
+<section id="id36">
+<h4>E. Attachments<a class="headerlink" href="#id36" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Maintenance Log (Key Systems)</p></li>
+<li><p>ICS Jumper Log</p></li>
+<li><p>NM1000 Stack Fault Log</p></li>
+<li><p>ICS Acknowledge Log</p></li>
+<li><p>Bridge Crane Load Test</p></li>
+</ul>
+</section>
+<section id="id37">
+<h4>F. Equipment, Materials<a class="headerlink" href="#id37" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>Electrical Equipment</p></li>
+<li><p>Mechanical Equipment</p></li>
+<li><p>Pool water systems</p></li>
+<li><p>Water demineralizer</p></li>
+<li><p>Communications</p></li>
+<li><p>Area video surveillance</p></li>
+<li><p>Air confinement system</p></li>
+<li><p>Area and Air Radiation Monitors</p></li>
+<li><p>Bridge Crane</p></li>
+<li><p>Rad-waste system</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>G. References, Other Procedures<a class="headerlink" href="#id38" title="Link to this heading"></a></h4>
+<ul class="simple">
+<li><p>MAIN-1,2,3,4 Procedures</p></li>
+<li><p>OPER-4,5 Procedures</p></li>
+<li><p>SURV-4,5 Procedures</p></li>
+<li><p>PLAN-S</p></li>
+<li><p>Instruction Manual; Reactor Bay Bridge Crane Operation</p></li>
+<li><p>Service Manual; KRANCO Overhead Cranes</p></li>
+<li><p>Load Capacity Test Data</p></li>
+</ul>
+</section>
+</section>
+<section id="id39">
+<h3>II. PROCEDURE<a class="headerlink" href="#id39" title="Link to this heading"></a></h3>
+<section id="a-building-utilities-and-safety-systems">
+<h4>A. Building Utilities and Safety Systems<a class="headerlink" href="#a-building-utilities-and-safety-systems" title="Link to this heading"></a></h4>
+<p>Building utilities should be functional at all times.
+Utilities are electric power, chilled water, compressed air, and security equipment.</p>
+<p>Safety systems shall be functional at all times unless special provisions are in effect.
+Safety systems are emergency lights, fire protection equipment, and communications.</p>
+</section>
+<section id="b-status-checks-of-systems">
+<h4>B. Status Checks of Systems<a class="headerlink" href="#b-status-checks-of-systems" title="Link to this heading"></a></h4>
+<p>Check for normal operational status of each system.
+In the event that key equipment does not perform properly, do the following:</p>
+<ol class="arabic simple">
+<li><p>Report conditions that are not normal.
+a. Record unexplained CSC warning and scram messages in the ICS Acknowledge Log.
+b. Record unexplained NM1000 stack messages in the NM1000 Stack Fault Log.</p></li>
+<li><p>Tag components that are not functional.</p></li>
+<li><p>Classify component as inoperable or defective.</p></li>
+<li><p>Record date, problem and status on each tag.</p></li>
+<li><p>Remove tag only after correction of the problem.
+If applicable, record the corrective action in maintenance log.</p></li>
+</ol>
+</section>
+<section id="c-maintenance-log">
+<h4>C. Maintenance Log<a class="headerlink" href="#c-maintenance-log" title="Link to this heading"></a></h4>
+<p>A maintenance log will document repairs and modifications to important systems.
+Use a separate Maintenance Log Sheet for each system.</p>
+<ol class="arabic simple">
+<li><p>Systems that require log entries include the following:
+a. TRIGA ICS (refer to MAIN-1, 2, &amp; 3),
+b. Radiation Monitors (refer to MAIN-4),
+c. Pool Water System (refer to OPER-5 &amp; SURV-5),
+d. Room Confinement System (refer to OPER-5 &amp; SURV-6).</p></li>
+<li><p>Maintenance of equipment shall consider the requirements of 10CFR50.59.
+Systems in the preceding list must meet the requirements of the SAR and 50.59.</p></li>
+<li><p>Record the installation of temporary jumpers in key system components in the ICS Jumper Log.</p></li>
+</ol>
+</section>
+<section id="d-reactor-operation-requirements">
+<h4>D. Reactor Operation Requirements<a class="headerlink" href="#d-reactor-operation-requirements" title="Link to this heading"></a></h4>
+<p>Operation of the reactor and other special conditions will require:</p>
+<ol class="arabic simple">
+<li><p>Physical security system shall be continuously operable or appropriate steps taken to provide adequate protection of control access area.
+Documentation of physical security requirements is not a requirement of this procedure.</p></li>
+<li><p>Communications via telephone to off site locations shall be available and must be operable for any reactor operation.</p></li>
+<li><p>The video camera system should be operable in areas where experiments and personnel are active.
+A camera and video monitor may be necessary to supplement other controls.</p></li>
+<li><p>The air confinement system and pool water systems must be operable for reactor operation.
+Documentation of operating conditions for these systems is in OPER-1 Startup-Shutdown checks, OPER-4 Operation of Reactor Water Systems, and OPER-5 Operation of Air Confinement System.</p></li>
+</ol>
+</section>
+<section id="e-reactor-bay-bridge-crane-operation">
+<h4>E. Reactor Bay Bridge Crane Operation<a class="headerlink" href="#e-reactor-bay-bridge-crane-operation" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Check date and lift capacity of last load test.
+Load tests shall test capacity at 125% of load.
+The load test includes test of crane, cable, hook and load rigging.
+Identify the rigging components and the test object and weight.</p>
+<ol class="loweralpha simple">
+<li><p>Load lifts less than one ton may require verification.
+Verification requires inspection of previous load test date and capacity on UT Crane Load Test sheet.</p></li>
+<li><p>Load lifts greater than one ton should require execution of appropriate load test.
+Load test should have been done within the previous two years or following maintenance of key crane components.</p></li>
+<li><p>Loads of less than one ton are Light Loads.
+Light loads should not be lifted more than 5 feet above the floor.
+Lift should not exceed five-foot limit except at lift terminal points.</p></li>
+<li><p>Loads greater than one ton are Heavy Loads.
+Heavy loads shall not be lifted more than 5 feet above the floor.
+Lift may not exceed five-foot limit except at lift terminal points.</p></li>
+<li><p>No load suspended more than 5 feet above the floor shall be unattended.</p></li>
+</ol>
+</li>
+<li><p>Any person operating the crane shall require training.
+Training is to be equivalent to the information in the Instruction Manual.</p>
+<ol class="loweralpha simple">
+<li><p>Crane key is to be available only during periods in which the crane is in use.
+Operability of the crane control pushbuttons shall be by key lock.
+A cutoff control box can shut off all power to the bridge crane system.</p></li>
+<li><p>Approval shall be required for load lifts over the reactor shield structure.
+The reactor supervisor will review and approve all load lifts in reactor bay.</p></li>
+<li><p>No load lifts above the reactor shall be made during operation of the reactor.
+This includes all areas above the reactor shield structure.</p></li>
+<li><p>No personnel shall perform activities directly beneath a suspended load.</p></li>
+<li><p>No loads should be left suspended directly above other facility equipment.</p></li>
+<li><p>Storage location of crane should be:
+- Direction of bridge: South
+- Direction of trolley: West
+- Level of hook: Full Up</p></li>
+</ol>
+</li>
+<li><p>Review caution information at crane controls.
+<strong>DO NOT LIFT A LOAD GREATER THAN 5 TONS</strong> except for load test.</p></li>
+<li><p>Review functional operation of crane controls.</p></li>
+<li><p>Switch control pendant key to ON position.
+Check power to crane bridge if control pendant switches do not operate.</p></li>
+<li><p>Move bridge, trolley, and hook to lifting position.</p></li>
+<li><p>Load rigging shall be checked for alignment and binding as lift tension is applied.</p></li>
+<li><p>Motion of load should be controlled to avoid collisions.
+Potential collision objects are other facility structures or equipment.</p></li>
+<li><p>After load is disconnected, move bridge, trolley, and hook to storage position.</p></li>
+<li><p>Switch control pendant key to OFF position.
+Secure control pendant key.</p></li>
+</ol>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="PLAN-O.html" class="btn btn-neutral float-left" title="PLAN-O" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="SURV.html" class="btn btn-neutral float-right" title="SURV" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, Jeongwon Seo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -24,7 +24,7 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
-    'style_nav_header_background': '#bf5700',  # UT Austin Burnt Orange
+    'style_nav_header_background': '#D95204',  # UT Austin Burnt Orange
 }
-html_logo = "_static/longhorn_logo.jpg"
+html_logo = "_static/University-of-Texas-at-Austin-Emblem.png"
 html_static_path = ['_static']
