@@ -284,7 +284,6 @@ I. INTRODUCTION
 ---------------
 
 A. Purpose
-~~~~~~~~~~
 The purpose of this procedure is the calibration and functional check of the instrument control and safety (ICS) system for the TRIGA reactor. Systems subject to this procedure are the key instrument systems that monitor the control rod power supply, fuel element temperatures and the neutron flux levels or reactor power levels.
 
 Three functional criteria for the procedure are:
@@ -293,15 +292,12 @@ Three functional criteria for the procedure are:
   (3) Assure no task or action of this procedure is a proposed change, test, or experiment in the sense of 10CFR50.59.
 
 B. Description
-~~~~~~~~~~~~~~
 The instrument control and safety system is a digital processing system that monitors analog and digital signals, displays information for the operator and logs data. Operator interactions with the system determine control of operation modes and rod positions. Safety system function is independent of the ICS system programs. This procedure provides instructions for the calibration, check and test of key instrument systems that monitor reactor operation. These systems include the magnet power supply, two fuel temperature channels and three neutron measurement channels. Two other procedures are necessary for the calibration of the fuel temperature channels and alignment of the neutron flux channels for reactor power calibration.
 
 C. Schedule
-~~~~~~~~~~~
 Schedule procedure once each year, prior to the completion of MAIN1. Plan procedure task for the month of July but no later than 15 months from previous work. The requirement to complete MAIN2 prior to MAIN1 will limit the no later than 15 months to no later than 7.5 months.
 
 D. Contents
-~~~~~~~~~~~
 
 +----------------------------------------------+------+
 | SECTION                                      | Page |
@@ -317,13 +313,11 @@ D. Contents
 +----------------------------------------------+------+
 
 E. Attachments
-~~~~~~~~~~~~~~
 1. Magnet circuit and fuel temp - 1 page  
 2. NM1000 wide range channel - 2 pages  
 3. NP(P)1000 % safety channels - 2 pages
 
 F. Equipment, Materials
-~~~~~~~~~~~~~~~~~~~~~~~
 1. ICS system keys  
 2. Multi-meter - Fluke 87 or  
 3. Multi-meter - Keithley 196  
@@ -334,20 +328,19 @@ F. Equipment, Materials
 8. HV load test assembly for NM1000
 
 G. References, Other Procedures
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. UT TRIGA Mechanical System Manual (Parts 1,2,3, and 4)  
 2. UT TRIGA ICS Manual (Parts 1,2,3, and 4)  
 3. Interlocks and SCRAM functions (MAIN-1)  
 4. NM1000 Wide Range Channel (UT Installation)  
 5. NPP1000 NP1000 Safety Channel (UT Installation)  
-6. AIO16 Board Alignment (Keithley) (UT Installation)  
-   DAS16 programs: INSTALL, QBCAL, QBCALF, QBCALG, QBCALGA
+6. AIO16 Board Alignment (Keithley) (UT Installation) 
+
+DAS16 programs: INSTALL, QBCAL, QBCALF, QBCALG, QBCALGA
 
 II. PROCEDURE
 -------------
 
 A. Introduction
-~~~~~~~~~~~~~~~
 Log all console operation for diagnostic work, maintenance, surveillance, calibration and test with the password MIRAGE.
 
 1. Review calibration or functional check requirement.  
@@ -393,8 +386,7 @@ Technical Specification references for the instrument systems are:
 +---------+------------------+------------------------------------------+-----------------------------+
 
 B. Magnet Power Supply
-~~~~~~~~~~~~~~~~~~~~~~
-Refer to GA Operation and Maintenance Manual (E117-1004) for adjustments to the magnet supply circuits. See Volume 1, section 4, pages 38–41.
+Refer to GA Operation and Maintenance Manual (E117-1004) for adjustments to the magnet supply circuits. See Volume 1, section 4, pages 38-41.
 
 1. Locate magnet power supply (DAC shelf 1).
 
@@ -450,14 +442,14 @@ Refer to GA Operation and Maintenance Manual (E117-1004) for adjustments to the 
    d. Repeat step 4 to verify console annunciations.
 
 C. Fuel Temperature Circuits
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Refer to GA Operation and Maintenance Manual (E117–1004) for adjustments to the fuel temperature circuit.
+
+Refer to GA Operation and Maintenance Manual (E117-1004) for adjustments to the fuel temperature circuit.
 
 1. Record pool water temperature. Use control console status window.
 
 2. Mercury thermometers may not be used on the third level reactor platform.
 
-3. Do steps 4–10 for each fuel temperature channel, #1 and #2.  
+3. Do steps 4-10 for each fuel temperature channel, #1 and #2.  
    Thermocouple is **type K**.
 
 4. Disconnect thermocouple connections at calibration test relays.  
@@ -476,27 +468,27 @@ Refer to GA Operation and Maintenance Manual (E117–1004) for adjustments to th
 
 8. Verify zero and full-scale indication.
 
-   a. Set source input to simulate 0 °C (V = 0.0mV – Vref)  
-      e.g., at 32 °C Vref is 1.285mV and V = –1.285mV.
+   a. Set source input to simulate 0 °C (V = 0.0mV - Vref)  
+      e.g., at 32 °C Vref is 1.285mV and V = -1.285mV.
 
    b. Verify continuous illumination of first LED of console bar graph.  
       Verify reactor console indicates 0 °C ± 2.
 
-   c. Set source input to simulate 500 °C (V = 20.64mV – Vref).  
+   c. Set source input to simulate 500 °C (V = 20.64mV - Vref).  
       Verify full scale indication (5th LED) on bar graph.  
       Verify reactor console indicates 500 °C ± 5.
 
 9. Verify the control console status box.
 
-   a. Adjust source to represent 495 °C (V = 20.427mV – Vref).  
+   a. Adjust source to represent 495 °C (V = 20.427mV - Vref).  
       Verify FT display box is black.
 
-   b. Adjust source to represent 505 °C (V = 20.853mV – Vref).  
+   b. Adjust source to represent 505 °C (V = 20.853mV - Vref).  
       Verify FT display box is red.
 
 10. Verify fuel temperature trip levels.
 
-   a. Test module trip at 550 °C (V = 22.772mV – Vref).  
+   a. Test module trip at 550 °C (V = 22.772mV - Vref).  
       Gradually change voltage to activate trip module.
 
    b. Observe voltage that causes Action Pack module scram trip (V).  
@@ -515,8 +507,8 @@ Refer to GA Operation and Maintenance Manual (E117–1004) for adjustments to th
    b. Compare display fuel temperatures (#1 and #2) to pool water temp.
 
 D. NM1000 System Calibration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Refer to GA Operation and Maintenance Manual (E117–1000) for alignment of unit if adjustments are necessary.
+
+Refer to GA Operation and Maintenance Manual (E117-1000) for alignment of unit if adjustments are necessary.
 
 Note: Some constants (*italics*) change at the time of a power calibration. Values shown are approximate.
 
@@ -524,9 +516,9 @@ Note: Some constants (*italics*) change at the time of a power calibration. Valu
    To display data press "Fn x",  
    where "n" is the stack tens digit and "x" is the ones digit.
 
-**Computed Values**
-
 +--------------------+------------+
+| Computed Values    |            |
++====================+============+
 | 10 percent power   |            |
 | 11 percent power   |            |
 | 12 period          | 100        |
@@ -535,38 +527,33 @@ Note: Some constants (*italics*) change at the time of a power calibration. Valu
 | 15 relay status    |            |
 +--------------------+------------+
 
-**Single Detector**           | **Campbell Detector**
------------------------------|------------------------------
-20 DET counts                | 30 CMB Counts  
-21 alpha offset: 0.00        | 31 noise offset: *–2.00E+02*  
-                             | 33 Linear Factor: 3.70E–01  
-25 DET pp const: 8.33E–8     | 35 CMB pp const: *4.20E–08*  
-29 DET XOVR: 1.20E+6         | 39 CMB XOVR: 1.95E+03  
++----------------+---------+-------------------+----------+
+| Single Detector|         | Campbell Detector |          |
++================+=========+===================+==========+
+| 20 DET counts  |         | 30 CMB Counts     | 120      |
+| 21 alpha offset| 0.00    | 31 noise offset   | -2.00E+02|
+| 23             |         | 33 Linear Factor  |3.70E-01  |
+| 25 DET pp const| 8.33E-8 | 35 CMB pp const   | 4.20E-08 |
+| 29 DET XOVR    | 1.20E+6 | 39 CMB XOVR       | 1.95E+03 |
++----------------+---------+-------------------+----------+
 
-**Trip Set-points**
 
-+------------------------+--------------------------+
-| 40 Lo Level            | 2.00E–7                  |
-| 41 Hi Level            | 1.08E+2                  |
-| 42 Float               | 1.00E–1                  |
-| 43 Rate                | 3.00E+0                  |
-+------------------------+--------------------------+
-
-**Operation Mode**
-
-+------------------------+------------+
-| 50 Operation Mode      | 0          |
-| 51 Flt Trip Mode       | 1, Lo LVL  |
-| 59 Version Number      | 4.05       |
-+------------------------+------------+
++----------------+---------+-------------------+----------+
+| Trip Set-points|         | Operation Mode    |          |
++================+=========+===================+==========+
+| 40 Lo Level    |2.00E-7  | 50 Operation Mode | 0        |
+| 41 Hi Level    |1.08E+2  | 51 Fit Trip Mode  | 1. Lo LVL|
+| 42 Float       |1.00E-1  | 59 Version Number | 4.05     |
+| 43 Rate        | 3.00E+0 |                   |          |
++----------------+---------+-------------------+----------+
 
 2. Check power supply test points for nominal values.
 
 +-------------------+-------------+-----------------------------+
-| Designation       | Preamplifier Test | Microprocessor Test    |
+| Designation       | Preamplifier Test | Microprocessor Test   |
 +===================+=============+=============================+
 | PS1 +15 volts     | +           | TB1-1 (test), TB1-4 (common)|
-| PS2 –15 volts     | –           | TB1-8 (test), TB1-5 (common)|
+| PS2 -15 volts     | -           | TB1-8 (test), TB1-5 (common)|
 | PS3 +5 volts      | +           | TB1-12 (test), TB1-10       |
 | HVPS +800 volts   | HV Mon      | N/A                         |
 +-------------------+-------------+-----------------------------+
@@ -576,23 +563,23 @@ Note: Some constants (*italics*) change at the time of a power calibration. Valu
    Trips display at stack location 15 (F, L, H, R).  
    Keypad lamps A1 and A2 should be extinguished.
 
-4. Test Count Rate mode as directed in steps a–d.  
+4. Test Count Rate mode as directed in steps a-d.  
    PA-15 discriminator is set for 0.1% (900 kilowatts) = 1.2 × 10⁶ cps.  
    Compare stack 20 to expected test cps and stack 10 to expected power in each test.
 
-   (Test cps – alpha offset) × count rate power constant = % Power  
+   (Test cps - alpha offset) × count rate power constant = % Power  
    where:
    - alpha offset: stack 21 = 0.0  
-   - count rate power constant: stack 25 = 8.33E–08
+   - count rate power constant: stack 25 = 8.33E-08
 
 **Mode Table**
 
 +--------------+----------+----------------+----------+
 | Mode         | Stack 50 | % Power Expect | Test cps |
 +==============+==========+================+==========+
-| Counter LO   | 1        | 1.00E–5        | 120      |
-| Counter MID  | 2        | 8.00E–4        | 9600     |
-| Counter HI   | 3        | 2.84E–2        | 341000   |
+| Counter LO   | 1        | 1.00E-5        | 120      |
+| Counter MID  | 2        | 8.00E-4        | 9600     |
+| Counter HI   | 3        | 2.84E-2        | 341000   |
 +--------------+----------+----------------+----------+
 
    a. Execute counter low test mode.  
@@ -607,7 +594,7 @@ Note: Some constants (*italics*) change at the time of a power calibration. Valu
    d. Execute counter high test.  
       Press “F5 F8 3 ENTER”.
 
-5. Test Campbell mode as directed in steps a–c.  
+5. Test Campbell mode as directed in steps a-c.  
    **Detector DC current is set for ~1.2 amps at 90% (900 kilowatts).**  
    Compare stack 30 to expected test cps and stack 10 to expected power in each test.
 
@@ -655,7 +642,6 @@ Note: Some constants (*italics*) change at the time of a power calibration. Valu
     Press keys “F7 9 0 ENTER”.
 
 E. NP(P)1000 Power Safety Channels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 4. Check zero calibration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -668,12 +654,12 @@ b. Measure voltage at test point 63.
 
 c. Measure voltage at test point 56.  
    Value should be less than ±100 milli-volts (Adjust R131).  
-   NPP should be slightly negative, about –5 mV.
+   NPP should be slightly negative, about -5 mV.
 
 d. Press manual reset button to clear trip conditions if necessary.  
    Remove jumper at U8 pins 8 & 9 (**NPP1000 unit only**).
 
-e. Measure voltage between test points 57(+) and 58(–).  
+e. Measure voltage between test points 57(+) and 58(-).  
    Value should be 0.00 volts.  
    The sign of the voltage will depend on the lead placement (Adjust R120).  
    Verify CSC display and bar graph read 0%.
@@ -682,16 +668,15 @@ e. Measure voltage between test points 57(+) and 58(–).
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 a. Apply current source at input connector J2.  
-   - NP1000: 8.33E–4 amps (1.00E–03 amp = 120%; 10 volts)  
-   - NPP1000: 5.00E–7 amps (6.00E–07 amp = 120%; 10 volts)
+   - NP1000: 8.33E-4 amps (1.00E-03 amp = 120%; 10 volts)  
+   - NPP1000: 5.00E-7 amps (6.00E-07 amp = 120%; 10 volts)
 
 b. Measure voltage at test point 63 and point 56.  
    Value should be 8.33 ± 0.05 volts DC  
    - **NP**: Adjust **R23 only**  
-   - **NPP**: Adjust **R27 only**  
-     (Pulse Mode: Use R23 for pulse mode. See step 15.)
+   - **NPP**: Adjust **R27 only** (Pulse Mode: Use R23 for pulse mode. See step 15.)
 
-c. Measure voltage between test points 57(+) and 58(–).  
+c. Measure voltage between test points 57(+) and 58(-).  
    Value should be 8.33 ± 0.05 volts  
    The sign of the voltage will depend on the lead placement (Adjust R123).  
    Verify CSC display and bar graph read 100%.
@@ -703,12 +688,12 @@ d. Remove current source.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 a. Apply current at input connector J2.  
-   Calibration current is 9.0E–4 amps (5.5E–7 NPP).
+   Calibration current is 9.0E-4 amps (5.5E-7 NPP).
 
 b. Verify percent power (NV) trip LED illuminates.
 
 c. Decrease input current at J2.  
-   Calibration current is 8.5E–4 amps (5.0E–7 NPP).
+   Calibration current is 8.5E-4 amps (5.0E-7 NPP).
 
 d. Verify trip LED extinguishes.
 
@@ -719,7 +704,7 @@ a. Connect voltmeter to TP56. Increase current at J2.
 
 b. Record channel trip current and voltage found at TP56.
 
-c. Trip should be at 8.75E–4 amps (5.25E–7 NPP). (Adjust R79)
+c. Trip should be at 8.75E-4 amps (5.25E-7 NPP). (Adjust R79)
 
 8. Depress test switch S2. Measure voltage at test point 56.  
    Value should be 9.09 ± 0.05 volts DC (Adjust R196).  
@@ -746,7 +731,6 @@ b. Rate should be 5 ± 1 seconds per volt (Adjust R10).
     Continue to next step for the **NPP1000**. **Stop here for NP1000**.
 
 Continue for **NPP1000 only**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 12. Zero alignment, NV
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -783,7 +767,7 @@ c. *Remove jumper(s) in step 13a.*
 15. Calibrate peak power NV circuit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-a. Apply 1.0E–3 amps at input connector J2.
+a. Apply 1.0E-3 amps at input connector J2.
 
 b. Verify 10.00 ± 0.05 volts at test point 56 (Adjust R23).
 
@@ -798,7 +782,7 @@ a. Remove connector at J4 if not already removed.
 
 b. Connect milliamp meter between TP60 (J4-22) and TP61 (J4-23).
 
-c. Set J2 input signal to 1.0E–3 amps.
+c. Set J2 input signal to 1.0E-3 amps.
 
 d. Remove input signal at J2.
 
@@ -813,9 +797,9 @@ g. Connect input signal at J2.
 h. Repeat steps d thru g until no adjustment is necessary.
 
 17. Check full-scale peak power, NV drift
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-a. Apply 1.0E–8 amps at input connector J2.
+a. Apply 1.0E-8 amps at input connector J2.
 
 b. Observe the drift rate between TP60 and TP61.  
    Verify rate does not exceed 0.1 volt per minute.
@@ -826,7 +810,7 @@ c. Observe test point 38. Depress reset.
 18. Check full-scale integral power, NVT circuit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-a. Increase input to 1.0E–6 amp and depress reset switch.
+a. Increase input to 1.0E-6 amp and depress reset switch.
 
 b. Verify ramp rate at TP38 should be 15 sec per volt (Adjust R42).
 
@@ -837,7 +821,7 @@ a. Remove connector at J4, if not already removed.
 
 b. Connect milliamp meter between TP39 (J4-16) and TP40 (J4-17).
 
-c. Set J2 input signal to 1.0E–6 amps.
+c. Set J2 input signal to 1.0E-6 amps.
 
 d. Remove input signal at J2.
 
@@ -864,7 +848,6 @@ I. INTRODUCTION
 ---------------
 
 A. Purpose
-~~~~~~~~~~
 The purpose of this procedure is the calibration and functional check of the instrument control and safety system for the TRIGA reactor. Systems subject to this procedure are the pool water systems that provide moderator, cooling and shielding for the reactor core.
 
 Three functional criteria for the procedure are:
@@ -876,15 +859,12 @@ Three functional criteria for the procedure are:
       or experiment in the sense of 10CFR50.59.
 
 B. Description
-~~~~~~~~~~~~~~
 The instrument control and safety system is a digital processing system that monitors analog and digital signals, displays information for the operator and logs data. Operator interactions with the system determine control of operation modes and rod positions. Safety system function is independent of the ICS system programs. This procedure provides instructions for the calibration, check and test of support systems that monitor reactor water systems. Water systems include the bulk pool water level, bulk pool temperature, water conductivity, coolant water system temperatures at the heat exchanger inlet and outlet, flow rates in the primary and secondary heat exchanger and pressure differentials between the heat exchanger tubes and shell.
 
 C. Schedule
-~~~~~~~~~~~
 Schedule procedure once each year, prior to the completion of MAIN1. Plan procedure task for the month of July but no later than 15 months from previous work. The requirement to complete MAIN3 prior to MAIN1 will limit the no later than 15 months to no later than 7.5 months. SURV2 should be complete prior to implementing this procedure.
 
 D. Contents
-~~~~~~~~~~~
 
 +-------------------------------+------+
 | SECTION                       | Page |
@@ -899,34 +879,30 @@ D. Contents
 +-------------------------------+------+
 
 E. Attachments
-~~~~~~~~~~~~~~
-1. Pool parameters - 1 page  
-2. Coolant flow rates - 1 page  
-3. Heat exchanger - 1 page
+   1. Pool parameters - 1 page  
+   2. Coolant flow rates - 1 page  
+   3. Heat exchanger - 1 page
 
 F. Equipment, Materials
-~~~~~~~~~~~~~~~~~~~~~~~
-1. ICS system keys  
-2. Multi-meter – Fluke 87 or  
-3. Multi-meter – Keithley 196  
-4. Multi-source – Keithley 263  
-5. Test instrument cables, probes, test resistors  
-6. Flexible plastic tubing and fittings  
-7. De-ionized water  
-8. KCl reference solution
+   1. ICS system keys  
+   2. Multi-meter - Fluke 87 or  
+   3. Multi-meter - Keithley 196  
+   4. Multi-source - Keithley 263  
+   5. Test instrument cables, probes, test resistors  
+   6. Flexible plastic tubing and fittings  
+   7. De-ionized water  
+   8. KCl reference solution
 
 G. References, Other Procedures
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. UT TRIGA Mechanical System Manual (Parts 1,2,3, and 4)  
 2. UT TRIGA ICS Manual (Parts 1,2,3, and 4)  
-3. Interlocks and SCRAM functions – MAIN-1  
-4. Pool Water System Surveillance – SURV-4
+3. Interlocks and SCRAM functions - MAIN-1  
+4. Pool Water System Surveillance - SURV-4
 
 II. PROCEDURE
 -------------
 
 A. Introduction
-~~~~~~~~~~~~~~~
 Log all console operation for diagnostic work, maintenance, surveillance, calibration and test with the password MIRAGE.
 
 1. Review calibration and functional check requirements.  
@@ -948,14 +924,13 @@ Technical Specification references for the support systems are:
 +---------+--------+-------------------------------+---------------------+
 | Section | Steps  | Description                   | TS requirement      |
 +=========+========+===============================+=====================+
-| B       | 1–4    | Pool Water Depth              | 4.3.1b (3.3.1b)     |
-| C       | 1–8    | Pool Temperature              | 4.3.1a (3.3.1a)     |
-| D       | 2–4    | Water Conductivity            | 4.3.1c (3.3.1c)     |
-| G       | 1–8    | Heat Exchanger Delta Pressure | 4.3.1d (3.3.1d)     |
+| B       | 1-4    | Pool Water Depth              | 4.3.1b (3.3.1b)     |
+| C       | 1-8    | Pool Temperature              | 4.3.1a (3.3.1a)     |
+| D       | 2-4    | Water Conductivity            | 4.3.1c (3.3.1c)     |
+| G       | 1-8    | Heat Exchanger Delta Pressure | 4.3.1d (3.3.1d)     |
 +---------+--------+-------------------------------+---------------------+
 
 B. Pool Water Level
-~~~~~~~~~~~~~~~~~~~
 
 1. Verify position of pool level indicator (scale).  
    Scale elevation (25.3 cm) is set at the tank equipment-mounting ring.
@@ -970,7 +945,6 @@ B. Pool Water Level
    Verify float level and verify pool level SCRAM trip indication at CSC.
 
 C. Pool Water Temperature
-~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Remove pool bulk temperature sensor.
 
@@ -989,11 +963,9 @@ C. Pool Water Temperature
 5. If console indications agree with both temperatures ±4 °C, go to step 8.
 
 6. Disconnect wire at pin 7 or 8 of AP5.  
-   Connect ammeter to wire and AP5 (pin 7 to DMM+; pin 8 to DMM–).  
-   a. Place temperature sensor (RTD) in ice bath,  
-      Measure current; adjust zero control on AP5 to 4 mA, (0 °C).  
-   b. Place temperature sensor (RTD) in hot bath,  
-      Measure current; adjust span control on AP5 to 20 mA, (100 °C).  
+   Connect ammeter to wire and AP5 (pin 7 to DMM+; pin 8 to DMM-).  
+   a. Place temperature sensor (RTD) in ice bath, Measure current; adjust zero control on AP5 to 4 mA, (0 °C).  
+   b. Place temperature sensor (RTD) in hot bath, Measure current; adjust span control on AP5 to 20 mA, (100 °C).  
    c. Repeat steps a and b until no further adjustments are necessary.
 
 7. Repeat steps 3 thru 5 if zero and/or span adjustments were required.
@@ -1002,7 +974,6 @@ C. Pool Water Temperature
    Record bulk pool temperature displayed on console.
 
 D. Pool Water Conductivity
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 (*Cell type: Titanium, cell constant is 0.1*)
 
 1. Perform an electronic calibration with resistors. Two points (+0.5%):  
@@ -1017,16 +988,9 @@ D. Pool Water Conductivity
    Locate cell #2 tie bar on the conductivity selector switch.  
    Remove the 3 sensor wires at tie bar. Verify wire label for later replacement.  
    Connect an 18 kΩ (±0.5%) resistor between terminals 2 & 3 (*Temp. compensation*).  
-   a. Check for 1.0 micro-mho/cm,  
-      Install 0.1 mega-ohm resistor between terminals 2 and 4.  
-      Rotate set point dial to steady red-green LED condition.  
-      Record local and console indications.  
-   b. Check for 7.5 micro-mho/cm,  
-      Install 13.33 kilo-ohm resistor between terminals 2 and 4.  
-      Rotate set point dial to steady red-green LED condition.  
-      Record local and console indications.  
-   c. If reading is not correct, verify resistances,  
-      Then loosen setscrews of indicator dial and reposition dial.  
+   a. Check for 1.0 micro-mho/cm, Install 0.1 mega-ohm resistor between terminals 2 and 4. Rotate set point dial to steady red-green LED condition. Record local and console indications.  
+   b. Check for 7.5 micro-mho/cm, Install 13.33 kilo-ohm resistor between terminals 2 and 4. Rotate set point dial to steady red-green LED condition. Record local and console indications.  
+   c. If reading is not correct, verify resistances, Then loosen setscrews of indicator dial and reposition dial.  
    d. Return circuit connections to original condition.
 
 4. Prepare solution of high purity de-ionized water and KCl.  
@@ -1047,7 +1011,6 @@ D. Pool Water Conductivity
 7. Replace cells, reconnect wiring, and check for leaks.
 
 E. Primary Flow Rate (Reactor Pool Water)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Compare no flow conditions at local gauge and console.
 
@@ -1068,15 +1031,14 @@ E. Primary Flow Rate (Reactor Pool Water)
    b. Locate vent plugs (lo & hi) from the transmitter diaphragm chamber.  
    c. Remove front and rear covers from transmitter.  
    d. Connect ammeter in series with the flow sensor transmitter.  
-      Remove the wire at the transmitter – terminal.  
-      Connect ammeter + to – transmitter terminal.  
-      Connect ammeter – to the loose transmitter wire.  
+      Remove the wire at the transmitter - terminal.  
+      Connect ammeter + to - transmitter terminal.  
+      Connect ammeter - to the loose transmitter wire.  
    e. The DAC does not process the primary flow signal.  
       A jumper module is present at DAC shelf location 1.  
       The jumper module replaces an Action Pak process module.
 
 7. Flow Transmitter Calibration (set zero)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 a. Open cross valve on transmitter.
 
@@ -1093,7 +1055,6 @@ c. Verify zero indication on local meter.
 d. Close cross valve on transmitter.
 
 8. Flow Transmitter Calibration (set full scale)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 a. Connect fitting and tygon tube to high side transmitter vent.  
    Fill tube with water to a level **29.7" (75.4 cm)**.  
@@ -1118,7 +1079,6 @@ e. If either zero or span adjustments were required,
 9. Return system to original configuration.
 
 F. Secondary Flow Rate (Physical Plant Cooling Water)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Compare no flow conditions at local gauge and console.
 
@@ -1136,32 +1096,30 @@ F. Secondary Flow Rate (Physical Plant Cooling Water)
    c. Close cross connect.  
    d. Open both high and low pressure vents.  
    e. Connect tygon tube to high-pressure vent.  
-   f. Verify low side vent filled with water.  
-      If not, momentarily open isolation valve.  
-   g. Fill tygon tube with water to a level of **110"**.  
-      Measure level from the top of low side vent.  
-      Verify gauge reads **600 gpm**.  
+   f. Verify low side vent filled with water.  If not, momentarily open isolation valve.  
+   g. Fill tygon tube with water to a level of **110"**. Measure level from the top of low side vent. Verify gauge reads **600 gpm**.  
    h. Return system to condition prior to calibration.
 
 6. Flow Transmitter Calibration (Setup Foxboro transmitter)  
    Includes signal square root extraction.  
+
    a. Close both valves on sense lines to transmitter *(at Foxboro transmitter).*  
    b. Locate vent plugs (lo & hi) from the top of the diaphragm chamber.  
    c. Loosen the lock nut and rotate transmitter head.  
       Remove both transmitter covers.  
-   d. Connect ammeter in series with the flow sensor transmitter.  
-      Remove the wire at the transmitter – terminal.  
-      Connect ammeter + to – transmitter terminal.  
-      Connect ammeter – to the loose transmitter wire.  
+   d. Connect ammeter in series with the flow sensor transmitter. 
+      Remove the wire at the transmitter - terminal.  
+      Connect ammeter + to - transmitter terminal.  
+      Connect ammeter - to the loose transmitter wire.  
    e. The DAC processes the secondary flow signal.  
       - A process module is present at DAC shelf location 2.  
       - Flow process module is an Action Pak #4440(-108).  
       - The process module is a flow square root extractor.  
         Connect ammeter in series with the flow square root extractor.  
-        Remove signal line to pin 7 (–) and check the input to the wire.  
-        *(Output: 1–15V is present on signal line.)*
+        Remove signal line to pin 7 (-) and check the input to the wire. *(Output: 1-15V is present on signal line.)*
 
 7. Flow Transmitter Calibration (set zero)
+
   a. Open cross valve on transmitter.
   b. Loosen vent plug on both low and high side of transmitter.  
     Verify the system is solid water; contains no air.  
@@ -1176,34 +1134,23 @@ F. Secondary Flow Rate (Physical Plant Cooling Water)
   d. Close cross valve on transmitter.
 
 8. Flow Transmitter Calibration (set full scale)
-  a. Connect fitting and tygon tube to high side transmitter port.  
-    Fill tube with water to a level **110" (279.4 cm)**.  
-    Measure water level above the low-side vent port.  
-    The water level correlates to **600 gpm (37.8 lps).**
-  b. Verify the low-side transmitter vent port is full of water.  
-    Momentarily open the cross valve until water leaks.  
-    Do not close vent at this time.
+
+  a. Connect fitting and tygon tube to high side transmitter port. Fill tube with water to a level **110" (279.4 cm)**. Measure water level above the low-side vent port. The water level correlates to **600 gpm (37.8 lps).**
+  b. Verify the low-side transmitter vent port is full of water. Momentarily open the cross valve until water leaks. Do not close vent at this time.
   c. Readjust high side level to **110 inches**, if necessary.
-  d. Verify transmitter and root extractor signal outputs,  
-    Verify both signal outputs are **20 mA**,  
-    Verify **37.8 lps** at the console display.  
-    Use span set for adjustment of **20 mA** signal.  
-    Set output of transmitter first, then set output of root extractor.
-  e. If either span or zero adjustments were necessary,  
-    Remove tygon tube from the high side vent port.  
-    Repeat steps 7 and 8 until no further adjustments are necessary.
+  d. Verify transmitter and root extractor signal outputs, Verify both signal outputs are **20 mA**, Verify **37.8 lps** at the console display. Use span set for adjustment of **20 mA** signal. Set output of transmitter first, then set output of root extractor.
+  e. If either span or zero adjustments were necessary, Remove tygon tube from the high side vent port. Repeat steps 7 and 8 until no further adjustments are necessary.
 
 9. Return system to original configuration.
 
 G. Heat Exchanger Differential Pressure and Capsi-photochellic Calibration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Close two 1/4-inch stainless steel valves on lines to the sensor.
 
 2. Remove both plugs on top of the sensor.
 
 3. Open the two valves to fill each port to the same level then close them.  
-   **Caution** – Flow snubbers in flow lines slow response.  
+   **Caution** - Flow snubbers in flow lines slow response.  
    It may be necessary to start the primary or secondary coolant system.
 
 4. Verify zero reading on meter.  
@@ -1235,7 +1182,6 @@ c. Rotate low (LO) set-point to a level 0.5 psi below indicated reading.
 8. Return system to original configuration.
 
 H. Heat Exchanger Temperature Sensors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Compare heat-exchanger inlet temperatures.  
    a. Observe inlet temperature at local gauge.  
@@ -1299,9 +1245,9 @@ C. Particulate Filter Replacement
 D. Calibration Requirements  
 
 E. Attachments *(not part of this procedure but may be useful)*  
-    1. Weekly/Monthly – Page 1  
-    2. Gas CAM Annual – Page 2  
-    3. Particulate CAM Annual – Page 3  
+    1. Weekly/Monthly - Page 1  
+    2. Gas CAM Annual - Page 2  
+    3. Particulate CAM Annual - Page 3  
 
 F. Equipment, Materials  
     1. Appropriate calibration sources  
@@ -1401,16 +1347,20 @@ Schedule completion of each procedure section at two-year intervals.
 
 D. Contents  
 PROCEDURE SECTION II.  
+
   A. Inspect and Measure Standard Fuel Element (SFE) .......... 4  
   B. Inspect and Measure Instrumented Fuel Element (IFE) ...... 6  
   C. Inspect Control Rod and Fuel Followed Control Rod (FFCR) and Measure FFCR element .......... 7
 
 E. Attachments  
+
   1. Fuel Inspection Summary  
   2. Fuel Element Log  
+
   .. note:: Attachments are not part of this procedure but may be useful when performing this procedure.
 
 F. Equipment, Materials  
+
   1. Fuel Inspection Stand  
   2. Reference Standard Fuel Element (SFE)  
   3. Reference Fuel Follower Control Rod (FFCR) Length Tube  
@@ -1420,6 +1370,7 @@ F. Equipment, Materials
   7. Fuel Handling Tool
 
 G. References, Other Procedures  
+
   1. Docket 50-602 Technical Specifications  
   2. Emergency Response Plan and Procedure PLAN-E  
   3. Previous MAIN-5 Records  
@@ -1435,11 +1386,488 @@ G. References, Other Procedures
 PROCEDURE
 ---------
 
+II. PROCEDURE
+-------------
+
 A. Inspect and Measure Standard Fuel Elements
 
-.. caution:: Detectable amounts of particulate activity are associated with any abrasive contact with irradiated fuel elements. The fuel element handling tool and element measuring devices will have small amounts of removable radioactive particles.
+CAUTION: Detectable amounts of particulate activity are associated with any abrasive contact
+with irradiated fuel elements. The fuel element handling tool and element measuring devices
+will have small amounts of removable radioactive particles.
 
-.. note:: Inspection and measurement shall apply to all elements in the reactor core grid plate, but two to six spare SFEs should also be evaluated for future use.
+NOTE: Inspection and measurement shall apply to all elements in the reactor core grid plate,
+but two to six spare SFE’s should also be evaluated for future use.
+
+1. Prepare equipment and personnel for inspection tasks.
+   a. Locate Previous MAIN-5 Fuel Element Measurement Records.
+   b. Locate Fuel Moves Log and B159.xls to determine element serial numbers and locations.
+   c. Setup underwater video camera system at the pool.
+   d. Verify that a gamma sensitive survey instrument is present near the pool surface.
+
+CAUTION: Lower surfaces of the inspection stand will have surface contamination.
+Contamination of 2000 to 10000 dpm/cm² can occur when fuel element cladding comes in
+contact with inspection stand components.
+
+e. Install fuel inspection stand in the pool.
+   1) Secure inspection stand to side of pool (typically with C-clamps).
+   2) Tie off all items that could potentially fall in pool.
+f. Mount probe indicator on the inspection stand.
+
+2. Calibrate probe indicator.
+   a. Insert Reference Standard Fuel Element into the fuel inspection position of the inspection stand (i.e., not in the go/no-go gauge).
+
+NOTE: Each of the upper fins of the Reference SFE have different reference positions for
+instrument calibration; this procedure uses only the lowest reference position.
+
+   b. Lower the Measurement Extension Rod to the Reference SFE resting it at the lowest reference position (this is the 0.0" reference).
+   c. Adjust the probe indicator mounting hardware such that the Measurement Extension Rod fits between the probe indicator pin and the Reference Fuel Element 0.0" reference.
+   d. Ensure all probe indicator mounting hardware is tight.
+   e. Adjust the position of the probe indicator so the probe indicator is near the middle of its travel range (approximately 0.5"), then set the indicator to zero (repeat as necessary).
+
+NOTE: Adjusting the probe indicator to the middle of its travel range will allow measurement
+data for elements that are reported to be less than the reference in length.
+
+   f. Remove and reinsert the Measurement Extension Rod to check for a consistent zeroed measurement on the probe indicator; re-adjust as necessary.
+   g. Remove the Reference Fuel Element from the inspection stand.
+
+3. Inspect and Measure.
+
+NOTE: SFE Series with 5-digit serial numbers are about 1 inch longer than previous SFEs.
+These elements, also known as ‘streamlined’ or ‘torps’, use the Reference SFE, but require a
+separate calibration setup and adjustment for zero. Plan inspections for minimal readjustment of
+inspection stand and probe indicator to maximize efficiency (i.e., do the ‘torps’ separate).
+
+   a. Place video camera assembly in pool for observation of element.
+
+CAUTION: Raise fuel elements in the pool only as high needed to insert into the inspection
+stand, this will minimize personnel exposure from the irradiated fuel element.
+
+CAUTION: Do not to bump or jar the inspection stand or probe indicator setup.
+
+   b. Repeat probe indicator calibration step II.A.2 if inspection stand is disturbed, at the beginning of each measurement day, or if measurements appear to deviate consistently from previous results.
+   c. Move each standard fuel element per FUEL-1 Movement of Fuel Procedure.
+   d. Verify Element serial number etched or stamped on side of top flute
+      1) Compare to Fuel Move Log and B159.xls file for the correct location and inspection information.
+      2) If the fuel element is flagged as disqualified, remove the element from service.
+      3) No additional inspection or measurement is needed for the failed element.
+   e. Observe the surface and ends of the element for abnormalities.
+
+CAUTION: Never force or drop a fuel element through the go/no-go gauge. To do so could
+damage the gauge, rupture the cladding, or jam the element in the gauge. To pass the bow and
+swelling test, the element should pass through the go/no-go gauge while being lowered to a
+seated position.
+
+WARNING: If there is evidence of fuel element damage that releases radionuclides to the
+confinement area at concentrations of greater or equal to 100 DAC, consult the Emergency
+Response Plan and PLAN-E for notification of unusual event.
+
+NOTE: If the element becomes jammed in the gauge, attempt to remove it gently. If the element
+cannot be removed, contact the reactor manager.
+
+   f. Check element diameter and bend by passing through the go/no-go assembly.
+
+NOTE: The 15" fuel region should pass through gauge without significant binding.
+
+   g. Record go/no-go results in Fuel Element Log.
+
+NOTE: If the element passes freely through the gauge, it is within the allowable 1/16" (0.0625 in., 1.59 mm) bend tolerance.
+
+WARNING: If the element fails the go/no-go tolerance test, it has excessive bow or swelling and SHALL NOT be reinserted into the reactor core grid plate.
+
+   h. If the element fails the go/no-go tolerance test, it does not meet the requirements of the License Technical Specifications.
+      1) Remove the element from service.
+      2) No additional inspection or measurement is needed for the failed element.
+   i. If the element passes the go/no-go tolerance test, move the element to the fuel inspection position of the inspection stand.
+   j. View the element with the camera (rotate the element as needed to view all surfaces) and note all significant defects (scratches, corrosion, bulges, pits, etc.) in the Fuel Element Log.
+   k. If the element is found to have significant defects, it does not meet the requirements of the License Technical Specifications.
+      1) Remove the element from service.
+      2) No additional measurement is needed for the failed element.
+   l. If the element passes the visual inspection, measure the element length (elongation) using the Measurement Extension Rod and previously zeroed probe indicator.
+
+NOTE: Element length is a measure of difference from the Reference Standard Fuel Element measured in thousandths of an inch (0.001") and may be positive or negative.
+
+      1) Make at least two measurements at one position on the fin.
+      2) Using the inspection stand rotation mechanism, rotate the element approximately 120 degrees and repeat measurements.
+      3) Rotate the element an additional approximately 120 degrees and repeat measurements.
+      4) Record the largest reading in the Fuel Element Log for all measurements taken.
+
+CAUTION: If a fuel element is found to have corrosion, mechanical damage, elongation of more than 1/10 in. over original length, or does not pass the go/no-go test, the fuel element SHALL NOT be reinserted in the reactor core grid plate.
+
+   m. If element has elongation more than 1/10" (0.100", 2.54mm), it does not meet the requirements of the License Technical Specifications, remove the element from service.
+   n. If measurement error is suspected:
+      1) Re-measure the element while evaluating previous measurement history files and
+      2) Troubleshoot for measurement problems or
+      3) Recalibrate and
+      4) Reevaluate element for service.
+   o. Repeat calibration step II.A.2 after measuring approximately 10 fuel elements.
+
+4. Compare measurement data of each element to previous measurements to look for trends.
+
+5. Update B159.xls file.
+   a. Fuel location data.
+   b. Date of last inspection.
+   c. Disqualified flag for any elements failing inspection.
+
+6. Update FUEL-1 required documents.
+
+7. Using proper contamination control techniques, remove fuel inspection stand and associated equipment from the pool and pool deck area if no further measurements are required.
+
+B. Inspect and Measure Instrumented Fuel Element (IFE)
+
+NOTE: Inspection and measurement of IFE Series with 4- or 5-digit serial numbers are the
+same as SFEs, with the exception that the fuel handling tool will not be used for movement
+in the pool. Instead, the conduit pipe housing the thermocouple wires will be used to
+relocate the element to the inspection stand.
+
+CAUTION: IFE thermocouple leads are subject to damage while relocating for fuel inspection.
+Inspect and repair any damaged lead insulation.
+
+NOTE: The Reference SFE is the zero reference for IFE measurement.
+
+NOTE: Inspection and measurement shall apply to all IFEs in the reactor core grid plate.
+
+1. Follow Procedure Section A. Inspect and Measure Standard Fuel Element for IFEs.
+
+2. Prior to returning to routine reactor operation, perform SURV-1 Fuel Temperature Calibration Procedure to verify proper operation of thermocouples.
+
+
+C. Inspect Control Rod and Fuel Followed Control Rod (FFCR) and Measure FFCR Element
+
+NOTE: Inspection and Measurement of FFCR Elements is the same as SFEs, with the exceptions
+that the fuel handling tool will not be used, the Reference FFCR Length Tube will be used
+instead of the Reference SFE, and the procedure will require removal of control rod drives.
+Inspection and Measurement shall apply to all FFCR Elements in the reactor grid plate.
+
+NOTE: The transient rod does not have any fuel and will only be visually inspected.
+
+1. Remove sufficient fuel from the core for minimum shutdown condition.
+
+WARNING: Minimum shutdown margin must be greater than 0.2% Δk/k, with removal of the
+two most reactive rods.
+
+2. Prepare equipment and personnel for inspection tasks.
+
+CAUTION: Detectable amounts of particulate activity are associated with any abrasive contact
+with irradiated fuel elements. The fuel element handling tool and element measuring devices
+will have small amounts of removable radioactive particles.
+
+   a. Locate Previous MAIN-5 Fuel Element Measurement Records.
+   b. Locate Fuel Moves Log B159.xls to determine element serial numbers and locations.
+   c. Setup underwater video camera system at the pool.
+   d. Verify that a gamma sensitive survey instrument is present near the pool surface.
+
+CAUTION: Lower surfaces of the inspection stand will have surface contamination.
+Contamination of 2000 to 10000 dpm/cm² can occur when fuel element cladding comes in
+contact with inspection stand components.
+
+   e. Install fuel inspection stand in the pool.
+      1) Secure inspection stand to side of pool (typically with C-clamps).
+      2) Tie off all items that could potentially fall in pool.
+   f. Mount the probe indicator to the inspection stand.
+
+3. Calibrate the probe indicator.
+
+   a. Insert the Reference FFCR Length Tube into the fuel inspection position of the inspection stand (i.e., not in the go/no-go gauge).
+   b. Lower the Measurement Extension Rod to the Reference FFCR Length Tube resting it on the edge of the tube.
+   c. Adjust the probe indicator mounting hardware such that the Measurement Extension Rod fits between the indicator pin and the Reference FFCR Length Tube.
+   d. Ensure all probe indicator mounting hardware is tight.
+   e. Adjust the probe indicator position such that the probe indicator is near the middle of its travel range (approximately 0.5"); then zero the indicator (repeat as necessary).
+
+NOTE: Adjusting the probe indicator to the middle of its travel range will allow measurement
+data for elements that are reported to be less than the reference in length.
+
+CAUTION: The Measurement Extension Rod should be near vertical to avoid side effect error.
+
+   f. Remove and reinsert the Measurement Extension Rod to check for a consistent zeroed measurement on the probe indicator.
+   g. Remove Measurement Extension Rod and the Reference FFCR Length Tube from the inspection stand; re-adjust as necessary.
+
+CAUTION: Remove only one control rod at a time. Reinstall each control rod prior to
+removal of another. Take care to NOT drop items into the pool.
+
+4. Remove rod drive from bridge mount.
+
+   a. Transient Rod Drive
+      1) Secure air pressure valve at top of pool.
+      2) Release air pressure in rod drive.
+      3) Remove drive cable at connector.
+      4) Cut tie wraps securing cable to tube.
+      5) Remove rod drive compressed air hose.
+      6) Loosen bolts securing support frame to drive bridge.
+      7) Lift support frame with overhead crane.
+   b. Stepper Motor Drives
+      1) Turn power OFF to rod drive translator.
+      2) Remove rod drive cover housing.
+      3) Disconnect motor power cable at drive motor unit.
+      4) Locate rod down limit switch assembly.
+      5) Remove limit switch actuator, spring, and washer.
+      6) Remove four screws securing drive drawtube to pedestal.
+      7) Lift drive drawtube assembly from the pedestal.
+
+CAUTION: Damage to components may occur as the FFCR draw tube passes thru the deck
+plate penetration. Great care must be taken to prevent damaging drive switch actuator
+mechanism. Do not apply excessive torque on the FFCR during removal from the core.
+
+5. Move each FFCR element per FUEL-1 movement procedure.
+
+6. Remove control rod drive and control rod from core.
+
+   a. Lift rod drive assembly until the bolts securing extension rod are accessible.
+      1) The bolts secure the upper and lower sections of the extension rod.
+      2) Lift rod drive assembly manually or with the overhead crane.
+
+CAUTION: The regulating rod and shim rods are stainless steel with a fuel follower. These
+control rods will be highly radioactive.
+
+NOTE: The transient rod may be removed from the pool for inspection, it is aluminum clad
+with no fuel follower.
+
+WARNING: Be careful to NOT drop bolts in the pool.
+
+   b. Remove connecting bolts.
+      1) Attach and use line (rope) as needed to lower the remaining section of extension rod and FFCR back down through bridge.
+      2) Relocate control rod assembly in pool as necessary for inspection.
+   c. Inspect extension rods, control rod, fuel follower, and connections.
+      1) Look for evidence of wear, deterioration, or corrosion.
+      2) Replace any suspect roll pins or connecting bolts.
+      3) Photographs or x-rays should be made of suspect areas.
+
+7. Inspect and Measure
+
+CAUTION: Raise fuel elements in the pool only as high as needed to insert into the inspection
+stand, this will minimize personnel exposure from the irradiated fuel element.
+
+CAUTION: Do not to bump or jar the inspection stand or probe indicator setup.
+
+   a. Place video camera assembly in pool for observation of element.
+   b. Repeat probe indicator calibration step II.C.3 if inspection stand is disturbed, at the beginning of each measurement day, or if measurements appear to deviate consistently from previous results.
+   c. Verify FFCR Element serial number etched or stamped on side of top flute
+      1) Compare to Fuel Move Log and B159.xls file for the correct location and inspection information.
+      2) If the fuel element is flagged as disqualified, remove the element from service.
+      3) No additional inspection or measurement is needed for the failed element.
+   d. Observe the surface and ends of the element for abnormalities.
+
+CAUTION: Never force or drop a fuel element through the go/no-go gauge. To do so could
+damage the gauge, rupture the cladding, or jam the element in the gauge. To pass the bow and
+swelling test, the element should pass through the go/no-go gauge while being lowered to a
+seated position.
+
+WARNING: If there is evidence of fuel element damage that releases radionuclides to the
+confinement area at concentrations of greater or equal to 100 DAC, consult the Emergency
+Response Plan and PLAN-E for notification of unusual event.
+
+NOTE: If the element becomes jammed in the gauge, attempt to remove it gently. If the element
+cannot be removed, contact the reactor manager.
+
+   e. Insert FFCR element into the go/no-go gage.
+
+NOTE: If FFCR element fits into the gauge without significant binding, then the element
+passes the go/no-go bend test.
+
+   f. Record go/no-go results in Fuel Element Log.
+
+WARNING: If the element fails the go/no-go tolerance test, it has excessive bow or swelling and
+shall not be reinserted into the reactor core grid plate.
+
+   g. If the FFCR element fails the go/no-go tolerance test, it does not meet the
+      requirements of the License Technical Specifications.
+      1) Remove the element from service.
+      2) No additional inspection or measurement is needed for the failed element.
+   h. If the FFCR element passes the go/no-go tolerance test, move the FFCR
+      element to the fuel inspection position of the inspection stand.
+   i. View the element with the camera (rotate the element as needed to view
+      all surfaces) and note all significant defects (scratches, corrosion, bulges,
+      pits, etc.) in the Fuel Element Log.
+   j. Inspect the poison section of the FFCR and note abnormalities in the Fuel
+      Element Log.
+   k. If the element is found to have significant defects, it does not meet the
+      requirements of the License Technical Specifications.
+      1) Remove the element from service.
+      2) No additional measurement is needed for the failed element.
+   l. If the element passes the visual inspection, measure the element length
+      (elongation) using the Measurement Extension Rod and zeroed probe
+      indicator.
+
+NOTE: FFCR length is a measure of difference from the Reference FFCR Length Tube
+measured in thousandths of an inch (0.001") and may be positive or negative.
+
+      1) Take at least two measurements at one position on the fin.
+      2) Using the inspection stand rotation mechanism, rotate the element
+         approximately 120 degrees and repeat measurements.
+      3) Rotate the element an additional approximately 120 degrees and
+         repeat measurements.
+      4) Record the largest reading in the Fuel Element Log for all
+         measurements taken.
+
+CAUTION: If a FFCR is found to have corrosion, mechanical damage, elongation of more than
+1/10 in. over original length, or does not pass the go/no-go test, the FFCR SHALL NOT be
+reinserted in the Reactor core grid plate.
+
+   m. If measurement error is suspected:
+      1) Re-measure the element while evaluating previous measurement history files and
+      2) Troubleshoot for measurement problems or
+      3) Recalibrate and
+      4) Reevaluate element for service.
+   n. If element has elongation more than 1/10" (0.100", 2.54mm), it does not meet the requirements of the License Technical Specifications, remove the element from service.
+
+8. Compare measurement data of each element to previous measurements to
+   look for trends.
+
+9. Inspection and measurement shall apply to all FFCR elements in the reactor
+   core.
+
+10. Update B159.xls file.
+    a. Fuel location data.
+    b. Date of last inspection.
+    c. Disqualified flag for any elements failing inspection.
+
+11. Update FUEL-1 required documents.
+
+12. Repeat FFCR element measurements with significant deviations from
+    recorded history.
+
+13. Reinstall FFCR assembly by executing the removal steps in reverse order.
+
+14. Using proper contamination control techniques, remove fuel inspection
+    stand and associated equipment from the pool and pool deck area at
+    completion of FFCR inspection and measurement.
+
+15. Perform SURV-6 Rod Control Rod Calibration
+    a. Control Rod Worth
+    b. Control Rod Withdrawal, Insertion, and Drop Time Measurements
+
+16. Perform SURV-3 Excess Reactivity and Shutdown Margin.
+
+17. Review inspection results and rod worth prior to resuming routine reactor operation.
 
 MAIN-6 Rod & Drive Maintenance, Inspection
 ==========================================
+
+I. INTRODUCTION
+---------------
+
+A. Purpose
+
+The purpose of Rod Drive Inspection and Maintenance activities is monitoring and maintaining
+the condition of control rod drives.
+
+Three functional criteria for the procedure are:  
+(1) Verify the conditions of the rod drives meet the minimum requirements of the License Tech. Specs.  
+(2) Verify the conditions of the rod drives meet the broader quality assurance requirements of the ICS system design.  
+(3) Assure no task or action of this procedure is a proposed change, test, or experiment in the sense of 10CFR50.59.
+
+B. Description
+
+Control rod drives must meet specific operation requirements for proper operation. Periodic
+inspections will identify potential problems by visual observation of physical conditions of the
+control rod and its drive system. Maintenance that corrects deficiencies found during an
+inspection or failure of the control to calibrate or operate correctly will return the control rod
+system to acceptable working status. Acceptable working status means the control rod system
+will operate, as its original design specifications require. All replacement parts for rod drive
+system maintenance shall meet or exceed the requirements of the original system installation.
+
+C. Schedule
+
+Schedule procedure once each year. Refer to MAIN5 to complete the inspection of CFFRs. Plan
+procedure task for the month of January but no later than 15 months from previous work.
+
+D. Contents
+
++-------------------------------+------+
+| SECTION                       | Page |
++===============================+======+
+| A. General Instructions       |    4 |
+| B. Standard Rod Drive Inspection | 4 |
+| C. Stepper Rod Drive Inspection | 4  |
+| D. Transient Rod Drive Inspection |4 |
+| E. Control Rod Drive Test     |    5 |
++-------------------------------+------+
+
+E. Attachments
+
+Drive Inspection Summary
+
+F. Equipment, Materials
+
+1. Transient rod and drive  
+2. Reg rod, drive and translator  
+3. Shim 1 rod and drive  
+4. Shim 2 rod and drive  
+
+G. References, Other Procedures
+
+1. SURV-6 Control Rod Calibration  
+2. OPER-6 Reactor Bay Systems  
+3. ICS Operation and Maintenance Manual, Chapters 5, 6 and 7  
+
+
+II. PROCEDURE
+-------------
+
+A. General Instructions
+
+Repair rod drive mechanism with the supervision of a senior reactor operator.
+
+1. Perform repair using available documents.  
+   Refer to General Atomic procedures in supplied manuals as guidance.  
+   Refer to drawings, circuit diagrams, and functional descriptions as guidance.
+
+2. Replace parts with identical part to the original part.  
+   A substitute part shall have equivalent or superior specifications.  
+   All substitutions shall meet the requirements of 10cfr50.59 and ADMN2.
+
+3. Execute steps necessary to qualify the system as operational.  
+   Approve results of work prior to resumption of routine reactor operation.
+
+B. Standard Rod Drive Maintenance (Chapter 5)
+
+Standard rod drives are no longer in use; go to next section.
+
+C. Stepping Rod Drive Maintenance (Chapter 6)
+
+Perform the following actions for each non-pulse control rod drive:
+
+1. Remove rod drive cover.  
+2. Inspect mechanism for visual evidence of deterioration or component failure.  
+3. Observe operation of mechanical limit switches noting any abnormalities.  
+4. Verify that setscrews or locking nuts on switch actuators appear secure.  
+5. Replace rod drive cover.  
+6. Verify that bolts securing drive mechanism to bridge are secure.  
+
+D. Transient Rod Drive Maintenance (Chapter 7)
+
+Perform the following actions for the pulse rod drive:
+
+1. Inspect air supply line from drive to filter and regulator.  
+2. Check regulator filter.  
+   Remove air pressure, clean or replace filter, restore air pressure.  
+3. Blow down regulator assembly and air surge tank near rod drive.  
+   Blow down should remove liquid accumulations.  
+4. Check air hose for evidence of deterioration or leakage.  
+5. Check shock isolation mounts.  
+6. Verify bolts between drive mechanism and bridge are secure.  
+7. Verify power and signal cable plug connections are secure.  
+8. Inspect drive shock absorber and inside surface of cylinder.  
+   a. Remove stainless steel shock absorber by rotation in clockwise direction.  
+   b. Examine inside of drive cylinder using a light.  
+   c. Clean with alcohol swab and check that cylinder is clean and smooth.  
+   d. Coat cylinder interior walls with light application of silicone spray lubricant.  
+   e. Replace shock absorber (hand tighten).  
+9. Inspect drive position threads and outside surface of cylinder.  
+   a. If oxidation is apparent or if surface appears dirty,  
+   b. Clean and coat cylinder exterior threads with lubricant.  
+   c. Lubricant is a light coat of lubri-plate grease.  
+   d. Lubricant serves as lubricant and rust preventative.  
+
+E. Rod Drive Test
+
+1. Refer to GA manual chapter 5, 6, or 7 for alignment of rod limit switches.  
+2. Perform operation test of rod (Refer to SURV6).  
+   Measure rod drop time  
+   Measure rod drive insertion and withdrawal times.  
+   If transient control rod drop time is slower than normal,  
+   a. Raise rod drive about five inches.  
+   b. Lift piston about one inch by hand.  
+   c. Apply silicone lubrication to bottom of piston guide. Access the guide thru slot in side of rod drive tube assembly.  
+   d. Repeat rod drop tests.  
+3. Record the inspection result and successful completion of tests.  
+   Refer to OPER6 for documentation of repairs (Reactor Maintenance Log).  
