@@ -2,8 +2,8 @@
 ADMIN
 =====
 
-ADMIN-1 
-=======
+ADMIN-1 NETL Procedure Control
+==============================
 
 1.0 PURPOSE
 -----------
