@@ -5,8 +5,8 @@ HP
 HP-001 Padiation Monitoring - Personnel
 =======================================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
 ~~~~~~~~~~
@@ -57,8 +57,8 @@ G. REFERENCES
 2. Title 25, Texas Administrative Code, Chapter 289, Section 202 (25TAC289.202), "Standards for Protection Against Radiation"  
 3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
 
 .. _HP1.II.A:
 
@@ -201,8 +201,8 @@ Good contamination control technique should be practiced when in a Restricted Ar
 HP-002 Radiation Monitoring - Facility 
 ======================================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
 ~~~~~~~~~~
@@ -253,8 +253,8 @@ G. REFERENCES
 3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
 
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
 
 .. _HP2.II.A:
 
@@ -376,8 +376,8 @@ Contamination Surveys
 HP-003 NELT ALARA Program
 =========================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
 ~~~~~~~~~~
@@ -421,8 +421,8 @@ F. REFERENCES
 5. UT TRIGA Facility Operating License Technical Specifications
 
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
 
 .. _HP3.II.A:
 
@@ -510,396 +510,455 @@ HP-004 Radiation Protection Training
 ====================================
 
 I. INTRODUCTION
-===============
+---------------
 
 A. PURPOSE
-----------
+~~~~~~~~~~
 
-Specify the radiological protection training requirements for personnel and visitors at the NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
+   Specify the radiological protection training requirements for personnel and visitors at the NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
---------------
+~~~~~~~~~~~~~~
 
-One of the most important components of any radiological protection program is the training that is provided to facility personnel. A well-trained staff contributes significantly to the safe, efficient operation of the facility during normal and emergency situations and maintaining exposures ALARA.
+   One of the most important components of any radiological protection program is the training that is provided to facility personnel. A well-trained staff contributes significantly to the safe, efficient operation of the facility during normal and emergency situations and maintaining exposures ALARA.
 
-This procedure establishes the requirements for initial training and continuing education for personnel granted unescorted access to Restricted Areas, training for visitors, and provisions for specialized training for non-routine activities.
+   This procedure establishes the requirements for initial training and continuing education for personnel granted unescorted access to Restricted Areas, training for visitors, and provisions for specialized training for non-routine activities.
 
 C. SCHEDULE
------------
+~~~~~~~~~~~
 
-Provide initial radiation protection training to personnel to be granted unescorted access to Restricted Areas prior to granting access. Provide radiation protection continuing education to personnel at least every two years. Provide specialized training as needed for non-routine activities.
+   Provide initial radiation protection training to personnel to be granted unescorted access to Restricted Areas prior to granting access. Provide radiation protection continuing education to personnel at least every two years. Provide specialized training as needed for non-routine activities.
 
 D. CONTENTS
------------
+~~~~~~~~~~~
 
-- II.A Initial Training ............ Page 4  
-- II.B Continuing Education ........ Page 4  
-- II.C Visitors .................... Page 4  
-- II.D Other Training .............. Page 4  
-- II.E Records ..................... Page 4  
+- :ref:`II.A Initial Training <HP4.II.A>`  
+- :ref:`II.B Continuing Education <HP4.II.B>`  
+- :ref:`II.C Visitors <HP4.II.C>`  
+- :ref:`II.D Other Training <HP4.II.D>`  
+- :ref:`II.E Records <HP4.II.E>`
 
 E. ATTACHMENTS
---------------
+~~~~~~~~~~~~~~
 
 Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
-- NETL Radiation Protection Training Record ............ Page 6
+NETL Radiation Protection Training Record
 
 F. EQUIPMENT and MATERIALS
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- N/A
+   N/A
 
 G. REFERENCES
--------------
+~~~~~~~~~~~~~
 
-1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"
-2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"
-3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
+   1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"
+   2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"
+   3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
 
 II. PROCEDURE
-=============
+-------------
+
+.. _HP4.II.A:
 
 A. Initial Training
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-All personnel requiring unescorted access to Restricted Areas in NETL must complete radiation protection training prior to having unescorted access to Restricted Areas. Subjects covered in the training shall at a minimum include:
+   All personnel requiring unescorted access to Restricted Areas in NETL must complete radiation protection training prior to having unescorted access to Restricted Areas. Subjects covered in the training shall at a minimum include:
 
-- Atomic Structure and Radioactivity  
-- Interactions of Radiation with Matter  
-- Quantities and Units of Radiation  
-- Basic Principles of Radiation Protection  
-- Safe Handling of Radioactive Materials and Sources  
-- Radiation Detection Instruments and Surveys  
-- Dosimetry  
-- Waste Disposal  
-- Purchasing and Receiving Radioactive Materials  
-- Regulations  
-- Emergency Procedures  
-- Record Keeping  
+   - Atomic Structure and Radioactivity  
+   - Interactions of Radiation with Matter  
+   - Quantities and Units of Radiation  
+   - Basic Principles of Radiation Protection  
+   - Safe Handling of Radioactive Materials and Sources  
+   - Radiation Detection Instruments and Surveys  
+   - Dosimetry  
+   - Waste Disposal  
+   - Purchasing and Receiving Radioactive Materials  
+   - Regulations  
+   - Emergency Procedures  
+   - Record Keeping  
 
-Upon completion of initial training, the person will be considered a NETL radiation worker and may receive an "R-badge."
+   Upon completion of initial training, the person will be considered a NETL radiation worker and may receive an "R-badge."
+
+.. _HP4.II.B:
 
 B. Continuing Education
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
-After initial training, all NETL radiation workers shall participate in continuing education at least every two years. Continuing education shall cover topics which are radiation protection related and may be in the form of classes, seminars, self-study, and/or other formats approved by the NETL Health Physicist.
+   After initial training, all NETL radiation workers shall participate in continuing education at least every two years. Continuing education shall cover topics which are radiation protection related and may be in the form of classes, seminars, self-study, and/or other formats approved by the NETL Health Physicist.
 
-Maintaining in good standing a professional license or certification which has a formal radiation protection related continuing education requirement (NRC Reactor Operator License, Certified Health Physicist, National Registry of Radiation Protection Technologists, etc.) shall be considered to satisfy the NETL radiation protection continuing education requirement.
+   Maintaining in good standing a professional license or certification which has a formal radiation protection related continuing education requirement (NRC Reactor Operator License, Certified Health Physicist, National Registry of Radiation Protection Technologists, etc.) shall be considered to satisfy the NETL radiation protection continuing education requirement.
+
+.. _HP4.II.C:
 
 C. Visitors
------------
+~~~~~~~~~~~
 
-A visitor is any individual who has not completed radiation protection training as described in Section II.A. As visitors are escorted by NETL radiation workers, visitors are not required to complete any formal radiation protection training. However, prior to entry into any Restricted Areas in NETL, the visitor’s escort may provide a briefing of pertinent subjects such as dosimeter use, special precautions to be observed, emergency procedures, etc.
+   A visitor is any individual who has not completed radiation protection training as described in Section II.A. As visitors are escorted by NETL radiation workers, visitors are not required to complete any formal radiation protection training. However, prior to entry into any Restricted Areas in NETL, the visitor’s escort may provide a briefing of pertinent subjects such as dosimeter use, special precautions to be observed, emergency procedures, etc.
+
+.. _HP4.II.D:
 
 D. Other Training
------------------
+~~~~~~~~~~~~~~~~~
 
-Non-routine activities may require specialized radiation protection training. The Health Physicist, as part of the activity review, shall determine the appropriate training. If it is determined that specialized training is required, all personnel involved in the performance of the activity shall complete the training prior to participation in the activity.
+   Non-routine activities may require specialized radiation protection training. The Health Physicist, as part of the activity review, shall determine the appropriate training. If it is determined that specialized training is required, all personnel involved in the performance of the activity shall complete the training prior to participation in the activity.
+
+.. _HP4.II.E:
 
 E. Records
-----------
+~~~~~~~~~~
 
-Records of the training required by this procedure shall be maintained (typically by the NETL Health Physicist) in a format acceptable for inspection. The attachment “Personnel Training Record” is an example of an acceptable record format.
+   Records of the training required by this procedure shall be maintained (typically by the NETL Health Physicist) in a format acceptable for inspection. The attachment “Personnel Training Record” is an example of an acceptable record format.
 
 HP-005 Radiation Protection Instrument Test and Calibration
 ===========================================================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
+~~~~~~~~~~
 
-Describe the periodic tests and calibrations performed on radiation protection instruments used at NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
+   Describe the periodic tests and calibrations performed on radiation protection instruments used at NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
-The radiation protection and ALARA programs depend on accurate measurements of radiation and contamination levels. Periodic testing and calibration of radiation protection instruments is required to assure accurate results. This procedure is developed from the guidance of industry standards such as ANSI N323 Radiation Protection Instrumentation Test and Calibration.
+   The radiation protection and ALARA programs depend on accurate measurements of radiation and contamination levels. Periodic testing and calibration of radiation protection instruments is required to assure accurate results. This procedure is developed from the guidance of industry standards such as ANSI N323 Radiation Protection Instrumentation Test and Calibration.
 
-While this procedure is generally applicable to any radiation protection instrument, test and calibration of some instruments specifically supporting reactor operations as required by Technical Specifications may be covered by other procedures.
+   While this procedure is generally applicable to any radiation protection instrument, test and calibration of some instruments specifically supporting reactor operations as required by Technical Specifications may be covered by other procedures.
 
-Examples of radiation protection instruments used in the NETL and tested and calibrated following this procedure are given below. Because equipment is updated and replaced as technology and performance requires, the instruments listed should be considered representative rather than an exact listing.
+   Examples of radiation protection instruments used in the NETL and tested and calibrated following this procedure are given below. Because equipment is updated and replaced as technology and performance requires, the instruments listed should be considered representative rather than an exact listing.
 
-- Bicron Frisk-Tech .......... 0-500,000 cpm (Contamination)  
-- Bicron Micro-Rem .......... 0-20 mrem/hr (Radiation)  
-- Eberline RO-2A ............ 0-50 R/hr (Radiation)  
-- Ludlum 12-4 ............... 0-10 rem/hr (Neutron)  
-- Eberline RM-14S ........... 0-5,000,000 cpm (Contamination)  
-- Various PICs .............. 0-200 mrem (Dosimeter)  
-- Canberra DosiCard ......... N/A (Dosimeter)  
-- Victoreen 450B ............ 0-50 R/hr (Radiation)  
-- Eberline E600 ............. 0-1000 R/hr (Radiation)  
-- Ludlum 375 Dual ........... 0.1-1,000 mrem/hr (Criticality)  
-- Berthold LB-1043 .......... N/A (Contamination)  
-- Protean WPC 9550 .......... N/A (Contamination)  
-- Wallac 1409 ............... N/A (Contamination)  
-- Canberra GEM5 ............. N/A (Contamination)  
-
+   - Bicron Frisk-Tech .......... 0-500,000 cpm (Contamination)  
+   - Bicron Micro-Rem .......... 0-20 mrem/hr (Radiation)  
+   - Eberline RO-2A ............ 0-50 R/hr (Radiation)  
+   - Ludlum 12-4 ............... 0-10 rem/hr (Neutron)  
+   - Eberline RM-14S ........... 0-5,000,000 cpm (Contamination)  
+   - Various PICs .............. 0-200 mrem (Dosimeter)  
+   - Canberra DosiCard ......... N/A (Dosimeter)  
+   - Victoreen 450B ............ 0-50 R/hr (Radiation)  
+   - Eberline E600 ............. 0-1000 R/hr (Radiation)  
+   - Ludlum 375 Dual ........... 0.1-1,000 mrem/hr (Criticality)  
+   - Berthold LB-1043 .......... N/A (Contamination)  
+   - Protean WPC 9550 .......... N/A (Contamination)  
+   - Wallac 1409 ............... N/A (Contamination)  
+   - Canberra GEM5 ............. N/A (Contamination)  
 
 C. SCHEDULE
-
-Apply daily for response checks of instruments in use and annually for calibration except as noted.
+~~~~~~~~~~~
+   
+   Apply daily for response checks of instruments in use and annually for calibration except as noted.
 
 
 D. CONTENTS
+~~~~~~~~~~~
 
-- II.A Instrument Checks ................ Page 5  
-- II.B Response Checks .................. Page 5  
-- II.C Calibration Requirements ......... Page 6  
-- II.D Records .......................... Page 6  
-
+- :ref:`II.A Instrument Checks <HP5.II.A>`  
+- :ref:`II.B Calibration Requirements <HP5.II.B>`  
+- :ref:`II.C Records <HP5.II.C>`
 
 E. ATTACHMENTS
+~~~~~~~~~~~~~~
 
-Note: Attachments are not part of this procedure but may be useful when performing this procedure.
+   Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
-- Generic Count Rate Instrument Calibration Data Sheet  
-- Generic Dose Rate Instrument Calibration Data Sheet  
-- Calibration guides for various instruments  
-- Calibration data sheets for various instruments  
+   - Generic Count Rate Instrument Calibration Data Sheet  
+   - Generic Dose Rate Instrument Calibration Data Sheet  
+   - Calibration guides for various instruments  
+   - Calibration data sheets for various instruments  
 
 
 F. EQUIPMENT and MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Boundary Control Materials (rope, signs, etc.)  
-2. Test and Calibration Materials (calibration tags, etc.)  
-3. NIST traceable radiation sources (Cs-137, Cf-252, etc.)  
-4. Various radiation sources for instrument check sources  
-5. Calibrated Pulse Generator  
+   1. Boundary Control Materials (rope, signs, etc.)  
+   2. Test and Calibration Materials (calibration tags, etc.)  
+   3. NIST traceable radiation sources (Cs-137, Cf-252, etc.)  
+   4. Various radiation sources for instrument check sources  
+   5. Calibrated Pulse Generator  
 
 
 G. REFERENCES
+~~~~~~~~~~~~~
 
-1. ANSI N323-1978 "Radiation Protection Instrumentation Test and Calibration"  
-2. Various equipment technical manuals  
+   1. ANSI N323-1978 "Radiation Protection Instrumentation Test and Calibration"  
+   2. Various equipment technical manuals  
 
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
+
+.. _HP5.II.A:
 
 A. Instrument Checks - Portable Instruments
 
-Prior to use, an instrument should be checked for proper function. The actual checks performed depend on the particular instrument but typically consist of the following:
+   Prior to use, an instrument should be checked for proper function. The actual checks performed depend on the particular instrument but typically consist of the following:
 
-1. Perform a visual inspection of the instrument looking for obvious signs of damage. Pay particular attention to the thin windows of probes. If the instrument appears damaged, take it out of service and report it to the NETL HP.
+   1. Perform a visual inspection of the instrument looking for obvious signs of damage. Pay particular attention to the thin windows of probes. If the instrument appears damaged, take it out of service and report it to the NETL HP.
 
-2. Check calibration sticker to ensure that the instrument calibration is current. If the instrument is out of calibration, take it out of service and report it to the NETL HP.
+   2. Check calibration sticker to ensure that the instrument calibration is current. If the instrument is out of calibration, take it out of service and report it to the NETL HP.
 
-3. Perform the power up tests. This typically includes such things as battery, high voltage, and zero tests. If the instrument fails any of these tests, take it out of service and report it to the NETL HP.
+   3. Perform the power up tests. This typically includes such things as battery, high voltage, and zero tests. If the instrument fails any of these tests, take it out of service and report it to the NETL HP.
 
-4. Check the “Response Check” tag to ensure that the instrument has been response checked for that day. If not, perform the response check by exposing the instrument to a known source of radiation. If the instrument responds appropriately, initial and date the Response Check tag.
+   4. Check the “Response Check” tag to ensure that the instrument has been response checked for that day. If not, perform the response check by exposing the instrument to a known source of radiation. If the instrument responds appropriately, initial and date the Response Check tag.
 
+.. _HP5.II.B:
 
 B. Calibration Requirements
 
-1. Calibration Frequency:
+   1. Calibration Frequency:
 
-   All instruments shall be calibrated annually unless noted otherwise.
+      All instruments shall be calibrated annually unless noted otherwise.
 
-2. Calibration Methods:
+   2. Calibration Methods:
 
-   In general, calibration shall be made using an appropriate radiation source depending on the type of radiation the instrument is designed to detect. At least two radiation exposure values should be checked for each meter scale on instruments used for measuring radiation fields. Instruments utilized for surface contamination measurements are typically calibrated with a pulse generator. Check appropriate calibration sources to determine efficiency and with approved radiation sources to determine accuracy. Radiation sources shall be traceable to the National Institute of Standards and Technology (NIST). Attachments to this procedure provide detailed steps to calibrate specific instruments in use at NETL. If no attachment is available for an instrument, follow the manufacturer’s technical manual. At a minimum, the following shall be checked:
+      In general, calibration shall be made using an appropriate radiation source depending on the type of radiation the instrument is designed to detect. At least two radiation exposure values should be checked for each meter scale on instruments used for measuring radiation fields. Instruments utilized for surface contamination measurements are typically calibrated with a pulse generator. Check appropriate calibration sources to determine efficiency and with approved radiation sources to determine accuracy. Radiation sources shall be traceable to the National Institute of Standards and Technology (NIST). Attachments to this procedure provide detailed steps to calibrate specific instruments in use at NETL. If no attachment is available for an instrument, follow the manufacturer’s technical manual. At a minimum, the following shall be checked:
 
-   i.   Verify instrument is free of significant contamination.  
-   ii.  Set meter to zero or point specified by manufacturer.  
-   iii. Check battery or power is OK.  
-   iv.  Turn on and warm up if required.  
-   v.   Check electrical settings such as H.V. are OK.  
-   vi.  Expose instruments to NIST traceable calibration source. Detector source geometry and scattering or buildup should be considered when appropriate.  
-   vii. Calibrate all instruments with linear scales at approximately 20% and 80% of each scale and instruments with log or digital scales at the midpoint of each decade. For frisker type probes expose probe to Beta and/or Alpha reference sources and calculate and record efficiencies for the instrument.  
-   viii. After any adjustments, calibrated instrument should read within 20% of expected values. Instruments which do not read within 20%, shall be tagged and removed from service for repair. If only one scale or decade is out of calibration, the instrument may be deemed calibrated provided a very obvious tag or marking is affixed to the instrument indicating the non-functional scale or decade.  
-   ix.  Record calibration data on applicable forms.  
-   x.   A calibration sticker shall be attached to all calibrated instruments showing the last calibration date, who performed the calibration, and the next calibration due date.
+      i.   Verify instrument is free of significant contamination.  
+      ii.  Set meter to zero or point specified by manufacturer.  
+      iii. Check battery or power is OK.  
+      iv.  Turn on and warm up if required.  
+      v.   Check electrical settings such as H.V. are OK.  
+      vi.  Expose instruments to NIST traceable calibration source. Detector source geometry and scattering or buildup should be considered when appropriate.  
+      vii. Calibrate all instruments with linear scales at approximately 20% and 80% of each scale and instruments with log or digital scales at the midpoint of each decade. For frisker type probes expose probe to Beta and/or Alpha reference sources and calculate and record efficiencies for the instrument.  
+      viii. After any adjustments, calibrated instrument should read within 20% of expected values. Instruments which do not read within 20%, shall be tagged and removed from service for repair. If only one scale or decade is out of calibration, the instrument may be deemed calibrated provided a very obvious tag or marking is affixed to the instrument indicating the non-functional scale or decade.  
+      ix.  Record calibration data on applicable forms.  
+      x.   A calibration sticker shall be attached to all calibrated instruments showing the last calibration date, who performed the calibration, and the next calibration due date.
 
+.. _HP5.II.C:
 
 C. Records
 
-The NETL Health Physicist shall maintain all instrument calibration records required by this procedure.
+   The NETL Health Physicist shall maintain all instrument calibration records required by this procedure.
 
 HP-006 Radioactive Material Control
 ===================================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
+~~~~~~~~~~
 
-This procedure describes the practices instituted for control of radioactive materials in the NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
+   This procedure describes the practices instituted for control of radioactive materials in the NETL. Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
-Stringent control practices for the safe use, storage, transfer, and disposal of radioactive materials embody one of the basic tenets of the ALARA program goals at NETL. Waste minimization practices such as segregation of radioactive waste shall be conducted for all radioactive waste producing activities. This procedure describes the controls for radioactive materials use, storage transfer and disposal.
+   Stringent control practices for the safe use, storage, transfer, and disposal of radioactive materials embody one of the basic tenets of the ALARA program goals at NETL. Waste minimization practices such as segregation of radioactive waste shall be conducted for all radioactive waste producing activities. This procedure describes the controls for radioactive materials use, storage transfer and disposal.
 
 C. SCHEDULE
+~~~~~~~~~~~
 
-Apply daily as necessary for control of radioactive materials.
+   Apply daily as necessary for control of radioactive materials.
 
 D. CONTENTS
+~~~~~~~~~~~
 
-- II.A Restricted Areas ...................... Page 4  
-- II.B Radioactive Material Control .......... Page 4  
-- II.C Transfer of Radioactive Material ...... Page 5  
-- II.D Release of Radioactive Material ....... Page 5  
-- II.E Radioactive Waste ..................... Page 6
+- :ref:`II.A Restricted Areas <HP6.II.A>`  
+- :ref:`II.B Radioactive Material Control <HP6.II.B>`  
+- :ref:`II.C Transfer of Radioactive Material <HP6.II.C>`  
+- :ref:`II.D Release of Radioactive Material <HP6.II.D>`  
+- :ref:`II.E Radioactive Waste <HP6.II.E>`
 
 E. ATTACHMENTS
+~~~~~~~~~~~~~~
 
 Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
-- Sample Irradiation Log ..................... Page 7  
-- Radioactive Material Transfer Record ...... Page 8
+- Sample Irradiation Log
+- Radioactive Material Transfer Record
 
 F. EQUIPMENT AND MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Radioactive material labels, tags, tape, and signs  
-2. Radioactive material storage and waste containers  
-3. Radiation detection and analysis equipment
+   1. Radioactive material labels, tags, tape, and signs  
+   2. Radioactive material storage and waste containers  
+   3. Radiation detection and analysis equipment
 
 G. REFERENCES
+~~~~~~~~~~~~~
 
-1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"  
-2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"  
-3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
+   1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"  
+   2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"  
+   3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
+
+.. _HP6.II.A:
 
 A. Restricted Areas
+~~~~~~~~~~~~~~~~~~~
 
-An area where radioactive materials are used and/or stored shall be considered a Restricted Area and posted appropriately.
+   An area where radioactive materials are used and/or stored shall be considered a Restricted Area and posted appropriately.
 
-1. Typically, an entire room is designated as a Restricted Area. But if appropriate, only a section of a room may be designated as a Restricted Area and posted.  
-2. Unescorted access to Restricted Areas is limited to properly trained individuals.
+   1. Typically, an entire room is designated as a Restricted Area. But if appropriate, only a section of a room may be designated as a Restricted Area and posted.  
+   2. Unescorted access to Restricted Areas is limited to properly trained individuals.
+
+.. _HP6.II.B:
 
 B. Radioactive Material Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Radioactive materials shall be secure at all times.  
-   a. All radioactive materials shall be physically secured by being stored in a locked container, cabinet, room, etc.  
-   b. When not physically secured, radioactive material shall be accompanied by a properly trained individual at all times.  
-2. Radioactive materials (including contaminated items) shall be marked by labeling the item or its container with a radioactive material label, yellow and magenta tape, or other similar method. If not practical, the item may be maintained within a designated radioactive material work area.  
-3. Contaminated items not currently in use should be sealed in bags, wrapped in plastic, or controlled in other ways to minimize spread of contamination.  
-4. Materials irradiated for experiments shall be logged using a form approved by the HP and/or Reactor Supervisor (such as HP6-a1, HP6-a2, or sample log book for pneumatic samples). “In-core” refers to placement within the core region.
+   1. Radioactive materials shall be secure at all times.  
+      a. All radioactive materials shall be physically secured by being stored in a locked container, cabinet, room, etc.  
+      b. When not physically secured, radioactive material shall be accompanied by a properly trained individual at all times.  
+   2. Radioactive materials (including contaminated items) shall be marked by labeling the item or its container with a radioactive material label, yellow and magenta tape, or other similar method. If not practical, the item may be maintained within a designated radioactive material work area.  
+   3. Contaminated items not currently in use should be sealed in bags, wrapped in plastic, or controlled in other ways to minimize spread of contamination.  
+   4. Materials irradiated for experiments shall be logged using a form approved by the HP and/or Reactor Supervisor (such as HP6-a1, HP6-a2, or sample log book for pneumatic samples). “In-core” refers to placement within the core region.
+
+.. _HP6.II.C:
 
 C. Transfer of Radioactive Material
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Transfer of radioactive material outside the NETL requires approval of the Health Physicist or a Senior Reactor Operator.  
-2. Prior to the transfer, the HP or SRO will confirm that the receiving person is authorized to possess the radioactive material.  
-3. Once authorized, the HP or SRO will arrange proper packaging and transport.  
-4. Records will be maintained using a form approved by the HP.
+   1. Transfer of radioactive material outside the NETL requires approval of the Health Physicist or a Senior Reactor Operator.  
+   2. Prior to the transfer, the HP or SRO will confirm that the receiving person is authorized to possess the radioactive material.  
+   3. Once authorized, the HP or SRO will arrange proper packaging and transport.  
+   4. Records will be maintained using a form approved by the HP.
+
+.. _HP6.II.D:
 
 D. Release of Radioactive Material
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Items to be released for unrestricted use must have a direct radiation survey performed using the appropriate survey instrument.  
-   a. Survey must be done where background is sufficiently low.  
-   b. All surfaces of the object must be surveyed.  
-2. If no detected activity above background → item may be released.  
-3. If activity is detected → swipe test:  
-   a. If removable → decontaminate and resurvey.  
-   b. If not removable → HP evaluates proper disposition.  
-4. Survey records must be maintained by the Health Physicist.
+   1. Items to be released for unrestricted use must have a direct radiation survey performed using the appropriate survey instrument.  
+      a. Survey must be done where background is sufficiently low.  
+      b. All surfaces of the object must be surveyed.  
+   2. If no detected activity above background → item may be released.  
+   3. If activity is detected → swipe test:  
+      a. If removable → decontaminate and resurvey.  
+      b. If not removable → HP evaluates proper disposition.  
+   4. Survey records must be maintained by the Health Physicist.
+
+.. _HP6.II.E:
 
 E. Radioactive Waste
+~~~~~~~~~~~~~~~~~~~~
 
-All NETL users are responsible for minimizing radioactive waste generation. Waste must be stored in Restricted Areas.
+   All NETL users are responsible for minimizing radioactive waste generation. Waste must be stored in Restricted Areas.
 
-1. Dry solid waste includes contaminated or activated materials (e.g., gloves, pipette tips, vials, samples).  
-   a. Contaminated items are placed in yellow bins.  
-   b. Activated samples in labeled containers in designated areas.  
-   c. Large items must be covered, labeled, and moved to RAM storage.  
-   d. HP staff collects dry waste for proper disposal.  
-2. Liquid waste includes NAA samples and standard solutions.  
-   a. Use compatible, non-breakable containers with lids.  
-   b. Containers must be labeled and stored properly.  
-   c. Notify HP staff for collection.  
-3. Final disposal by HP staff:  
-   a. Short half-life → decay then disposed as regular trash.  
-   b. Long half-life → transferred to EHS.  
-   c. Mixed waste → handled case-by-case.
+   1. Dry solid waste includes contaminated or activated materials (e.g., gloves, pipette tips, vials, samples).  
+      a. Contaminated items are placed in yellow bins.  
+      b. Activated samples in labeled containers in designated areas.  
+      c. Large items must be covered, labeled, and moved to RAM storage.  
+      d. HP staff collects dry waste for proper disposal.  
+   2. Liquid waste includes NAA samples and standard solutions.  
+      a. Use compatible, non-breakable containers with lids.  
+      b. Containers must be labeled and stored properly.  
+      c. Notify HP staff for collection.  
+   3. Final disposal by HP staff:  
+      a. Short half-life → decay then disposed as regular trash.  
+      b. Long half-life → transferred to EHS.  
+      c. Mixed waste → handled case-by-case.
 
 HP-007 Radiation Work Permits
 =============================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
+~~~~~~~~~~
 
-To describe the requirements for, and administration of, Radiation Work Permits (RWP) for the Nuclear Engineering Teaching Laboratory (NETL).
+   To describe the requirements for, and administration of, Radiation Work Permits (RWP) for the Nuclear Engineering Teaching Laboratory (NETL).
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
-The Radiation Work Permit is an administrative control used at the NETL for the protection of personnel and visitors. An RWP is issued for non-routine situations where there is a high potential for a significant radiological hazard. The RWP ensures effective control of personnel exposure from radiation fields and radioactive contamination. The RWP requires radiation workers and supervisors to evaluate each proposed task with respect to the radiological hazards. This evaluation, with assistance from the NETL Health Physicist, results in identification of the personnel protection practices applicable to the task. In addition, the RWP provides a permanent record of task performance and exposure that is helpful in preparing for future tasks.
+   The Radiation Work Permit is an administrative control used at the NETL for the protection of personnel and visitors. An RWP is issued for non-routine situations where there is a high potential for a significant radiological hazard. The RWP ensures effective control of personnel exposure from radiation fields and radioactive contamination. The RWP requires radiation workers and supervisors to evaluate each proposed task with respect to the radiological hazards. This evaluation, with assistance from the NETL Health Physicist, results in identification of the personnel protection practices applicable to the task. In addition, the RWP provides a permanent record of task performance and exposure that is helpful in preparing for future tasks.
 
 C. SCHEDULE
+~~~~~~~~~~~
 
-Apply as necessary for non-routine situations with significant radiological hazard. Review, and if necessary, re-issuance of RWPs should be at annual intervals.
+   Apply as necessary for non-routine situations with significant radiological hazard. Review, and if necessary, re-issuance of RWPs should be at annual intervals.
 
 D. CONTENTS
+~~~~~~~~~~~
 
-- II.A Requirements for Issue .......... Page 4  
-- II.B Administration ................... Page 4  
-- II.C Fixed Radiation Work Permits ..... Page 6  
-- II.D Records .......................... Page 6
+- :ref:`II.A Requirements for Issue <HP7.II.A>`  
+- :ref:`II.B Administration <HP7.II.B>`  
+- :ref:`II.C Fixed Radiation Work Permits <HP7.II.C>`  
+- :ref:`II.D Records <HP7.II.D>`
 
 E. ATTACHMENTS
+~~~~~~~~~~~~~~
 
 Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
 - Radiation Work Permit Template ........ Attachment
 
 F. EQUIPMENT AND MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Radiation Work Permit
 
 G. REFERENCES
+~~~~~~~~~~~~~
 
-1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"
+   1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"
 
-2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"
+   2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"
 
-3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
+   3. Research Reactor Industry Standard ANSI/ANS-15.11-2009, "Radiation Protection at Research Reactor Facilities."
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
+
+.. _HP7.II.A:
 
 A. Requirements for Issue
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An RWP must be issued prior to work under conditions that follow if the work is not already covered by a documented procedure:
+   An RWP must be issued prior to work under conditions that follow if the work is not already covered by a documented procedure:
 
-1. Work involving significant changes to reactor shielding.  
-2. Work in a known High Radiation Area.  
-3. Work in a known Airborne Radioactivity Area.  
-4. At the discretion of the Health Physicist based on review of proposed work.
+   1. Work involving significant changes to reactor shielding.  
+   2. Work in a known High Radiation Area.  
+   3. Work in a known Airborne Radioactivity Area.  
+   4. At the discretion of the Health Physicist based on review of proposed work.
 
-Note: Experiment activities may require an RWP. In such cases, both the RWP and experiment authorization must be approved prior to starting work. Related RWP requests should be submitted concurrently with experiment authorization requests.
+   Note: Experiment activities may require an RWP. In such cases, both the RWP and experiment authorization must be approved prior to starting work. Related RWP requests should be submitted concurrently with experiment authorization requests.
+
+.. _HP7.II.B:
 
 B. Administration
+~~~~~~~~~~~~~~~~~
 
-1. The individual in charge of the task (RWP initiator) is responsible for completing the sections of the RWP describing the work to be done, location of the work, time frame the work will be done, and list of persons authorized to perform the work. Discussion of the task with the Health Physicist concerning the radiological implications of the task should occur during this phase.  
-2. The RWP is submitted to the Health Physicist for review and approval. The Reactor Supervisor (or designee) must also approve the RWP. If it is likely that a person, while working under the RWP, will receive a dose greater than 100 mrem, the ALARA committee must approve the RWP.  
-3. The Health Physicist assigns an RWP number, logs the RWP, and completes the appropriate sections of the RWP.  
-4. The Health Physicist returns the RWP to the initiator who signs the RWP Briefing Log to indicate acknowledgement of the work conditions and requirements.  
-5. RWPs are normally issued for a specific time period. If an RWP will expire prior to completion of work, the RWP initiator shall contact the Health Physicist for RWP extension approval prior to expiration of the RWP.  
-6. The RWP initiator is responsible for the following:  
-   a. Ensuring that all personnel who will be working under the RWP have read and signed the RWP.  
-   b. Notifying personnel in adjacent areas of potential hazards of the work and possible impact.  
-   c. Enforcing the requirements of the RWP.  
-   d. Closing out and completing the RWP when the task is finished, and returning the RWP to the Health Physicist.  
-7. All personnel who work under an RWP shall read the RWP and indicate acceptance and understanding of the conditions by signing the RWP.  
-   *Note: Failure to follow the provisions of an RWP will result in withdrawal of RWP work privileges.*  
-8. Each person who works under an RWP shall record their pocket dosimeter reading before commencing and after completing work. If an individual starts and stops work several times on the same RWP, the pocket dosimeter readings shall be recorded for each time period.  
-9. The RWP for a task shall be located near, but not necessarily inside, the work area.  
-10. The Health Physics staff will perform any confirmatory surveys after the RWP has been returned. The Health Physics staff will also perform any surveys as required by other NETL HP Procedures.  
-11. The RWP initiator may make additions to the list of persons authorized to work under their RWP, with the concurrence of the Health Physicist. Concurrence of the Health Physicist is required for verification/documentation of the level of training of the person(s) working under any RWP.  
-12. Visitors will not normally be allowed into situations governed by an RWP. However, if a visitor requires entry to a situation in which an RWP has been issued, the RWP Initiator (or designee) and a notation will be made in the Visitor RWP Entry Log indicating the visitor was approved and who provided the escort.
+   1. The individual in charge of the task (RWP initiator) is responsible for completing the sections of the RWP describing the work to be done, location of the work, time frame the work will be done, and list of persons authorized to perform the work. Discussion of the task with the Health Physicist concerning the radiological implications of the task should occur during this phase.  
+   2. The RWP is submitted to the Health Physicist for review and approval. The Reactor Supervisor (or designee) must also approve the RWP. If it is likely that a person, while working under the RWP, will receive a dose greater than 100 mrem, the ALARA committee must approve the RWP.  
+   3. The Health Physicist assigns an RWP number, logs the RWP, and completes the appropriate sections of the RWP.  
+   4. The Health Physicist returns the RWP to the initiator who signs the RWP Briefing Log to indicate acknowledgement of the work conditions and requirements.  
+   5. RWPs are normally issued for a specific time period. If an RWP will expire prior to completion of work, the RWP initiator shall contact the Health Physicist for RWP extension approval prior to expiration of the RWP.  
+   6. The RWP initiator is responsible for the following:  
+      a. Ensuring that all personnel who will be working under the RWP have read and signed the RWP.  
+      b. Notifying personnel in adjacent areas of potential hazards of the work and possible impact.  
+      c. Enforcing the requirements of the RWP.  
+      d. Closing out and completing the RWP when the task is finished, and returning the RWP to the Health Physicist.  
+   7. All personnel who work under an RWP shall read the RWP and indicate acceptance and understanding of the conditions by signing the RWP.  
+      *Note: Failure to follow the provisions of an RWP will result in withdrawal of RWP work privileges.*  
+   8. Each person who works under an RWP shall record their pocket dosimeter reading before commencing and after completing work. If an individual starts and stops work several times on the same RWP, the pocket dosimeter readings shall be recorded for each time period.  
+   9. The RWP for a task shall be located near, but not necessarily inside, the work area.  
+   10. The Health Physics staff will perform any confirmatory surveys after the RWP has been returned. The Health Physics staff will also perform any surveys as required by other NETL HP Procedures.  
+   11. The RWP initiator may make additions to the list of persons authorized to work under their RWP, with the concurrence of the Health Physicist. Concurrence of the Health Physicist is required for verification/documentation of the level of training of the person(s) working under any RWP.  
+   12. Visitors will not normally be allowed into situations governed by an RWP. However, if a visitor requires entry to a situation in which an RWP has been issued, the RWP Initiator (or designee) and a notation will be made in the Visitor RWP Entry Log indicating the visitor was approved and who provided the escort.
+
+.. _HP7.II.C:
 
 C. Fixed Radiation Work Permits
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. A Fixed RWP is one that is written for an area that is permanently established for a task that is periodically performed.  
-2. A Fixed RWP shall be administered as described in section II.B. However, the ALARA committee must review and approve all Fixed RWPs.  
-3. The Health Physicist shall review each active Fixed RWP monthly to ensure that the conditions of the RWP are sufficient for the area or task. The Health Physicist may make any necessary changes to account for area or task changes; however, the ALARA committee must review any substantive changes in a timely manner.
+   1. A Fixed RWP is one that is written for an area that is permanently established for a task that is periodically performed.  
+   2. A Fixed RWP shall be administered as described in section II.B. However, the ALARA committee must review and approve all Fixed RWPs.  
+   3. The Health Physicist shall review each active Fixed RWP monthly to ensure that the conditions of the RWP are sufficient for the area or task. The Health Physicist may make any necessary changes to account for area or task changes; however, the ALARA committee must review any substantive changes in a timely manner.
+
+.. _HP7.II.D:
 
 D. Records
+~~~~~~~~~~
 
-1. The Health Physicist shall maintain a file of all completed RWPs.  
-2. All expired RWPs (unless granted an extension) shall be returned to the Health Physicist even if the RWP was never used.
+   1. The Health Physicist shall maintain a file of all completed RWPs.  
+   2. All expired RWPs (unless granted an extension) shall be returned to the Health Physicist even if the RWP was never used.

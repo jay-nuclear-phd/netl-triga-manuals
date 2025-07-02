@@ -5,8 +5,8 @@ EXP
 EXP-PTS Pneumatic Transfer System
 =================================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
 ~~~~~~~~~~
@@ -88,8 +88,8 @@ F. REFERENCES, OTHER PROCEDURES
 G. NOTES:
 ~~~~~~~~~
 
-PROCEDURE
----------
+II. PROCEDURE
+-------------
 
     **USE OF THE NETL PNEUMATIC TRANSFER SYSTEM**
 
@@ -204,15 +204,15 @@ After the last carrier is irradiated, inform the Reactor Operator of the conclus
 EXP-BP3.1 Neutron Activation Analysis
 =====================================
 
-PURPOSE
--------
+I. PURPOSE
+----------
 
     The purpose of a neutron activation analysis experiment is to determine
     the constituent elements of a material by inducing neutron capture and decay
     reactions in the isotopes of stable elements.
 
-DESCRIPTION
------------
+II. DESCRIPTION
+---------------
 
     Analysis of the radiation energies of the unstable radioactive isotopes
     that occur by neutron capture reactions provides information that
@@ -237,8 +237,8 @@ DESCRIPTION
     - Rotary Specimen Rack in graphite reflector, or  
     - Center Tube Facility Irradiation Tube.
 
-REFERENCES
-----------
+III. REFERENCES
+---------------
 
     - Fixed RWP # yr-xxxF - Reactor unloading  
     - Fixed RWP # yr-xxxF - Sample processing  
@@ -249,8 +249,8 @@ REFERENCES
         - B3.1.C Engineering Samples  
 
 
-PROCEDURE FOR SAMPLE IRRADIATION
---------------------------------
+IV. PROCEDURE FOR SAMPLE IRRADIATION
+------------------------------------
 
 1. User must complete request forms to schedule operation. The necessary
    forms are the "Operation Request" form and "Sample Radiation or Exposure"

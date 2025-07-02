@@ -8,123 +8,123 @@ ADMIN-1 NETL Procedure Control
 1.0 PURPOSE
 -----------
 
-- This procedure provides a standard format and establishes administrative control for the preparation, review, modification, and approval of required NETL procedures.
+   - This procedure provides a standard format and establishes administrative control for the preparation, review, modification, and approval of required NETL procedures.
 
 1.1 Discussion
 --------------
 
-1. The NETL facility license R-129 Technical Specifications (TS ref. 1) require that written operating procedures be prepared, reviewed, and approved by the Director or a Supervisory Senior Reactor Operator (SSRO) and the Reactor Oversight Committee (ROC) for the safe operation, maintenance, surveillance, and administrative control of the NETL reactor and facility. The Emergency Response Plan and Physical Security Plan also require implementing procedures approved in the same manner, but their format may not match that of this procedure, which is written primarily for administrative and technical procedures.
+   1. The NETL facility license R-129 Technical Specifications (TS ref. 1) require that written operating procedures be prepared, reviewed, and approved by the Director or a Supervisory Senior Reactor Operator (SSRO) and the Reactor Oversight Committee (ROC) for the safe operation, maintenance, surveillance, and administrative control of the NETL reactor and facility. The Emergency Response Plan and Physical Security Plan also require implementing procedures approved in the same manner, but their format may not match that of this procedure, which is written primarily for administrative and technical procedures.
 
-2. Consistent and clearly written procedures enable safe facility operation. It is not necessary to have the procedure document open when performing a familiar or simple task, but infrequent or complicated procedures should be reviewed prior to performing tasks.
+   2. Consistent and clearly written procedures enable safe facility operation. It is not necessary to have the procedure document open when performing a familiar or simple task, but infrequent or complicated procedures should be reviewed prior to performing tasks.
 
-3. Procedures cannot be developed to cover all circumstances, therefore NETL personnel are expected to use good judgment when performing their duties.
+   3. Procedures cannot be developed to cover all circumstances, therefore NETL personnel are expected to use good judgment when performing their duties.
 
 2.0 SCOPE
 ---------
 
 2.1 General
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-1. This procedure supports section 6.3 of the Technical Specifications.
+   1. This procedure supports section 6.3 of the Technical Specifications.
 
-2. All NETL personnel are responsible to use and follow appropriate approved procedures.
+   2. All NETL personnel are responsible to use and follow appropriate approved procedures.
 
-3. Any member of NETL may draft a new procedure or prepare a revision to an existing approved procedure (see 5.4.4).
+   3. Any member of NETL may draft a new procedure or prepare a revision to an existing approved procedure (see 5.4.4).
 
-4. The format outlined in this procedure may not apply to all PLAN (see 5.1 Procedure Designation 1.g) procedures, which may be emergency or abnormal operating procedures (see 7.0 Definitions).
+   4. The format outlined in this procedure may not apply to all PLAN (see 5.1 Procedure Designation 1.g) procedures, which may be emergency or abnormal operating procedures (see 7.0 Definitions).
 
-5. The Scope section shall include external requirements met by performing the procedure (e.g. regulations, NRC commitments, or Technical Specifications).
+   5. The Scope section shall include external requirements met by performing the procedure (e.g. regulations, NRC commitments, or Technical Specifications).
 
 2.2 Schedule
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
-1. Apply this procedure to prepare or revise an approved NETL procedure.
+   1. Apply this procedure to prepare or revise an approved NETL procedure.
 
-2. Procedures written under a previous revision of ADMN-1 shall remain valid and will require update to this format only when they require a change other than following this (rev.4) format.
+   2. Procedures written under a previous revision of ADMN-1 shall remain valid and will require update to this format only when they require a change other than following this (rev.4) format.
 
 3.0 PRECAUTIONS AND LIMITATIONS
 -------------------------------
 
-1. Though precautions and limitations are typically not applicable to administrative procedures, the overall safety of NETL workers and the NETL reactor facility shall be considered when preparing new procedures or revising old ones.
+   1. Though precautions and limitations are typically not applicable to administrative procedures, the overall safety of NETL workers and the NETL reactor facility shall be considered when preparing new procedures or revising old ones.
 
-2. If there is a problem or error with an approved procedure, the procedure shall be examined fully and, if required, a corrective action plan implemented as soon as practical consistent with the principles of a Safety Conscious Work Environment (ref. 2).
+   2. If there is a problem or error with an approved procedure, the procedure shall be examined fully and, if required, a corrective action plan implemented as soon as practical consistent with the principles of a Safety Conscious Work Environment (ref. 2).
 
-3. Procedure notes, cautions, and warnings (see ref. 3 sec. 4.15) shall be formatted and inserted where applicable with a border increasing in line density as in the below examples (see 7.0 Definitions).
+   3. Procedure notes, cautions, and warnings (see ref. 3 sec. 4.15) shall be formatted and inserted where applicable with a border increasing in line density as in the below examples (see 7.0 Definitions).
 
-.. note::
-   Notes provide important supplemental information to users. This information is explanatory and contains no action or command.
+   .. note::
+      Notes provide important supplemental information to users. This information is explanatory and contains no action or command.
 
-.. caution::
-   Cautions alert users to conditions, practices, or procedures that must be observed to avoid potential hazards involving products, equipment, and conditions adversely affecting site operations.
+   .. caution::
+      Cautions alert users to conditions, practices, or procedures that must be observed to avoid potential hazards involving products, equipment, and conditions adversely affecting site operations.
 
-.. warning::
-   1. Warnings alert users to conditions, practices, or procedures that must be observed to avoid loss of life or severe injury.
+   .. warning::
+      1. Warnings alert users to conditions, practices, or procedures that must be observed to avoid loss of life or severe injury.
 
-   2. Warnings alert users to potential hazards to personnel.
+      2. Warnings alert users to potential hazards to personnel.
 
 4.0 PREREQUISITES
 -----------------
 
-1. Though Prerequisites are typically not applicable to administrative procedures, activities to be completed and requirements that shall be met prior to procedure performance shall be listed here.
+   1. Though Prerequisites are typically not applicable to administrative procedures, activities to be completed and requirements that shall be met prior to procedure performance shall be listed here.
 
-   a. pre-job brief requirement for complex or infrequently performed procedures  
-   b. performance documents, such as other approved procedures or equipment manuals that shall be available while performing the procedure  
-   c. Equipment and Materials if required
+      a. pre-job brief requirement for complex or infrequently performed procedures  
+      b. performance documents, such as other approved procedures or equipment manuals that shall be available while performing the procedure  
+      c. Equipment and Materials if required
 
 5.0 INSTRUCTIONS
 ----------------
 
 5.1 Procedure Designation
-^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Group a procedure by specifying the activity the procedure covers:
+   1. Group a procedure by specifying the activity the procedure covers:
 
-   a. OPER: Startup, operation, and shutdown of reactor and reactor subsystems  
-   b. FUEL: Control the movement of reactor fuel and experiments that may cause reactivity changes in the core  
-   c. MAIN: Routine maintenance for major systems  
-   d. SURV: Periodic surveillance required by license Technical Specifications or safety  
-   e. ADMN: Administrative control  
-   f. HP: Health Physics and radiation protection  
-   g. PLAN: Implementation of required plans such as Emergency and Physical Security (These procedures may be emergency operating procedures or abnormal operating procedures.)  
-   h. EXP: Performance of approved experiments and the use of experimental devices.  
-   i. NETL: Activity not involving the reactor, radiation safety systems, or clearly falling into a listed grouping. This group does not require Reactor Oversight Committee review.
+      a. OPER: Startup, operation, and shutdown of reactor and reactor subsystems  
+      b. FUEL: Control the movement of reactor fuel and experiments that may cause reactivity changes in the core  
+      c. MAIN: Routine maintenance for major systems  
+      d. SURV: Periodic surveillance required by license Technical Specifications or safety  
+      e. ADMN: Administrative control  
+      f. HP: Health Physics and radiation protection  
+      g. PLAN: Implementation of required plans such as Emergency and Physical Security (These procedures may be emergency operating procedures or abnormal operating procedures.)  
+      h. EXP: Performance of approved experiments and the use of experimental devices.  
+      i. NETL: Activity not involving the reactor, radiation safety systems, or clearly falling into a listed grouping. This group does not require Reactor Oversight Committee review.
 
-2. Number a procedure sequentially within its group to generate the procedure’s unique designator-number.
+   2. Number a procedure sequentially within its group to generate the procedure’s unique designator-number.
 
 5.2 Procedure Structure
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 5.2.1 General
-'''''''''''''
+^^^^^^^^^^^^^
 
-1. Format a procedure as a multi-page document with content surrounded within a fixed border with the following properties:
+   1. Format a procedure as a multi-page document with content surrounded within a fixed border with the following properties:
 
-   a. font shall be Times New Roman 12pt  
-   b. the first page shall be an approval cover page with the following properties:  
-      (1) shall display the word “PROCEDURE” in all capital letters, designator-number, the procedure title, and integer revision number  
-      (2) shall not display the page number or header  
-      (3) each approver’s name shall be typed or printed with their signature  
-   c. include a document header on each page, after the approval cover page, displaying the procedure title, designator-number, revision, approval date, and page count with a border around each element  
-   d. the Table of Contents section shall use full pages  
-   e. section 1.0 shall start on the first full page after the Table of Contents  
-   f. an Attachment shall be paginated separately from its parent procedure  
-   g. an Appendix shall be paginated as part of a procedure
+      a. font shall be Times New Roman 12pt  
+      b. the first page shall be an approval cover page with the following properties:  
+         (1) shall display the word “PROCEDURE” in all capital letters, designator-number, the procedure title, and integer revision number  
+         (2) shall not display the page number or header  
+         (3) each approver’s name shall be typed or printed with their signature  
+      c. include a document header on each page, after the approval cover page, displaying the procedure title, designator-number, revision, approval date, and page count with a border around each element  
+      d. the Table of Contents section shall use full pages  
+      e. section 1.0 shall start on the first full page after the Table of Contents  
+      f. an Attachment shall be paginated separately from its parent procedure  
+      g. an Appendix shall be paginated as part of a procedure
 
 .. note::
    The basic structure for a NETL procedure is adapted from ref. 3 PPA AP-907-005 rev.2 Procedure Writers Manual. This manual provides a consensus standard for writing human factored procedures in the nuclear industry.
 
-2. Structure a procedure numbering scheme to have up to three numbered levels of informational title such that the first level is capitalized and the second level is underlined as demonstrated in this document. The procedure steps and sub-steps shall be listed as demonstrated in this step.
+   2. Structure a procedure numbering scheme to have up to three numbered levels of informational title such that the first level is capitalized and the second level is underlined as demonstrated in this document. The procedure steps and sub-steps shall be listed as demonstrated in this step.
 
-   a. see Procedure Writers Manual (ref. 3 sec. 4.9) for additional information on step enumeration and formatting  
-   b. the current sub-step is 5.2.1 General 2.b.  
-      (1) this additional sub-step level may be used  
+      a. see Procedure Writers Manual (ref. 3 sec. 4.9) for additional information on step enumeration and formatting  
+      b. the current sub-step is 5.2.1 General 2.b.  
+         (1) this additional sub-step level may be used  
 
-         (a) this additional sub-step level may be used
+            (a) this additional sub-step level may be used
 
-3. Structure procedure steps understanding that different procedure types (e.g. administrative, technical, and emergency or abnormal) may require different levels of detail for their instructions (see 7.0 Definitions).
+   3. Structure procedure steps understanding that different procedure types (e.g. administrative, technical, and emergency or abnormal) may require different levels of detail for their instructions (see 7.0 Definitions).
 
 5.2.2 Procedure Sections
-''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Organize the sections of a procedure as:
 
