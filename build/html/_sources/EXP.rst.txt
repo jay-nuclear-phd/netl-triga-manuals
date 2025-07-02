@@ -46,22 +46,21 @@ D. CONTENTS & Attachments:
     PTS Schematic
 
 E. EQUIPMENT, MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~
+
+::
 
     PTS Components
-
-    1.) Transport tube and control system  
+    1.) Transport tube and control system 
         a) Large tube transport system, GA Terminal  
         b) Small tube transport system, standard Terminal  
         c) Small tube transport system, Cd-lined Terminal  
-
     2.) Loading port, Insert Tube and Sample Clip 
-
     3.) Transport, carrier (rabbits) capsules  
         GA standard capsules     large tube system  
         Emerald capsules         large tube system  
         Adanac capsules          small tube system  
     4.) Control lockout key  
-
     5.) CO2 fill gas for tube  
 
 F. REFERENCES, OTHER PROCEDURES
@@ -72,7 +71,7 @@ F. REFERENCES, OTHER PROCEDURES
         Experiment Authorization:  
 
 +-------------+---------------------------------------+
-| 3.2.1a,b,c  | large tube system  |
+| 3.2.1a,b,c  | large tube system                     |
 +-------------+---------------------------------------+
 | 3.2.2a,b,c  | small tube system, standard terminal  |
 +-------------+---------------------------------------+
@@ -88,13 +87,9 @@ PROCEDURE
     **USE OF THE NETL PNEUMATIC TRANSFER SYSTEM**
 
 1. Determine which type of irradiation terminal and transport tube system is needed.  
-   a) Large tube transport system, GA Terminal  
-      There is no maximum power limit for use of the large tube GA transfer tubes and terminal.  
-      Transport capsules for the GA terminal are reusable 20 to 25 times. A periodic inspection of the transport capsule should be done to avoid capsule breakage during irradiation.  
-   b) Small tube transport system, standard Terminal  
-      There is no maximum power limit.  
-   c) Small tube transport system, Cd-lined Terminal  
-      The maximum power limit for the small tube terminals is 500 kW. This limit is based on terminal temperature and vial temperature characteristics necessary to assure vial deformation does not cause the vial to become stuck in the core terminal. Transport capsules are not reusable.
+   a) Large tube transport system, GA Terminal. There is no maximum power limit for use of the large tube GA transfer tubes and terminal. Transport capsules for the GA terminal are reusable 20 to 25 times. A periodic inspection of the transport capsule should be done to avoid capsule breakage during irradiation.  
+   b) Small tube transport system, standard Terminal. There is no maximum power limit.  
+   c) Small tube transport system, Cd-lined Terminal. The maximum power limit for the small tube terminals is 500 kW. This limit is based on terminal temperature and vial temperature characteristics necessary to assure vial deformation does not cause the vial to become stuck in the core terminal. Transport capsules are not reusable.
 
 2. The user must have completed the NETL Radiation Safety Training Course and be familiar with the operation of the controls for the Pneumatic Transfer System. The Reactor Supervisor or his designee shall train new users of the system.
 
@@ -119,11 +114,13 @@ PROCEDURE
 
 8. Select the appropriate irradiation period using the BCD switch:  
    a) **BCD setting / Action**  
+   
       0 — Manual operation of insert and remove functions  
       The carrier will be inserted and removed by pressing the corresponding switch. At present, a timer limits the irradiation time to 10 minutes for “safety” reasons. The manual mode does not use the sample sensors to control operation. A fixed (5) five-second carrier return time is set so that a sensor failure to detect the sample does not prevent shutdown of the fan.  
       n — Automatic operation of insert and remove functions  
 
    b) `<n>` is the setting for automatic operation, the carrier will be inserted for a preset number of seconds of irradiation and then removed by the PLC timer action. A (2) two-second delay is built into the automatic sequences to avoid accidental insertion of the sample. This is partly a precaution for the lack of tactile feedback in the switch.  
+
       **n / irradiation time**  
       1 — 10. seconds  
       2 — 0.5 minutes  
