@@ -9,42 +9,49 @@ INTRODUCTION
 ------------
 
 A. PURPOSE
+~~~~~~~~~~
 
-To describe the requirements and methods for dose assessment and contamination monitoring of personnel and visitors at the Nuclear Engineering Teaching Laboratory (NETL). Questions concerning this procedure may be addressed to the NETL health physicist.
+   To describe the requirements and methods for dose assessment and contamination monitoring of personnel and visitors at the Nuclear Engineering Teaching Laboratory (NETL). Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
-Title 10, Code of Federal Regulations, Part 20 defines a Restricted Area as "...an area, access to which is limited by the licensee for the purpose of protecting individuals again undue risks from exposure to radiation and radioactive materials." This procedure outlines the monitoring requirements for individuals who enter any Restricted Area within the NETL.
+   Title 10, Code of Federal Regulations, Part 20 defines a Restricted Area as "...an area, access to which is limited by the licensee for the purpose of protecting individuals again undue risks from exposure to radiation and radioactive materials." This procedure outlines the monitoring requirements for individuals who enter any Restricted Area within the NETL.
 
-Accurate assessment of personnel exposure is necessary not only to comply with applicable regulations, but to evaluate the licensee's ALARA (As Low As Reasonably Achievable) program effectiveness. Therefore, it is incumbent upon all personnel at the NETL to be cognizant of, and ensure compliance with, the requirements of this procedure.
+   Accurate assessment of personnel exposure is necessary not only to comply with applicable regulations, but to evaluate the licensee's ALARA (As Low As Reasonably Achievable) program effectiveness. Therefore, it is incumbent upon all personnel at the NETL to be cognizant of, and ensure compliance with, the requirements of this procedure.
 
 C. SCHEDULE
+~~~~~~~~~~~
 
-Apply as necessary for access to Restricted Areas. Records of personnel dosimeters should be reviewed at monthly intervals.
+   Apply as necessary for access to Restricted Areas. Records of personnel dosimeters should be reviewed at monthly intervals.
 
 D. CONTENTS
+~~~~~~~~~~~
 
-- II.A Personnel Dosimeter Requirements .......... Page 4
-- II.B Personnel Permanent Record Dosimeter ...... Page 4
-- II.C Personnel Pocket Dosimeters ............... Page 5
-- II.D Visitors .................................. Page 6
-- II.E Abnormal Conditions ....................... Page 7
-- II.F Contamination Monitoring .................. Page 8
+- :ref:`II.A Personnel Dosimeter Requirements <HP1.II.A>`
+- :ref:`II.B Personnel Permanent Record Dosimeter <HP1.II.B>`
+- :ref:`II.C Personnel Pocket Dosimeters <HP1.II.C>`
+- :ref:`II.D Visitors <HP1.II.D>`
+- :ref:`II.E Abnormal Conditions <HP1.II.E>`
+- :ref:`II.F Contamination Monitoring <HP1.II.F>`
 
 E. ATTACHMENTS
+~~~~~~~~~~~~~~
 
 Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
-- Exposure Log Sheet ............ Page 9
-- Visitor Dosimeter Record ...... Page 10
+- Exposure Log Sheet
+- Visitor Dosimeter Record
 
 F. EQUIPMENT and MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Permanent Record dosimeters  
 2. Pocket dosimeters (direct reading pocket ion chambers, electronic dosimeters, etc.)  
 3. Personnel contamination instrument such as a hand and foot monitor or portal monitor
 
 G. REFERENCES
+~~~~~~~~~~~~~
 
 1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation."  
 2. Title 25, Texas Administrative Code, Chapter 289, Section 202 (25TAC289.202), "Standards for Protection Against Radiation"  
@@ -53,7 +60,10 @@ G. REFERENCES
 PROCEDURE
 ---------
 
+.. _HP1.II.A:
+
 A. Personnel Dosimeter Requirements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    1. The Health Physicist is responsible for periodic review of activities in the NETL to ensure that the proper dosimeter is provided. However, it is the ultimate responsibility of each person who enters a Restricted Area to ensure that the proper dosimeter is worn for the activity performed.
 
@@ -65,7 +75,10 @@ A. Personnel Dosimeter Requirements
 
    5. Personnel assigned a permanent record dosimeter may be required to wear a pocket dosimeter in addition to their permanent record dosimeter in accordance with RWPs, other procedures, or as directed by Health Physics.
 
+.. _HP1.II.B:
+
 B. Personnel Permanent Record Dosimeter
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    1. Based on a review by the Health Physicist, personnel may be required to wear a permanent record dosimeter.
 
@@ -73,7 +86,10 @@ B. Personnel Permanent Record Dosimeter
 
    3. Personnel required to wear a permanent record dosimeter must complete and submit a "Request for Dosimetry Service."
 
+.. _HP1.II.C:
+
 C. Personnel Pocket Dosimeters
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    1. During work in a Restricted Area, the pocket dosimeter shall be checked periodically to monitor dose. When a pocket ion chamber type dosimeter exceeds three-fourths of scale, the wearer shall exit the area, record the dose, and re-zero the pocket ion chamber before continuing work in the Restricted Area.
 
@@ -96,7 +112,10 @@ C. Personnel Pocket Dosimeters
 .. note::
    It is the responsibility of each individual to practice ALARA and ensure that their dose does not exceed any applicable limit.
 
+.. _HP1.II.D:
+
 D. Visitors
+~~~~~~~~~~~
 
 A visitor is any individual who is not a NETL radiation worker.
 
@@ -116,7 +135,10 @@ A visitor is any individual who is not a NETL radiation worker.
 
       b. Groups of visitors which will remain together at all times (such as tour groups) may be issued one dosimeter per each ten members of the group.
 
+.. _HP1.II.E:
+
 E. Abnormal Conditions
+~~~~~~~~~~~~~~~~~~~~~~
 
    1. Lost Dosimeter
 
@@ -152,7 +174,10 @@ E. Abnormal Conditions
 
       d. Remove the suspect dosimeter from service until it is evaluated and determined to be working properly.
 
+.. _HP1.II.F:
+
 F. Contamination Monitoring
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Good contamination control technique should be practiced when in a Restricted Area.
 
@@ -180,32 +205,39 @@ INTRODUCTION
 ------------
 
 A. PURPOSE
+~~~~~~~~~~
 
 Identify the requirements and describe the methods for routine radiation and contamination surveys of the Nuclear Engineering Teaching Laboratory (NETL). Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
 Periodic monitoring of the NETL for radiation and contamination is an important component of the radiation protection program and assists in keeping personnel and public exposures ALARA as well as alerts personnel of unusual conditions.
 
 This procedure specifies the routine survey requirements that are performed at the NETL. The Health Physicist may specify additional surveys.
 
 C. SCHEDULE
+~~~~~~~~~~~
 
 Apply as necessary. Routine survey intervals are typically weekly, monthly, and quarterly depending on area to be surveyed.
 
 D. CONTENTS and Attachments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- II.A Radiation Surveys ........................ Page 4  
-- II.B Contamination Surveys ..................... Page 5  
-- II.C Records .................................. Page 6  
+- :ref:`II.A Radiation Surveys <HP2.II.A>`
+- :ref:`II.B Contamination Surveys <HP2.II.B>`
+- :ref:`II.C Records <HP2.II.C>`
+- :ref:`Attachment HP-002 A <HP2.Attch.A>`
 
 E. ATTACHMENTS
+~~~~~~~~~~~~~~
 
 Note: Attachments are not part of this procedure but may be useful when performing this procedure.
 
 - NETL Radiation and Contamination Survey Guide ... Page 8
 
 F. EQUIPMENT and MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Contamination sample counting instrument such as a gas flow proportional counter and a liquid scintillation counter.  
 2. Contamination sampling supplies such as filter papers and swabs.  
@@ -214,6 +246,7 @@ F. EQUIPMENT and MATERIALS
 5. Various dosimeters.
 
 G. REFERENCES
+~~~~~~~~~~~~~
 
 1. Title 10, Code of Federal Regulations, Part 20 (10CFR20), "Standards for Protection Against Radiation."  
 2. Title 25, Texas Administrative Code, Chapter 289, Section 202 (25TAC289.202), "Standards for Protection Against Radiation"  
@@ -223,12 +256,17 @@ G. REFERENCES
 PROCEDURE
 ---------
 
-A. Radiation Surveys
+.. _HP2.II.A:
 
-1. Survey Instruments  
+A. Radiation Surveys
+~~~~~~~~~~~~~~~~~~~~
+
+1. Survey Instruments
+
    The instrument(s) used for performance of radiation surveys shall be appropriate for the radiation being measured and calibrated.
 
-2. Building Exterior  
+2. Building Exterior
+
    a. The exterior of walls and roof of the NETL shall be surveyed monthly for gamma radiation. These surveys should be performed during high-power reactor operation.  
    b. Area dosimeters shall be placed in exterior locations to provide an integrated dose measurement around the facility. These dosimeters are typically provided by an NVLAP accredited vendor, processed quarterly, and placed in the following locations:  
 
@@ -239,7 +277,8 @@ A. Radiation Surveys
       v. Reactor building west wall  
       vi. Reactor building exhaust stack  
 
-3. Building Interior  
+3. Building Interior
+
    a. A gamma radiation survey shall be performed weekly in all Restricted Areas. These surveys should be performed during high-power reactor operation.  
    b. A neutron radiation survey shall be performed in the reactor room after any significant changes to the beam port configuration. This survey should be conducted during high-power reactor operation.  
    c. A gamma radiation survey shall be performed quarterly in all non-restricted areas. These surveys should be performed during high-power reactor operation.  
@@ -257,35 +296,49 @@ A. Radiation Surveys
       x. Gamma Spectroscopy, room 3.112  
       xi. Office room 3.104  
 
-B. Contamination Surveys
+.. _HP2.II.B:
 
-1. Survey Instruments  
+B. Contamination Surveys
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Survey Instruments
+
    a. The instrument(s) used for performance of contamination surveys shall be appropriate for the radiation being measured and calibrated.  
    b. Contamination surveys may be performed by direct measurement using a portable instrument such as a pancake GM frisker or by indirect measurement by sampling a surface and counting the sample in a more sensitive instrument such as a gas flow proportional counter.
 
-2. Building Exterior  
+2. Building Exterior
+
    a. The walkways, driveways, and parking lots immediately surrounding the NETL shall be surveyed quarterly for beta-gamma contamination. This survey should consist of a minimum of twenty locations.  
    b. The roof of the NETL reactor building shall be surveyed monthly for beta-gamma contamination. This survey should consist of a minimum of five locations.  
    c. A water sample from the reactor shield foundation (French drain system) shall be collected and counted quarterly as part of the routine environmental monitoring.
 
-3. Building Interior  
+3. Building Interior
+
    a. All Restricted Areas shall be surveyed weekly for beta-gamma contamination. These surveys should consist of a minimum of two locations per area.  
    b. All non-restricted areas shall be surveyed quarterly for beta-gamma contamination. These surveys should consist of a minimum of one location per area (room, hallway, staircase, etc.).
 
-4. Alpha Activity Surveys  
+4. Alpha Activity Surveys
+
    Surveys for alpha activity are at the discretion of the Health Physicist. The Health Physicist shall be notified prior to commencement of any activity that has the potential to result in loose alpha activity.
 
+.. _HP2.II.C:
+
 C. Records
+~~~~~~~~~~
 
-Contamination and radiation surveys will typically be recorded using building maps of the NETL. In addition to the survey results indicated below, the date and time survey was completed, reactor power level, instrument identification, and name of surveyor should also be recorded.
+   Contamination and radiation surveys will typically be recorded using building maps of the NETL. In addition to the survey results indicated below, the date and time survey was completed, reactor power level, instrument identification, and name of surveyor should also be recorded.
 
-1. Radiation Surveys  
+1. Radiation Surveys
+
    a. Radiation dose rate readings shall be recorded on the map at the location where the measurement was made. Readings should be recorded as actual reading rounded to the nearest 0.1 mrem/hr.  
    b. Neutron survey results can be recorded on the same map as gamma survey results with neutron readings having a triangle (or equivalent notation) drawn around them to differentiate them from gamma readings.
 
-2. Contamination Surveys  
+2. Contamination Surveys
+
    a. Directly measured contamination readings shall be recorded on the map at the location where the measurement was made.  
    b. Indirectly measured contamination readings shall be indicated by a number written on the map at the location where the sample was taken with the results of the sample analysis attached to the survey record.
+
+.. _HP2.Attch.A:
 
 Attachment HP-002 A - NETL Radiation and Contamination Survey Guide
 --------------------------------------------------------------------
@@ -294,7 +347,7 @@ This document is intended to act as guidance in implementing sections of procedu
 
 
 Radiation Dose Rate Surveys
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Confirm survey instrument is calibrated and functional.
 - Take readings with instrument approximately one meter from floor.
@@ -307,7 +360,7 @@ Radiation Dose Rate Surveys
 
 
 Contamination Surveys
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 - Wipe surface area of approximately 100 cm² with a clean filter paper (swipe).
 - Place swipe in numbered envelope (or other appropriate holder). Place only one swipe in each envelope to avoid cross contamination.
@@ -327,33 +380,39 @@ INTRODUCTION
 ------------
 
 A. PURPOSE
+~~~~~~~~~~
 
 The objectives of the ALARA program are to maintain exposures to ionizing radiation and releases of radioactive effluents at levels that are As Low As Reasonably Achievable within the established dose equivalent and effluent release limits of the appropriate regulatory authority. This procedure is intended to establish specific guidelines to ensure that operations at NETL are conducted with ALARA principles in mind. Questions concerning this procedure may be addressed to the NETL health physicist.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
 Current regulations limit occupational radiation dose to 5 rem/year and public dose to 100 mrem/year. The overall ALARA objective for the NETL is to be well below the regulatory limits.
 
 C. SCHEDULE
+~~~~~~~~~~~
 
 Apply good ALARA principles continuously.
 
 D. CONTENTS
+~~~~~~~~~~~
 
-- II.A ALARA Program Commitment .............. Page 4  
-- II.B Training ................................. Page 4  
-- II.C Facility Design .......................... Page 4  
-- II.D Facility Operations ...................... Page 5  
-- II.E Review and Audit .......................... Page 5  
-- II.F Radiation Control ........................ Page 5  
-- II.G Contamination Control .................... Page 6  
-- II.H Radioactive Effluent Control ............. Page 6  
+- :ref:`II.A ALARA Program Commitment <HP3.II.A>`  
+- :ref:`II.B Training <HP3.II.B>`  
+- :ref:`II.C Facility Design <HP3.II.C>`  
+- :ref:`II.D Facility Operations <HP3.II.D>`  
+- :ref:`II.E Review and Audit <HP3.II.E>`  
+- :ref:`II.F Radiation Control <HP3.II.F>`  
+- :ref:`II.G Contamination Control <HP3.II.G>`  
+- :ref:`II.H Radioactive Effluent Control <HP3.II.H>`
 
 E. EQUIPMENT and MATERIALS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 n/a
 
 F. REFERENCES
+~~~~~~~~~~~~~
 
 1. Title 10, Code of Federal Regulations Part 20 (10CFR20), "Standards for Protection Against Radiation"  
 2. Title 25, Texas Administrative Code, Chapter 289 (25TAC289), "Texas Department of State Health Services Radiation Control Rules and Regulations"  
@@ -365,62 +424,87 @@ F. REFERENCES
 PROCEDURE
 ---------
 
+.. _HP3.II.A:
+
 A. ALARA Program Commitment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. The NETL is an education, research, and service facility consisting of a TRIGA Mark II reactor and various associated laboratories. The mission of the facility is to further education and research and to perform service work within the scope of the licenses granted by Federal and State agencies. Exposure of personnel to various types of radiation, and release of effluents to the environment are inherent consequences in the pursuit of these objectives. A careful balance must be maintained between the pursuit of these objectives and the consequences involved in the quest.
+   1. The NETL is an education, research, and service facility consisting of a TRIGA Mark II reactor and various associated laboratories. The mission of the facility is to further education and research and to perform service work within the scope of the licenses granted by Federal and State agencies. Exposure of personnel to various types of radiation, and release of effluents to the environment are inherent consequences in the pursuit of these objectives. A careful balance must be maintained between the pursuit of these objectives and the consequences involved in the quest.
 
-   The management of the NETL is firmly and unequivocally committed to keeping exposures to personnel and the general public as low as reasonably achievable (ALARA) without seriously restricting operation of the facility for purposes of education, research, and service.
+      The management of the NETL is firmly and unequivocally committed to keeping exposures to personnel and the general public as low as reasonably achievable (ALARA) without seriously restricting operation of the facility for purposes of education, research, and service.
 
-2. The NETL Health Physicist is the individual given explicit responsibility and authority for implementation of the radiation protection program. General responsibilities and organizational relationships of the Health Physicist follow the guidelines of ANSI/ANS-15.11. Specific responsibilities and organization requirements are found in applicable sections of the UT TRIGA Safety Analysis Report and the facility operating license Technical Specifications. Program requirements also extend to the university broad radioactive material license.
+   2. The NETL Health Physicist is the individual given explicit responsibility and authority for implementation of the radiation protection program. General responsibilities and organizational relationships of the Health Physicist follow the guidelines of ANSI/ANS-15.11. Specific responsibilities and organization requirements are found in applicable sections of the UT TRIGA Safety Analysis Report and the facility operating license Technical Specifications. Program requirements also extend to the university broad radioactive material license.
+
+.. _HP3.II.B:
 
 B. Training
+~~~~~~~~~~~
 
-The ALARA concept is emphasized during specialized initial training and continuing education which is provided for personnel allowed unescorted access to any restricted areas of the NETL.
+   The ALARA concept is emphasized during specialized initial training and continuing education which is provided for personnel allowed unescorted access to any restricted areas of the NETL.
+
+.. _HP3.II.C:
 
 C. Facility Design
+~~~~~~~~~~~~~~~~~~
 
-The NETL facility was originally designed with consideration and implementation of the ALARA principles. Any design changes must incorporate ALARA considerations. Facility design changes must consider the descriptions in the UT TRIGA Safety Analysis Report and the requirements of 10CFR50.59.
+   The NETL facility was originally designed with consideration and implementation of the ALARA principles. Any design changes must incorporate ALARA considerations. Facility design changes must consider the descriptions in the UT TRIGA Safety Analysis Report and the requirements of 10CFR50.59.
+
+.. _HP3.II.D:
 
 D. Facility Operations
+~~~~~~~~~~~~~~~~~~~~~~
 
-The NETL facility operates with ALARA in mind. Both for routine and special operations, consideration is given to such items as preoperational planning and briefings, temporary shielding, radiological monitoring, and many other items pertinent to control of radiation exposures.
+   The NETL facility operates with ALARA in mind. Both for routine and special operations, consideration is given to such items as preoperational planning and briefings, temporary shielding, radiological monitoring, and many other items pertinent to control of radiation exposures.
+
+.. _HP3.II.E:
 
 E. Review and Audit
+~~~~~~~~~~~~~~~~~~~
 
-1. Major activities are reviewed in a timely manner to verify that planning was sufficient.
+   1. Major activities are reviewed in a timely manner to verify that planning was sufficient.
 
-2. The Health Physicist shall review all occupational exposures at least quarterly and report to management any exposures in excess of the limits established in section F.
+   2. The Health Physicist shall review all occupational exposures at least quarterly and report to management any exposures in excess of the limits established in section F.
 
-3. The NETL ALARA program shall be reviewed at least annually by an ALARA committee typically consisting of the NETL Director, Reactor Supervisor, NETL Health Physicist, and the Radiation Safety Officer. The facility radiation protection program shall also be reviewed during the ALARA program review.
+   3. The NETL ALARA program shall be reviewed at least annually by an ALARA committee typically consisting of the NETL Director, Reactor Supervisor, NETL Health Physicist, and the Radiation Safety Officer. The facility radiation protection program shall also be reviewed during the ALARA program review.
+
+.. _HP3.II.F:
 
 F. Radiation Control
+~~~~~~~~~~~~~~~~~~~~
 
-NETL Health Physics procedures establish requirements for personnel radiation monitoring and facility radiation monitoring. These procedures uphold safe radiological practices at NETL and assist in keeping personnel and public exposures ALARA.
+   NETL Health Physics procedures establish requirements for personnel radiation monitoring and facility radiation monitoring. These procedures uphold safe radiological practices at NETL and assist in keeping personnel and public exposures ALARA.
 
-In support of ALARA, the NETL occupational dose limit for the typical radiation worker is established as the total effective dose equivalent equal to 1000 mrem per year. Additionally, the NETL public dose limit is set to 50 mrem per year. For special categories of radiation workers (declared pregnant workers, minors, etc.), the dose limit will be established on a case-by-case basis by the NETL Director with concurrence from the HP.
+   In support of ALARA, the NETL occupational dose limit for the typical radiation worker is established as the total effective dose equivalent equal to 1000 mrem per year. Additionally, the NETL public dose limit is set to 50 mrem per year. For special categories of radiation workers (declared pregnant workers, minors, etc.), the dose limit will be established on a case-by-case basis by the NETL Director with concurrence from the HP.
 
-If it appears there is a need to exceed these dose limits, the situation will be reviewed by the Health Physicist and the NETL Director. If the need is justified, the NETL Director, with concurrence from the HP, will assign a new NETL dose limit specifically for the reviewed situation.
+   If it appears there is a need to exceed these dose limits, the situation will be reviewed by the Health Physicist and the NETL Director. If the need is justified, the NETL Director, with concurrence from the HP, will assign a new NETL dose limit specifically for the reviewed situation.
+
+.. _HP3.II.G:
 
 G. Contamination Control
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-Good contamination control techniques, including contamination surveys, are important for maintaining exposures ALARA and should be practiced routinely when working in Restricted Areas. The surveys provide assurance that contamination does not extend to other areas.
+   Good contamination control techniques, including contamination surveys, are important for maintaining exposures ALARA and should be practiced routinely when working in Restricted Areas. The surveys provide assurance that contamination does not extend to other areas.
 
-The recommended acceptable surface contamination levels for unconditional release are given in ANSI/ANS-15.11 as:
+   The recommended acceptable surface contamination levels for unconditional release are given in ANSI/ANS-15.11 as:
 
-1. Beta/gamma contamination – 5000 dpm per 100 cm² fixed and 1000 dpm per 100 cm² removable  
-2. Alpha contamination – 100 dpm per 100 cm² fixed and 20 dpm per 100 cm² removable  
+   1. Beta/gamma contamination - 5000 dpm per 100 cm² fixed and 1000 dpm per 100 cm² removable 
 
-In support of ALARA principles, operations within Restricted Areas will be conducted such that contamination levels are maintained as close as possible to the release limits.
+   2. Alpha contamination - 100 dpm per 100 cm² fixed and 20 dpm per 100 cm² removable  
+
+   In support of ALARA principles, operations within Restricted Areas will be conducted such that contamination levels are maintained as close as possible to the release limits.
+
+.. _HP3.II.H:
 
 H. Radioactive Effluent Control
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The NETL was constructed with specialized containment and ventilation systems such that effluents are well controlled. Review procedures also assure that processes are designed to minimize production of effluents.
+   The NETL was constructed with specialized containment and ventilation systems such that effluents are well controlled. Review procedures also assure that processes are designed to minimize production of effluents.
 
-During normal operation, no radioactive liquid effluent is expected to be produced and released from the NETL. However, liquid from laboratory sinks can be routed to radioactive waste storage tanks. Liquid from the tanks can be analyzed and if necessary, diluted, processed and/or stored prior to release in compliance with the limits of 10CFR20 and 25TAC289.
+   During normal operation, no radioactive liquid effluent is expected to be produced and released from the NETL. However, liquid from laboratory sinks can be routed to radioactive waste storage tanks. Liquid from the tanks can be analyzed and if necessary, diluted, processed and/or stored prior to release in compliance with the limits of 10CFR20 and 25TAC289.
 
-During normal operation, significant airborne radioactive particulates are not expected to be produced and released from the NETL. However, a continuous air monitor samples the reactor bay air during operation and provides an indication of airborne radioactive particulate concentration to allow evaluation with respect to occupational and effluent limits in 10CFR20 and 25TAC289.
+   During normal operation, significant airborne radioactive particulates are not expected to be produced and released from the NETL. However, a continuous air monitor samples the reactor bay air during operation and provides an indication of airborne radioactive particulate concentration to allow evaluation with respect to occupational and effluent limits in 10CFR20 and 25TAC289.
 
-During normal operation, gaseous radioactive effluent is produced and released from the NETL (primarily Ar-41). A special exhaust system captures and removes a significant portion of the radioactive gas from occupied areas to reduce occupational exposure. A gaseous continuous air monitor is installed in the special exhaust system which provides an indication of airborne radioactive gas concentration to allow evaluation with respect to occupational and effluent limits in 10CFR20, 25TAC289, and the facility operating license.
+   During normal operation, gaseous radioactive effluent is produced and released from the NETL (primarily Ar-41). A special exhaust system captures and removes a significant portion of the radioactive gas from occupied areas to reduce occupational exposure. A gaseous continuous air monitor is installed in the special exhaust system which provides an indication of airborne radioactive gas concentration to allow evaluation with respect to occupational and effluent limits in 10CFR20, 25TAC289, and the facility operating license.
 
 HP-004 Radiation Protection Training
 ====================================
@@ -536,16 +620,16 @@ While this procedure is generally applicable to any radiation protection instrum
 
 Examples of radiation protection instruments used in the NETL and tested and calibrated following this procedure are given below. Because equipment is updated and replaced as technology and performance requires, the instruments listed should be considered representative rather than an exact listing.
 
-- Bicron Frisk-Tech .......... 0–500,000 cpm (Contamination)  
-- Bicron Micro-Rem .......... 0–20 mrem/hr (Radiation)  
-- Eberline RO-2A ............ 0–50 R/hr (Radiation)  
-- Ludlum 12-4 ............... 0–10 rem/hr (Neutron)  
-- Eberline RM-14S ........... 0–5,000,000 cpm (Contamination)  
-- Various PICs .............. 0–200 mrem (Dosimeter)  
+- Bicron Frisk-Tech .......... 0-500,000 cpm (Contamination)  
+- Bicron Micro-Rem .......... 0-20 mrem/hr (Radiation)  
+- Eberline RO-2A ............ 0-50 R/hr (Radiation)  
+- Ludlum 12-4 ............... 0-10 rem/hr (Neutron)  
+- Eberline RM-14S ........... 0-5,000,000 cpm (Contamination)  
+- Various PICs .............. 0-200 mrem (Dosimeter)  
 - Canberra DosiCard ......... N/A (Dosimeter)  
-- Victoreen 450B ............ 0–50 R/hr (Radiation)  
-- Eberline E600 ............. 0–1000 R/hr (Radiation)  
-- Ludlum 375 Dual ........... 0.1–1,000 mrem/hr (Criticality)  
+- Victoreen 450B ............ 0-50 R/hr (Radiation)  
+- Eberline E600 ............. 0-1000 R/hr (Radiation)  
+- Ludlum 375 Dual ........... 0.1-1,000 mrem/hr (Criticality)  
 - Berthold LB-1043 .......... N/A (Contamination)  
 - Protean WPC 9550 .......... N/A (Contamination)  
 - Wallac 1409 ............... N/A (Contamination)  
@@ -593,7 +677,7 @@ G. REFERENCES
 PROCEDURE
 ---------
 
-A. Instrument Checks – Portable Instruments
+A. Instrument Checks - Portable Instruments
 
 Prior to use, an instrument should be checked for proper function. The actual checks performed depend on the particular instrument but typically consist of the following:
 

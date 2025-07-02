@@ -11,18 +11,13 @@ INTRODUCTION
 A. PURPOSE
 ~~~~~~~~~~
 
-::
-
-    The purpose of this procedure is to assure safe, routine operation of an experiment facility that
-    produces radioactive materials.
+    The purpose of this procedure is to assure safe, routine operation of an experiment facility that produces radioactive materials.
 
 B. DESCRIPTION
 ~~~~~~~~~~~~~~
 
-::
-
     The Nuclear Engineering Teaching Laboratory (NETL) Pneumatic Transfer System (PTS),
-    sometimes referred to as a “rabbit" system, is used to transport sample vial (rabbits or carriers)
+    sometimes referred to as a "rabbit" system, is used to transport sample vial (rabbits or carriers)
     between a fume hood in room 3.102 and the TRIGA Reactor Core in room 1.104. This
     procedure details the operation of the system and the requirements that must be met in order to
     use it for the production of radioisotopes and/or Neutron Activation Analysis (NAA).
@@ -45,44 +40,43 @@ B. DESCRIPTION
 C. SCHEDULE
 ~~~~~~~~~~~
 
-::
-
     This procedure applies to each use of the PTS at any time that an irradiation terminal is in a
     reactor grid plate location and the reactor is at power.
 
 D. CONTENTS & Attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
-
     PTS Schematic
 
 E. EQUIPMENT, MATERIALS
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-::
-
     PTS Components
+
     1.) Transport tube and control system 
         a) Large tube transport system, GA Terminal  
         b) Small tube transport system, standard Terminal  
         c) Small tube transport system, Cd-lined Terminal  
+
     2.) Loading port, Insert Tube and Sample Clip 
+
     3.) Transport, carrier (rabbits) capsules  
         GA standard capsules     large tube system  
         Emerald capsules         large tube system  
-        Adanac capsules          small tube system  
+        Adanac capsules          small tube system 
+
     4.) Control lockout key  
+
     5.) CO2 fill gas for tube  
 
 F. REFERENCES, OTHER PROCEDURES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-::
-
     1.) UT TRIGA SAR Report (Chapter 8)  
+
     2.) UT TRIGA PTS Description
         Experiment Authorization:  
+
         +-------------+---------------------------------------+
         | 3.2.1a,b,c  | large tube system                     |
         +-------------+---------------------------------------+
@@ -92,7 +86,7 @@ F. REFERENCES, OTHER PROCEDURES
         +-------------+---------------------------------------+
 
 G. NOTES:
-
+~~~~~~~~~
 
 PROCEDURE
 ---------
@@ -100,48 +94,69 @@ PROCEDURE
     **USE OF THE NETL PNEUMATIC TRANSFER SYSTEM**
 
 1. Determine which type of irradiation terminal and transport tube system is needed.  
+
    a) Large tube transport system, GA Terminal. There is no maximum power limit for use of the large tube GA transfer tubes and terminal. Transport capsules for the GA terminal are reusable 20 to 25 times. A periodic inspection of the transport capsule should be done to avoid capsule breakage during irradiation.  
    b) Small tube transport system, standard Terminal. There is no maximum power limit.  
    c) Small tube transport system, Cd-lined Terminal. The maximum power limit for the small tube terminals is 500 kW. This limit is based on terminal temperature and vial temperature characteristics necessary to assure vial deformation does not cause the vial to become stuck in the core terminal. Transport capsules are not reusable.
 
 2. The user must have completed the NETL Radiation Safety Training Course and be familiar with the operation of the controls for the Pneumatic Transfer System. The Reactor Supervisor or his designee shall train new users of the system.
 
-3. Submit an “Operation Request” and “Irradiation Request” defining the reactor operating requirements and type of samples. Specify type of use of the Pneumatic Transfer System as radioisotope production or Neutron Activation Analysis (NAA).
+3. Submit an "Operation Request" and "Irradiation Request" defining the reactor operating requirements and type of samples. Specify type of use of the Pneumatic Transfer System as radioisotope production or Neutron Activation Analysis (NAA).
 
 4. Each sample shall be characterized as **solid** or **non-solid** (such as fine powders, volatile compounds, liquids or gases).  
+
    a) All solid samples shall be contained within a primary vial with a thermal type seal.  
    b) The transport or carrier capsule does not provide a thermal seal for solid or non-solid samples.  
    c) A secondary thermal type containment is a requirement for each non-solid sample. A secondary containment may consist of a plastic bag with a heat type thermal seal.
 
 5. Samples to be irradiated in the small tube terminal must be packaged in the appropriate carrier vial. The system design is for a 0.650 inch diameter capsule in a 0.685 diameter transport tube. Each carrier vial must pass through a test port. Limiting operating temperature for low-density polyethylene is 85°C.  
+
    a) Use Adanac type carrier vials that have a smooth cap, a double ridge for cap retention, and a smooth flush cast bottom.  
    b) Do not use similar vials made by Emerald (formerly Olympic) which have a molded strip across the cap and a molded name in the bottom.  
    c) Test each transport capsule prior to use in the PTS loading port.  
+
    **USE ONLY A CAPSULE THAT PASSES THROUGH THE TEST PORT**
 
 6. The user must establish communication with the Reactor Operator via the Reactor Control Room Intercom System. A radiation monitor must be available to monitor the radiation dose prior to handling samples after irradiation in the reactor core.  
+
    a) Announce the insertion of each sample into the reactor.  
    b) Measure the radiation dose of each sample prior to removal from the loading port.
 
 7. The Lockout Key at the control unit located in the Reactor Control Room will be turned ON by the Reactor Operator when personnel and irradiation conditions are ready. A six minute time period provides purge of the pneumatic tube system with CO2. During the purge period both the RED LED and the GREEN LED illuminate for six minutes. At the end of pneumatic tube system operation turning the Lockout Key OFF will light the RED LED and GREEN LED for two minutes.
 
-8. Select the appropriate irradiation period using the BCD switch:  
-   a) **BCD setting / Action**  
+8. Select the appropriate irradiation period using the BCD switch: 
 
-      0 — Manual operation of insert and remove functions  
-      The carrier will be inserted and removed by pressing the corresponding switch. At present, a timer limits the irradiation time to 10 minutes for “safety” reasons. The manual mode does not use the sample sensors to control operation. A fixed (5) five-second carrier return time is set so that a sensor failure to detect the sample does not prevent shutdown of the fan.  
-      n — Automatic operation of insert and remove functions  
+    a) 
+
+    +--------------+----------------------------------------------------+
+    | BCD setting  | Action                                             |
+    +==============+====================================================+
+    | 0            | Manual operation of insert and remove functions    |
+    +--------------+----------------------------------------------------+
+    | n            | Automatic operation of insert and remove functions |
+    +--------------+----------------------------------------------------+
+
+      The carrier will be inserted and removed by pressing the corresponding switch. At present, a timer limits the irradiation time to 10 minutes for "safety" reasons. The manual mode does not use the sample sensors to control operation. A fixed (5) five-second carrier return time is set so that a sensor failure to detect the sample does not prevent shutdown of the fan.  
 
    b) `<n>` is the setting for automatic operation, the carrier will be inserted for a preset number of seconds of irradiation and then removed by the PLC timer action. A (2) two-second delay is built into the automatic sequences to avoid accidental insertion of the sample. This is partly a precaution for the lack of tactile feedback in the switch.  
 
-      **n / irradiation time**  
-      1 — 10. seconds  
-      2 — 0.5 minutes  
-      3 — 1.0 minutes  
-      4 — 2.0 minutes  
-      5 — 3.0 minutes  
-      6 — 5.0 minutes  
-      7 — 10. minutes  
+    +---+------------------+
+    |  n| irradiation time |
+    +===+==================+
+    |  1| 10. seconds      |
+    +---+------------------+
+    |  2| 0.5 minutes      |
+    +---+------------------+
+    |  3| 1.0 minutes      |
+    +---+------------------+
+    |  4| 2.0 minutes      |
+    +---+------------------+
+    |  5| 3.0 minutes      |
+    +---+------------------+
+    |  6| 5.0 minutes      |
+    +---+------------------+
+    |  7| 10. minutes      |
+    +---+------------------+
 
    c) Pressing the Insert Switch will reset (turn off) the LED lights. Holding the switch for two seconds or pressing the switch a second time after a two second delay will activate the fan and valves for insertion of the sample.  
    d) Pressing the Remove Switch will immediately return the sample to the load port. A timer will return the carrier if the Remove Switch is not pressed. The carrier sensors must detect the carrier for the proper operation of the automatic cycle.
@@ -183,7 +198,8 @@ PROCEDURE
     c) Do **NOT** send any carrier without the approval of the Reactor Operator.
 
 20. If the carrier return is successful, proceed with the next sample as needed.  
-    After the last carrier is irradiated, inform the Reactor Operator of the conclusion of the work. The GREEN and RED LED’s will illuminate for two minutes when the Lockout Key is turned off by the Reactor Operator.
+
+After the last carrier is irradiated, inform the Reactor Operator of the conclusion of the work. The GREEN and RED LED’s will illuminate for two minutes when the Lockout Key is turned off by the Reactor Operator.
 
 EXP-BP3.1 Neutron Activation Analysis
 =====================================
@@ -191,45 +207,46 @@ EXP-BP3.1 Neutron Activation Analysis
 PURPOSE
 -------
 
-The purpose of a neutron activation analysis experiment is to determine
-the constituent elements of a material by inducing neutron capture and decay
-reactions in the isotopes of stable elements.
+    The purpose of a neutron activation analysis experiment is to determine
+    the constituent elements of a material by inducing neutron capture and decay
+    reactions in the isotopes of stable elements.
 
 DESCRIPTION
 -----------
 
-Analysis of the radiation energies of the unstable radioactive isotopes
-that occur by neutron capture reactions provides information that
-qualitatively identifies the elements in a sample and quantitatively
-determines the amount of the corresponding stable elements. This
-description applies to three types of materials with irradiation times of one
-hour to 60 hours. Material types are biological, geological and
-engineering.
+    Analysis of the radiation energies of the unstable radioactive isotopes
+    that occur by neutron capture reactions provides information that
+    qualitatively identifies the elements in a sample and quantitatively
+    determines the amount of the corresponding stable elements. This
+    description applies to three types of materials with irradiation times of one
+    hour to 60 hours. Material types are biological, geological and
+    engineering.
 
-Long-lived nuclides are those radionuclides that will occur by
-irradiating samples in the Rotary Specimen Rack (RSR) and at the Center Tube
-Facility (CTF). One consequence of the irradiation time is sample handling
-hazards that depend on the sample decay time.
+    Long-lived nuclides are those radionuclides that will occur by
+    irradiating samples in the Rotary Specimen Rack (RSR) and at the Center Tube
+    Facility (CTF). One consequence of the irradiation time is sample handling
+    hazards that depend on the sample decay time.
 
-In the case of the CTF, sample encapsulation must be water tight and
-consist of two encapsulation boundaries. Sample encapsulations must be
-compatible with the experiment facility environment, air or water. If a
-fuel element core position (FECP) or external core irradiation tube (ECIT)
-is available the sample requirements are the same as for the RSR and CTF.
+    In the case of the CTF, sample encapsulation must be water tight and
+    consist of two encapsulation boundaries. Sample encapsulations must be
+    compatible with the experiment facility environment, air or water. If a
+    fuel element core position (FECP) or external core irradiation tube (ECIT)
+    is available the sample requirements are the same as for the RSR and CTF.
 
 **Experiment Requirements:**  
-- Rotary Specimen Rack in graphite reflector, or  
-- Center Tube Facility Irradiation Tube.
+    - Rotary Specimen Rack in graphite reflector, or  
+    - Center Tube Facility Irradiation Tube.
 
 REFERENCES
 ----------
 
-- Fixed RWP # yr-xxxF - Reactor unloading  
-- Fixed RWP # yr-xxxF - Sample processing  
-- Experiment Authorization B3.1  
-  - B3.1.A Biological Samples  
-  - B3.1.B Geological Samples  
-  - B3.1.C Engineering Samples  
+    - Fixed RWP # yr-xxxF - Reactor unloading  
+    - Fixed RWP # yr-xxxF - Sample processing  
+    - Experiment Authorization B3.1
+      
+        - B3.1.A Biological Samples  
+        - B3.1.B Geological Samples  
+        - B3.1.C Engineering Samples  
 
 
 PROCEDURE FOR SAMPLE IRRADIATION
@@ -239,8 +256,8 @@ PROCEDURE FOR SAMPLE IRRADIATION
    forms are the "Operation Request" form and "Sample Radiation or Exposure"
    form. Forms are available from the Reactor Supervisor.
 
-   The experiment authorization contains an “Irradiation of Material
-   Worksheet”. The worksheet provides guidance to assure that a request meets
+   The experiment authorization contains an "Irradiation of Material
+   Worksheet". The worksheet provides guidance to assure that a request meets
    the requirements of the NAA experiment authorization.
 
 2. Sample preparation and encapsulation are the responsibility of the user.
@@ -264,8 +281,8 @@ PROCEDURE FOR SAMPLE IRRADIATION
 
    A unique sample identification name or number will be recorded with the
    loading and unloading date and time of each sample within any experiment. A
-   log record of the samples is kept in the “Sample Log (in-core)” or “Exposure
-   Log (ex-core)”. User may submit an extra sheet with the same format to list
+   log record of the samples is kept in the "Sample Log (in-core)" or "Exposure
+   Log (ex-core)". User may submit an extra sheet with the same format to list
    more samples.
 
 5. Notify the Reactor Operator or his representative of the loading.
