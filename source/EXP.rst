@@ -47,7 +47,7 @@ D. CONTENTS & Attachments:
 
 E. EQUIPMENT, MATERIALS
 
-PTS Components
+    PTS Components
 
     1.) Transport tube and control system  
         a) Large tube transport system, GA Terminal  
@@ -81,7 +81,7 @@ G. NOTES:
 PROCEDURE
 ---------
 
-USE OF THE NETL PNEUMATIC TRANSFER SYSTEM
+    **USE OF THE NETL PNEUMATIC TRANSFER SYSTEM**
 
 1. Determine which type of irradiation terminal and transport tube system is needed.  
    a) Large tube transport system, GA Terminal  
