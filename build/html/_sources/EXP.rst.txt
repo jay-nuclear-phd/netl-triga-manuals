@@ -8,68 +8,74 @@ EXP-PTS Pneumatic Transfer System
 INTRODUCTION
 ------------
 
-PURPOSE
+A. PURPOSE
 
-The purpose of this procedure is to assure safe, routine operation of an experiment facility that
-produces radioactive materials.
+    The purpose of this procedure is to assure safe, routine operation of an experiment facility that
+    produces radioactive materials.
 
-DESCRIPTION
+B. DESCRIPTION
 
-The Nuclear Engineering Teaching Laboratory (NETL) Pneumatic Transfer System (PTS),
-sometimes referred to as a “rabbit" system, is used to transport sample vial (rabbits or carriers)
-between a fume hood in room 3.102 and the TRIGA Reactor Core in room 1.104. This
-procedure details the operation of the system and the requirements that must be met in order to
-use it for the production of radioisotopes and/or Neutron Activation Analysis (NAA).
+    The Nuclear Engineering Teaching Laboratory (NETL) Pneumatic Transfer System (PTS),
+    sometimes referred to as a “rabbit" system, is used to transport sample vial (rabbits or carriers)
+    between a fume hood in room 3.102 and the TRIGA Reactor Core in room 1.104. This
+    procedure details the operation of the system and the requirements that must be met in order to
+    use it for the production of radioisotopes and/or Neutron Activation Analysis (NAA).
 
-The pneumatic transfer system shuttles samples by air changes of air pressure between two
-system end points, a loading port and the irradiation terminal. Controls for the system allow
-manual operation or automatic operation with preset times for the irradiation period. This system
-enhances the production of short half-life radioactive materials.
+    The pneumatic transfer system shuttles samples by air changes of air pressure between two
+    system end points, a loading port and the irradiation terminal. Controls for the system allow
+    manual operation or automatic operation with preset times for the irradiation period. This system
+    enhances the production of short half-life radioactive materials.
 
-Two different size irradiation terminals and transport tubes are available. Each terminal and
-transport tube system requires different transport capsule sizes. The outside diameter of both
-terminal sizes is designed to fit in a standard fuel element position. The two terminals have
-different internal diameters, a large diameter for use with General Atomic standard reusable
-capsules of high-density polyethylene, and a small interior diameter for use with disposable low-
-density polyethylene capsules. Two small diameter irradiation terminals are available that
-provide different characteristic neutron flux profiles. One terminal is a standard terminal for
-thermal neutron irradiation. The other terminal has a cadmium lining for epithermal neutron
-irradiation.
+    Two different size irradiation terminals and transport tubes are available. Each terminal and
+    transport tube system requires different transport capsule sizes. The outside diameter of both
+    terminal sizes is designed to fit in a standard fuel element position. The two terminals have
+    different internal diameters, a large diameter for use with General Atomic standard reusable
+    capsules of high-density polyethylene, and a small interior diameter for use with disposable low-
+    density polyethylene capsules. Two small diameter irradiation terminals are available that
+    provide different characteristic neutron flux profiles. One terminal is a standard terminal for
+    thermal neutron irradiation. The other terminal has a cadmium lining for epithermal neutron
+    irradiation.
 
-SCHEDULE
+C. SCHEDULE
 
-This procedure applies to each use of the PTS at any time that an irradiation terminal is in a
-reactor grid plate location and the reactor is at power.
+    This procedure applies to each use of the PTS at any time that an irradiation terminal is in a
+    reactor grid plate location and the reactor is at power.
 
-CONTENTS & Attachments:
+D. CONTENTS & Attachments:
 
-PTS Schematic
+    PTS Schematic
 
-EQUIPMENT, MATERIALS
+E. EQUIPMENT, MATERIALS
 
 PTS Components
-1.) Transport tube and control system  
-    a) Large tube transport system, GA Terminal  
-    b) Small tube transport system, standard Terminal  
-    c) Small tube transport system, Cd-lined Terminal  
-2.) Loading port, Insert Tube and Sample Clip  
-3.) Transport, carrier (rabbits) capsules  
-    GA standard capsules     large tube system  
-    Emerald capsules         large tube system  
-    Adanac capsules          small tube system  
-4.) Control lockout key  
-5.) CO2 fill gas for tube  
 
-REFERENCES, OTHER PROCEDURES
+    1.) Transport tube and control system  
+        a) Large tube transport system, GA Terminal  
+        b) Small tube transport system, standard Terminal  
+        c) Small tube transport system, Cd-lined Terminal  
+    2.) Loading port, Insert Tube and Sample Clip  
+    3.) Transport, carrier (rabbits) capsules  
+        GA standard capsules     large tube system  
+        Emerald capsules         large tube system  
+        Adanac capsules          small tube system  
+    4.) Control lockout key  
+    5.) CO2 fill gas for tube  
 
-1.) UT TRIGA SAR Report (Chapter 8)  
-2.) UT TRIGA PTS Description  
-    Experiment Authorization:  
-    3.2.1a,b,c   large tube system  
-    3.2.2a,b,c   small tube system, standard terminal  
-    3.2.3a,b,c   small tube system, Cd lined terminal  
+F. REFERENCES, OTHER PROCEDURES
 
-NOTES:
+    1.) UT TRIGA SAR Report (Chapter 8)  
+    2.) UT TRIGA PTS Description  
+        Experiment Authorization:  
+
+        +-------------+---------------------------------------+
+        | 3.2.1a,b,c  | large tube system  |
+        +-------------+---------------------------------------+
+        | 3.2.2a,b,c  | small tube system, standard terminal  |
+        +-------------+---------------------------------------+
+        | 3.2.3a,b,c  | small tube system, Cd lined terminal  |
+        +-------------+---------------------------------------+
+
+G. NOTES:
 
 
 PROCEDURE
