@@ -53,27 +53,31 @@ E. EQUIPMENT, MATERIALS
         a) Large tube transport system, GA Terminal  
         b) Small tube transport system, standard Terminal  
         c) Small tube transport system, Cd-lined Terminal  
-    2.) Loading port, Insert Tube and Sample Clip  
+
+    2.) Loading port, Insert Tube and Sample Clip 
+
     3.) Transport, carrier (rabbits) capsules  
         GA standard capsules     large tube system  
         Emerald capsules         large tube system  
         Adanac capsules          small tube system  
     4.) Control lockout key  
+
     5.) CO2 fill gas for tube  
 
 F. REFERENCES, OTHER PROCEDURES
 
     1.) UT TRIGA SAR Report (Chapter 8)  
+    
     2.) UT TRIGA PTS Description  
         Experiment Authorization:  
 
-        +-------------+---------------------------------------+
-        | 3.2.1a,b,c  | large tube system  |
-        +-------------+---------------------------------------+
-        | 3.2.2a,b,c  | small tube system, standard terminal  |
-        +-------------+---------------------------------------+
-        | 3.2.3a,b,c  | small tube system, Cd lined terminal  |
-        +-------------+---------------------------------------+
++-------------+---------------------------------------+
+| 3.2.1a,b,c  | large tube system  |
++-------------+---------------------------------------+
+| 3.2.2a,b,c  | small tube system, standard terminal  |
++-------------+---------------------------------------+
+| 3.2.3a,b,c  | small tube system, Cd lined terminal  |
++-------------+---------------------------------------+
 
 G. NOTES:
 
