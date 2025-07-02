@@ -9,11 +9,17 @@ INTRODUCTION
 ------------
 
 A. PURPOSE
+~~~~~~~~~~
+
+::
 
     The purpose of this procedure is to assure safe, routine operation of an experiment facility that
     produces radioactive materials.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
+
+::
 
     The Nuclear Engineering Teaching Laboratory (NETL) Pneumatic Transfer System (PTS),
     sometimes referred to as a “rabbit" system, is used to transport sample vial (rabbits or carriers)
@@ -37,11 +43,17 @@ B. DESCRIPTION
     irradiation.
 
 C. SCHEDULE
+~~~~~~~~~~~
+
+::
 
     This procedure applies to each use of the PTS at any time that an irradiation terminal is in a
     reactor grid plate location and the reactor is at power.
 
-D. CONTENTS & Attachments:
+D. CONTENTS & Attachments
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
 
     PTS Schematic
 
@@ -64,19 +76,20 @@ E. EQUIPMENT, MATERIALS
     5.) CO2 fill gas for tube  
 
 F. REFERENCES, OTHER PROCEDURES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::
 
     1.) UT TRIGA SAR Report (Chapter 8)  
-    
-    2.) UT TRIGA PTS Description  
+    2.) UT TRIGA PTS Description
         Experiment Authorization:  
-
-+-------------+---------------------------------------+
-| 3.2.1a,b,c  | large tube system                     |
-+-------------+---------------------------------------+
-| 3.2.2a,b,c  | small tube system, standard terminal  |
-+-------------+---------------------------------------+
-| 3.2.3a,b,c  | small tube system, Cd lined terminal  |
-+-------------+---------------------------------------+
+        +-------------+---------------------------------------+
+        | 3.2.1a,b,c  | large tube system                     |
+        +-------------+---------------------------------------+
+        | 3.2.2a,b,c  | small tube system, standard terminal  |
+        +-------------+---------------------------------------+
+        | 3.2.3a,b,c  | small tube system, Cd lined terminal  |
+        +-------------+---------------------------------------+
 
 G. NOTES:
 
@@ -114,7 +127,7 @@ PROCEDURE
 
 8. Select the appropriate irradiation period using the BCD switch:  
    a) **BCD setting / Action**  
-   
+
       0 — Manual operation of insert and remove functions  
       The carrier will be inserted and removed by pressing the corresponding switch. At present, a timer limits the irradiation time to 10 minutes for “safety” reasons. The manual mode does not use the sample sensors to control operation. A fixed (5) five-second carrier return time is set so that a sensor failure to detect the sample does not prevent shutdown of the fan.  
       n — Automatic operation of insert and remove functions  
