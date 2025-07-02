@@ -5,16 +5,17 @@ FUEL
 FUEL-1 Movement of Fuel
 =======================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
-
+~~~~~~~~~~
    The instructions of this procedure are to control the movement
    of reactor fuel components within the reactor core grid
    structure and to or from storage locations.
 
 B. DESCRIPTION
+~~~~~~~~~~~~~~
 
    Reactivity changes occur as fuel is added to the reactor core or
    storage locations. To assure adequate safety margins for the
@@ -25,84 +26,91 @@ B. DESCRIPTION
    fuel additions or deletions.
 
 C. Schedule
+~~~~~~~~~~~
 
    Apply this procedure each time fuel is moved.
 
 D. Contents
+~~~~~~~~~~~
 
-   A. TRIGA Fuel Movement ........................................ Page 4  
-   B. Criticality and Inventory Control of  
-      Materials in Storage ........................................ Page 6  
-   C. TRIGA Fuel Reference Reactivity Values ...................... Page 7  
+   .. line-block::
+
+      :ref:`A. TRIGA Fuel Movement <FUEL.II.A>`
+      :ref:`B. Criticality and Inventory Control of Materials in Storage <FUEL.II.B>`
+      :ref:`C. TRIGA Fuel Reference Reactivity Values <FUEL.II.C>`
 
 E. Attachments
+~~~~~~~~~~~~~~
 
-   Fuel Movement Log .............................................. 1 Page  
-   TRIGA Core Arrangement ......................................... 1 Page  
-   Storage Well Arrangement ....................................... 1 Page  
-   Pool Storage Rack Inventory .................................... 1 Page  
-   *Fuel in Inventory Disqualified for Use*
+   .. line-block::
+      
+      Fuel Movement Log
+      TRIGA Core Arrangement
+      Storage Well Arrangement
+      Pool Storage Rack Inventory
+      Fuel in Inventory Disqualified for Use
 
 F. Equipment, Materials
+~~~~~~~~~~~~~~~~~~~~~~~
 
-   Fuel Element Tool  
-   Radiation Work Permit (RWP) - A RWP is required for this  
-   procedure only if irradiated fuel is to  
-   be moved outside of the reactor pool  
-   access area.
+   .. line-block::
+
+      Fuel Element Tool  
+      Radiation Work Permit (RWP) - A RWP is required for this procedure only if irradiated fuel is to be moved outside of the reactor pool access area.
 
 G. REFERENCES
 
-   Criticality Calculations  
-   MAIN-5 Fuel Inspections and Measurements  
-   MAIN-5 Performance Records  
-   B159.xls (Fuel Data)
+   .. line-block::
 
-PROCEDURE
----------
+      Criticality Calculations  
+      MAIN-5 Fuel Inspections and Measurements  
+      MAIN-5 Performance Records  
+      B159.xls (Fuel Data)
+
+II. PROCEDURE
+-------------
+
+.. _FUEL.II.A:
 
 A. TRIGA Fuel Movement
+~~~~~~~~~~~~~~~~~~~~~~
 
    1.0 See following P&I Procedure Change Insert Page
 
-   1.1 A senior reactor operator shall supervise all movements of
-       fuel, including movements to or from the reactor core grid
-       structure and movements between storage locations. At
-       least one person should assist with the handling of the
-       fuel elements.
+   1.1 A senior reactor operator shall supervise all movements of fuel, including movements to or from the reactor core grid structure and movements between storage locations. At least one person should assist with the handling of the fuel elements.
 
-2. Restrict all fuel element arrays except the reactor core to
-   an array limit of less than 20 elements.
+   2. Restrict all fuel element arrays except the reactor core to
+      an array limit of less than 20 elements.
 
-   a. Store fuel elements in the fuel storage wells or
-      in the reactor pool. Use the 19 element
-      hexagonal array racks (these may be stacked two
-      deep per well) or the 6 or staggered 12 element
-      linear array racks.
+      a. Store fuel elements in the fuel storage wells or
+         in the reactor pool. Use the 19 element
+         hexagonal array racks (these may be stacked two
+         deep per well) or the 6 or staggered 12 element
+         linear array racks.
 
-   b. Elements not in storage racks or shipment casks
-      should be in groups of three or less.
+      b. Elements not in storage racks or shipment casks
+         should be in groups of three or less.
 
-3. Plan fuel movement activities so as to minimize the number
-   of individual moves required to achieve the desired result.
+   3. Plan fuel movement activities so as to minimize the number
+      of individual moves required to achieve the desired result.
 
-4. Move elements between the reactor core, storage racks,
-   shipment casks or other locations with special fuel
-   handling tool.
+   4. Move elements between the reactor core, storage racks,
+      shipment casks or other locations with special fuel
+      handling tool.
 
-5. Maintain access control or restrict use of fuel handling
-   tool by lock if fuel movements are not in progress.
+   5. Maintain access control or restrict use of fuel handling
+      tool by lock if fuel movements are not in progress.
 
-6. Test fuel handling tool on non-fuel element prior to use.
+   6. Test fuel handling tool on non-fuel element prior to use.
 
-7. Approve by inspection and test any device other than the
-   fuel handling tool prior to use for movement of fuel.
-   Handle the instrument elements with the extension tubes.
-   Handle control followers with the extension rods.
+   7. Approve by inspection and test any device other than the
+      fuel handling tool prior to use for movement of fuel.
+      Handle the instrument elements with the extension tubes.
+      Handle control followers with the extension rods.
 
-8. Handle fuel elements carefully. Care should be taken not
-   to bump or scrape elements. Minimize the possibility and
-   potential consequences of an accidental drop of an element.
+   8. Handle fuel elements carefully. Care should be taken not
+      to bump or scrape elements. Minimize the possibility and
+      potential consequences of an accidental drop of an element.
 
    9. The Pool Area radiation monitor shall be functional during
       fuel movement in or to and from the reactor pool.
@@ -159,7 +167,10 @@ A. TRIGA Fuel Movement
       shall be surveyed for contamination, bagged, and locked
       securely for storage in its designated location.
 
+.. _FUEL.II.B:
+
 B. Criticality and Inventory Control of Materials in Storage
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    1. Storage and handling of large quantities of special nuclear
       materials (SNM), such as reactor fuel, carries the risk of
@@ -219,111 +230,123 @@ B. Criticality and Inventory Control of Materials in Storage
       elements are moved in limited quantities and maintained in
       a subcritical configuration during movement.
 
-C. TRIGA Fuel Reference Reactivity Values
+.. _FUEL.II.C:
 
-+---------------------+------------------------+
-| Core Location       | TRIGA fuel vs. water   |
-+=====================+========================+
-| Ring A              | 4.00                   |
-+---------------------+------------------------+
-| Ring B              | 1.07                   |
-+---------------------+------------------------+
-| Ring C              | 0.85                   |
-+---------------------+------------------------+
-| Ring D              | 0.54                   |
-+---------------------+------------------------+
-| Ring E              | 0.36                   |
-+---------------------+------------------------+
-| Ring F              | 0.25                   |
-+---------------------+------------------------+
-| Ring G              | 0.19                   |
-+---------------------+------------------------+
-| 3 elements (1D, 2E) | 1.25                   |
-+---------------------+------------------------+
-| 6 elements (6B)     | 6.42                   |
-+---------------------+------------------------+
+C. TRIGA Fuel Reference Reactivity Values
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   +---------------------+------------------------+
+   | Core Location       | TRIGA fuel vs. water   |
+   +=====================+========================+
+   | Ring A              | 4.00                   |
+   +---------------------+------------------------+
+   | Ring B              | 1.07                   |
+   +---------------------+------------------------+
+   | Ring C              | 0.85                   |
+   +---------------------+------------------------+
+   | Ring D              | 0.54                   |
+   +---------------------+------------------------+
+   | Ring E              | 0.36                   |
+   +---------------------+------------------------+
+   | Ring F              | 0.25                   |
+   +---------------------+------------------------+
+   | Ring G              | 0.19                   |
+   +---------------------+------------------------+
+   | 3 elements (1D, 2E) | 1.25                   |
+   +---------------------+------------------------+
+   | 6 elements (6B)     | 6.42                   |
+   +---------------------+------------------------+
 
 FUEL-2 Movement of Experiments
 ==============================
 
-PURPOSE
--------
+I. PURPOSE
+----------
 
-The purpose of this procedure is to control experiment facility or
-experiment movements that may cause reactivity changes to the reactor core.
+   The purpose of this procedure is to control experiment facility or
+   experiment movements that may cause reactivity changes to the reactor core.
 
-DESCRIPTION
------------
+II. DESCRIPTION
+---------------
 
-Setup or removal of reactor core experiment facilities and experiments
-can cause substantial changes in the core configuration reactivity.
-Knowledge of these reactivity changes, both magnitude and sign, and the
-measurement of these changes is necessary to approve any configuration for
-safe operation.
+   Setup or removal of reactor core experiment facilities and experiments
+   can cause substantial changes in the core configuration reactivity.
+   Knowledge of these reactivity changes, both magnitude and sign, and the
+   measurement of these changes is necessary to approve any configuration for
+   safe operation.
 
-REFERENCE
----------
+III. REFERENCE
+--------------
 
-Safety Analysis Report,  
-docket 50-602  
-Technical Specifications,  
-section 3.4 limitations on Experiments
+   .. line-block::
 
-MATERIALS
----------
+      Safety Analysis Report,  
+      docket 50-602  
+      Technical Specifications,  
+      section 3.4 limitations on Experiments
 
-Radiation Work Permits (RWP) - for work within the reactor pool access
-area, or for special experiments.
+IV. MATERIALS
+-------------
 
-PROCEDURE
----------
+   Radiation Work Permits (RWP) - for work within the reactor pool access
+   area, or for special experiments.
 
-1. A licensed operator shall supervise all experiment
-   facility or experiment movements in the reactor pool.
+V. PROCEDURE
+------------
 
-2. A careful examination of the reactivity
-   consequences of any experiment or facility
-   movement shall be reviewed.
+   1. A licensed operator shall supervise all experiment
+      facility or experiment movements in the reactor pool.
 
-3. Reactivity effects greater than $1.00 shall
-   require supervision by a licensed senior operator;
-   reactor startup checklist shall be performed and
-   k-excess adjustments made as necessary.
+   2. A careful examination of the reactivity
+      consequences of any experiment or facility
+      movement shall be reviewed.
 
-4. Removal or replacement of experiment or facilities
-   into or from the reactor core shall be recorded in
-   the reactor logbook; a k-excess measurement shall
-   be made at time of subsequent reactor criticality.
+   3. Reactivity effects greater than $1.00 shall
+      require supervision by a licensed senior operator;
+      reactor startup checklist shall be performed and
+      k-excess adjustments made as necessary.
 
-5. All experiments in the reactor tank shall be
-   secured as required by reactivity constraints.
-   Experiments or objects in the reactor pool that
-   represent no reactivity effect shall be secured as
-   necessary to prevent potential interference with
-   reactor operation.
+   4. Removal or replacement of experiment or facilities
+      into or from the reactor core shall be recorded in
+      the reactor logbook; a k-excess measurement shall
+      be made at time of subsequent reactor criticality.
 
-6. A beta-gamma survey shall be made of all objects
-   or experiments removed from the pool; radiation
-   tags and wipe tests should be used as necessary.
+   5. All experiments in the reactor tank shall be
+      secured as required by reactivity constraints.
+      Experiments or objects in the reactor pool that
+      represent no reactivity effect shall be secured as
+      necessary to prevent potential interference with
+      reactor operation.
 
-   a. Check the requirements of any extended or fixed RWP
-      for work in the immediate area of the reactor pool
-      access area.
+   6. A beta-gamma survey shall be made of all objects
+      or experiments removed from the pool; radiation
+      tags and wipe tests should be used as necessary.
 
-   b. Special RWP’s may apply to specific experiments.
+      a. Check the requirements of any extended or fixed RWP
+         for work in the immediate area of the reactor pool
+         access area.
 
-Reactivity Estimates ($)
+      b. Special RWP’s may apply to specific experiments.
+
+**Reactivity Estimates ($)**
 
 +-------------------+---------------------+--------+
 | Experiment/Item   | Comparison          | $      |
 +===================+=====================+========+
 | CTR               | void vs. water      | -0.50  |
++-------------------+---------------------+--------+
 | dummy min.        | graphite vs. water  | +0.05  |
++-------------------+---------------------+--------+
 | dummy max.        | graphite vs. water  | +0.20  |
++-------------------+---------------------+--------+
 | thru tube         | void vs. graphite   | -0.45  |
++-------------------+---------------------+--------+
 | piercing tube     | void vs. graphite   | -0.35  |
++-------------------+---------------------+--------+
 | RSR               | poison 40 places    | -0.40  |
++-------------------+---------------------+--------+
 | PNT-G1            | poison              | -0.16  |
++-------------------+---------------------+--------+
 | PNT-A1            | poison              | -0.90  |
 +-------------------+---------------------+--------+
 
