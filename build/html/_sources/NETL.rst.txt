@@ -278,12 +278,12 @@ C. SCHEDULE
 D. CONTENTS and Attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. line-block::
-   :ref:`II.A Requirements for Issue <NETL-5.II.A>`  
-   :ref:`SWPs for Experiments <NETL-5.II.B>`  
-   :ref:`Administration <NETL-5.II.C>`  
-   :ref:`Records <NETL-5.II.D>`  
-   Specialized Work Permit Template
+   .. line-block::
+      :ref:`II.A Requirements for Issue <NETL-5.II.A>`  
+      :ref:`SWPs for Experiments <NETL-5.II.B>`  
+      :ref:`Administration <NETL-5.II.C>`  
+      :ref:`Records <NETL-5.II.D>`  
+      Specialized Work Permit Template
 
 E. EQUIPMENT and Materials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

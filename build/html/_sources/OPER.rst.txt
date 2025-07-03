@@ -264,8 +264,7 @@ A. Reactor Startup
       If this is not the initial startup, ensure SRO permission to conduct startup of reactor and obtain required power.  
       The minimum staffing requirements are:  
 
-      a) Normal operations: SRO/RO, with second person in building (SRO must be available).  
-         Second person signature required in logs after 1730.  
+      a) Normal operations: SRO/RO, with second person in building (SRO must be available). Second person signature required in logs after 1730.  
       b) Initial Startup: Requirements of II.3.a. and SRO present (SRO may be the second person in the building).
 
    .. note::
@@ -278,8 +277,7 @@ A. Reactor Startup
    5. Determine desired mode of operation. Review Typical Startup and Operating Sequences (Section II.B.).
 
    .. note::
-      *A log (capture of Status Window) should be taken by pressing F2 after each power change and approximately every 30 minutes during steady state operation.  
-      Verification that the reactor area radiation monitoring system is operating correctly should be performed at this time and annotated in the Console Log.*
+      *A log (capture of Status Window) should be taken by pressing F2 after each power change and approximately every 30 minutes during steady state operation. Verification that the reactor area radiation monitoring system is operating correctly should be performed at this time and annotated in the Console Log.*
 
    6. When operations are complete, perform shutdown procedures. (Refer to Section II.C.)
 
@@ -314,8 +312,7 @@ B. Typical Startup and Operating Sequences
 
       *Note: Testing has proven that maximum Square wave should be limited to 500kW.*
 
-      a) Sequences for square wave mode operation use transient rod (TR) positions that create a positive reactivity insertion as the rod moves from 0 to set position associated with the amount of reactivity desired to achieve desired power.  
-      At the time of actuation of the fire button, the core will be set at a steady state power less than 1 kW (testing has proven the best results occur with initial power set at 800 Watts).
+      a) Sequences for square wave mode operation use transient rod (TR) positions that create a positive reactivity insertion as the rod moves from 0 to set position associated with the amount of reactivity desired to achieve desired power. At the time of actuation of the fire button, the core will be set at a steady state power less than 1 kW (testing has proven the best results occur with initial power set at 800 Watts).
 
          i.   Choose desired amount of reactivity to add from the movement of TR. (Amount added cannot be greater than 1 dollar (< $1.00). ($0.90 has proven during testing to be the best amount to add for square waves greater than 200kW)  
          ii.  From TR rod worth data determine the rod position associated with the desired reactivity addition.  
@@ -327,8 +324,7 @@ B. Typical Startup and Operating Sequences
          ii.  Withdraw each shim rod in steps of 50 units or less.
          iii. Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
          iv.  Do not exceed 10-second period.
-         v.   Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position.
-            (This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)
+         v.   Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position. (This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)
 
       c) Initiate Square Wave:
 
@@ -338,8 +334,7 @@ B. Typical Startup and Operating Sequences
          iv.  Check power <1kW. Place in manual mode.
          v.   Set Demand Power thumbwheels to desired SS power.
          vi.  Press Square Wave Switch. Verify SQUARE WAVE light illuminates and console system mode is SQUARE WAVE READY.
-         vii. Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds. 
-            System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)
+         vii. Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds. System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)
          viii. Adjust transient rod height as necessary to limit REG rod withdraw due to temperature coefficient effects.
          ix.  When power has stabilized, bank rods for BEST performance.
          x.   Take log (F2).
@@ -349,10 +344,10 @@ B. Typical Startup and Operating Sequences
       a) Sequences for the pulse mode operation use TR positions that create a positive reactivity insertion as the rod moves from a set position X to 100% WITHDRAWN.
          The motion of the control rod will thus cover the full range from 0% to 100%. At the time of actuation of the fire button, the core will be sub-critical by at least one dollar.
          Performance following this insertion will be expected to produce a 100% output within 10 milliseconds.
-         iv.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
-         v.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
-         vi.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
-         vii. Verify SURV 7 annual comparison pulse is current.
+         i.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
+         ii.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
+         iii.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
+         iv. Verify SURV 7 annual comparison pulse is current.
 
       .. note::
 
@@ -433,117 +428,126 @@ I. Introduction
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-This procedure details the steps for operation, startup, and shutdown of the reactor water systems.
+   This procedure details the steps for operation, startup, and shutdown of the reactor water systems.
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-The reactor water system is composed of the reactor pool and two water process systems.
-The pool structure contains water that moderates the neutron energy spectrum, cools the fuel in the reactor core, and provides radiation shielding. Pool water level sensors provide detection of water loss conditions.
+   The reactor water system is composed of the reactor pool and two water process systems.
+   The pool structure contains water that moderates the neutron energy spectrum, cools the fuel in the reactor core, and provides radiation shielding. Pool water level sensors provide detection of water loss conditions.
 
-Pool water purity is maintained by operation of the purification system.  
-A pump, pool suction, pool skimmer, pool return, piping, valves, filter, resin tank with resin, flow meter, and instrumentation comprise the purification system.  
-At a normal flow of 6 to 10 gallons per minute, the approximately 10,500-gallon volume of the pool flows through the system once every 18 to 29 hours.  
-Sensors in the purification piping monitor water conductivity.
+   Pool water purity is maintained by operation of the purification system.  
+   A pump, pool suction, pool skimmer, pool return, piping, valves, filter, resin tank with resin, flow meter, and instrumentation comprise the purification system.  
+   At a normal flow of 6 to 10 gallons per minute, the approximately 10,500-gallon volume of the pool flows through the system once every 18 to 29 hours.  
+   Sensors in the purification piping monitor water conductivity.
 
-Bulk pool water temperature is controlled by operation of the coolant system when the reactor is operated at power levels above 100 Kilowatt and/or for extended periods of time.  
-A central chilling station at the university site provides the cooling heat sink.  
-Water pressure control prevents water system leakage from the primary pool water to the secondary chilling water.  
-An alarm annunciates loss of differential pressure control at the heat exchanger.
+   Bulk pool water temperature is controlled by operation of the coolant system when the reactor is operated at power levels above 100 Kilowatt and/or for extended periods of time.  
+   A central chilling station at the university site provides the cooling heat sink.  
+   Water pressure control prevents water system leakage from the primary pool water to the secondary chilling water.  
+   An alarm annunciates loss of differential pressure control at the heat exchanger.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
+   Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-- General Requirements
-- Pool Purification System Operation
-- Pool Coolant System Operation
+   .. line-block::
+      :ref:`A. General Requirements <OPER-4.II.A>`
+      :ref:`B. Pool Purification System <OPER-4.II.B>`
+      :ref:`C. Pool Coolant System <OPER-4.II.C>`
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
+
+   Abnormal Conditions
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Pool water tank and piping.
-2. Pool water purification system.
-3. Pool water coolant system.
+   .. line-block::
+      1. Pool water tank and piping.
+      2. Pool water purification system.
+      3. Pool water coolant system.
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Startup Checklist
-2. Docket 50-602 SAR
-3. SURV-4, Reactor Water System
+   .. line-block::
+      1. Startup Checklist
+      2. Docket 50-602 SAR
+      3. SURV-4, Reactor Water System
 
 II. PROCEDURE
 -------------
 
+.. _OPER-4.II.A:
+
 A. General Requirements
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Check pool water level each time the water system status changes.
-   Status changes are startup or shutdown of the purification or coolant system.
-   Normal pool water level is 8.10 ± 0.05 meters.
-   (Measure pool level relative to the bottom of the reactor tank.)
+   1. Check pool water level each time the water system status changes.
+      Status changes are startup or shutdown of the purification or coolant system.
+      Normal pool water level is 8.10 ± 0.05 meters.
+      (Measure pool level relative to the bottom of the reactor tank.)
 
-2. Monitor pool level by continual or intermittent (daily) observation.
+   2. Monitor pool level by continual or intermittent (daily) observation.
 
-   a. A pool level monitor provides monitoring of hi or lo conditions.
-   Alarm levels are hi (+5 cm) and lo (-5 cm) relative to the 8.10-meter level.
+      a. A pool level monitor provides monitoring of hi or lo conditions.
+      Alarm levels are hi (+5 cm) and lo (-5 cm) relative to the 8.10-meter level.
 
-   b. Siphon breaks are present on the purification and coolant system pipes.
-   Siphon break levels are at pool levels of 7.6 meters or above.
+      b. Siphon breaks are present on the purification and coolant system pipes.
+      Siphon break levels are at pool levels of 7.6 meters or above.
 
-   c. Make visual observations of pool level at least twice each day:
+      c. Make visual observations of pool level at least twice each day:
 
-   i.   If the pool level monitor is not functioning and;
-   ii.  A system without siphon breaks can cause a siphon action, or
-   iii. A system without siphon breaks extends below the siphon break level.
+         i.   If the pool level monitor is not functioning and;
+         ii.  A system without siphon breaks can cause a siphon action, or
+         iii. A system without siphon breaks extends below the siphon break level.
 
-3. Replace pool water evaporation losses with makeup supply de-ionized water.
-   Follow makeup water instructions in surveillance procedures (refer to SURV-4).
-   Review makeup water volume each month.
-   Abnormal water loss may be an indication of a leak.
+   3. Replace pool water evaporation losses with makeup supply de-ionized water.
+      Follow makeup water instructions in surveillance procedures (refer to SURV-4).
+      Review makeup water volume each month.
+      Abnormal water loss may be an indication of a leak.
 
-4. Operate the pool purification system per instructions in Section B.
-   Purification system should maintain pool conductivity less than 2 µmho/cm.
-   Pool conductivity limit is 5 µmho/cm (monthly average).
+   4. Operate the pool purification system per instructions in Section B.
+      Purification system should maintain pool conductivity less than 2 µmho/cm.
+      Pool conductivity limit is 5 µmho/cm (monthly average).
 
-   a. The purification system should be operated continuously but it is not a requirement for reactor operation.
+      a. The purification system should be operated continuously but it is not a requirement for reactor operation.
 
-   b. If purification system is operating:
-   A reactor operator presence in the facility is *not* a requirement.
+      b. If purification system is operating:
+      A reactor operator presence in the facility is *not* a requirement.
 
-5. Operate the pool coolant system per instructions in Section C.
-   Coolant system should maintain pool temperature less than 38°C (100°F).
-   Pool temperature maximum limit is 48°C (118°F). No minimum limit has been set.
+   5. Operate the pool coolant system per instructions in Section C.
+      Coolant system should maintain pool temperature less than 38°C (100°F).
+      Pool temperature maximum limit is 48°C (118°F). No minimum limit has been set.
 
-   a. Coolant system operation is not a requirement for reactor operation.
-   It should be operated at reactor power levels above 100 kW except for power calibrations.
+      a. Coolant system operation is not a requirement for reactor operation.
+      It should be operated at reactor power levels above 100 kW except for power calibrations.
 
-   b. If the coolant system is operating:
-   A reactor operator should be present at the facility.
-   A reactor operator should periodically check system conditions.
+      b. If the coolant system is operating:
+      A reactor operator should be present at the facility.
+      A reactor operator should periodically check system conditions.
 
-6. Monitor performance of pool purification and coolant water systems.
+   6. Monitor performance of pool purification and coolant water systems.
 
-   a. Refer to instructions in Attachment for response to abnormal conditions.
+      a. Refer to instructions in Attachment for response to abnormal conditions.
 
-   b. Determine the cause for abnormal condition.
-   Implement corrective actions if conditions affect system performance, or
-   Implement maintenance actions if conditions affect system performance.
+      b. Determine the cause for abnormal condition.
+      Implement corrective actions if conditions affect system performance, or
+      Implement maintenance actions if conditions affect system performance.
 
-   c. Report abnormal conditions to a supervisory reactor operator (SRO).
+      c. Report abnormal conditions to a supervisory reactor operator (SRO).
+
+.. _OPER-4.II.B:
 
 B. Pool Purification System
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Operation:
 
@@ -594,93 +598,95 @@ B. Pool Purification System
 
    c. CLOSE the discharge isolation valve at pool surface.
 
+.. _OPER-4.II.C:
+
 C. Pool Coolant System
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
-1. Operation:
+   1. Operation:
 
-   a. Operate the coolant system to maintain bulk pool temperature.
-   Operate system at reactor power levels that exceed 100 kW.
-   Pool temperature limit for any condition is 118°F (48°C).
+      a. Operate the coolant system to maintain bulk pool temperature.
+      Operate system at reactor power levels that exceed 100 kW.
+      Pool temperature limit for any condition is 118°F (48°C).
 
-   b. Control reactor core thermal convection with pool discharge diffuser.
-   Thermal convection determines Nitrogen-16 activities at pool surface.
+      b. Control reactor core thermal convection with pool discharge diffuser.
+      Thermal convection determines Nitrogen-16 activities at pool surface.
 
-   c. Review coolant system function during each operation.
-   Observe coolant system flow rates, temperature, and pressure.
-   Observe differential pressure between primary (outlet) and secondary (inlet).
+      c. Review coolant system function during each operation.
+      Observe coolant system flow rates, temperature, and pressure.
+      Observe differential pressure between primary (outlet) and secondary (inlet).
 
-2. Startup:
+   2. Startup:
 
-   a. OPEN pool suction and discharge valves (4" SS) at pool surface.
-   OPEN the pool diffuser isolation valve (2 1/2" SS) at pool surface.
-   Valves alignment should be as follows for proper mixing:
+      a. OPEN pool suction and discharge valves (4" SS) at pool surface.
+      OPEN the pool diffuser isolation valve (2 1/2" SS) at pool surface.
+      Valves alignment should be as follows for proper mixing:
 
-   i.   Discharge valve position should be 7/8 open.
-   ii.  Diffuser valve position should be full open.
+         i.   Discharge valve position should be 7/8 open.
+         ii.  Diffuser valve position should be full open.
 
-   b. OPEN the chill water return isolation valve from heat exchanger.
-   OPEN the chill water supply isolation valve to heat exchanger.
+      b. OPEN the chill water return isolation valve from heat exchanger.
+      OPEN the chill water supply isolation valve to heat exchanger.
 
-   c. Verify differential pressure provides alarm indication at < 1 psi (7 kpa).
-   Perform the following steps to verify:
+      c. Verify differential pressure provides alarm indication at < 1 psi (7 kpa).
+      Perform the following steps to verify:
 
-   i.   CLOSE ¼-inch valve to high side of DP monitor.
-   ii.  OPEN ¼-inch vent valve on high side of DP monitor.
-   iii. Observe pressure decreasing below 1 psi (7 kpa).
+         .. line-block::
+            i.   CLOSE ¼-inch valve to high side of DP monitor.
+            ii.  OPEN ¼-inch vent valve on high side of DP monitor.
+            iii. Observe pressure decreasing below 1 psi (7 kpa). 
+               Verify pneumatic valve closing operation (audible & visual).
+               Verify "HX delta P" alarm on CSC is actuated and clears.
+            iv. Return ¼" isolation and vent valve to original positions.
 
-   Verify pneumatic valve closing operation (audible & visual).
-   Verify "HX delta P" alarm on CSC is actuated and clears.
-   Return ¼" isolation and vent valve to original positions.
+      d. OPEN or check OPEN pool water heat exchanger outlet valve.
+      OPEN or check OPEN pool water pump suction and discharge valves.
 
-   d. OPEN or check OPEN pool water heat exchanger outlet valve.
-   OPEN or check OPEN pool water pump suction and discharge valves.
+      e. STARTUP heat exchanger chill water pump.
 
-   e. STARTUP heat exchanger chill water pump.
+         i.   Check mechanical seal for leakage.
+         ii.  Verify normal flow rate of ≈570 gpm (≈1930 lpm).
+         iii. Confirm chill water supply temperature is approximately 45F (7C).
 
-   i.   Check mechanical seal for leakage.
-   ii.  Verify normal flow rate of ≈570 gpm (≈1930 lpm).
-   iii. Confirm chill water supply temperature is approximately 45F (7C).
+      .. caution::
 
-   .. caution::
+         If pool temperature is at the control set point temperature,  
+         chill water circulation may be at or near ambient system temperature.
 
-     If pool temperature is at the control set point temperature,  
-     chill water circulation may be at or near ambient system temperature.
+      f. STARTUP heat exchanger pool water pump.
 
-   f. STARTUP heat exchanger pool water pump.
+         i.   Check mechanical seal for leakage.
+         ii.  Verify normal flow rate of 85-95% flow.
 
-   i.   Check mechanical seal for leakage.
-   ii.  Verify normal flow rate of 85-95% flow.
+      g. Verify differential pressure indicates nominal value of >5 psi (35 kpa).
 
-   g. Verify differential pressure indicates nominal value of >5 psi (35 kpa).
+      h. Observe and record other system instrumentation values.
 
-   h. Observe and record other system instrumentation values.
+   3. Shutdown:
 
-3. Shutdown:
+      a. SHUTDOWN chill water pump.
 
-   a. SHUTDOWN chill water pump.
+      b. Wait for pool water inlet and outlet temperatures to approximately equalize if system not yet near control set point.
 
-   b. Wait for pool water inlet and outlet temperatures to approximately equalize if system not yet near control set point.
+      .. caution::
 
-   .. caution::
+         Closing isolation valves creating a cold dead leg can result in a large pressure increase as the system warms to room temperature.
+      
+      c. SHUTDOWN pool water pump.
 
-     Closing isolation valves creating a cold dead leg can result in a large pressure increase as the system warms to room temperature.
-   
-   c. SHUTDOWN pool water pump.
+      d. CLOSE chill water supply isolation valve at the heat exchanger.
 
-   d. CLOSE chill water supply isolation valve at the heat exchanger.
+      e. CLOSE chill water return isolation valve at the heat exchanger.
 
-   e. CLOSE chill water return isolation valve at the heat exchanger.
+      f. CLOSE suction valve at pool surface.
 
-   f. CLOSE suction valve at pool surface.
-
-   g. CLOSE pool discharge and CLOSE pool diffuser valves at pool surface.
+      g. CLOSE pool discharge and CLOSE pool diffuser valves at pool surface.
 
 ABNORMAL CONDITIONS
 -------------------
 
 A. General System
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 **Abnormal Pool Level**
 
@@ -689,23 +695,19 @@ A. General System
 
    a. Pool Liner
 
-   * Check pool system structure, estimate loss rate.
+      - Check pool system structure, estimate loss rate.
 
    b. Beam Ports, if leak observed:
 
-   * Secure covers with gaskets,
-     close shutter control valve,
-     close beam port argon purge valve.
+      - Secure covers with gaskets, close shutter control valve, close beam port argon purge valve.
 
    c. Purification Pump, Coolant (Heat Exchanger) Pumps, or Piping
 
-   * If leak is observed stop system operation,
-     close all effected system isolation valves,
-     drain pool water from leaking pipes and return to pool.
+      - If leak is observed stop system operation, close all effected system isolation valves, drain pool water from leaking pipes and return to pool.
 
    d. Experiment Systems
 
-   * Remove and repair.
+      - Remove and repair.
 
 2. *High Level* – Check for the following causes (Notify SRO):
    (Check pool level equipment for damage.)
@@ -758,7 +760,7 @@ A. General System
    Determine if leak condition is an emergency classification.
 
 B. Purification System
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
 SRO shall evaluate action(s) necessary to maintain water quality.
 Actions must assure a monthly average conductivity less than 5 µmho per cm.
@@ -784,7 +786,7 @@ SRO shall determine the requirement(s) for reactor shutdown.
    or perform independent conductivity measurement.
 
 C. Coolant System
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 Loss of coolant system at full power may require shutdown within an hour.
 SRO shall determine requirement for reactor shutdown.
@@ -814,7 +816,7 @@ SRO shall determine requirement for reactor shutdown.
    Shutdown coolant system operation until flow rate can be restored.
 
 D. Radioactivity Release to Water
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Identify release type according to the following guidelines:
 Notify SRO. Notify HP if abnormal radioactivity level is detectable.
@@ -879,193 +881,218 @@ I. INTRODUCTION
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-This procedure details the steps for operation, mode change, startup, shutdown, and response to abnormal conditions for the air confinement system.
+   This procedure details the steps for operation, mode change, startup, shutdown, and response to abnormal conditions for the air confinement system.
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-The air confinement system is composed of the room enclosing the reactor and two air ventilation systems. The reactor room walls, weather-stripping at doorways and the ventilation ducts confine the airflow pathway through the reactor bay.
+   The air confinement system is composed of the room enclosing the reactor and two air ventilation systems. The reactor room walls, weather-stripping at doorways and the ventilation ducts confine the airflow pathway through the reactor bay.
 
-The main HVAC system is composed of fans, ducts, heating-cooling coils, and environmental controls for temperature and humidity of room air. The system also maintains a negative pressure in the reactor bay with respect to adjacent spaces for leakage path control. Isolation dampers are installed in all ducts entering and exiting the reactor bay. Isolation dampers close automatically if the particulate air monitor senses a high airborne radiation level. Operation of the system is in either the re-circulation mode for economy or in the intake-exhaust mode providing at least two fresh air changes per hour for reducing the buildup of radioactive gases during reactor operation.
+   The main HVAC system is composed of fans, ducts, heating-cooling coils, and environmental controls for temperature and humidity of room air. The system also maintains a negative pressure in the reactor bay with respect to adjacent spaces for leakage path control. Isolation dampers are installed in all ducts entering and exiting the reactor bay. Isolation dampers close automatically if the particulate air monitor senses a high airborne radiation level. Operation of the system is in either the re-circulation mode for economy or in the intake-exhaust mode providing at least two fresh air changes per hour for reducing the buildup of radioactive gases during reactor operation.
 
-The argon purge system is a separate exhaust system that can be operated to reduce the quantity of radioactivity released to the bulk air in the reactor bay. The system draws air directly from the reactor pool surface and from experimental cavities. This air is then exhausted through a high efficiency particulate air (HEPA) filter to the exterior of the building. An Argon-41 monitor samples, displays, and records the radioactivity levels of the argon purge system exhaust.
+   The argon purge system is a separate exhaust system that can be operated to reduce the quantity of radioactivity released to the bulk air in the reactor bay. The system draws air directly from the reactor pool surface and from experimental cavities. This air is then exhausted through a high efficiency particulate air (HEPA) filter to the exterior of the building. An Argon-41 monitor samples, displays, and records the radioactivity levels of the argon purge system exhaust.
 
-Visual, audible and remote alarms indicate abnormal levels of radioactivity in either the particulate air monitor or gaseous argon-41 monitor. The particulate air monitor provides the signal, to stop ventilation fans and close isolation dampers.
+   Visual, audible and remote alarms indicate abnormal levels of radioactivity in either the particulate air monitor or gaseous argon-41 monitor. The particulate air monitor provides the signal, to stop ventilation fans and close isolation dampers.
 
-A fume-sort hood for radioactive sample handling with HEPA filter and isolation damper can also exhaust air from the reactor bay. Configuration of the fume-sort hood is not complete for experimental use. The system has been designed and tested to meet the general requirements of the reactor bay ventilation system. Operation procedures of the fume-sort hood in SURV-5 are for test and demonstration only. Detailed operation procedures and an RWP will be developed prior to its use.
+   A fume-sort hood for radioactive sample handling with HEPA filter and isolation damper can also exhaust air from the reactor bay. Configuration of the fume-sort hood is not complete for experimental use. The system has been designed and tested to meet the general requirements of the reactor bay ventilation system. Operation procedures of the fume-sort hood in SURV-5 are for test and demonstration only. Detailed operation procedures and an RWP will be developed prior to its use.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
+   Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-- Air Confinement System Procedure
-- Reactor Room HVAC System
-- Argon Purge System
-- Fume-Sort Hood
+   .. line-block::
+
+      :ref:`A. Air Confinement System Procedure <OPER-5.II.A>`
+      :ref:`B. Reactor Room HVAC System <OPER-5.II.B>`
+      :ref:`C. Argon Purge System <OPER-5.II.C>`
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-- Abnormal Conditions (4 Pages)
+   :ref:`Abnormal Conditions <OPER-5.A>`
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Room 1.104 Air Confinement Area  
-2. Main airflow HVAC system  
-3. Purge ventilation system  
-4. Fume-Sort Hood
+   1. Room 1.104 Air Confinement Area  
+   2. Main airflow HVAC system  
+   3. Purge ventilation system  
+   4. Fume-Sort Hood
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Docket 50-602 SAR  
-2. Startup Checklist  
-3. SURV-5 Air Confinement System  
-4. Fume-Sort Hood Procedure (Future Use)
+   1. Docket 50-602 SAR  
+   2. Startup Checklist  
+   3. SURV-5 Air Confinement System  
+   4. Fume-Sort Hood Procedure (Future Use)
 
 II. PROCEDURE
 -------------
 
+.. _OPER-5.II.A:
+
 A. General Requirements
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Verify reactor room confinement CAMs are operating.  
-   The CAMs are the particulate monitor and Ar\ :sup:`41` gaseous activity monitor.
+   1. Verify reactor room confinement CAMs are operating.  
+      The CAMs are the particulate monitor and Ar\ :sup:`41` gaseous activity monitor.
 
-2. Verify HVAC automatic isolation feature is functional.  
-   Use record of most recent function check during the last system surveillance.
+   2. Verify HVAC automatic isolation feature is functional.  
+      Use record of most recent function check during the last system surveillance.
 
-3. Operate the HVAC system in the REACTOR ON or OFF mode.  
-   Refer to Reactor Room HVAC procedures (Section B).  
-   HVAC operation controls room air dilution rates and effluent radioactivity.  
-   HVAC system operation in REACTOR OFF mode re-circulates reactor bay air,  
-   REACTOR ON mode operation exhausts reactor bay air and supplies fresh air.
+   3. Operate the HVAC system in the REACTOR ON or OFF mode.  
+      Refer to Reactor Room HVAC procedures (Section B).  
+      HVAC operation controls room air dilution rates and effluent radioactivity.  
+      HVAC system operation in REACTOR OFF mode re-circulates reactor bay air,  
+      REACTOR ON mode operation exhausts reactor bay air and supplies fresh air.
 
-4. Operate the Argon Purge system.  
-   Refer to Argon Purge System procedures (Section C).  
-   Purge system exhausts Ar\ :sup:`41` effluent from reactor areas.  
-   Ar\ :sup:`41` production occurs in air that is found in the areas of the reactor core.  
-   Two production sources are air in the reactor water and air in experiment facilities.
+   4. Operate the Argon Purge system.  
+      Refer to Argon Purge System procedures (Section C).  
+      Purge system exhausts Ar\ :sup:`41` effluent from reactor areas.  
+      Ar\ :sup:`41` production occurs in air that is found in the areas of the reactor core.  
+      Two production sources are air in the reactor water and air in experiment facilities.
 
-5. Monitor operating confinement system’s performance.  
-   Refer to instructions in Attachment for response to abnormal conditions.  
-   Determine the cause of each abnormal condition.  
-   Implement corrective or maintenance actions for conditions.  
-   Abnormal conditions that substantially affect system performance are of two types:  
-   a. One type affects the air confinement isolation function of the system.  
-   b. The other type affects control of room pressure differences (> 0.04 inches). Measure pressure difference between the reactor room and adjacent areas.  
-   Report abnormal conditions to a supervisory operator.
+   5. Monitor operating confinement system’s performance.  
+      Refer to instructions in Attachment for response to abnormal conditions.  
+      Determine the cause of each abnormal condition.  
+      Implement corrective or maintenance actions for conditions.  
+      Abnormal conditions that substantially affect system performance are of two types:  
 
-6. Do NOT operate Fume-Sort Hood system without an experiment approval.  
-   Operate Fume-sort hood according to experiment requirements and limitations.  
-   Refer to appropriate Procedures for the experiment. *(No Procedures currently exist.)*
+         a. One type affects the air confinement isolation function of the system.  
+         b. The other type affects control of room pressure differences (> 0.04 inches). Measure pressure difference between the reactor room and adjacent areas.  
+
+      Report abnormal conditions to a supervisory operator.
+
+   6. Do NOT operate Fume-Sort Hood system without an experiment approval.  
+      Operate Fume-sort hood according to experiment requirements and limitations.  
+      Refer to appropriate Procedures for the experiment. *(No Procedures currently exist.)*
+
+.. _OPER-5.II.B:
 
 B. Reactor Room HVAC System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Operation
+   1. Operation
 
-   a. Verify HVAC system is operable, refer to last monthly surveillance per SURV-5.  
-      i. Confinement isolation by an automatic trip signal shall be operable or corrective action being taken  
-      ii. Automatic trip of HVAC duct isolation dampers shall be operable or corrective action being taken  
-      iii. Automatic trip of HVAC fans shall be operable or corrective action being taken  
-      Particulate air monitor provides automatic trip signal (set point 10,000 cpm).  
-      Isolation may also be initiated by manual shutdown.
+      a. Verify HVAC system is operable, refer to last monthly surveillance per SURV-5.  
 
-   b. Determine HVAC system mode required:  
-      Normal HVAC system mode is REACTOR ON if reactor is operating.  
-      HVAC system shall be in the REACTOR ON mode if the Argon purge system is OFF and the reactor is operating.  
-      The HVAC system may operate in the REACTOR OFF mode during reactor operation only if the argon purge system is operating, or corrective action is being taken.
+         i. Confinement isolation by an automatic trip signal shall be operable or corrective action being taken  
+         ii. Automatic trip of HVAC duct isolation dampers shall be operable or corrective action being taken  
+         iii. Automatic trip of HVAC fans shall be operable or corrective action being taken  
 
-   c. Operate HVAC system for confinement of room air.  
-      Control HVAC system operation from the Control Room Panel (CRP).
+         Particulate air monitor provides automatic trip signal (set point 10,000 cpm).  
+         Isolation may also be initiated by manual shutdown.
 
-   d. Check readings on air particulate monitor.  
-      Mark reactor run #, date, startup, and shutdown times on chart record.
+      b. Determine HVAC system mode required:  
 
-   e. Monitor system operation and room confinement control.  
-      Review status lights on the CRP for area differential pressures.  
-      Review status lights on the CRP for exhaust velocity of exhaust fans.
+         Normal HVAC system mode is REACTOR ON if reactor is operating.  
+         HVAC system shall be in the REACTOR ON mode if the Argon purge system is OFF and the reactor is operating.  
+         The HVAC system may operate in the REACTOR OFF mode during reactor operation only if the argon purge system is operating, or corrective action is being taken.
 
-2. Mode Change - REACTOR OFF to ON
+      c. Operate HVAC system for confinement of room air.  
+         Control HVAC system operation from the Control Room Panel (CRP).
 
-   a. Turn REACTOR FAN SYSTEM switch to REACTOR ON  
-   b. Verify REACTOR MODE ON lamp illuminates  
-   c. Verify SUPPLY FAN ON and RETURN FAN ON lamps illuminate  
-   d. Verify ROOM EXHAUST VELOCITY status lamp is green  
-   e. Check NORMAL status on all area pressure monitors
+      d. Check readings on air particulate monitor.  
+         Mark reactor run #, date, startup, and shutdown times on chart record.
 
-3. Mode Change - REACTOR ON to OFF
+      e. Monitor system operation and room confinement control.  
+         Review status lights on the CRP for area differential pressures.  
+         Review status lights on the CRP for exhaust velocity of exhaust fans.
 
-   a. Turn REACTOR FAN SYSTEM switch to REACTOR OFF  
-   b. Verify REACTOR MODE OFF lamp illuminates  
-   c. Verify SUPPLY FAN ON and RETURN FAN ON lamps extinguish
+   2. Mode Change - REACTOR OFF to ON
+
+      a. Turn REACTOR FAN SYSTEM switch to REACTOR ON  
+      b. Verify REACTOR MODE ON lamp illuminates  
+      c. Verify SUPPLY FAN ON and RETURN FAN ON lamps illuminate  
+      d. Verify ROOM EXHAUST VELOCITY status lamp is green  
+      e. Check NORMAL status on all area pressure monitors
+
+   3. Mode Change - REACTOR ON to OFF
+
+      a. Turn REACTOR FAN SYSTEM switch to REACTOR OFF  
+      b. Verify REACTOR MODE OFF lamp illuminates  
+      c. Verify SUPPLY FAN ON and RETURN FAN ON lamps extinguish
+
+.. _OPER-5.II.C:
 
 C. Argon Purge System
 ~~~~~~~~~~~~~~~~~~~~~
 
-1. Operation
+   1. Operation
 
-   a. Verify Ar\ :sup:`41` purge system is operable, refer to last monthly surveillance per SURV-5.  
-      i. HEPA filter must be in place and operable or corrective action being taken  
-      ii. Automatic trip of Ar\ :sup:`41` purge system isolation dampers shall be operable or corrective action being taken
+      a. Verify Ar\ :sup:`41` purge system is operable, refer to last monthly surveillance per SURV-5.
+      
+         i. HEPA filter must be in place and operable or corrective action being taken  
+         ii. Automatic trip of Ar\ :sup:`41` purge system isolation dampers shall be operable or corrective action being taken
 
-   b. Startup Argon Purge System to control the room Ar\ :sup:`41` activity.  
-      Normal Argon Purge System mode is ON if reactor is operating.  
-      Argon Purge System must operate or corrective action in progress if:  
-      - the reactor is operating and  
-      - the HVAC system is not in the REACTOR ON mode  
-      Release of the inert gas occurs by diffusion from the pool water and core cavities.  
-      Annual continuous Ar\ :sup:`41` average release limit is 2E-6 µCi/cm³  
-      Equivalent to ≈540 cpm on Ar\ :sup:`41` CAM  
-      Maintain release records for total periodic release calculation.
+      b. Startup Argon Purge System to control the room Ar\ :sup:`41` activity.  
+         Normal Argon Purge System mode is ON if reactor is operating.  
+         Argon Purge System must operate or corrective action in progress if:  
 
-   c. Check alignment of two pneumatic controlled Ar\ :sup:`41` exhaust valves.  
-      - Valves control POOL SURFACE PURGE and BEAM PORT PURGE  
-      - Manual air dilution valve provides dilution of the purge exhaust air. Valve normal position is fully open for 100% dilution of humid pool surface air. This reduces air humidity before HEPA filter.
+            - the reactor is operating and  
+            - the HVAC system is not in the REACTOR ON mode  
 
-   d. Check readings on Ar\ :sup:`41` monitor at startup and shutdown  
-      Mark reactor run #, date, startup, and shutdown times on chart record
+         Release of the inert gas occurs by diffusion from the pool water and core cavities.  
+         Annual continuous Ar\ :sup:`41` average release limit is 2E-6 µCi/cm³  
+         Equivalent to ≈540 cpm on Ar\ :sup:`41` CAM  
+         Maintain release records for total periodic release calculation.
 
-   e. Monitor system operation by reviewing status lights and radioactivity levels
+      c. Check alignment of two pneumatic controlled Ar\ :sup:`41` exhaust valves.  
+         Valves control POOL SURFACE PURGE and BEAM PORT PURGE. 
+         Suction from pool surface controls Ar\ :sup:`41` release to reactor bay airspace.
+         Suction from beam port manifold controls air releases from open beam ports.
+         Suction from manifold may also control air release from other experiments.
 
-2. Startup
+         A manual room air diluiton valve provides dilution of the purge exhaust air. Valve normal position is fully open for 100% dilution of humid pool surface air. The air dilution reduces air humidity prior to entering HEPA filter bank.
 
-   a. Align manual valve on beam port purge manifold as required  
-   b. Turn ARGON PURGE FAN switch to ON position  
-   c. Verify PURGE FAN ON lamp illuminates  
-   d. Turn POOL SURFACE PURGE valve control switch to ON position  
-   e. Turn BEAMPORT PURGE valve control switch to ON position  
-   f. Verify PURGE EXHAUST VELOCITY status lamp is green  
-   g. Verify PURGE PREFILTER and PURGE HEPA NORMAL DP status are green
+      d. Check readings on Ar\ :sup:`41` monitor at startup and shutdown  
+         Mark reactor run #, date, startup, and shutdown times on chart record
 
-3. Emergency Operation of Argon Purge Only
+      e. Monitor system operation by reviewing status lights and radioactivity levels
 
-   .. warning::
+   2. Startup
 
-      OPERATION IN THIS MODE REQUIRES SRO AND RADIATION SAFETY OFFICER APPROVAL  
-      IF A FISSION PRODUCT RELEASE HAS OCCURRED
+      a. Align manual valve on beam port purge manifold as required  
+      b. Turn ARGON PURGE FAN switch to ON position  
+      c. Verify PURGE FAN ON lamp illuminates  
+      d. Turn POOL SURFACE PURGE valve control switch to ON position  
+      e. Turn BEAMPORT PURGE valve control switch to ON position  
+      f. Verify PURGE EXHAUST VELOCITY status lamp is green  
+      g. Verify PURGE PREFILTER and PURGE HEPA NORMAL DP status are green
 
-   a. Turn HVAC CONTROL switch in CRP from ON to OFF/ISOLATE  
-   b. HVAC DAMPERS AND FANS switch on CRP must be in OPERATE, EMERGENCY ISOLATE not activated  
-   c. Press and momentarily hold ISOLATION RESET button in CRP  
-   d. Verify or set ARGON PURGE FAN switch ON — only the Argon Purge fan will operate  
-   e. Secure Argon Purge by turning ARGON PURGE FAN switch OFF  
-   f. Return HVAC CONTROL switch in CRP to ON
+   3. Emergency Operation of Argon Purge Only
 
-4. Shutdown
+      .. warning::
 
-   a. Turn ARGON PURGE FAN switch to OFF  
-   b. Verify PURGE FAN ON lamp extinguishes  
-   c. Turn POOL SURFACE PURGE valve control switch to OFF position  
-   d. Turn BEAM PORT PURGE valve control switch to OFF position
+         OPERATION IN THIS MODE REQUIRES SRO AND RADIATION SAFETY OFFICER APPROVAL  
+         IF A FISSION PRODUCT RELEASE HAS OCCURRED
+
+      This assumes an automatic isolation of the HVAC has occrred and room activity remains high but
+      is not above alarm levels, the HVAC has not been reset, and exhaust of the room is desired
+      through the Argon Purge System only.
+
+      a. Turn HVAC CONTROL switch **in** CRP from ON to OFF/ISOLATE. This will keep the HVAC system OFF
+      b. The HVAC DAMPERS AND FANS switch on front of CRP must be in the OPERATE position and the EMERGENCY ISOLATE button on level 1 must not be activated.
+      c. Press and momentarily hold ISOLATION RESET button **in** CRP.
+      d. Verify or set ARGON PURGE FAN switch ON. Only the Argon Purge fan will now operate.
+      e. Secure Argon Purge by turning ARGON PURGE FAN switch OFF.
+      f. Return HVAC CONTROL switch in CRP to ON to return to normal operation.
+
+   4. Shutdown
+
+      a. Turn ARGON PURGE FAN switch to OFF.
+      b. Verify PURGE FAN ON lamp extinguishes.
+      c. Turn POOL SURFACE PURGE valve control switch to OFF position.
+      d. Turn BEAM PORT PURGE valve control switch to OFF position.
+
+.. _OPER-5.A:
 
 ABNORMAL CONDITIONS
 -------------------
@@ -1073,150 +1100,173 @@ ABNORMAL CONDITIONS
 A. Airborne radioactivity
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Alert airborne radioactivity level:**
+   **Alert airborne radioactivity level:**
 
-The alert condition does not require an operator action.  
-Actuation of the alert condition may provide an indication of system function.  
-Alert levels are a warning of a potential for excessive occupational concentrations.
+      The alert condition does not require an operator action.  
+      Actuation of the alert condition may provide an indication of system function.  
+      Alert levels are a warning of a potential for excessive occupational concentrations.
 
-- ≥ 4000 cpm air particulate monitor  
-  *May occur from natural causes*
+      +---------------------------------------------+--------------------------------------+
+      | ≥ 4000 cpm air particulate monitor          | May occur from natural causes        |
+      +---------------------------------------------+--------------------------------------+
+      | ≥ 2000 cpm argon-41 gaseous monitor         | Normally occurs above 100 kilowatts  |
+      +---------------------------------------------+--------------------------------------+
 
-- ≥ 2000 cpm argon-41 gaseous monitor  
-  *Normally occurs above 100 kilowatts*
+   **High airborne radioactivity level**
 
-**High airborne radioactivity level**
+      This condition requires automatic and other operator actions.  
+      Evaluation of sources and levels are necessary to quantify any effluent releases.
 
-This condition requires automatic and other operator actions.  
-Evaluation of sources and levels are necessary to quantify any effluent releases.
+      +---------------------------------------------+--------------------------------------+
+      | ≥ 10,000 cpm air particulate monitor        | Reactor activation product           |
+      +---------------------------------------------+--------------------------------------+
+      |                                             | Fission product decay product        |
+      +---------------------------------------------+--------------------------------------+
+      | ≥ 10,000 cpm argon-41 gaseous monitor       | Excessive argon-41 release           |
+      +---------------------------------------------+--------------------------------------+
+      |                                             | Fission product gas release          |
+      +---------------------------------------------+--------------------------------------+
 
-- ≥ 10,000 cpm air particulate monitor  
-  *Reactor activation product*  
-  *Fission product decay product*
+   1. Perform emergency shutdown of HVAC System:
 
-- ≥ 10,000 cpm argon-41 gaseous monitor  
-  *Excessive argon-41 release*  
-  *Fission product gas release*
+      a. Move the HVAC ISOLATION switch to ISOLATE.  
+      b. Verify SUPPLY DAMPER indicates CLOSED.  
+         Verify RETURN DAMPER indicates CLOSED.  
+      c. Turn REACTOR FAN SYSTEM switch to REACTOR OFF.  
+      d. Verify SUPPLY FAN ON lamp extinguishes.  
+         Verify RETURN FAN ON lamp extinguishes.
 
-1. Perform emergency shutdown of HVAC System:
+   2. Verify Argon Purge System is shutdown.  
+      Verify PURGE FAN ON lamp extinguished.
 
-   a. Move the HVAC ISOLATION switch to ISOLATE.  
-   b. Verify SUPPLY DAMPER indicates CLOSED.  
-      Verify RETURN DAMPER indicates CLOSED.  
-   c. Turn REACTOR FAN SYSTEM switch to REACTOR OFF.  
-   d. Verify SUPPLY FAN ON lamp extinguishes.  
-      Verify RETURN FAN ON lamp extinguishes.
+   3. Push the EMERGENCY ALARM switch on Control Room Panel (CRP).  
+      Switch initiates audible sound for evacuation of reactor room area.  
+      Room evacuation is a requirement if an airborne personnel hazard exists.
 
-2. Verify Argon Purge System is shutdown.  
-   Verify PURGE FAN ON lamp extinguished.
+   4. Notify SRO and HP of airborne radioactivity conditions.
 
-3. Push the EMERGENCY ALARM switch on Control Room Panel (CRP).  
-   Switch initiates audible sound for evacuation of reactor room area.  
-   Room evacuation is a requirement if an airborne personnel hazard exists.
+   5. SRO and/or HP determine whether to:
+      
+      .. line-block::
+         Retrieve CAM filter(s) for verification of High Airborne condition, or  
+         Align Argon Purge System with portable line to sample room air on Ar⁴¹ CAM filter, and  
+         Replace filters on the accessed CAMs with new filters.
+   
+   6. Do not restart HVAC system or Argon purge system.  
+      Evaluate airborne activity and isotopes by analysis of the CAM’s filter(s).  
+      Determine whether an airborne radioactivity emergency exists.  
+      If so, determine operation requirements and procedure requirements.
 
-4. Notify SRO and HP of airborne radioactivity conditions.
+   7. Review emergency response plan.  
 
-5. SRO and/or HP determine whether to:
+      .. line-block::
+         Determine if leak condition is an emergency classification in PLAN-E.  
+         Implement emergency response plan procedures, if applicable.  
 
-   - Retrieve CAM filter(s) for verification of High Airborne condition, or  
-   - Align Argon Purge System with portable line to sample room air on Ar⁴¹ CAM filter, and  
-   - Replace filters on the accessed CAMs with new filters.
+            In general, isolation of the room will be sufficient.  
+            Refer to PLAN-E and PLAN-O notification requirements.
 
-6. Do not restart HVAC system or Argon purge system.  
-   Evaluate airborne activity and isotopes by analysis of the CAM’s filter(s).  
-   Determine whether an airborne radioactivity emergency exists.  
-   If so, determine operation requirements and procedure requirements.
+   8. Recovery from an unanticipated abnormal airborne radioactivity release and/or the controlled release of any abnormal airborne radioactivity requires two approvals:
 
-7. Review emergency response plan.  
-   Determine if leak condition is an emergency classification in PLAN-E.  
-   Implement emergency response plan procedures, if applicable.  
+         .. line-block::
+            Supervisory Reactor Operator approval, and  
+            Radiation Safety Officer approval.
 
-   - In general, isolation of the room will be sufficient.  
-   - Refer to PLAN-E and PLAN-O notification requirements.
-
-8. Recovery from an unanticipated abnormal airborne radioactivity release and/or the controlled release of any abnormal airborne radioactivity requires two approvals:
-
-   - Supervisory Reactor Operator approval, and  
-   - Radiation Safety Officer approval.
-
-   Approvals exclude the normal effluent release of argon-41.  
-   Refer to Emergency operation of Argon Purge only if filtered exhaust is approved.  
-   Refer to surveillance procedure for HVAC system startup.  
-   Refer to SURV-5 to startup from ISOLATE condition.
+      .. line-block::
+         Approvals exclude the normal effluent release of argon-41.  
+         Refer to Emergency operation of Argon Purge only if filtered exhaust is approved.  
+         Refer to surveillance procedure for HVAC system startup.  
+         Refer to SURV-5 to startup from ISOLATE condition.
 
 B. HVAC System
 ~~~~~~~~~~~~~~
 
-HVAC system failure does not require immediate reactor shutdown provided the  
-Argon Purge System is operating or corrective action in progress.  
-Room confinement dampers must be operational or corrective action in progress.  
-Airborne particulate radioactivity concentrations must be within limits.  
-(Limit is 2E-9 μCi/cm³ (≥10,000 cpm) on air particulate monitor in laboratory).
+   HVAC system failure does not require immediate reactor shutdown provided the  
+   Argon Purge System is operating or corrective action in progress.  
+   Room confinement dampers must be operational or corrective action in progress.  
+   Airborne particulate radioactivity concentrations must be within limits.  
+   (Limit is 2E-9 μCi/cm³ (≥10,000 cpm) on air particulate monitor in laboratory).
 
-1. Intermittent abnormal pressure status may cause HVAC system Alarm.  
-   Press LOCAL ALARM SILENCE pushbutton to silence alarm.
+   1. Intermittent abnormal pressure status may cause HVAC system Alarm.  
+      
+      Press LOCAL ALARM SILENCE pushbutton to silence alarm.
 
-2. ROOM EXHAUST VELOCITY - *Yellow Status* -  
-   Open the control panel cover.  
-   Check HVAC STACK EXHAUST VELOCITY on manometer.
+   2. ROOM EXHAUST VELOCITY - *Yellow Status* -  
 
-   **Normal indication:** 1700 ± 200 fpm at pitot tube probe.  
-   Check for blockage or damage to pressure sensor lines.
+         .. line-block::
+            Open the control panel cover.  
+            Check HVAC STACK EXHAUST VELOCITY on manometer.
 
-3. Area HI or LO DP - *alarm status* -  
-   Check for open room doors.  
-   Open the control panel cover.  
-   Check area differential pressures on manometer.
+      .. line-block::
 
-   **Normal Pressure Differences:**
+         Normal indication: 1700 ± 200 fpm at pitot tube probe.  
+         Check for blockage or damage to pressure sensor lines.
 
-   +------------------+------------------+------------------------+
-   | Area             | w.r.t Area       | Pressure (inches water)|
-   +==================+==================+========================+
-   | Reactor Area     | Bldg. Exterior   | -0.06 (Rx OFF MODE)    |
-   |                  | Bldg. Exterior   | -0.07 (Rx ON MODE)     |
-   +------------------+------------------+------------------------+
-   | Support Areas    | Reactor Area     | +0.07                  |
-   +------------------+------------------+------------------------+
-   | Academic Areas   | Reactor Area     | +0.125                 |
-   +------------------+------------------+------------------------+
+   3. Area HI or LO DP - *alarm status* -  
 
-   Check for control system or component failures.
+      .. line-block::
+         Check for open room doors.  
+         Open the control panel cover.  
+         Check area differential pressures on manometer.
 
-4. Contact University Physical Plant (PP).  
-   PP maintains and repairs building system fans and control equipment.
+      **Normal Pressure Differences:**
+
+      +------------------+------------------+------------------------+
+      | Area             | w.r.t Area       | Pressure (inches water)|
+      +==================+==================+========================+
+      | Reactor Area     | Bldg. Exterior   | -0.06 (Rx OFF MODE)    |
+      +------------------+------------------+------------------------+
+      |                  | Bldg. Exterior   | -0.07 (Rx ON MODE)     |
+      +------------------+------------------+------------------------+
+      | Support Areas    | Reactor Area     | +0.07                  |
+      +------------------+------------------+------------------------+
+      | Academic Areas   | Reactor Area     | +0.125                 |
+      +------------------+------------------+------------------------+
+
+      Check for control system or component failures.
+
+   4. Contact University Physical Plant (PP).
+
+      .. line-block::
+         PP maintains and repairs building system fans and control equipment.
 
 C. Argon Purge System
 ~~~~~~~~~~~~~~~~~~~~~
 
-Argon Purge System failure requires operation of HVAC in reactor ON mode.  
-Initiate measures to return Argon Purge System function to normal.
+   Argon Purge System failure requires operation of HVAC in reactor ON mode.  
+   Initiate measures to return Argon Purge System function to normal.
 
-1. Press LOCAL ALARM SILENCE pushbutton to silence alarm.  
-   Pressure status may cause HVAC system Alarm.
+   1. Press LOCAL ALARM SILENCE pushbutton to silence alarm.  
 
-2. PURGE EXHAUST VELOCITY - *Yellow Status* -  
-   Open the control panel cover.  
-   Check ARGON PURGE EXHAUST VELOCITY on manometer.
+      .. line-block::
+         Pressure status may cause HVAC system Alarm.
 
-   **Normal indication:** 3800 ± 400 fpm at pitot tube probe.  
-   Check for blockage or damage to pressure sensor line.
+   2. PURGE EXHAUST VELOCITY - *Yellow Status* -  
 
-3. PURGE PREFILTER or PURGE HEPA HI DP - *Yellow Status* -  
-   Check filter differential pressure manometers.  
-   Locate manometers at filter housing for filter media particulate clogging.
+      .. line-block::
+         Open the control panel cover.  
+         Check ARGON PURGE EXHAUST VELOCITY on manometer.
 
-   **Nominal differential pressures (inches Water column):**
+            Normal indication: 3800 ± 400 fpm at pitot tube probe.  
+            Check for blockage or damage to pressure sensor line.
 
-   +------------------+------------------+----------------+
-   | Filter           | Start of life    | End of life    |
-   +==================+==================+================+
-   | a. Pre-filter 95%| clean: 0.45      | dirty: 1.0     |
-   +------------------+------------------+----------------+
-   | b. Main HEPA     | clean: 0.50      | dirty: 2.25    |
-   +------------------+------------------+----------------+
+   3. PURGE PREFILTER or PURGE HEPA HI DP - *Yellow Status* -  
+   
+      .. line-block::
+         Check filter differential pressure manometers.  
+         Locate manometers at filter housing for filter media particulate clogging.
 
-   Change filters as per surveillance procedures (refer to SURV-5).
+      Nominal differential pressures (inches Water column):
+
+      +-----+------------------+------------------+----------------+
+      |     | Filter           | Start of life    | End of life    |
+      +=====+==================+==================+================+
+      | a\. |   Pre-filter 95% | clean: 0.45      | dirty: 1.0     |
+      +-----+------------------+------------------+----------------+
+      | b\. | Main HEPA        | clean: 0.50      | dirty: 2.25    |
+      +-----+------------------+------------------+----------------+
+
+      Change filters as per surveillance procedures (refer to SURV-5).
 
 OPER-6 Reactor Bay Systems
 ==========================
@@ -1251,172 +1301,173 @@ C. Schedule
 D. Contents
 ~~~~~~~~~~~
 
-- Building and Safety Systems
-- System Status Checks
-- Maintenance Log
-- Reactor Operation Requirements
-- Reactor Bridge Crane Operation
+   .. line-block::
+      :ref:`A. Building Utilities and Safety Systems <OPER-6.II.A>`  
+      :ref:`B. Status Checks of Systems <OPER-6.II.B>`  
+      :ref:`C. Maintenance Log <OPER-6.II.C>`  
+      :ref:`D. Reactor Operation Requirements <OPER-6.II.D>`  
+      :ref:`E. Reactor Bay Bridge Crane Operation <OPER-6.II.E>`
 
 E. Attachments
 ~~~~~~~~~~~~~~
 
-- Maintenance Log (Key Systems)
-- ICS Jumper Log
-- NM1000 Stack Fault Log
-- ICS Acknowledge Log
-- Bridge Crane Load Test
+   .. line-block::
+      Maintenance Log (Key Systems)
+      ICS Jumper Log
+      NM1000 Stack Fault Log
+      ICS Acknowledge Log
+      Bridge Crane Load Test
 
 F. Equipment, Materials
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-- Electrical Equipment  
-- Mechanical Equipment  
-- Pool water systems  
-- Water demineralizer  
-- Communications  
-- Area video surveillance  
-- Air confinement system  
-- Area and Air Radiation Monitors  
-- Bridge Crane  
-- Rad-waste system
+   .. line-block::
+      Electrical Equipment  
+      Mechanical Equipment  
+      Pool water systems  
+      Water demineralizer  
+      Communications  
+      Area video surveillance  
+      Air confinement system  
+      Area and Air Radiation Monitors  
+      Bridge Crane  
+      Rad-waste system
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- MAIN-1,2,3,4 Procedures  
-- OPER-4,5 Procedures  
-- SURV-4,5 Procedures  
-- PLAN-S  
-- Instruction Manual; Reactor Bay Bridge Crane Operation  
-- Service Manual; KRANCO Overhead Cranes  
-- Load Capacity Test Data
+   .. line-block::
+      MAIN-1,2,3,4 Procedures  
+      OPER-4,5 Procedures  
+      SURV-4,5 Procedures  
+      PLAN-S  
+      Instruction Manual; Reactor Bay Bridge Crane Operation  
+      Service Manual; KRANCO Overhead Cranes  
+      Load Capacity Test Data
 
 II. PROCEDURE
 -------------
 
+.. _OPER-6.II.A:
+
 A. Building Utilities and Safety Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Building utilities should be functional at all times.  
-Utilities are electric power, chilled water, compressed air, and security equipment.
+   .. line-block::
+      Building utilities should be functional at all times.  
+      Utilities are electric power, chilled water, compressed air, and security equipment.
 
-Safety systems shall be functional at all times unless special provisions are in effect.  
-Safety systems are emergency lights, fire protection equipment, and communications.
+   .. line-block::
+      Safety systems shall be functional at all times unless special provisions are in effect.  
+      Safety systems are emergency lights, fire protection equipment, and communications.
+
+.. _OPER-6.II.B:
 
 B. Status Checks of Systems
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Check for normal operational status of each system.  
-In the event that key equipment does not perform properly, do the following:
+   .. line-block::
+      Check for normal operational status of each system.  
+      In the event that key equipment does not perform properly, do the following:
 
-1. Report conditions that are not normal.  
-   a. Record unexplained CSC warning and scram messages in the ICS Acknowledge Log.  
-   b. Record unexplained NM1000 stack messages in the NM1000 Stack Fault Log.
+   1. Report conditions that are not normal.  
 
-2. Tag components that are not functional.
+      a. Record unexplained CSC warning and scram messages in the ICS Acknowledge Log.  
+      b. Record unexplained NM1000 stack messages in the NM1000 Stack Fault Log.
 
-3. Classify component as inoperable or defective.
+   2. Tag components that are not functional.
 
-4. Record date, problem and status on each tag.
+   3. Classify component as inoperable or defective.
 
-5. Remove tag only after correction of the problem.  
-   If applicable, record the corrective action in maintenance log.
+   4. Record date, problem and status on each tag.
+
+   5. Remove tag only after correction of the problem.  
+      If applicable, record the corrective action in maintenance log.
+
+.. _OPER-6.II.C:
 
 C. Maintenance Log
 ~~~~~~~~~~~~~~~~~~
 
-A maintenance log will document repairs and modifications to important systems.  
-Use a separate Maintenance Log Sheet for each system.
+   .. line-block::
+      A maintenance log will document repairs and modifications to important systems.  
+      Use a separate Maintenance Log Sheet for each system.
 
-1. Systems that require log entries include the following:  
-   a. TRIGA ICS (refer to MAIN-1, 2, & 3),  
-   b. Radiation Monitors (refer to MAIN-4),  
-   c. Pool Water System (refer to OPER-5 & SURV-5),  
-   d. Room Confinement System (refer to OPER-5 & SURV-6).
+   1. Systems that require log entries include the following:  
 
-2. Maintenance of equipment shall consider the requirements of 10CFR50.59.  
-   Systems in the preceding list must meet the requirements of the SAR and 50.59.
+      a. TRIGA ICS (refer to MAIN-1, 2, & 3),  
+      b. Radiation Monitors (refer to MAIN-4),  
+      c. Pool Water System (refer to OPER-5 & SURV-5),  
+      d. Room Confinement System (refer to OPER-5 & SURV-6).
 
-3. Record the installation of temporary jumpers in key system components in the ICS Jumper Log.
+   2. Maintenance of equipment shall consider the requirements of 10CFR50.59.  
+      Systems in the preceding list must meet the requirements of the SAR and 50.59.
+
+   3. Record the installation of temporary jumpers in key system components in the ICS Jumper Log.
+
+.. _OPER-6.II.D:
 
 D. Reactor Operation Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Operation of the reactor and other special conditions will require:
+   Operation of the reactor and other special conditions will require:
 
-1. Physical security system shall be continuously operable or appropriate steps taken to provide adequate protection of control access area.  
-   Documentation of physical security requirements is not a requirement of this procedure.
+   1. Physical security system shall be continuously operable or appropriate steps taken to provide adequate protection of control access area. Documentation of physical security requirements is not a requirement of this procedure.
 
-2. Communications via telephone to off site locations shall be available and must be operable for any reactor operation.
+   2. Communications via telephone to off site locations shall be available and must be operable for any reactor operation.
 
-3. The video camera system should be operable in areas where experiments and personnel are active.  
-   A camera and video monitor may be necessary to supplement other controls.
+   3. The video camera system should be operable in areas where experiments and personnel are active. A camera and video monitor may be necessary to supplement other controls.
 
-4. The air confinement system and pool water systems must be operable for reactor operation.  
-   Documentation of operating conditions for these systems is in OPER-1 Startup-Shutdown checks, OPER-4 Operation of Reactor Water Systems, and OPER-5 Operation of Air Confinement System.
+   4. The air confinement system and pool water systems must be operable for reactor operation. Documentation of operating conditions for these systems is in OPER-1 Startup-Shutdown checks, OPER-4 Operation of Reactor Water Systems, and OPER-5 Operation of Air Confinement System.
+
+.. _OPER-6.II.E:
 
 E. Reactor Bay Bridge Crane Operation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Check date and lift capacity of last load test.  
-   Load tests shall test capacity at 125% of load.  
-   The load test includes test of crane, cable, hook and load rigging.  
-   Identify the rigging components and the test object and weight.
+   1. Check date and lift capacity of last load test. Load tests shall test capacity at 125% of load. The load test includes test of crane, cable, hook and load rigging. Identify the rigging components and the test object and weight.
 
-   a. Load lifts less than one ton may require verification.  
-      Verification requires inspection of previous load test date and capacity on UT Crane Load Test sheet.
+      a. Load lifts less than one ton may require verification. Verification requires inspection of previous load test date and capacity on UT Crane Load Test sheet.
 
-   b. Load lifts greater than one ton should require execution of appropriate load test.  
-      Load test should have been done within the previous two years or following maintenance of key crane components.
+      b. Load lifts greater than one ton should require execution of appropriate load test. Load test should have been done within the previous two years or following maintenance of key crane components.
 
-   c. Loads of less than one ton are Light Loads.  
-      Light loads should not be lifted more than 5 feet above the floor.  
-      Lift should not exceed five-foot limit except at lift terminal points.
+      c. Loads of less than one ton are Light Loads. Light loads should not be lifted more than 5 feet above the floor. Lift should not exceed five-foot limit except at lift terminal points.
 
-   d. Loads greater than one ton are Heavy Loads.  
-      Heavy loads shall not be lifted more than 5 feet above the floor.  
-      Lift may not exceed five-foot limit except at lift terminal points.
+      d. Loads greater than one ton are Heavy Loads. Heavy loads shall not be lifted more than 5 feet above the floor. Lift may not exceed five-foot limit except at lift terminal points.
 
-   e. No load suspended more than 5 feet above the floor shall be unattended.
+      e. No load suspended more than 5 feet above the floor shall be unattended.
 
-2. Any person operating the crane shall require training.  
-   Training is to be equivalent to the information in the Instruction Manual.
+   2. Any person operating the crane shall require training. Training is to be equivalent to the information in the Instruction Manual.
 
-   a. Crane key is to be available only during periods in which the crane is in use.  
-      Operability of the crane control pushbuttons shall be by key lock.  
-      A cutoff control box can shut off all power to the bridge crane system.
+      a. Crane key is to be available only during periods in which the crane is in use. Operability of the crane control pushbuttons shall be by key lock. A cutoff control box can shut off all power to the bridge crane system.
 
-   b. Approval shall be required for load lifts over the reactor shield structure.  
-      The reactor supervisor will review and approve all load lifts in reactor bay.
+      b. Approval shall be required for load lifts over the reactor shield structure. The reactor supervisor will review and approve all load lifts in reactor bay.
 
-   c. No load lifts above the reactor shall be made during operation of the reactor.  
-      This includes all areas above the reactor shield structure.
+      c. No load lifts above the reactor shall be made during operation of the reactor. This includes all areas above the reactor shield structure.
 
-   d. No personnel shall perform activities directly beneath a suspended load.
+      d. No personnel shall perform activities directly beneath a suspended load.
 
-   e. No loads should be left suspended directly above other facility equipment.
+      e. No loads should be left suspended directly above other facility equipment.
 
-   f. Storage location of crane should be:  
-      - Direction of bridge: South  
-      - Direction of trolley: West  
-      - Level of hook: Full Up
+      f. Storage location of crane should be:  
 
-3. Review caution information at crane controls.  
-   **DO NOT LIFT A LOAD GREATER THAN 5 TONS** except for load test.
+         .. line-block::
+            Direction of bridge: North  
+            Direction of trolley: East  
+            Level of hook: Full Up
 
-4. Review functional operation of crane controls.
+   3. Review caution information at crane controls. DO NOT LIFT A LOAD GREATER THAN 5 TONS except for load test.
 
-5. Switch control pendant key to ON position.  
-   Check power to crane bridge if control pendant switches do not operate.
+   4. Review functional operation of crane controls.
 
-6. Move bridge, trolley, and hook to lifting position.
+   5. Switch control pendant key to ON position. Check power to crane bridge if control pendant switches do not operate.
 
-7. Load rigging shall be checked for alignment and binding as lift tension is applied.
+   6. Move bridge, trolley, and hook to lifting position.
 
-8. Motion of load should be controlled to avoid collisions.  
-   Potential collision objects are other facility structures or equipment.
+   7. Load rigging shall be checked for alignment and binding as lift tension is applied.
 
-9. After load is disconnected, move bridge, trolley, and hook to storage position.
+   8. Motion of load should be controlled to avoid collisions. Potential collision objects are other facility structures or equipment.
 
-10. Switch control pendant key to OFF position.  
-    Secure control pendant key.
+   9. After load is disconnected, move bridge, trolley, and hook to storage position.
+
+   10. Switch control pendant key to OFF position. Secure control pendant key.
