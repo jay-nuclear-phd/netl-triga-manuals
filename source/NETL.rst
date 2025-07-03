@@ -232,6 +232,7 @@ F. Emergency Shower/Eyewash
    2. The emergency shower and eyewash drain to a 100 gallon holding tank located in 2.112. 
 
    3. To drain the 100 gallon tank:
+
       a. Identify, if possible, the primary chemical or radionuclide that is in the tank.
       b. Open LW3. Slowly crack open LW400 to obtain a sample.
       c. Close LW 400 and LW 3.
@@ -243,103 +244,123 @@ F. Emergency Shower/Eyewash
 NETL-5 Specialized Work Permit
 ==============================
 
-INTRODUCTION
-------------
+I. INTRODUCTION
+---------------
 
 A. PURPOSE
 ~~~~~~~~~~
 
-This procedure identifies and defines the general requirements for, and administration of,  
-Specialized Work Permits (SWP) for the Nuclear Engineering Teaching Laboratory (NETL).
+   This procedure identifies and defines the general requirements for, and administration of,  
+   Specialized Work Permits (SWP) for the Nuclear Engineering Teaching Laboratory (NETL).
 
 B. DESCRIPTION
 ~~~~~~~~~~~~~~
 
-The Specialized Work Permit is an administrative control used at the NETL which is  
-implemented to control special processes or experiments. The purpose is to protect both  
-unique NETL equipment and/or experiment systems from damage resulting from improper use  
-and to protect facility users including faculty, staff, students, and visitors from potential  
-personal hazards including physical injury or radiation exposures above established ALARA levels.  
-A SWP is issued for situations where there is a specific procedure or process that must be  
-learned and understood by users to safely conduct the work.
+   The Specialized Work Permit is an administrative control used at the NETL which is  
+   implemented to control special processes or experiments. The purpose is to protect both  
+   unique NETL equipment and/or experiment systems from damage resulting from improper use  
+   and to protect facility users including faculty, staff, students, and visitors from potential  
+   personal hazards including physical injury or radiation exposures above established ALARA levels.  
+   A SWP is issued for situations where there is a specific procedure or process that must be  
+   learned and understood by users to safely conduct the work.
 
-The SWP establishes the framework for safely and effectively managing special work processes  
-at NETL. It includes sections for approval of trained individuals, a set of procedural instructions  
-listing key steps, and must be kept in the area where work or experiments are performed for  
-reference.
+   The SWP establishes the framework for safely and effectively managing special work processes  
+   at NETL. It includes sections for approval of trained individuals, a set of procedural instructions  
+   listing key steps, and must be kept in the area where work or experiments are performed for  
+   reference.
 
 C. SCHEDULE
 ~~~~~~~~~~~
 
-Apply daily as necessary for execution of special processes or experiments.  
-Review and retrain users or revise procedures based on lessons learned.
+   Apply daily as necessary for execution of special processes or experiments.  
+   Review and retrain users or revise procedures based on lessons learned.
 
 D. CONTENTS and Attachments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- II. A Requirements for Issue ............... Page 4  
-- II. B SWPs for Experiments .................. Page 4  
-- II. C Administration ........................ Page 4  
-- II. D Records ............................... Page 6  
-- Specialized Work Permit Template ........... Attachment
+.. line-block::
+   :ref:`II.A Requirements for Issue <NETL-5.II.A>`  
+   :ref:`SWPs for Experiments <NETL-5.II.B>`  
+   :ref:`Administration <NETL-5.II.C>`  
+   :ref:`Records <NETL-5.II.D>`  
+   Specialized Work Permit Template
 
 E. EQUIPMENT and Materials
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-As specified in each established SWP
+   As specified in each established SWP
 
 F. REFERENCES and Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. NETL HP Procedures as required  
-2. Procedure ADMN 6, Authorization of Experiments  
-3. Applicable approved Experiment Authorizations  
+   1. NETL HP Procedures as required 
 
-PROCEDURE
----------
+   2. Procedure ADMN 6, Authorization of Experiments  
+
+   3. Applicable approved Experiment Authorizations  
+
+II. PROCEDURE
+-------------
+
+.. _NETL-5.II.A:
 
 A. Requirements for Issue
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A SWP must be established to work under the following conditions:
+   A SWP must be established to work under the following conditions:
 
-1. Approved Experiments requiring or referring to a SWP.  
-2. Approved Experiments initially requiring an RWP, where the ALARA Committee approves conversion to a SWP.  
-3. Other processes as specified by the Reactor Supervisor, Lab Manager, or Health Physicist.
+   1. Approved Experiments requiring or referring to a SWP.  
+   2. Approved Experiments initially requiring an RWP, where the ALARA Committee approves conversion to a SWP.  
+   3. Other processes as specified by the Reactor Supervisor, Lab Manager, or Health Physicist.
+
+.. _NETL-5.II.B:
 
 B. SWPs for Proposed or Approved Experiments
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Procedure ADMN 6 describes the process for experiment authorization.  
-If a proposed experiment requires a SWP, a draft should be completed and submitted.  
-If initially an RWP was used and the process is well-characterized, it may be converted to a SWP  
-with ALARA Committee approval. This change must be reported to the Reactor Oversight Committee.
+   Procedure ADMN 6 describes the process for experiment authorization.  
+   If a proposed experiment requires a SWP, a draft should be completed and submitted.  
+   If initially an RWP was used and the process is well-characterized, it may be converted to a SWP  
+   with ALARA Committee approval. This change must be reported to the Reactor Oversight Committee.
+
+.. _NETL-5.II.C:
 
 C. Administration
 ~~~~~~~~~~~~~~~~~
 
-1. The person responsible for the activity must complete sections A-D of the SWP and consult with appropriate authorities.  
-2. The proposed SWP and work procedure is reviewed by the Reactor Supervisor and Lab Manager.  
-   If replacing an RWP, it must be reviewed by the ALARA Committee and signed by the Facility Director.  
-3. Assign an SWP number/letter and list authorized individuals.  
-4. The approved SWP (including revisions) is returned to the initiator and logged.  
-5. SWPs are typically open-ended unless work is discontinued.  
-6. The initiator ensures all participants have received training and signed the SWP.  
-7. All personnel must read and sign the SWP and be informed of hazards.  
-8. Individuals using pocket dosimeters must check readings periodically.  
-9. Keep the SWP near the work area.  
-10. If unexpected or abnormal situations occur, stop work, secure the area, and notify responsible personnel.  
-11. The Reactor Supervisor/Lab Manager may observe SWP work to ensure compliance.  
-12. Additions to the SWP user list must be approved. Visitors generally cannot perform SWP work.  
-13. If SWP work causes contamination:  
-    - Mark/survey the area  
-    - Swipes may be taken and analyzed by HP staff  
-    - Perform hand/foot frisk before exiting
+   1. The individual in charge of the activity or task is responsible for requesting a new SWP and should complete sections A through D of the SWP. Discussion of the task with the Reactor Supervisor, Laboratory Manager, and if appropriate the Health Physicist should occur during this phase.
+
+   2. The proposed SWP along with an attached work procedure is submitted to the Reactor Supervisor and Lab Manager for review and approval. If the Proposed SWP is to replace a RWP then the proposed SWP is also reviewed by the ALARA Committee. The Facility Director shall be the designated member of the ALARA Committee to sign the SWP approval. If the radiation levels and exposures associated with the work are anticipated to be higher than the thresholds specified for an RWP then an RWP may be required instead of an SWP.
+
+   3. The SWP is assigned a SWP number or letter designation and placed in a conspicuous folder. The initial list of individuals authorized to work under the SWP is designated at the time of initial issue.
+
+   4. The approved SWP including any revisions to the work procedure is returned to the initiator who signs the SWP Briefing Log to indicate acknowledgement of the work conditions and requirements. The initiator then shall place the SWP folder in or near the area where the work described is to be carried out.
+
+   5. SWPs are normally issued for an unspecified time period and do not expire unless the work covered by the SWP is permanently discontinued. Revisions and updates to a SWP and associated procedure will be made based on experience and lessons learned.
+
+   6. The person in charge of the work (SWP initiator) is responsible for ensuring that all personnel who will be working under the SWP have received appropriate training for the prescribed work process and have read and signed the SWP.
+
+   7. All personnel who work under an SWP shall read the SWP and indicate acceptance and understanding of the conditions by signing the SWP. Individuals working under a SWP shall notify personnel in adjacent areas of potential hazards of the work and enforce the requirements of the SWP. Note: Failure to follow the provisions of an SWP will result in withdrawal of SWP work privileges.
+
+   8. Each person who works under an SWP which specifies required pocket dosimeters shall periodically check their pocket dosimeter reading.
+
+   9. The SWP for a task shall be kept near, but not necessarily inside, the work area.
+
+   10. Any individual performing work under an SWP which encounters circumstances or a situation which is unexpected or abnormal shall immediately cease the activity in progress, place the work area in a secure condition, and notify the Reactor Supervisor, the Health Physicist, or the Laboratory Manager, before proceeding with further work.
+
+   11. The Reactor Supervisor and/or Laboratory Manager may periodically observe individuals working under a SWP and review compliance to the established controls and procedures. Failure to follow the provisions of an SWP may result in withdrawal of SWP work privileges.
+
+   12. The SWP Initiator, Reactor Supervisor, or Laboratory Manager may make additions to the list of persons authorized to work under a SWP. Individuals added to a SWP must receive training and demonstrate familiarity with the work procedure prior to being allowed to perform the work alone. Approval of the Reactor Supervisor or Lab Manager is required for added individuals to allow verification of the level of training of the person(s) working under any SWP. Visitors will not normally be allowed to perform work governed by an SWP. If a visitor requires entry to a situation in which a SWP has been issued, verbal approval by the Reactor Supervisor or Lab Manager is required. The approved visitor must be continuously escorted by an individual authorized to work under the SWP.
+
+   13. If work under the SWP results in the relocation of materials resulting or causing a new radiation area or is suspected to have surface contaminated an area or object, the area should be marked appropriately and/or swiped for loose contamination prior to personnel working under the SWP exiting for the day. The person(s) working under the SWP are responsible for marking the area and/or conducting swipes or requesting assistance from health physics staff.
+
+   The swipes of any suspect area may be evaluated by direct frisk (remember to account for instrument efficiency) or be taken to the Health Physics laboratory for analysis. If the Health Physicist or technician is not in the laboratory, the swipes should be left at a location as designated by the health physics staff. The swipes should be clearly labeled on the swipe envelope and attached to an area survey map.
+
+   All personnel who have been in a SWP where there was suspected exposure to surface contamination should perform a hand and foot frisk using available portable instruments when leaving the work area and should utilize the hand and foot monitor prior to leaving the building.
+
+.. _NETL-5.II.D:
 
 D. Records
 ~~~~~~~~~~
 
-1. A reference copy of each SWP is kept in the Reactor Control Room.  
-   - The working copy is kept at the work location.  
-   - If there are changes or notes, they must be approved.  
-   - If changes become numerous, reissue the SWP with approved corrections.
+   1. A reference original copy of each SWP will be kept in the reactor control room. The working copy should be in the area where the work is performed. Periodically the reference copy will be compared with the working copy and if additions or changes are suggested in the working copy they will be updated in the reference copy. Hand written notes or comments other than the addition and approval of individuals authorized to work under the SWP are not an official part of the SWP unless initialed by at least one of the same individuals who initially signed to approve the SWP. Periodically if handwritten notes and approvals become numerous, the SWP can be reissued incorporating the approved corrections.

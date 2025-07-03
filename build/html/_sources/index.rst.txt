@@ -15,7 +15,7 @@ Contents
    FUEL
    HP
    MAIN
-   NETL-X
+   NETL
    PLAN-E
    PLAN-O
    OPER

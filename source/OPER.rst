@@ -9,162 +9,175 @@ I. Introduction
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-This procedure describe the facility and reactor system checks to be done prior to startup of the reactor and subsequent to shutdown of the reactor including a check of operation requests for valid experiments.
+   This procedure describe the facility and reactor system checks to be done prior to startup of the reactor and subsequent to shutdown of the reactor including a check of operation requests for valid experiments.
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-Opeation of the reactor requires test and verification of Instrumentation Control and Safety (ICS) System functions and other facility systems.
-Checklists for the test and verification of ICS System and checks of support systems assure that systems are operable prior to or during operation of the reactor.
+   Opeation of the reactor requires test and verification of Instrumentation Control and Safety (ICS) System functions and other facility systems.
+   Checklists for the test and verification of ICS System and checks of support systems assure that systems are operable prior to or during operation of the reactor.
 
-Several facility systems must function properly for the reactor systems to operate safely. The two most important are the pool water system and air confinement system. Other equipment such as communication equipment and radiation monitoring equipment are also necessary for operation. A checklist documents the status of various systems. Both pre-start checks and post shutdown checks are for the purpose of verifying the operability or condition of important systems.
+   Several facility systems must function properly for the reactor systems to operate safely. The two most important are the pool water system and air confinement system. Other equipment such as communication equipment and radiation monitoring equipment are also necessary for operation. A checklist documents the status of various systems. Both pre-start checks and post shutdown checks are for the purpose of verifying the operability or condition of important systems.
 
-Prior to actual operation, a review of the operation requirements and check of valid experiment requests and approvals must be made. An operation request form documents the request and the valid experiment approval. All actions of this procedure require the direct supervision of a reactor operator with a valid license.
+   Prior to actual operation, a review of the operation requirements and check of valid experiment requests and approvals must be made. An operation request form documents the request and the valid experiment approval. All actions of this procedure require the direct supervision of a reactor operator with a valid license.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure each day the reactor is taken through an operation cycle of startup and shutdown.
+   Apply this procedure each day the reactor is taken through an operation cycle of startup and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-   A. Operation Request
-   B. Startup Checks
-   C. Shutdown Checks
+   .. line-block::
+      :ref:`A. Operation Request <OPER-1.II.A>`
+      :ref:`B. Startup Checks <OPER-1.II.B>`
+      :ref:`C. Shutdown Checks <OPER-1.II.C>`
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-- Operational Request Instructions
-- Operation Request
-- Operation Request Instructions
-- Operation Request
-- Startup Shutdown Checklist
-- Supplemental Heat Exchanger Startup/Shutdown Checklist
-- Experiment System Checklist
-- CTR Load
-- RSR Load
-- PNT Load
-- 3L Load
-- BP Load
+   .. line-block::
+      Operational Request Instructions
+      Operation Request
+      Operation Request Instructions
+      Operation Request
+      Startup Shutdown Checklist
+      Supplemental Heat Exchanger Startup/Shutdown Checklist
+      Experiment System Checklist
+      CTR Load
+      RSR Load
+      PNT Load
+      3L Load
+      BP Load
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-- TRIGA research reactor  
-- Operation Support Systems  
-- Instrument Control and Safety System
+   .. line-block::
+      TRIGA research reactor  
+      Operation Support Systems  
+      Instrument Control and Safety System
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Docket 50-602 SAR  
-- ANS 15-6, Reg. Guide 2.2  
-- OPER-2    Reactor Startup and Shutdown  
-- OPER-3    Reactor Operation Modes  
-- OPER-4    Operation of Reactor Water Systems  
-- OPER-5    Operation of Air Confinement System  
-- MAIN-4    Area Radiation Monitoring Systems
+   .. line-block::
+      Docket 50-602 SAR  
+      ANS 15-6, Reg. Guide 2.2  
+      OPER-2    Reactor Startup and Shutdown  
+      OPER-3    Reactor Operation Modes  
+      OPER-4    Operation of Reactor Water Systems  
+      OPER-5    Operation of Air Confinement System  
+      MAIN-4    Area Radiation Monitoring Systems
 
 II. Procedure
 ----------------
 
 Review the requirements of operation (see section A). Prior to the day's operation perform the startup checks (refer to section B). At the conclusion of the day's operation perform the shutdown checks (refer to section C).
 
+.. _OPER-1.II.A:
+
 A. Operation Request
-^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~
 
-Review the operation request form for each experiment.
+   Review the operation request form for each experiment.
 
-1. Review each operation and experiment to document a valid experiment approval authorization has been done. The Reactor Supervisor (SRO in his absence) shall approve the operation request.
+   1. Review each operation and experiment to document a valid experiment approval authorization has been done. The Reactor Supervisor (SRO in his absence) shall approve the operation request.
 
-2. Active operation request forms should be available at the reactor console during all reactor operations for that request.
+   2. Active operation request forms should be available at the reactor console during all reactor operations for that request.
 
-3. The operation requests include an evaluation of samples or materials subject to irradiation or exposure and a list of samples on a form such as HP6 Sample Logs. These forms should be kept with the operation request until the irradiation or exposure is complete.
+   3. The operation requests include an evaluation of samples or materials subject to irradiation or exposure and a list of samples on a form such as HP6 Sample Logs. These forms should be kept with the operation request until the irradiation or exposure is complete.
 
-4. Place operation requests that are no longer active in the appropriate permanent files.
+   4. Place operation requests that are no longer active in the appropriate permanent files.
+
+.. _OPER-1.II.B:
 
 B. Startup Checks
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
-Perform the following actions and record data on the Startup-Shutdown Checklist.
+   Perform the following actions and record data on the Startup-Shutdown Checklist.
 
-1. Identify experiment classification and personnel requirements:
-   
-   a. Perform visual inspection of reactor and experiment areas.  
-   b. Review the operation request (see section A).  
-   c. Designate the SRO, RO and experimenter, if any.
+   1. Identify experiment classification and personnel requirements:
+      
+      a. Perform visual inspection of reactor and experiment areas.  
+      b. Review the operation request (see section A).  
+      c. Designate the SRO, RO and experimenter, if any.
 
-2. Check support facility conditions;
-   Several systems must be operating or operable.
+   2. Check support facility conditions;
+      Several systems must be operating or operable.
 
-   a. Room 1.104 Evacuation Alarm  
-   b. Communication - telephone and intercom (1 way)  
-      Telephone must be operating at the time of startup.  
-   c. Operate the following radiation monitoring systems:  
-      i. Air particulate activity monitor.  
-      ii. Argon-41 gas effluent activity monitor.  
-      iii. Area radiation monitors (at least 3); the pool area monitor and two additional area monitors must be operating.
+      a. Room 1.104 Evacuation Alarm  
+      b. Communication - telephone and intercom (1 way)  
+         Telephone must be operating at the time of startup.  
+      c. Operate the following radiation monitoring systems:  
 
-3. Set reactor room ventilation conditions, as follows:
+         i. Air particulate activity monitor.  
+         ii. Argon-41 gas effluent activity monitor.  
+         iii. Area radiation monitors (at least 3); the pool area monitor and two additional area monitors must be operating.
 
-   a. Switch room HVAC fan to “Reactor ON” mode (refer to OPER-5).  
-      “Reactor ON” mode of the HVAC system should be the normal mode during operation of the reactor.  
-   b. Start argon purge fan and align source valves ON (refer to OPER-5).  
-      This system must be operating if the “Reactor ON” mode of the HVAC is not available and the reactor is operating.
+   3. Set reactor room ventilation conditions, as follows:
 
-4. Set reactor pool cooling conditions, as required:
+      a. Switch room HVAC fan to “Reactor ON” mode (refer to OPER-5).  
+         “Reactor ON” mode of the HVAC system should be the normal mode during operation of the reactor.  
+      b. Start argon purge fan and align source valves ON (refer to OPER-5).  
+         This system must be operating if the “Reactor ON” mode of the HVAC is not available and the reactor is operating.
 
-   a. Note status of water purification loop. Pool water purification system should be operating (refer to OPER-4).  
-   b. Operate heat exchanger coolant system pool and chilled water loops for requested reactor power levels greater than 100 kilowatts (refer to OPER-4).  
-      Under normal conditions the cooling system should be operating prior to reactor startup.  
-      Use primary checklist for first system startup and last shutdown of the day.  
-      Use supplemental cooling system checklist for intermittent shutdown and restarts.
+   4. Set reactor pool cooling conditions, as required:
 
-5. Check operability of ICS System (requires SRO approval):
+      a. Note status of water purification loop. Pool water purification system should be operating (refer to OPER-4).  
+      b. Operate heat exchanger coolant system pool and chilled water loops for requested reactor power levels greater than 100 kilowatts (refer to OPER-4).  
+         Under normal conditions the cooling system should be operating prior to reactor startup.  
+         Use primary checklist for first system startup and last shutdown of the day.  
+         Use supplemental cooling system checklist for intermittent shutdown and restarts.
 
-   a. Verify ICS operating or initiate ICS bootstrap sequence.  
-      Refer to Chapter 1 & 2 of ICS Operation Manual.  
-   b. Verify successful ICS bootstrap sequence.  
-      Refer to Chapter 2 of ICS Operation Manual.  
-   c. Perform ICS Pre-start checks sequence.  
-      Refer to Chapter 2 of ICS Operation Manual.
+   5. Check operability of ICS System (requires SRO approval):
 
-6. Check operability of support and experiment systems.
-   (Checklists require SRO approval)
+      a. Verify ICS operating or initiate ICS bootstrap sequence.  
+         Refer to Chapter 1 & 2 of ICS Operation Manual.  
+      b. Verify successful ICS bootstrap sequence.  
+         Refer to Chapter 2 of ICS Operation Manual.  
+      c. Perform ICS Pre-start checks sequence.  
+         Refer to Chapter 2 of ICS Operation Manual.
 
-   a. Complete Startup Checklist.  
-   b. Complete any (applicable) Experiment Systems Checklist.
+   6. Check operability of support and experiment systems.
+      (Checklists require SRO approval)
+
+      a. Complete Startup Checklist.  
+      b. Complete any (applicable) Experiment Systems Checklist.
+
+.. _OPER-1.II.C:
 
 C. Shutdown Checks
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
-Verify the following tasks are complete. Record on the Startup-Shutdown checklist.
+   Verify the following tasks are complete. Record on the Startup-Shutdown checklist.
 
-1. Turn Reactor Control Console (RCC) key switch from ON to OFF.  
-   Perform operator log OFF.
+   1. Turn Reactor Control Console (RCC) key switch from ON to OFF.  
+      Perform operator log OFF.
 
-2. Remove and secure RCC key (give to SRO/place in locked storage).
+   2. Remove and secure RCC key (give to SRO/place in locked storage).
 
-3. Secure experiment areas, radiation areas, and radioactive materials.
+   3. Secure experiment areas, radiation areas, and radioactive materials.
 
-4. Complete shutdown checklist:
+   4. Complete shutdown checklist:
 
-   a. Secure operation of heat exchanger system (refer to OPER-4)  
-      i. Turn OFF power to pool water and chiller water pumps.  
-      ii. Close chilled water valves to heat exchanger (2) and the pool water isolation valves (3).
+      a. Secure operation of heat exchanger system (refer to OPER-4)  
 
-   b. Secure operation of room ventilation exhaust (refer to OPER-5)  
-      i. Turn off argon purge fan and close source valves.  
-      ii. Record integral Argon counts and secure Argon CAM.  
-      iii. Switch room HVAC fan mode from “Reactor ON” to “Reactor OFF”.
+         i. Turn OFF power to pool water and chiller water pumps.  
+         ii. Close chilled water valves to heat exchanger (2) and the pool water isolation valves (3).
 
-   c. Perform inspection of reactor and experiment areas.
+      b. Secure operation of room ventilation exhaust (refer to OPER-5)  
 
-5. File previous operation records, checklists, and other data-sheets.
+         i. Turn off argon purge fan and close source valves.  
+         ii. Record integral Argon counts and secure Argon CAM.  
+         iii. Switch room HVAC fan mode from “Reactor ON” to “Reactor OFF”.
+
+      c. Perform inspection of reactor and experiment areas.
+
+   5. File previous operation records, checklists, and other data-sheets.
 
 OPER-2 Reactor Startup, Operating and Shutdown
 ==============================================
@@ -173,164 +186,173 @@ I. Introduction
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-The Reactor Startup, Operating and Shutdown procedure specifies actions to be completed for startup, operating and shutdown of the reactor. This new procedure is a combination of the old OPER 2 (Reactor Startup and Shutdown) and OPER 3 (Reactor Operations Mode).
+   The Reactor Startup, Operating and Shutdown procedure specifies actions to be completed for startup, operating and shutdown of the reactor. This new procedure is a combination of the old OPER 2 (Reactor Startup and Shutdown) and OPER 3 (Reactor Operations Mode).
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-Actions for the Reactor Startup, Operating and Shutdown require certain specific conditions. Prior to startup, the correct operating conditions are verified by the performance of a Startup Checklist. Following the final Reactor Shutdown of the day, a Shutdown Checklist is performed to place all secondary and supportive systems in their post operating mode and required data is annotated. Logs will be taken in a hand written or computer form, whichever is determined by the reactor manager.
+   Actions for the Reactor Startup, Operating and Shutdown require certain specific conditions. Prior to startup, the correct operating conditions are verified by the performance of a Startup Checklist. Following the final Reactor Shutdown of the day, a Shutdown Checklist is performed to place all secondary and supportive systems in their post operating mode and required data is annotated. Logs will be taken in a hand written or computer form, whichever is determined by the reactor manager.
 
-Guidance for startup and operation of the reactor is available in the operator's manual. Features of the procedure provide requirements and guidance.
+   Guidance for startup and operation of the reactor is available in the operator's manual. Features of the procedure provide requirements and guidance.
 
-All actions of this procedure require the direct supervision of a reactor operator with a valid license. Abnormal shutdown or SCRAMS require a SRO approval prior to restart of the reactor.
+   All actions of this procedure require the direct supervision of a reactor operator with a valid license. Abnormal shutdown or SCRAMS require a SRO approval prior to restart of the reactor.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure each day the reactor is taken through an operation cycle of a startup, operating mode and shutdown.
+   Apply this procedure each day the reactor is taken through an operation cycle of a startup, operating mode and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-II. A.  Reactor Startup
-II. B.  Typical Startup and Operating Sequences
-II. C.  Reactor Shutdown
+   .. line-block::
+      :ref:`A. Reactor Startup <OPER-2.II.A>`
+      :ref:`B. Typical Startup and Operating Sequences <OPER-2.II.B>`
+      :ref:`C. Reactor Shutdown <OPER-2.II.C>`
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 *Note: Attachments are not part of this procedure but may be useful when performing this procedure.*
 
-1. Console Operation Log
-2. SCRAM Log
-3. Reactivity Configurations
+   .. line-block::
+      1. Console Operation Log
+      2. SCRAM Log
+      3. Reactivity Configurations
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-- Instrumentation Control and Safety System (ICS)
+   Instrumentation Control and Safety System (ICS)
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Control Console Operator's Manual  
-- OPER-1 Startup - Shutdown Checks  
-- OPER-4 Operation of Reactor Water Systems  
-- OPER-5 Operation of Air Confinement System  
-- OPER-6 Reactor Bay Systems  
-- SURV-7 Pulse Characteristic Comparison
+   .. line-block::
+      Control Console Operator's Manual  
+      OPER-1 Startup - Shutdown Checks  
+      OPER-4 Operation of Reactor Water Systems  
+      OPER-5 Operation of Air Confinement System  
+      OPER-6 Reactor Bay Systems  
+      SURV-7 Pulse Characteristic Comparison
 
 II. Procedure
 -------------
 
+.. _OPER-2.II.A:
+
 A. Reactor Startup
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
-The Reactor startup can be performed in various modes. Ensure that you review the correct mode for the startup you will be performing. Ensure all corresponding requirements have been completed and that a current Startup Checklist has been performed.
+   The Reactor startup can be performed in various modes. Ensure that you review the correct mode for the startup you will be performing. Ensure all corresponding requirements have been completed and that a current Startup Checklist has been performed.
 
-1. Review operation procedure for the mode of operations you will be conducting.  
-   The Console Log, whether paper or electronic, will record operator comments regarding important system conditions.  
-   These log sheets will supplement computer printouts from the ICS system.  
-   Other data sheets such as the Operation Request, Startup-Shutdown Checklist and Reactivity Calculation Sheet complete normal documentation for a typical run.
+   1. Review operation procedure for the mode of operations you will be conducting.  
+      The Console Log, whether paper or electronic, will record operator comments regarding important system conditions.  
+      These log sheets will supplement computer printouts from the ICS system.  
+      Other data sheets such as the Operation Request, Startup-Shutdown Checklist and Reactivity Calculation Sheet complete normal documentation for a typical run.
 
-2. Review completion of the Startup Checklist and note the recorded conditions.  
-   If this is a startup after the initial startup of the day, verify the startup checklist was completed and monitor system indications to ensure that no lineups have been altered since the reactor was last operating.  
-   Review any Night Order Log comments that are new since the last time you operated the reactor.  
-   If a problem occurs at the time of reactor startup or shutdown, place a comment in the Console Log and ensure the Senior Reactor Operator is informed.  
-   Additionally, record any abnormal indications.  
-   If questions exist regarding acceptability of operating conditions, consult the Senior Reactor Operator on watch or the Reactor Manager.
+   2. Review completion of the Startup Checklist and note the recorded conditions.  
+      If this is a startup after the initial startup of the day, verify the startup checklist was completed and monitor system indications to ensure that no lineups have been altered since the reactor was last operating.  
+      Review any Night Order Log comments that are new since the last time you operated the reactor.  
+      If a problem occurs at the time of reactor startup or shutdown, place a comment in the Console Log and ensure the Senior Reactor Operator is informed.  
+      Additionally, record any abnormal indications.  
+      If questions exist regarding acceptability of operating conditions, consult the Senior Reactor Operator on watch or the Reactor Manager.
 
-3. Verify the control room door is closed and the required licensed operators are signed in to log with line stating the relieved and relieving operators in the comment section.  
-   If this is not the initial startup, ensure SRO permission to conduct startup of reactor and obtain required power.  
-   The minimum staffing requirements are:  
+   3. Verify the control room door is closed and the required licensed operators are signed in to log with line stating the relieved and relieving operators in the comment section.  
+      If this is not the initial startup, ensure SRO permission to conduct startup of reactor and obtain required power.  
+      The minimum staffing requirements are:  
 
-   a) Normal operations: SRO/RO, with second person in building (SRO must be available).  
-      Second person signature required in logs after 1730.  
-   b) Initial Startup: Requirements of II.3.a. and SRO present (SRO may be the second person in the building).
+      a) Normal operations: SRO/RO, with second person in building (SRO must be available).  
+         Second person signature required in logs after 1730.  
+      b) Initial Startup: Requirements of II.3.a. and SRO present (SRO may be the second person in the building).
 
-   *Note: If startup is following a SCRAM, condition of SCRAM must be identified, and SRO approval to startup obtained.  
-   SRO must sign and date SCRAM log entry.*  
-   *(If verbal approval over phone for startup after SCRAM is given, it must be noted in logs and SCRAM log entry signed as soon as SRO returns to facility).*
+   .. note::
+      *If startup is following a SCRAM, condition of SCRAM must be identified, and SRO approval to startup obtained.  
+      SRO must sign and date SCRAM log entry.*  
+      *(If verbal approval over phone for startup after SCRAM is given, it must be noted in logs and SCRAM log entry signed as soon as SRO returns to facility).*
 
-4. Perform operator log on function.
+   4. Perform operator log on function.
 
-5. Determine desired mode of operation. Review Typical Startup and Operating Sequences (Section II.B.).
+   5. Determine desired mode of operation. Review Typical Startup and Operating Sequences (Section II.B.).
 
-   *Note: A log (capture of Status Window) should be taken by pressing F2 after each power change and approximately every 30 minutes during steady state operation.  
-   Verification that the reactor area radiation monitoring system is operating correctly should be performed at this time and annotated in the Console Log.*
+   .. note::
+      *A log (capture of Status Window) should be taken by pressing F2 after each power change and approximately every 30 minutes during steady state operation.  
+      Verification that the reactor area radiation monitoring system is operating correctly should be performed at this time and annotated in the Console Log.*
 
-6. When operations are complete, perform shutdown procedures. (Refer to Section II.C.)
+   6. When operations are complete, perform shutdown procedures. (Refer to Section II.C.)
+
+.. _OPER-2.II.B:
 
 B. Typical Startup and Operating Sequences
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Manual and Auto Modes start with the Manual Mode procedure.  
-When the required power is obtained, the Mode is shifted to Auto.  
-Rod positions increment from 0 to 960 (equal to a span of 15 inches).  
-The initial startup requires an excess Reactivity Configuration at 50 watts.
+   The Manual and Auto Modes start with the Manual Mode procedure.  
+   When the required power is obtained, the Mode is shifted to Auto.  
+   Rod positions increment from 0 to 960 (equal to a span of 15 inches).  
+   The initial startup requires an excess Reactivity Configuration at 50 watts.
 
-1. Manual Mode: (Refer to Chapter 4 of Control Console Operator's Manual)  
-   
-   a) Withdraw transient rod to approximately 50% withdrawn position or position of previous startup of the day or previous startup of similar experiments and burn up.
-   b) Withdraw Regulating rod to similar position as transient rod.  
-   c) Withdraw each shim rod in steps of 50 units or less alternating shim rods.  
-   d) Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.  
-   e) Adjust each rod to maintain period as in 1.d., attempt to maintain bank with rods.  
-   f) Take a pause at 50W to verify rod heights are similar to those of latest Reactivity Configuration calculation and days history of operation.  
-   g) Adjust rods to stabilize power level at desired level.
-
-2. Auto Mode: (Refer to Chapter 5 of Control Console Operator's Manual)
-
-   a) Set power demand to desired power.  
-   b) Follow procedure for Manual Mode.  
-   c) Press Auto Mode Switch when desired power is reached.  
-   d) Adjust rod heights to a bank position for best operation.
-
-3. Square Wave Mode: (Refer to Chapter 5 of Control Console Operator's Manual)
-
-   *Note: Testing has proven that maximum Square wave should be limited to 500kW.*
-
-   a) Sequences for square wave mode operation use transient rod (TR) positions that create a positive reactivity insertion as the rod moves from 0 to set position associated with the amount of reactivity desired to achieve desired power.  
-   At the time of actuation of the fire button, the core will be set at a steady state power less than 1 kW (testing has proven the best results occur with initial power set at 800 Watts).
-
-      i.   Choose desired amount of reactivity to add from the movement of TR. (Amount added cannot be greater than 1 dollar (< $1.00). ($0.90 has proven during testing to be the best amount to add for square waves greater than 200kW)  
-      ii.  From TR rod worth data determine the rod position associated with the desired reactivity addition.  
-      iii. Compare estimated values with previous results if possible.
-
-   b) Obtain steady state (SS) power on REG, shim 1 and shim 2, 800 watts is typical (<1kW):
+   1. Manual Mode: (Refer to Chapter 4 of Control Console Operator's Manual)  
       
-      i.   Withdraw REG rod to approximately 50% withdrawn position.
-      ii.  Withdraw each shim rod in steps of 50 units or less.
-      iii. Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
-      iv.  Do not exceed 10-second period.
-      v.   Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position.
-           (This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)
+      a) Withdraw transient rod to approximately 50% withdrawn position or position of previous startup of the day or previous startup of similar experiments and burn up.
+      b) Withdraw Regulating rod to similar position as transient rod.  
+      c) Withdraw each shim rod in steps of 50 units or less alternating shim rods.  
+      d) Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.  
+      e) Adjust each rod to maintain period as in 1.d., attempt to maintain bank with rods.  
+      f) Take a pause at 50W to verify rod heights are similar to those of latest Reactivity Configuration calculation and days history of operation.  
+      g) Adjust rods to stabilize power level at desired level.
 
-   c) Initiate Square Wave:
+   2. Auto Mode: (Refer to Chapter 5 of Control Console Operator's Manual)
 
-      i.   Verify transient rod is at 0% position.
-      ii.  Check rod at low limit, turn air pressure off.
-      iii. Withdraw drive cylinder to position determined in 3.a.ii above.
-      iv.  Check power <1kW. Place in manual mode.
-      v.   Set Demand Power thumbwheels to desired SS power.
-      vi.  Press Square Wave Switch. Verify SQUARE WAVE light illuminates and console system mode is SQUARE WAVE READY.
-      vii. Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds. 
-           System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)
-      viii. Adjust transient rod height as necessary to limit REG rod withdraw due to temperature coefficient effects.
-      ix.  When power has stabilized, bank rods for BEST performance.
-      x.   Take log (F2).
+      a) Set power demand to desired power.  
+      b) Follow procedure for Manual Mode.  
+      c) Press Auto Mode Switch when desired power is reached.  
+      d) Adjust rod heights to a bank position for best operation.
 
-4. Pulse Mode: (Refer to Chapter 6 of Control Console Operator's Manual)
+   3. Square Wave Mode: (Refer to Chapter 5 of Control Console Operator's Manual)
 
-   a) Sequences for the pulse mode operation use TR positions that create a positive reactivity insertion as the rod moves from a set position X to 100% WITHDRAWN.
-      The motion of the control rod will thus cover the full range from 0% to 100%. At the time of actuation of the fire button, the core will be sub-critical by at least one dollar.
-      Performance following this insertion will be expected to produce a 100% output within 10 milliseconds.
-      iv.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
-      v.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
-      vi.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
-      vii. Verify SURV 7 annual comparison pulse is current.
+      *Note: Testing has proven that maximum Square wave should be limited to 500kW.*
+
+      a) Sequences for square wave mode operation use transient rod (TR) positions that create a positive reactivity insertion as the rod moves from 0 to set position associated with the amount of reactivity desired to achieve desired power.  
+      At the time of actuation of the fire button, the core will be set at a steady state power less than 1 kW (testing has proven the best results occur with initial power set at 800 Watts).
+
+         i.   Choose desired amount of reactivity to add from the movement of TR. (Amount added cannot be greater than 1 dollar (< $1.00). ($0.90 has proven during testing to be the best amount to add for square waves greater than 200kW)  
+         ii.  From TR rod worth data determine the rod position associated with the desired reactivity addition.  
+         iii. Compare estimated values with previous results if possible.
+
+      b) Obtain steady state (SS) power on REG, shim 1 and shim 2, 800 watts is typical (<1kW):
+         
+         i.   Withdraw REG rod to approximately 50% withdrawn position.
+         ii.  Withdraw each shim rod in steps of 50 units or less.
+         iii. Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
+         iv.  Do not exceed 10-second period.
+         v.   Stabilize power by moving shim rods into a banked position while leaving REG rod at approximately 50% withdrawn position.
+            (This will prevent REG rod from reaching its fully withdrawn position during square wave transient operations.)
+
+      c) Initiate Square Wave:
+
+         i.   Verify transient rod is at 0% position.
+         ii.  Check rod at low limit, turn air pressure off.
+         iii. Withdraw drive cylinder to position determined in 3.a.ii above.
+         iv.  Check power <1kW. Place in manual mode.
+         v.   Set Demand Power thumbwheels to desired SS power.
+         vi.  Press Square Wave Switch. Verify SQUARE WAVE light illuminates and console system mode is SQUARE WAVE READY.
+         vii. Press Fire switch. (System will switch to AUTO mode if demand power is reached in 10 seconds. 
+            System will switch to MANUAL mode if demand power is NOT reached in 10 seconds.)
+         viii. Adjust transient rod height as necessary to limit REG rod withdraw due to temperature coefficient effects.
+         ix.  When power has stabilized, bank rods for BEST performance.
+         x.   Take log (F2).
+
+   4. Pulse Mode: (Refer to Chapter 6 of Control Console Operator's Manual)
+
+      a) Sequences for the pulse mode operation use TR positions that create a positive reactivity insertion as the rod moves from a set position X to 100% WITHDRAWN.
+         The motion of the control rod will thus cover the full range from 0% to 100%. At the time of actuation of the fire button, the core will be sub-critical by at least one dollar.
+         Performance following this insertion will be expected to produce a 100% output within 10 milliseconds.
+         iv.  From TR rod worth curve calculate total reactivity gain for the TR 100% withdrawal position.
+         v.   Subtract the pulse insertion amount from 100% rod worth. (Maximum allowable Pulse is $3.00)
+         vi.  Use the final rod worth and determine the initial height of TR rod on the rod worth table.  This is the pre-pulse position of the TR for the initial 50 watt critical condition.
+         vii. Verify SURV 7 annual comparison pulse is current.
 
       .. note::
 
@@ -339,64 +361,70 @@ The initial startup requires an excess Reactivity Configuration at 50 watts.
          Using the rod worth curve this value is equal to a TR height of 410 units.  
          For the 50W power level, we would then place TR at 410 and bring the remaining rods to the bank height required to obtain 50W.
 
-   b) Obtain steady state power, 50W is typical. (< 1kW):
+      b) Obtain steady state power, 50W is typical. (< 1kW):
 
-      i.   Withdraw Transient rod to the position calculated in step 4.a.iii above.
-      ii.  Withdraw REG rod to approximately 50% withdrawn position.
-      iii. Withdraw shim 1 and shim 2 in alternating 50 units or less increments.
-      iv.  Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
-      v.   Adjust REG, shim 1 and shim 2 rods alternately to maintain period.
-      vi.  Stabilize power and bank REG, shim 1 and shim 2 rods.
+         i.   Withdraw Transient rod to the position calculated in step 4.a.iii above.
+         ii.  Withdraw REG rod to approximately 50% withdrawn position.
+         iii. Withdraw shim 1 and shim 2 in alternating 50 units or less increments.
+         iv.  Monitor period and maintain as close to 20 seconds as possible while not going less than 10 seconds.
+         v.   Adjust REG, shim 1 and shim 2 rods alternately to maintain period.
+         vi.  Stabilize power and bank REG, shim 1 and shim 2 rods.
 
-   c) Initiate Pulse Mode:
+      c) Initiate Pulse Mode:
 
-      i.   Insert TR to 0% position.
-      ii.  Check TR at low limit, turn air pressure off by pressing yellow air light.
-      iii. Withdraw TR drive cylinder to 100% position (960).
-      iv.  Check power < 1 kW, dpm < +1.
-      v.   Press Pulse Mode switch. Verify pulse light illuminates.
-      vi.  Enter record information for pulse data.
-      vii. Verify mode is pulse ready.
-      viii. Press Fire switch.
-      ix.  System will switch to SCRAM mode at conclusion of pulse to display the pulse data.
-      x.   Refer to B.1 to return to manual operation. Verify pulse bypass functions are reset to non-pulse conditions:
+         i.   Insert TR to 0% position.
+         ii.  Check TR at low limit, turn air pressure off by pressing yellow air light.
+         iii. Withdraw TR drive cylinder to 100% position (960).
+         iv.  Check power < 1 kW, dpm < +1.
+         v.   Press Pulse Mode switch. Verify pulse light illuminates.
+         vi.  Enter record information for pulse data.
+         vii. Verify mode is pulse ready.
+         viii. Press Fire switch.
+         ix.  System will switch to SCRAM mode at conclusion of pulse to display the pulse data.
+         x.   Refer to B.1 to return to manual operation. Verify pulse bypass functions are reset to non-pulse conditions:
 
-           a. Perform SCRAM test on console for Percent 1 and Percent 2 to test reset of bypass relay and reset of gain relay.  
-              Observe decay of pulse power to ensure NM1000 power signal output is functioning.
+            a. Perform SCRAM test on console for Percent 1 and Percent 2 to test reset of bypass relay and reset of gain relay.  
+               Observe decay of pulse power to ensure NM1000 power signal output is functioning.
+
+.. _OPER-2.II.C:
 
 C. Reactor Shutdown
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-1. Normal shutdown:
+   1. Normal shutdown:
 
-   a) There are three options:
+      a) There are three options:
 
-      1. Switch to Manual Mode and insert each rod individually.  
-      2. Switch to Manual Mode and insert all rods simultaneously.  
-      3. Manual SCRAM reactor.
+         1. Switch to Manual Mode and insert each rod individually.  
+         2. Switch to Manual Mode and insert all rods simultaneously.  
+         3. Manual SCRAM reactor.
 
-   b) Ensure all rod drives and control rods are in the down position.
-   c) Turn MAGNETIC POWER key switch from ON to OFF.
-   d) Perform operator log off function to set mode from steady state to scram.
-   e) Remove key from console.
+      b) Ensure all rod drives and control rods are in the down position.
+      c) Turn MAGNETIC POWER key switch from ON to OFF.
+      d) Perform operator log off function to set mode from steady state to scram.
+      e) Remove key from console.
 
-2. Abnormal shutdown:
+   2. Abnormal shutdown:
 
-   a) Press SCRAM button for exit from any mode. It is an immediate shutdown for a response to an abnormal condition or a severe emergency.
-   b) Record all abnormal conditions in the log and all automatic SCRAMs in the SCRAM log.
-   c) Types of automatic SCRAMs:
+      a) Press SCRAM button for exit from any mode. It is an immediate shutdown for a response to an abnormal condition or a severe emergency.
+      b) Record all abnormal conditions in the log and all automatic SCRAMs in the SCRAM log.
+      c) Types of automatic SCRAMs:
 
-      1. Limiting Safety System Settings (LSSS):  
-         - Fuel temperature (#1, #2)  
-         - Percent power (#1, #2)  
-         - Linear power (NM1000)
+         1. Limiting Safety System Settings (LSSS):
+         
+            .. line-block::
+               - Fuel temperature (#1, #2)  
+               - Percent power (#1, #2)  
+               - Linear power (NM1000)
 
-      2. JCS Operable (ICSO):  
-         - HV (#1, #2, NM1000)  
-         - Pool level (1 of 2)  
-         - External (1 of 2 if in use)  
-         - WD (CSC, DAC)  
-         - Other (program conditions)
+         2. JCS Operable (ICSO):  
+
+            .. line-block::
+               HV (#1, #2, NM1000)  
+               Pool level (1 of 2)  
+               External (1 of 2 if in use)  
+               WD (CSC, DAC)  
+               Other (program conditions)
 
 OPER-4 Operation of Reactor Water Systems
 =========================================
@@ -405,117 +433,126 @@ I. Introduction
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-This procedure details the steps for operation, startup, and shutdown of the reactor water systems.
+   This procedure details the steps for operation, startup, and shutdown of the reactor water systems.
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-The reactor water system is composed of the reactor pool and two water process systems.
-The pool structure contains water that moderates the neutron energy spectrum, cools the fuel in the reactor core, and provides radiation shielding. Pool water level sensors provide detection of water loss conditions.
+   The reactor water system is composed of the reactor pool and two water process systems.
+   The pool structure contains water that moderates the neutron energy spectrum, cools the fuel in the reactor core, and provides radiation shielding. Pool water level sensors provide detection of water loss conditions.
 
-Pool water purity is maintained by operation of the purification system.  
-A pump, pool suction, pool skimmer, pool return, piping, valves, filter, resin tank with resin, flow meter, and instrumentation comprise the purification system.  
-At a normal flow of 6 to 10 gallons per minute, the approximately 10,500-gallon volume of the pool flows through the system once every 18 to 29 hours.  
-Sensors in the purification piping monitor water conductivity.
+   Pool water purity is maintained by operation of the purification system.  
+   A pump, pool suction, pool skimmer, pool return, piping, valves, filter, resin tank with resin, flow meter, and instrumentation comprise the purification system.  
+   At a normal flow of 6 to 10 gallons per minute, the approximately 10,500-gallon volume of the pool flows through the system once every 18 to 29 hours.  
+   Sensors in the purification piping monitor water conductivity.
 
-Bulk pool water temperature is controlled by operation of the coolant system when the reactor is operated at power levels above 100 Kilowatt and/or for extended periods of time.  
-A central chilling station at the university site provides the cooling heat sink.  
-Water pressure control prevents water system leakage from the primary pool water to the secondary chilling water.  
-An alarm annunciates loss of differential pressure control at the heat exchanger.
+   Bulk pool water temperature is controlled by operation of the coolant system when the reactor is operated at power levels above 100 Kilowatt and/or for extended periods of time.  
+   A central chilling station at the university site provides the cooling heat sink.  
+   Water pressure control prevents water system leakage from the primary pool water to the secondary chilling water.  
+   An alarm annunciates loss of differential pressure control at the heat exchanger.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
+   Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-- General Requirements
-- Pool Purification System Operation
-- Pool Coolant System Operation
+   .. line-block::
+      :ref:`A. General Requirements <OPER-4.II.A>`
+      :ref:`B. Pool Purification System <OPER-4.II.B>`
+      :ref:`C. Pool Coolant System <OPER-4.II.C>`
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
+
+   Abnormal Conditions
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Pool water tank and piping.
-2. Pool water purification system.
-3. Pool water coolant system.
+   .. line-block::
+      1. Pool water tank and piping.
+      2. Pool water purification system.
+      3. Pool water coolant system.
 
 G. References, Other Procedures
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Startup Checklist
-2. Docket 50-602 SAR
-3. SURV-4, Reactor Water System
+   .. line-block::
+      1. Startup Checklist
+      2. Docket 50-602 SAR
+      3. SURV-4, Reactor Water System
 
 II. PROCEDURE
 -------------
 
+.. _OPER-4.II.A:
+
 A. General Requirements
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Check pool water level each time the water system status changes.
-   Status changes are startup or shutdown of the purification or coolant system.
-   Normal pool water level is 8.10 ± 0.05 meters.
-   (Measure pool level relative to the bottom of the reactor tank.)
+   1. Check pool water level each time the water system status changes.
+      Status changes are startup or shutdown of the purification or coolant system.
+      Normal pool water level is 8.10 ± 0.05 meters.
+      (Measure pool level relative to the bottom of the reactor tank.)
 
-2. Monitor pool level by continual or intermittent (daily) observation.
+   2. Monitor pool level by continual or intermittent (daily) observation.
 
-   a. A pool level monitor provides monitoring of hi or lo conditions.
-   Alarm levels are hi (+5 cm) and lo (-5 cm) relative to the 8.10-meter level.
+      a. A pool level monitor provides monitoring of hi or lo conditions.
+      Alarm levels are hi (+5 cm) and lo (-5 cm) relative to the 8.10-meter level.
 
-   b. Siphon breaks are present on the purification and coolant system pipes.
-   Siphon break levels are at pool levels of 7.6 meters or above.
+      b. Siphon breaks are present on the purification and coolant system pipes.
+      Siphon break levels are at pool levels of 7.6 meters or above.
 
-   c. Make visual observations of pool level at least twice each day:
+      c. Make visual observations of pool level at least twice each day:
 
-   i.   If the pool level monitor is not functioning and;
-   ii.  A system without siphon breaks can cause a siphon action, or
-   iii. A system without siphon breaks extends below the siphon break level.
+         i.   If the pool level monitor is not functioning and;
+         ii.  A system without siphon breaks can cause a siphon action, or
+         iii. A system without siphon breaks extends below the siphon break level.
 
-3. Replace pool water evaporation losses with makeup supply de-ionized water.
-   Follow makeup water instructions in surveillance procedures (refer to SURV-4).
-   Review makeup water volume each month.
-   Abnormal water loss may be an indication of a leak.
+   3. Replace pool water evaporation losses with makeup supply de-ionized water.
+      Follow makeup water instructions in surveillance procedures (refer to SURV-4).
+      Review makeup water volume each month.
+      Abnormal water loss may be an indication of a leak.
 
-4. Operate the pool purification system per instructions in Section B.
-   Purification system should maintain pool conductivity less than 2 µmho/cm.
-   Pool conductivity limit is 5 µmho/cm (monthly average).
+   4. Operate the pool purification system per instructions in Section B.
+      Purification system should maintain pool conductivity less than 2 µmho/cm.
+      Pool conductivity limit is 5 µmho/cm (monthly average).
 
-   a. The purification system should be operated continuously but it is not a requirement for reactor operation.
+      a. The purification system should be operated continuously but it is not a requirement for reactor operation.
 
-   b. If purification system is operating:
-   A reactor operator presence in the facility is *not* a requirement.
+      b. If purification system is operating:
+      A reactor operator presence in the facility is *not* a requirement.
 
-5. Operate the pool coolant system per instructions in Section C.
-   Coolant system should maintain pool temperature less than 38°C (100°F).
-   Pool temperature maximum limit is 48°C (118°F). No minimum limit has been set.
+   5. Operate the pool coolant system per instructions in Section C.
+      Coolant system should maintain pool temperature less than 38°C (100°F).
+      Pool temperature maximum limit is 48°C (118°F). No minimum limit has been set.
 
-   a. Coolant system operation is not a requirement for reactor operation.
-   It should be operated at reactor power levels above 100 kW except for power calibrations.
+      a. Coolant system operation is not a requirement for reactor operation.
+      It should be operated at reactor power levels above 100 kW except for power calibrations.
 
-   b. If the coolant system is operating:
-   A reactor operator should be present at the facility.
-   A reactor operator should periodically check system conditions.
+      b. If the coolant system is operating:
+      A reactor operator should be present at the facility.
+      A reactor operator should periodically check system conditions.
 
-6. Monitor performance of pool purification and coolant water systems.
+   6. Monitor performance of pool purification and coolant water systems.
 
-   a. Refer to instructions in Attachment for response to abnormal conditions.
+      a. Refer to instructions in Attachment for response to abnormal conditions.
 
-   b. Determine the cause for abnormal condition.
-   Implement corrective actions if conditions affect system performance, or
-   Implement maintenance actions if conditions affect system performance.
+      b. Determine the cause for abnormal condition.
+      Implement corrective actions if conditions affect system performance, or
+      Implement maintenance actions if conditions affect system performance.
 
-   c. Report abnormal conditions to a supervisory reactor operator (SRO).
+      c. Report abnormal conditions to a supervisory reactor operator (SRO).
+
+.. _OPER-4.II.B:
 
 B. Pool Purification System
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Operation:
 
@@ -566,93 +603,95 @@ B. Pool Purification System
 
    c. CLOSE the discharge isolation valve at pool surface.
 
+.. _OPER-4.II.C:
+
 C. Pool Coolant System
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~
 
-1. Operation:
+   1. Operation:
 
-   a. Operate the coolant system to maintain bulk pool temperature.
-   Operate system at reactor power levels that exceed 100 kW.
-   Pool temperature limit for any condition is 118°F (48°C).
+      a. Operate the coolant system to maintain bulk pool temperature.
+      Operate system at reactor power levels that exceed 100 kW.
+      Pool temperature limit for any condition is 118°F (48°C).
 
-   b. Control reactor core thermal convection with pool discharge diffuser.
-   Thermal convection determines Nitrogen-16 activities at pool surface.
+      b. Control reactor core thermal convection with pool discharge diffuser.
+      Thermal convection determines Nitrogen-16 activities at pool surface.
 
-   c. Review coolant system function during each operation.
-   Observe coolant system flow rates, temperature, and pressure.
-   Observe differential pressure between primary (outlet) and secondary (inlet).
+      c. Review coolant system function during each operation.
+      Observe coolant system flow rates, temperature, and pressure.
+      Observe differential pressure between primary (outlet) and secondary (inlet).
 
-2. Startup:
+   2. Startup:
 
-   a. OPEN pool suction and discharge valves (4" SS) at pool surface.
-   OPEN the pool diffuser isolation valve (2 1/2" SS) at pool surface.
-   Valves alignment should be as follows for proper mixing:
+      a. OPEN pool suction and discharge valves (4" SS) at pool surface.
+      OPEN the pool diffuser isolation valve (2 1/2" SS) at pool surface.
+      Valves alignment should be as follows for proper mixing:
 
-   i.   Discharge valve position should be 7/8 open.
-   ii.  Diffuser valve position should be full open.
+         i.   Discharge valve position should be 7/8 open.
+         ii.  Diffuser valve position should be full open.
 
-   b. OPEN the chill water return isolation valve from heat exchanger.
-   OPEN the chill water supply isolation valve to heat exchanger.
+      b. OPEN the chill water return isolation valve from heat exchanger.
+      OPEN the chill water supply isolation valve to heat exchanger.
 
-   c. Verify differential pressure provides alarm indication at < 1 psi (7 kpa).
-   Perform the following steps to verify:
+      c. Verify differential pressure provides alarm indication at < 1 psi (7 kpa).
+      Perform the following steps to verify:
 
-   i.   CLOSE ¼-inch valve to high side of DP monitor.
-   ii.  OPEN ¼-inch vent valve on high side of DP monitor.
-   iii. Observe pressure decreasing below 1 psi (7 kpa).
+         i.   CLOSE ¼-inch valve to high side of DP monitor.
+         ii.  OPEN ¼-inch vent valve on high side of DP monitor.
+         .. line-block::
+            iii. Observe pressure decreasing below 1 psi (7 kpa). 
+            Verify pneumatic valve closing operation (audible & visual).
+            Verify "HX delta P" alarm on CSC is actuated and clears.
+         iv. Return ¼" isolation and vent valve to original positions.
 
-   Verify pneumatic valve closing operation (audible & visual).
-   Verify "HX delta P" alarm on CSC is actuated and clears.
-   Return ¼" isolation and vent valve to original positions.
+      d. OPEN or check OPEN pool water heat exchanger outlet valve.
+      OPEN or check OPEN pool water pump suction and discharge valves.
 
-   d. OPEN or check OPEN pool water heat exchanger outlet valve.
-   OPEN or check OPEN pool water pump suction and discharge valves.
+      e. STARTUP heat exchanger chill water pump.
 
-   e. STARTUP heat exchanger chill water pump.
+         i.   Check mechanical seal for leakage.
+         ii.  Verify normal flow rate of ≈570 gpm (≈1930 lpm).
+         iii. Confirm chill water supply temperature is approximately 45F (7C).
 
-   i.   Check mechanical seal for leakage.
-   ii.  Verify normal flow rate of ≈570 gpm (≈1930 lpm).
-   iii. Confirm chill water supply temperature is approximately 45F (7C).
+      .. caution::
 
-   .. caution::
+      If pool temperature is at the control set point temperature,  
+      chill water circulation may be at or near ambient system temperature.
 
-     If pool temperature is at the control set point temperature,  
-     chill water circulation may be at or near ambient system temperature.
+      f. STARTUP heat exchanger pool water pump.
 
-   f. STARTUP heat exchanger pool water pump.
+         i.   Check mechanical seal for leakage.
+         ii.  Verify normal flow rate of 85-95% flow.
 
-   i.   Check mechanical seal for leakage.
-   ii.  Verify normal flow rate of 85-95% flow.
+      g. Verify differential pressure indicates nominal value of >5 psi (35 kpa).
 
-   g. Verify differential pressure indicates nominal value of >5 psi (35 kpa).
+      h. Observe and record other system instrumentation values.
 
-   h. Observe and record other system instrumentation values.
+   3. Shutdown:
 
-3. Shutdown:
+      a. SHUTDOWN chill water pump.
 
-   a. SHUTDOWN chill water pump.
+      b. Wait for pool water inlet and outlet temperatures to approximately equalize if system not yet near control set point.
 
-   b. Wait for pool water inlet and outlet temperatures to approximately equalize if system not yet near control set point.
+      .. caution::
 
-   .. caution::
+      Closing isolation valves creating a cold dead leg can result in a large pressure increase as the system warms to room temperature.
+      
+      c. SHUTDOWN pool water pump.
 
-     Closing isolation valves creating a cold dead leg can result in a large pressure increase as the system warms to room temperature.
-   
-   c. SHUTDOWN pool water pump.
+      d. CLOSE chill water supply isolation valve at the heat exchanger.
 
-   d. CLOSE chill water supply isolation valve at the heat exchanger.
+      e. CLOSE chill water return isolation valve at the heat exchanger.
 
-   e. CLOSE chill water return isolation valve at the heat exchanger.
+      f. CLOSE suction valve at pool surface.
 
-   f. CLOSE suction valve at pool surface.
-
-   g. CLOSE pool discharge and CLOSE pool diffuser valves at pool surface.
+      g. CLOSE pool discharge and CLOSE pool diffuser valves at pool surface.
 
 ABNORMAL CONDITIONS
 -------------------
 
 A. General System
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 **Abnormal Pool Level**
 
@@ -661,23 +700,19 @@ A. General System
 
    a. Pool Liner
 
-   * Check pool system structure, estimate loss rate.
+      - Check pool system structure, estimate loss rate.
 
    b. Beam Ports, if leak observed:
 
-   * Secure covers with gaskets,
-     close shutter control valve,
-     close beam port argon purge valve.
+      - Secure covers with gaskets, close shutter control valve, close beam port argon purge valve.
 
    c. Purification Pump, Coolant (Heat Exchanger) Pumps, or Piping
 
-   * If leak is observed stop system operation,
-     close all effected system isolation valves,
-     drain pool water from leaking pipes and return to pool.
+      - If leak is observed stop system operation, close all effected system isolation valves, drain pool water from leaking pipes and return to pool.
 
    d. Experiment Systems
 
-   * Remove and repair.
+      - Remove and repair.
 
 2. *High Level* – Check for the following causes (Notify SRO):
    (Check pool level equipment for damage.)
@@ -940,7 +975,7 @@ A. General Requirements
    Refer to appropriate Procedures for the experiment. *(No Procedures currently exist.)*
 
 B. Reactor Room HVAC System
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Operation
 
@@ -981,7 +1016,7 @@ B. Reactor Room HVAC System
    c. Verify SUPPLY FAN ON and RETURN FAN ON lamps extinguish
 
 C. Argon Purge System
-^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 1. Operation
 
@@ -1043,7 +1078,7 @@ ABNORMAL CONDITIONS
 -------------------
 
 A. Airborne radioactivity
-^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Alert airborne radioactivity level:**
 
@@ -1117,7 +1152,7 @@ Evaluation of sources and levels are necessary to quantify any effluent releases
    Refer to SURV-5 to startup from ISOLATE condition.
 
 B. HVAC System
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 HVAC system failure does not require immediate reactor shutdown provided the  
 Argon Purge System is operating or corrective action in progress.  
@@ -1159,7 +1194,7 @@ Airborne particulate radioactivity concentrations must be within limits.
    PP maintains and repairs building system fans and control equipment.
 
 C. Argon Purge System
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 Argon Purge System failure requires operation of HVAC in reactor ON mode.  
 Initiate measures to return Argon Purge System function to normal.
@@ -1197,31 +1232,31 @@ I. INTRODUCTION
 ---------------
 
 A. Purpose
-^^^^^^^^^^
+~~~~~~~~~~
 
-Several key building systems are either necessary for reactor operation or represent a potential hazard to safe operation.  
-This procedure identifies key systems and operation constraints, but should be operable at all other times.
+   Several key building systems are either necessary for reactor operation or represent a potential hazard to safe operation.  
+   This procedure identifies key systems and operation constraints, but should be operable at all other times.
 
 B. Description
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-Key systems such as the security or access control system must be operable at all times.  
-Other systems such as the communication system must be operable for reactor operation,  
-but should be operable at all other times.
+   Key systems such as the security or access control system must be operable at all times.  
+   Other systems such as the communication system must be operable for reactor operation,  
+   but should be operable at all other times.
 
-Operability checks and Maintenance logs record the condition or modification of Key systems.  
-These logs supplement the requirements of Surveillance and Maintenance Procedures.
+   Operability checks and Maintenance logs record the condition or modification of Key systems.  
+   These logs supplement the requirements of Surveillance and Maintenance Procedures.
 
-The 5-ton lifting capacity of the bridge crane has the potential to seriously injure personnel and damage equipment.  
-Proper operation and understanding of the consequences is necessary to assure safe, effective and reliable use of the crane system.
+   The 5-ton lifting capacity of the bridge crane has the potential to seriously injure personnel and damage equipment.  
+   Proper operation and understanding of the consequences is necessary to assure safe, effective and reliable use of the crane system.
 
 C. Schedule
-^^^^^^^^^^^
+~~~~~~~~~~~
 
-Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
+   Apply this procedure daily or each time the reactor is taken through an operation cycle of startup and shutdown.
 
 D. Contents
-^^^^^^^^^^^
+~~~~~~~~~~~
 
 - Building and Safety Systems
 - System Status Checks
@@ -1230,7 +1265,7 @@ D. Contents
 - Reactor Bridge Crane Operation
 
 E. Attachments
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 - Maintenance Log (Key Systems)
 - ICS Jumper Log
@@ -1239,7 +1274,7 @@ E. Attachments
 - Bridge Crane Load Test
 
 F. Equipment, Materials
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 - Electrical Equipment  
 - Mechanical Equipment  
@@ -1267,7 +1302,7 @@ II. PROCEDURE
 -------------
 
 A. Building Utilities and Safety Systems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Building utilities should be functional at all times.  
 Utilities are electric power, chilled water, compressed air, and security equipment.
@@ -1276,7 +1311,7 @@ Safety systems shall be functional at all times unless special provisions are in
 Safety systems are emergency lights, fire protection equipment, and communications.
 
 B. Status Checks of Systems
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Check for normal operational status of each system.  
 In the event that key equipment does not perform properly, do the following:
@@ -1295,7 +1330,7 @@ In the event that key equipment does not perform properly, do the following:
    If applicable, record the corrective action in maintenance log.
 
 C. Maintenance Log
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 A maintenance log will document repairs and modifications to important systems.  
 Use a separate Maintenance Log Sheet for each system.
@@ -1312,7 +1347,7 @@ Use a separate Maintenance Log Sheet for each system.
 3. Record the installation of temporary jumpers in key system components in the ICS Jumper Log.
 
 D. Reactor Operation Requirements
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Operation of the reactor and other special conditions will require:
 
@@ -1328,7 +1363,7 @@ Operation of the reactor and other special conditions will require:
    Documentation of operating conditions for these systems is in OPER-1 Startup-Shutdown checks, OPER-4 Operation of Reactor Water Systems, and OPER-5 Operation of Air Confinement System.
 
 E. Reactor Bay Bridge Crane Operation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Check date and lift capacity of last load test.  
    Load tests shall test capacity at 125% of load.  
