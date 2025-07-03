@@ -716,158 +716,126 @@ F. Equipment, Materials
 G. References, Other Procedures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. line-block::
-   MAIN-6, Rod & Drive Maintenance, Inspection  
-   Attachments 1 & 3:  
-     A. Edward Profio, "Experimental Reactor Physics",  John Wiley and Sons Inc., 1976, pp 712, 716  
-   Attachment 4: 
-     General Atomics Data Sheet
+   .. line-block::
+      MAIN-6, Rod & Drive Maintenance, Inspection  
+      Attachments 1 & 3:  
+      A. Edward Profio, "Experimental Reactor Physics",  John Wiley and Sons Inc., 1976, pp 712, 716  
+      Attachment 4: 
+      General Atomics Data Sheet
 
 II. PROCEDURE
 -------------
 
+.. _SURV-6.II.A:
+
 A. Control Rod Worth Estimate by Rod Drop Method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use to estimate initial control rod worth following new core start-up.  
-May be useful following substantial core reconfigurations.
+   Use to estimate initial control rod worth following new core start-up. May be useful following substantial core reconfigurations.
 
-1. The reactor core condition should be cold and clean prior to measurement of rod worth.  
-   Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.
+   1. The reactor core condition should be cold and clean prior to measurement of rod worth. Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.
 
-2. Commence Startup of the reactor:
+   2. Commence Startup of the reactor:
 
-   a. Position the control rod being evaluated at the desired position - full up if the entire rod worth is desired to be estimated in one step, or partially withdrawn at selected increasing withdrawn locations if several drops are to be made.
+      a. Position the control rod being evaluated at the desired position - full up if the entire rod worth is desired to be estimated in one step, or partially withdrawn at selected increasing withdrawn locations if several drops are to be made.
 
-   b. Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.
+      b. Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.
 
-   c. Adjust control rods for criticality at a low power level such as 50 to 500 watts.  
-      The power should not be so high as to see a fuel temperature increase above ambient (i.e., less than 1 Kilowatt).
+      c. Adjust control rods for criticality at a low power level such as 50 to 500 watts. The power should not be so high as to see a fuel temperature increase above ambient (i.e., less than 1 Kilowatt).
 
-   d. Remove the neutron source and readjust for criticality. The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±2% for a minimum of 3 to 5 minutes without further rod movement.
+      d. Remove the neutron source and readjust for criticality. The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±2% for a minimum of 3 to 5 minutes without further rod movement.
 
-3. Setup data recording system to record reactor linear power as a function of time or use stopwatch and indication on linear power display to tabulate initial power and the indicated power after the control rod is dropped.
+   3. Setup data recording system to record reactor linear power as a function of time or use stopwatch and indication on linear power display to tabulate initial power and the indicated power after the control rod is dropped.
 
-4. Drop control rod being evaluated by actuation of magnet button (standard rod drives) or air button (transient rod drive) and document the power vs. time data. Select times to record data based on time data plotted on the graph in Attachment 1 - Ratio of neutron density after a rod drop to the initial density (at critical), as a function of subcritical reactivity.
+   4. Drop control rod being evaluated by actuation of magnet button (standard rod drives) or air button (transient rod drive) and document the power vs. time data. Select times to record data based on time data plotted on the graph in Attachment 1 - Ratio of neutron density after a rod drop to the initial density (at critical), as a function of subcritical reactivity.
 
-5. Using the data in Attachment 1, determine the reactivity associated with the rod drop based on the measured neutron density ratio (power ratio) at the specified time after the rod drop.
+   5. Using the data in Attachment 1, determine the reactivity associated with the rod drop based on the measured neutron density ratio (power ratio) at the specified time after the rod drop.
+
+.. _SURV-6.II.B:
 
 B. Control Rod Worth Measurement by Positive Period Method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use for the annual rod worth calibration.  
-Use as the primary rod calibration method.
+   .. line-block::
+      Use for the annual rod worth calibration.  
+      Use as the primary rod calibration method.
 
-1. The reactor core condition should be cold and clean prior to measurement of rod worth.  
-   Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.
+   1. The reactor core condition should be cold and clean prior to measurement of rod worth. Perform ICS system pre-start checks. The reactor coolant system pumps should be off during control rod calibration.
 
-2. Commence Startup of the reactor:
+   2. Commence Startup of the reactor:
 
-   a. Position the control rod being evaluated at the desired position - full down if the entire rod worth is to be evaluated, or at predetermined locations if the shape of the differential rod worth curve has already been established.
+      a. Position the control rod being evaluated at the desired position - full down if the entire rod worth is to be evaluated, or at predetermined locations if the shape of the differential rod worth curve has already been established.
 
-      i. Initial control rod calibrations or calibrations after major core reconfigurations should evaluate the entire rod worth by stepwise pulling the rod in increments correlating to reactivity steps of 15 to 20 cents over its entire travel.  
-         This will require taking 10 to 20 measurements per control rod depending on its total worth.
+         i. Initial control rod calibrations or calibrations after major core reconfigurations should evaluate the entire rod worth by stepwise pulling the rod in increments correlating to reactivity steps of 15 to 20 cents over its entire travel. This will require taking 10 to 20 measurements per control rod depending on its total worth.
+         ii. Once the initial control rod calibration curve shape has been established, subsequent routine control rod calibrations may be made by using only 5 or 6 appropriately selected insertions of the same reactivity magnitude as above. One or two points should be selected near the rod height correlating to the peak differential rod worth. Four additional points should be selected, two in the lower and two in the upper parts of the rod travel correlating to areas spaced roughly equally on the slope portions of the differential worth curve. The data from these measurements can then be curve fit to the shape of the differential control rod worth curve to determine the actual rod worth.
 
-      ii. Once the initial control rod calibration curve shape has been established, subsequent routine control rod calibrations may be made by using only 5 or 6 appropriately selected insertions of the same reactivity magnitude as above.  
-          One or two points should be selected near the rod height correlating to the peak differential rod worth.  
-          Four additional points should be selected, two in the lower and two in the upper parts of the rod travel correlating to areas spaced roughly equally on the slope portions of the differential worth curve.  
-          The data from these measurements can then be curve fit to the shape of the differential control rod worth curve to determine the actual rod worth.
+      b. Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.
 
-   b. Position the two rods closest to the rod being evaluated at a banked elevation, position the control rod farthest from the rod being calibrated at about 900 units to allow fine control of its reactivity for achieving criticality.
+      c. Adjust control rods for criticality at a low power level of 1 to 3 Watts.
 
-   c. Adjust control rods for criticality at a low power level of 1 to 3 Watts.
+   3. Remove the neutron source and readjust for criticality. The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±4% for a minimum of 3.5 to 5 minutes without further rod movement. This constraint will limit measurement errors of criticality to ± ~0.25¢ per measurement.
 
-   d. Remove the neutron source and readjust for criticality.  
-      The delayed neutrons should be allowed to come into equilibrium as evidenced by the indicated power remaining constant to within ±4% for a minimum of 3.5 to 5 minutes without further rod movement.  
-      This constraint will limit measurement errors of criticality to ± ~0.25¢ per measurement.
+   4. Record the Control rod positions on the Control Rod Calibration Data Sheet in Attachment 2.
 
-3. Record the Control rod positions on the Control Rod Calibration Data Sheet in Attachment 2.
+   5. Pull the control rod being calibrated in one smooth movement a distance correlating to an estimated reactivity worth of 15 to 20 cents which correlates to a stable period between 58 and 37 seconds. Record the rod position stop point on data sheet. (To minimize rod position hysteresis, if you inadvertently pull the rod too far, quickly move the rod back down slightly below the target point, then raise the rod to the target point.) Refer to previous calibration data to estimate the number of units to move the rod. Typical movements are 90 to 100 units for the initial and final pull at the full down or full up endpoints, decreasing rapidly to 20 to 40 units per pull in the mid range of rod travel. The reactivity per pull is limited to allow the reactor to attain a stable period prior to taking the power vs. time data thus reducing measurement errors. The time to reach a stable period is called the wait time. The wait times for 5% error are 20 to 35 seconds, for a 1% error they increase to 50 to 65 seconds respectively for 37 to 58 second stable periods. A table showing measurement errors as a function of the wait time required to attain a stable period is shown in Attachment 3.
 
-4. Pull the control rod being calibrated in one smooth movement a distance correlating to an estimated reactivity worth of 15 to 20 cents which correlates to a stable period between 58 and 37 seconds.  
-   Record the rod position stop point on data sheet.  
-   (To minimize rod position hysteresis, if you inadvertently pull the rod too far, quickly move the rod back down slightly below the target point, then raise the rod to the target point.)  
-   Refer to previous calibration data to estimate the number of units to move the rod.  
-   Typical movements are 90 to 100 units for the initial and final pull at the full down or full up endpoints, decreasing rapidly to 20 to 40 units per pull in the mid range of rod travel.  
-   The reactivity per pull is limited to allow the reactor to attain a stable period prior to taking the power vs. time data thus reducing measurement errors.  
-   The time to reach a stable period is called the wait time.  
-   The wait times for 5% error are 20 to 35 seconds, for a 1% error they increase to 50 to 65 seconds respectively for 37 to 58 second stable periods.  
-   A table showing measurement errors as a function of the wait time required to attain a stable period is shown in Attachment 3.
+   6. Observe the power increase as indicated on the digital readout of the auto ranging linear power channel on the Animation Window. Use a stopwatch set to measure time intervals with respect to the start time. Start the primary stopwatch when the power passes the 60 watt point. Record the time when the power passes the 90 watt level, the 600 watt level, and the 900 watt level (time points should be marked at the first instant the power reaches the target value on the digital display). Time data at powers above the 1 Kilowatt level shall not be used as temperature feedback will create errors above this level.
 
-5. Observe the power increase as indicated on the digital readout of the auto ranging linear power channel on the Animation Window.  
-   Use a stopwatch set to measure time intervals with respect to the start time.  
-   Start the primary stopwatch when the power passes the 60 watt point.  
-   Record the time when the power passes the 90 watt level, the 600 watt level, and the 900 watt level (time points should be marked at the first instant the power reaches the target value on the digital display).  
-   Time data at powers above the 1 Kilowatt level shall not be used as temperature feedback will create errors above this level.
+   7. Drive control rods other than the rod being calibrated down to decrease the reactor power. Leave the control rod being calibrated at the point to which it was withdrawn in step 5 if the entire rod is being stepwise calibrated. If the curve fit method is being used, reposition the rod being calibrated to its next starting point.
 
-6. Drive control rods other than the rod being calibrated down to decrease the reactor power.  
-   Leave the control rod being calibrated at the point to which it was withdrawn in step 5 if the entire rod is being stepwise calibrated.  
-   If the curve fit method is being used, reposition the rod being calibrated to its next starting point.
+   8. Repeat steps 2 through 7 until the remainder of the rod is completed or sufficient data points for curve fitting are obtained.
 
-7. Repeat steps 2 through 7 until the remainder of the rod is completed or sufficient data points for curve fitting are obtained.
+   .. note::
+      As long as the power level is not allowed to fall below the source interlock the source may be continuously left out of the core until all the data points desired are obtained. Each sequence through this process will take approximately 15 minutes if everything is done with attention to detail so plan accordingly.
 
-8. Notes:  
-   As long as the power level is not allowed to fall below the source interlock the source may be continuously left out of the core until all the data points desired are obtained.
+   9. Analyze data either manually or via software program. Using the time data recorded, calculate the stable period resulting from each rod pull. Then use the reactivity equation or inhour curve in Attachment 4 to determine the reactivity associated with each rod pull.
 
-9. Analyze data either manually or via software program.  
-   Using the time data recorded, calculate the stable period resulting from each rod pull.  
-   Then use the reactivity equation or inhour curve in Attachment 4 to determine the reactivity associated with each rod pull.
+   10. A senior operator should review and approve the rod calibration data. If significant changes in rod worth are indicated, a review of the implications on excess reactivity and shutdown margins should also be initiated.
 
-10. A senior operator should review and approve the rod calibration data.  
-    If significant changes in rod worth are indicated, a review of the implications on excess reactivity and shutdown margins should also be initiated.
+.. _SURV-6.II.C:
 
 C. Control Rod Withdrawal, insertion, and drop time measurements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Perform ICS system pre-start checks if not already completed.
+   1. Perform ICS system pre-start checks if not already completed.
 
-2. Setup drop time measurement system. The magnet power supply voltage level controlled by the console scram switch should be used to start the timing.  
-   A signal from the control rod down limit switch should be monitored to indicate when the rod has reached the full down position.
+   2. Setup drop time measurement system. The magnet power supply voltage level controlled by the console scram switch should be used to start the timing. A signal from the control rod down limit switch should be monitored to indicate when the rod has reached the full down position.
 
-   a. Measurement equipment should be a storage oscilloscope or an electronic timer with signal start-stop features.  
-      Use of a stopwatch to measure rod drop time, manually started at the time the scram button is depressed and stopped at the time the rod visually hits bottom is also acceptable but not the preferred method of measurement.
+      a. Measurement equipment should be a storage oscilloscope or an electronic timer with signal start-stop features. Use of a stopwatch to measure rod drop time, manually started at the time the scram button is depressed and stopped at the time the rod visually hits bottom is also acceptable but not the preferred method of measurement.
 
-   b. Measurement resolution for oscilloscope sweep should be set to 100 ms/div, vertical gain should be set to 5 V/div.  
-      Vertical signal probe should be set to X 10 for the transient rod, and X 1 for all other rods.  
-      Scope should be set to Auto trigger mode while setting up, and changed to single trigger or normal mode when taking the data.
+      b. Measurement resolution for oscilloscope sweep should be set to 100 ms/div, vertical gain should be set to 5 V/div. Vertical signal probe should be set to X 10 for the transient rod, and X 1 for all other rods. Scope should be set to Auto trigger mode while setting up, and changed to single trigger or normal mode when taking the data.
 
-   c. Connect start signal (scope trigger) to the Regulating rod positive magnet power (see table below for connection location).  
-      Set the scope trigger to DC coupling on a negative slope at a level of about 10 volts.  
-      The nominal magnet power high side is +13 volts and the low side is -6 volts.
+      c. Connect start signal (scope trigger) to the Regulating rod positive magnet power (see table below for connection location). Set the scope trigger to DC coupling on a negative slope at a level of about 10 volts. The nominal magnet power high side is +13 volts and the low side is -6 volts.
 
-   d. Connect the signal (Channel 1) to the rod drive down limit switch (see table below for connection location) of the drive being evaluated.
+      d. Connect the signal (Channel 1) to the rod drive down limit switch (see table below for connection location) of the drive being evaluated.
 
-   +------------------+-----------+---------------------------+
-   | Scope Input      | DAC Tie   | Description               |
-   | Channel          | Bar       |                           |
-   +==================+===========+===========================+
-   | Trigger          | TB 5-3    | Reg Magnet Pwr (+13V)     |
-   | CH 1             | TB 8-8    | TR rod down limit         |
-   | CH 1             | TB 8-16   | Shim 1 rod down limit     |
-   | CH 1             | TB 8-24   | Shim 2 rod down limit     |
-   | CH 1             | TB 9-32   | Reg rod down limit        |
-   +------------------+-----------+---------------------------+
+      +------------------+-----------+---------------------------+
+      | Scope Input      | DAC Tie   | Description               |
+      | Channel          | Bar       |                           |
+      +==================+===========+===========================+
+      | Trigger          | TB 5-3    | Reg Magnet Pwr (+13V)     |
+      | CH 1             | TB 8-8    | TR rod down limit         |
+      | CH 1             | TB 8-16   | Shim 1 rod down limit     |
+      | CH 1             | TB 8-24   | Shim 2 rod down limit     |
+      | CH 1             | TB 9-32   | Reg rod down limit        |
+      +------------------+-----------+---------------------------+
 
-3. Withdraw control rod being measured about 60 units and test drop the rod to verify the scope setup.
+   3. Withdraw control rod being measured about 60 units and test drop the rod to verify the scope setup.
 
-4. Fully withdraw the rod being evaluated, measuring the time it takes to move from full down to full up using a stopwatch.  
-   Record data on Attachment 5.
+   4. Fully withdraw the rod being evaluated, measuring the time it takes to move from full down to full up using a stopwatch. Record data on Attachment 5.
 
-5. Drop the control rod to trigger and record a trace by initiation of the scram button.  
-   Drop time is measured from the time the scope triggered until the rod reaches full down, as evidenced by the transition of the signal on the rod down switch.  
-   Some rods may show a bounce after the initial bottom transition, typical drop time recorded is the time measured to when the rod remains full down as indicated on the trace.  
-   Record data on Attachment 5.
+   5. Drop the control rod to trigger and record a trace by initiation of the scram button. Drop time is measured from the time the scope triggered until the rod reaches full down, as evidenced by the transition of the signal on the rod down switch. Some rods may show a bounce after the initial bottom transition, typical drop time recorded is the time measured to when the rod remains full down as indicated on the trace. Record data on Attachment 5.
 
-6. Repeat steps 2d through 5 for each remaining rod.
+   6. Repeat steps 2d through 5 for each remaining rod.
 
-7. Calculate measured reactivity insertion rate and record data on Attachment 5:
+   7. Calculate measured reactivity insertion rate and record data on Attachment 5:
 
-   a. Obtain peak differential rod worth near rod midpoint for each rod from the control rod calibration data.  
-   b. Calculate insertion rate (< 0.2 % Δk/k/sec) as follows:
+      a. Obtain peak differential rod worth near rod midpoint for each rod from the control rod calibration data.  
+      b. Calculate insertion rate (< 0.2 % Δk/k/sec) as follows:
 
-      ```
-      rate (% Δk/k/sec) = rate (units/sec) * worth (¢/unit) * (0.7% Δk/k / 100¢)
-      ```
+         rate (% Δk/k/sec) = rate (units/sec) * worth (¢/unit) * (0.7% Δk/k / 100¢)
 
-8. Document any relevant notes, comments, or observations on Attachment 5 data sheet.
+   8. Document any relevant notes, comments, or observations on Attachment 5 data sheet.
 
 SURV-7 Pulse Characteristic Comparison
 ======================================
@@ -875,21 +843,21 @@ SURV-7 Pulse Characteristic Comparison
 I. PURPOSE
 ----------
 
-The purpose of this procedure is to monitor the core performance for a reference pulse reactivity insertion.
+   The purpose of this procedure is to monitor the core performance for a reference pulse reactivity insertion.
 
 II. DESCRIPTION
 ---------------
 
-The pulsing characteristics of the TRIGA reactor release large amounts of energy, 20M Joules, in a very short time period <0.5 seconds. Some variation of the peak power, energy release and fuel temperatures will occur as a function of fuel history. In fact long term full power runs with few pulses may differ from many pulses with no long term full power runs.
+   The pulsing characteristics of the TRIGA reactor release large amounts of energy, 20M Joules, in a very short time period <0.5 seconds. Some variation of the peak power, energy release and fuel temperatures will occur as a function of fuel history. In fact long term full power runs with few pulses may differ from many pulses with no long term full power runs.
 
-No pulse program should proceed without a comparison of reference pulse characteristics. A $3 reference pulse at least once each year or prior to resumption of pulsing if no annual pulse has been made will provide pertinent data to verify that the peak power, energy release, and fuel temperatures are within acceptable limits.
+   No pulse program should proceed without a comparison of reference pulse characteristics. A $3 reference pulse at least once each year or prior to resumption of pulsing if no annual pulse has been made will provide pertinent data to verify that the peak power, energy release, and fuel temperatures are within acceptable limits.
 
-The pulse characteristics are to be done annually or prior to the resumption of any pulsing program if the time interval to the previous pulse exceeds one year.
+   The pulse characteristics are to be done annually or prior to the resumption of any pulsing program if the time interval to the previous pulse exceeds one year.
 
 III. REFERENCES
 ---------------
 
-- Pulse records
+   Pulse records
 
 IV. EQUIPMENT AND MATERIALS
 ----------------------------
@@ -897,23 +865,23 @@ IV. EQUIPMENT AND MATERIALS
 V. Instructions
 ---------------
 
-1. Review present reactor system conditions with respect to previous reactor configuration. Several conditions may cause different pulse characteristics such as number of elements, history and burnup.
+   1. Review present reactor system conditions with respect to previous reactor configuration. Several conditions may cause different pulse characteristics such as number of elements, history and burnup.
 
-2. Review previous comparative pulse data. Set rod drive air pressure at 65 psi.
+   2. Review previous comparative pulse data. Set rod drive air pressure at 65 psi.
 
-3. Specify pulse ID as "COMPARE - Month/Year."
+   3. Specify pulse ID as "COMPARE - Month/Year."
 
-4. Perform reactor pulse ($2.00). Reactivity insertion should be equivalent to that of previous comparative pulse based on current rod worth measurements.
+   4. Perform reactor pulse ($2.00). Reactivity insertion should be equivalent to that of previous comparative pulse based on current rod worth measurements.
 
-5. Print the pulse data screen. Print the graphic pulse data. Use the same scales as used on previous comparative pulse.
+   5. Print the pulse data screen. Print the graphic pulse data. Use the same scales as used on previous comparative pulse.
 
-6. Document the following additional data on the printed pulse data:
+   6. Document the following additional data on the printed pulse data:
 
-   a. Core configuration; # control, # elements, # graphite, # exp.  
-   b. Initial steady-state power and excess reactivity.  
-   c. Worth of transient rod insertion  
+      a. Core configuration; # control, # elements, # graphite, # exp.  
+      b. Initial steady-state power and excess reactivity.  
+      c. Worth of transient rod insertion  
 
-7. Review current pulse data and record core conditions. Compare with previous data for indication of a significant change in reactor core transient characteristics.
+   7. Review current pulse data and record core conditions. Compare with previous data for indication of a significant change in reactor core transient characteristics.
 
-8. Place data in Pulse Data Sheet Log.
+   8. Place data in Pulse Data Sheet Log.
 
